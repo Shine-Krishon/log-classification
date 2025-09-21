@@ -1,0 +1,986 @@
+{
+  "model_specifications": {
+    "name": "Enhanced Log Classifier",
+    "type": "SVM Pipeline with TF-IDF Vectorization",
+    "model_file": "enhanced_log_classifier.joblib",
+    "training_approach": "Supervised Learning on Synthetic Log Dataset",
+    "feature_extraction": "TF-IDF (1-2 grams)",
+    "classifier": "Support Vector Machine (SVC)"
+  },
+  "performance_metrics": {
+    "overall_weighted_accuracy": 88.9,
+    "direct_classification_accuracy": 85.0,
+    "api_classification_accuracy": 88.0,
+    "edge_case_robustness": 100.0,
+    "category_specific_accuracy": {
+      "User Actions": 93.3,
+      "Security Alerts": 100.0,
+      "System Notifications": 50.0,
+      "Workflow Errors": 80.0,
+      "Deprecation Warnings": 90.0
+    }
+  },
+  "throughput_metrics": {
+    "total_logs_processed": 145,
+    "total_processing_time_seconds": 3.57,
+    "average_throughput_logs_per_second": 40.616246498599445,
+    "processing_method_distribution": {
+      "regex_classification": "30-40%",
+      "bert_classification": "55-65%",
+      "llm_classification": "5-10%",
+      "unclassified": "0-2%"
+    }
+  },
+  "confusion_matrix_data": {
+    "categories": [
+      "Deprecation Warning",
+      "Security Alert",
+      "System Notification",
+      "Unclassified",
+      "User Action",
+      "Workflow Error"
+    ],
+    "predictions_count": {
+      "Security Alert": "54",
+      "System Notification": "25",
+      "Workflow Error": "21",
+      "User Action": "17",
+      "Unclassified": "17",
+      "Deprecation Warning": "11"
+    },
+    "total_predictions": 145
+  },
+  "dataset_results": [
+    {
+      "dataset_name": "Medium Test Dataset",
+      "total_logs": 110,
+      "processing_time": 1.41,
+      "category_distribution": {
+        "security_alert": "44",
+        "system_notification": "21",
+        "unclassified": "17",
+        "workflow_error": "13",
+        "user_action": "11",
+        "deprecation_warning": "4"
+      },
+      "processing_stats": {
+        "regex_classified": 9,
+        "bert_classified": 81,
+        "llm_classified": 3,
+        "unclassified": 17
+      },
+      "classified_logs": [
+        {
+          "source": "ModernCRM",
+          "log_message": "IP 192.168.1.100 blocked due to suspicious activity",
+          "target_label": "security_alert",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "ModernCRM",
+          "log_message": "User authentication successful for admin@company.com",
+          "target_label": "user_action",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "ModernCRM",
+          "log_message": "Password change request for user ID 5567",
+          "target_label": "user_action",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "ModernCRM",
+          "log_message": "Failed login attempt from IP 10.0.0.45",
+          "target_label": "security_alert",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "ModernCRM",
+          "log_message": "User profile updated by admin user",
+          "target_label": "user_action",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "ModernCRM",
+          "log_message": "Customer record created for ID 99887",
+          "target_label": "user_action",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "ModernCRM",
+          "log_message": "API rate limit exceeded for client app_v2.1",
+          "target_label": "workflow_error",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "ModernCRM",
+          "log_message": "Database connection pool exhausted",
+          "target_label": "system_notification",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "ModernCRM",
+          "log_message": "Cache miss for user session token abc123",
+          "target_label": "security_alert",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "ModernCRM",
+          "log_message": "Email notification sent to user@example.com",
+          "target_label": "user_action",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "BillingSystem",
+          "log_message": "Payment processed successfully for order #12345",
+          "target_label": "system_notification",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "BillingSystem",
+          "log_message": "Invoice generated for customer ABC Corp",
+          "target_label": "security_alert",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "BillingSystem",
+          "log_message": "Credit card authorization failed",
+          "target_label": "workflow_error",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "BillingSystem",
+          "log_message": "Subscription renewal processed",
+          "target_label": "unclassified",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "BillingSystem",
+          "log_message": "Refund initiated for transaction TX789",
+          "target_label": "security_alert",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "BillingSystem",
+          "log_message": "Tax calculation error for region EU",
+          "target_label": "security_alert",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "BillingSystem",
+          "log_message": "Automated billing reminder sent",
+          "target_label": "security_alert",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "BillingSystem",
+          "log_message": "Payment gateway timeout occurred",
+          "target_label": "workflow_error",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "BillingSystem",
+          "log_message": "Discount code SAVE20 applied successfully",
+          "target_label": "system_notification",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "BillingSystem",
+          "log_message": "Fraud detection alert triggered",
+          "target_label": "unclassified",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "AnalyticsEngine",
+          "log_message": "Daily report generation started",
+          "target_label": "system_notification",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "AnalyticsEngine",
+          "log_message": "Data warehouse sync completed",
+          "target_label": "security_alert",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "AnalyticsEngine",
+          "log_message": "ETL pipeline executed successfully",
+          "target_label": "system_notification",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "AnalyticsEngine",
+          "log_message": "Query optimization reduced execution time by 40%",
+          "target_label": "security_alert",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "AnalyticsEngine",
+          "log_message": "Machine learning model training initiated",
+          "target_label": "security_alert",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "AnalyticsEngine",
+          "log_message": "Real-time dashboard updated",
+          "target_label": "user_action",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "AnalyticsEngine",
+          "log_message": "Data quality check passed",
+          "target_label": "system_notification",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "AnalyticsEngine",
+          "log_message": "Backup verification successful",
+          "target_label": "system_notification",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "AnalyticsEngine",
+          "log_message": "Archive process completed for Q3 data",
+          "target_label": "unclassified",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "AnalyticsEngine",
+          "log_message": "Performance metrics calculation finished",
+          "target_label": "unclassified",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "ModernHR",
+          "log_message": "Employee onboarding workflow triggered",
+          "target_label": "security_alert",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "ModernHR",
+          "log_message": "Payroll calculation completed for 250 employees",
+          "target_label": "unclassified",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "ModernHR",
+          "log_message": "Performance review cycle initiated",
+          "target_label": "security_alert",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "ModernHR",
+          "log_message": "Leave request approved for EMP001",
+          "target_label": "unclassified",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "ModernHR",
+          "log_message": "Benefits enrollment deadline reminder sent",
+          "target_label": "security_alert",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "ModernHR",
+          "log_message": "Training module completion recorded",
+          "target_label": "deprecation_warning",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "ModernHR",
+          "log_message": "Compliance audit report generated",
+          "target_label": "security_alert",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "ModernHR",
+          "log_message": "Time tracking synchronization completed",
+          "target_label": "unclassified",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "ModernHR",
+          "log_message": "Employee directory updated",
+          "target_label": "security_alert",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "ModernHR",
+          "log_message": "Access control review scheduled",
+          "target_label": "security_alert",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "LegacyCRM",
+          "log_message": "Legacy system migration warning: Data format incompatibility detected",
+          "target_label": "workflow_error",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "LegacyCRM",
+          "log_message": "Deprecated API endpoint /v1/customers called 15 times today",
+          "target_label": "deprecation_warning",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "LegacyCRM",
+          "log_message": "Old reporting module generated incomplete data for Q2 review",
+          "target_label": "workflow_error",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "LegacyCRM",
+          "log_message": "Manual intervention required for legacy data conversion",
+          "target_label": "workflow_error",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "LegacyCRM",
+          "log_message": "Support ticket system experiencing performance degradation",
+          "target_label": "unclassified",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "LegacyCRM",
+          "log_message": "Legacy authentication module will be sunset next quarter",
+          "target_label": "unclassified",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "LegacyCRM",
+          "log_message": "Data export from old system requires administrator approval",
+          "target_label": "unclassified",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "LegacyCRM",
+          "log_message": "Legacy workflow engine failed to process automation rules",
+          "target_label": "workflow_error",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "LegacyCRM",
+          "log_message": "Historical data cleanup process requires manual verification",
+          "target_label": "unclassified",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "LegacyCRM",
+          "log_message": "Old integration endpoint returned HTTP 500 error",
+          "target_label": "unclassified",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "SecuritySystem",
+          "log_message": "Intrusion detection alert: Multiple failed login attempts",
+          "target_label": "security_alert",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "SecuritySystem",
+          "log_message": "Firewall rule updated to block malicious IP range",
+          "target_label": "security_alert",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "SecuritySystem",
+          "log_message": "SSL certificate renewal completed",
+          "target_label": "system_notification",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "SecuritySystem",
+          "log_message": "Two-factor authentication enabled for user account",
+          "target_label": "user_action",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "SecuritySystem",
+          "log_message": "Security scan identified 3 medium-risk vulnerabilities",
+          "target_label": "security_alert",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "SecuritySystem",
+          "log_message": "Access log audit completed",
+          "target_label": "security_alert",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "SecuritySystem",
+          "log_message": "Privilege escalation attempt detected",
+          "target_label": "security_alert",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "SecuritySystem",
+          "log_message": "Encryption key rotation scheduled",
+          "target_label": "unclassified",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "SecuritySystem",
+          "log_message": "Security policy violation recorded",
+          "target_label": "security_alert",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "SecuritySystem",
+          "log_message": "Incident response team notified",
+          "target_label": "security_alert",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "WebServer",
+          "log_message": "HTTP 200 - GET /api/users/profile - 0.145s",
+          "target_label": "system_notification",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "WebServer",
+          "log_message": "HTTP 404 - GET /missing-page - 0.012s",
+          "target_label": "system_notification",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "WebServer",
+          "log_message": "HTTP 500 - POST /api/data/process - 2.567s",
+          "target_label": "system_notification",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "WebServer",
+          "log_message": "Load balancer health check passed",
+          "target_label": "system_notification",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "WebServer",
+          "log_message": "CDN cache hit ratio: 89.5%",
+          "target_label": "system_notification",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "WebServer",
+          "log_message": "Session timeout for user session_789",
+          "target_label": "user_action",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "WebServer",
+          "log_message": "API endpoint /v3/analytics deprecated",
+          "target_label": "deprecation_warning",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "WebServer",
+          "log_message": "Server maintenance window scheduled",
+          "target_label": "unclassified",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "WebServer",
+          "log_message": "Database connection restored",
+          "target_label": "workflow_error",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "WebServer",
+          "log_message": "Memory usage threshold exceeded",
+          "target_label": "system_notification",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "DatabaseSystem",
+          "log_message": "Query execution time: 1.234 seconds",
+          "target_label": "security_alert",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "DatabaseSystem",
+          "log_message": "Index optimization completed on users table",
+          "target_label": "security_alert",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "DatabaseSystem",
+          "log_message": "Backup process started for production database",
+          "target_label": "system_notification",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "DatabaseSystem",
+          "log_message": "Connection pool status: 85% utilized",
+          "target_label": "system_notification",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "DatabaseSystem",
+          "log_message": "Slow query detected: SELECT with 5.6s execution time",
+          "target_label": "security_alert",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "DatabaseSystem",
+          "log_message": "Transaction rollback due to constraint violation",
+          "target_label": "security_alert",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "DatabaseSystem",
+          "log_message": "Database schema migration completed",
+          "target_label": "system_notification",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "DatabaseSystem",
+          "log_message": "Replication lag: 0.05 seconds",
+          "target_label": "workflow_error",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "DatabaseSystem",
+          "log_message": "Table statistics updated",
+          "target_label": "security_alert",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "DatabaseSystem",
+          "log_message": "Dead lock detected and resolved",
+          "target_label": "security_alert",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "EmailSystem",
+          "log_message": "Email delivery successful to recipient@domain.com",
+          "target_label": "workflow_error",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "EmailSystem",
+          "log_message": "Bounce notification for invalid email address",
+          "target_label": "workflow_error",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "EmailSystem",
+          "log_message": "SMTP server connection established",
+          "target_label": "system_notification",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "EmailSystem",
+          "log_message": "Email queue processing: 1,250 messages pending",
+          "target_label": "workflow_error",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "EmailSystem",
+          "log_message": "Spam filter blocked 45 messages",
+          "target_label": "security_alert",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "EmailSystem",
+          "log_message": "Email template validation passed",
+          "target_label": "security_alert",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "EmailSystem",
+          "log_message": "Unsubscribe request processed",
+          "target_label": "unclassified",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "EmailSystem",
+          "log_message": "Email campaign metrics updated",
+          "target_label": "user_action",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "EmailSystem",
+          "log_message": "Attachment size limit exceeded",
+          "target_label": "workflow_error",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "EmailSystem",
+          "log_message": "Email server maintenance completed",
+          "target_label": "unclassified",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "FileSystem",
+          "log_message": "File upload completed: document.pdf (2.5 MB)",
+          "target_label": "user_action",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "FileSystem",
+          "log_message": "Directory cleanup removed 150 temporary files",
+          "target_label": "system_notification",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "FileSystem",
+          "log_message": "File access permission granted for user group",
+          "target_label": "security_alert",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "FileSystem",
+          "log_message": "Storage quota warning: 85% capacity reached",
+          "target_label": "deprecation_warning",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "FileSystem",
+          "log_message": "File integrity check passed",
+          "target_label": "security_alert",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "FileSystem",
+          "log_message": "Automatic backup created for critical files",
+          "target_label": "security_alert",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "FileSystem",
+          "log_message": "File sharing link generated with expiration",
+          "target_label": "security_alert",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "FileSystem",
+          "log_message": "Virus scan completed: No threats detected",
+          "target_label": "security_alert",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "FileSystem",
+          "log_message": "File compression reduced size by 60%",
+          "target_label": "security_alert",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "FileSystem",
+          "log_message": "Archive extraction completed successfully",
+          "target_label": "unclassified",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "MonitoringSystem",
+          "log_message": "CPU usage spike detected: 95% for 5 minutes",
+          "target_label": "security_alert",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "MonitoringSystem",
+          "log_message": "Memory consumption alert: 80% threshold exceeded",
+          "target_label": "system_notification",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "MonitoringSystem",
+          "log_message": "Disk space warning: /var/log 90% full",
+          "target_label": "security_alert",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "MonitoringSystem",
+          "log_message": "Network latency increased to 250ms",
+          "target_label": "security_alert",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "MonitoringSystem",
+          "log_message": "Application response time degraded",
+          "target_label": "system_notification",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "MonitoringSystem",
+          "log_message": "Health check failed for service authentication",
+          "target_label": "security_alert",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "MonitoringSystem",
+          "log_message": "Alert notification sent to operations team",
+          "target_label": "security_alert",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "MonitoringSystem",
+          "log_message": "System recovery initiated automatically",
+          "target_label": "security_alert",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "MonitoringSystem",
+          "log_message": "Performance baseline updated",
+          "target_label": "user_action",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "MonitoringSystem",
+          "log_message": "Monitoring dashboard refreshed",
+          "target_label": "security_alert",
+          "classification_method": "hybrid"
+        }
+      ]
+    },
+    {
+      "dataset_name": "Small Test Dataset",
+      "total_logs": 10,
+      "processing_time": 1.14,
+      "category_distribution": {
+        "security_alert": "2",
+        "user_action": "2",
+        "system_notification": "2",
+        "workflow_error": "2",
+        "deprecation_warning": "2"
+      },
+      "processing_stats": {
+        "regex_classified": 6,
+        "bert_classified": 3,
+        "llm_classified": 1,
+        "unclassified": 0
+      },
+      "classified_logs": [
+        {
+          "source": "ModernCRM",
+          "log_message": "IP 192.168.133.114 blocked due to potential attack",
+          "target_label": "security_alert",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "BillingSystem",
+          "log_message": "User 12345 logged in",
+          "target_label": "user_action",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "AnalyticsEngine",
+          "log_message": "File data_6957.csv uploaded successfully by user User265",
+          "target_label": "user_action",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "AnalyticsEngine",
+          "log_message": "Backup completed successfully",
+          "target_label": "system_notification",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "ModernHR",
+          "log_message": "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1 RCODE 200 len: 1583 time: 0.1878400",
+          "target_label": "system_notification",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "ModernHR",
+          "log_message": "Admin access escalation detected for user 9429",
+          "target_label": "security_alert",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "LegacyCRM",
+          "log_message": "Case escalation for ticket ID 7324 failed because the assigned support agent is no longer active",
+          "target_label": "workflow_error",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "LegacyCRM",
+          "log_message": "Invoice generation process aborted for order ID 8910 due to invalid tax calculation module",
+          "target_label": "workflow_error",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "LegacyCRM",
+          "log_message": "The 'BulkEmailSender' feature is no longer supported. Use 'EmailCampaignManager' for improved functionality",
+          "target_label": "deprecation_warning",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "LegacyCRM",
+          "log_message": "The 'ReportGenerator' module will be retired in version 4.0. Please migrate to the 'AdvancedAnalyticsSuite' by Dec 2025",
+          "target_label": "deprecation_warning",
+          "classification_method": "hybrid"
+        }
+      ]
+    },
+    {
+      "dataset_name": "Comprehensive API Test",
+      "total_logs": 25,
+      "processing_time": 1.02,
+      "category_distribution": {
+        "security_alert": "8",
+        "workflow_error": "6",
+        "deprecation_warning": "5",
+        "user_action": "4",
+        "system_notification": "2"
+      },
+      "processing_stats": {
+        "regex_classified": 9,
+        "bert_classified": 15,
+        "llm_classified": 1,
+        "unclassified": 0
+      },
+      "classified_logs": [
+        {
+          "source": "test_system",
+          "log_message": "User 12345 logged in",
+          "target_label": "user_action",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "test_system",
+          "log_message": "User john.doe logged out",
+          "target_label": "user_action",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "test_system",
+          "log_message": "User accessed dashboard page",
+          "target_label": "user_action",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "test_system",
+          "log_message": "User uploaded file report.pdf",
+          "target_label": "security_alert",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "test_system",
+          "log_message": "User updated profile information",
+          "target_label": "user_action",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "test_system",
+          "log_message": "Failed login attempt from IP 192.168.1.100",
+          "target_label": "security_alert",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "test_system",
+          "log_message": "Multiple failed login attempts detected",
+          "target_label": "security_alert",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "test_system",
+          "log_message": "Suspicious activity: brute force attack",
+          "target_label": "security_alert",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "test_system",
+          "log_message": "Unauthorized access attempt blocked",
+          "target_label": "security_alert",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "test_system",
+          "log_message": "SQL injection attempt detected",
+          "target_label": "security_alert",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "test_system",
+          "log_message": "System backup completed successfully",
+          "target_label": "system_notification",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "test_system",
+          "log_message": "Database maintenance scheduled for tonight",
+          "target_label": "workflow_error",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "test_system",
+          "log_message": "Server restart required for updates",
+          "target_label": "security_alert",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "test_system",
+          "log_message": "Disk space warning: 85% full",
+          "target_label": "security_alert",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "test_system",
+          "log_message": "Service restart completed",
+          "target_label": "system_notification",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "test_system",
+          "log_message": "Payment processing failed for order #12345",
+          "target_label": "workflow_error",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "test_system",
+          "log_message": "Email delivery failed: invalid address",
+          "target_label": "workflow_error",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "test_system",
+          "log_message": "File upload failed: size limit exceeded",
+          "target_label": "workflow_error",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "test_system",
+          "log_message": "Database connection timeout",
+          "target_label": "workflow_error",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "test_system",
+          "log_message": "API request failed: rate limit exceeded",
+          "target_label": "workflow_error",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "test_system",
+          "log_message": "DEPRECATED: Function old_auth() will be removed in v2.0",
+          "target_label": "deprecation_warning",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "test_system",
+          "log_message": "WARNING: Legacy API endpoint /v1/users is deprecated",
+          "target_label": "deprecation_warning",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "test_system",
+          "log_message": "NOTICE: Old configuration format no longer supported",
+          "target_label": "deprecation_warning",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "test_system",
+          "log_message": "DEPRECATED: Database driver version 1.x is obsolete",
+          "target_label": "deprecation_warning",
+          "classification_method": "hybrid"
+        },
+        {
+          "source": "test_system",
+          "log_message": "WARNING: SSL protocol TLS 1.0 is deprecated",
+          "target_label": "deprecation_warning",
+          "classification_method": "hybrid"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,414 @@
+{
+  "test_1_precision_recall": {
+    "precision_macro": 0.7470238095238096,
+    "recall_macro": 0.6055555555555555,
+    "precision_weighted": 0.8794642857142858,
+    "recall_weighted": 0.7625,
+    "per_class_metrics": {
+      "deprecation_warning": [
+        1.0,
+        0.6,
+        0.75
+      ],
+      "security_alert": [
+        0.625,
+        1.0,
+        0.7692307692307693
+      ],
+      "system_notification": [
+        0.8571428571428571,
+        0.4,
+        0.5454545454545454
+      ],
+      "user_action": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "workflow_error": [
+        1.0,
+        0.9,
+        0.9473684210526315
+      ]
+    }
+  },
+  "test_2_confusion_matrix": {
+    "confusion_matrix": [
+      [
+        6,
+        3,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        20,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        6,
+        6,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        0,
+        18,
+        0
+      ],
+      [
+        0,
+        4,
+        0,
+        0,
+        0,
+        11
+      ]
+    ],
+    "class_accuracies": {
+      "deprecation_warningdeprecation_warning": 0.6,
+      "deprecation_warningsecurity_alert": 1.0,
+      "deprecation_warningsystem_notification": 0.4,
+      "security_alertsecurity_alert": 0,
+      "system_notificationsecurity_alert": 0.9,
+      "system_notificationsystem_notification": 0.7333333333333333
+    }
+  },
+  "test_3_advanced_metrics": {
+    "matthews_corr_coef": 0.720294545096323,
+    "cohens_kappa": 0.7001972386587771
+  },
+  "test_4_robustness": {
+    "robustness_score": 0.5238095238095238,
+    "edge_results": [
+      {
+        "message": "",
+        "expected": "unclassified",
+        "predicted": "security_alert",
+        "correct": false
+      },
+      {
+        "message": ".",
+        "expected": "unclassified",
+        "predicted": "security_alert",
+        "correct": false
+      },
+      {
+        "message": "a",
+        "expected": "unclassified",
+        "predicted": "security_alert",
+        "correct": false
+      },
+      {
+        "message": "User",
+        "expected": "user_action",
+        "predicted": "user_action",
+        "correct": true
+      },
+      {
+        "message": "User very very very very very very very very very ...",
+        "expected": "user_action",
+        "predicted": "user_action",
+        "correct": true
+      },
+      {
+        "message": "Failed login login login login login login login l...",
+        "expected": "security_alert",
+        "predicted": "security_alert",
+        "correct": true
+      },
+      {
+        "message": "User@#$%^&*()_+ logged in with special chars",
+        "expected": "user_action",
+        "predicted": "user_action",
+        "correct": true
+      },
+      {
+        "message": "S\u00e9c\u00fbr\u00efty \u00e2l\u00e9rt w\u00efth \u00fbn\u00efc\u00f6d\u00e9 \u00e7h\u00e4r\u00e4ct\u00e9rs",
+        "expected": "security_alert",
+        "predicted": "security_alert",
+        "correct": true
+      },
+      {
+        "message": "User\t\n\r logged in with whitespace chars",
+        "expected": "user_action",
+        "predicted": "user_action",
+        "correct": true
+      },
+      {
+        "message": "USER LOGGED IN WITH CAPS",
+        "expected": "user_action",
+        "predicted": "user_action",
+        "correct": true
+      },
+      {
+        "message": "user logged in with lowercase",
+        "expected": "user_action",
+        "predicted": "user_action",
+        "correct": true
+      },
+      {
+        "message": "UsEr LoGgEd In WiTh MiXeD cAsE",
+        "expected": "user_action",
+        "predicted": "user_action",
+        "correct": true
+      },
+      {
+        "message": "System user performed security check",
+        "expected": "system_notification",
+        "predicted": "security_alert",
+        "correct": false
+      },
+      {
+        "message": "Security system generated user notification",
+        "expected": "system_notification",
+        "predicted": "security_alert",
+        "correct": false
+      },
+      {
+        "message": "User security alert acknowledgment",
+        "expected": "user_action",
+        "predicted": "security_alert",
+        "correct": false
+      },
+      {
+        "message": "Usr loged in sucesfully",
+        "expected": "user_action",
+        "predicted": "security_alert",
+        "correct": false
+      },
+      {
+        "message": "Securtiy alrt: faild login atempt",
+        "expected": "security_alert",
+        "predicted": "security_alert",
+        "correct": true
+      },
+      {
+        "message": "Sytem maintanence complted",
+        "expected": "system_notification",
+        "predicted": "security_alert",
+        "correct": false
+      },
+      {
+        "message": "User ID 12345 logged in from IP 192.168.1.100",
+        "expected": "user_action",
+        "predicted": "user_action",
+        "correct": true
+      },
+      {
+        "message": "Error code 500: Internal server malfunction",
+        "expected": "workflow_error",
+        "predicted": "security_alert",
+        "correct": false
+      },
+      {
+        "message": "HTTP 404 not found for resource /api/v1/users",
+        "expected": "workflow_error",
+        "predicted": "system_notification",
+        "correct": false
+      }
+    ]
+  },
+  "test_5_performance": {
+    "single_prediction_time": 0.0005661487579345703,
+    "batch_results": {
+      "1": {
+        "avg_time": 0.0004382133483886719,
+        "throughput": 2281.993471164309,
+        "per_message_time": 0.0004382133483886719
+      },
+      "10": {
+        "avg_time": 0.0004065990447998047,
+        "throughput": 24594.253547554825,
+        "per_message_time": 4.0659904479980474e-05
+      },
+      "50": {
+        "avg_time": 0.002333211898803711,
+        "throughput": 21429.68670168196,
+        "per_message_time": 4.666423797607422e-05
+      }
+    }
+  },
+  "test_6_error_analysis": {
+    "total_errors": 19,
+    "error_details": [
+      {
+        "index": 5,
+        "message": "User modified security settings",
+        "true_label": "user_action",
+        "predicted_label": "security_alert",
+        "message_length": 31,
+        "message_words": 4
+      },
+      {
+        "index": 14,
+        "message": "User synchronized data with external system",
+        "true_label": "user_action",
+        "predicted_label": "security_alert",
+        "message_length": 43,
+        "message_words": 6
+      },
+      {
+        "index": 41,
+        "message": "System maintenance window started",
+        "true_label": "system_notification",
+        "predicted_label": "unclassified",
+        "message_length": 33,
+        "message_words": 4
+      },
+      {
+        "index": 42,
+        "message": "Server restart completed, all services online",
+        "true_label": "system_notification",
+        "predicted_label": "unclassified",
+        "message_length": 45,
+        "message_words": 6
+      },
+      {
+        "index": 44,
+        "message": "Disk cleanup process finished",
+        "true_label": "system_notification",
+        "predicted_label": "unclassified",
+        "message_length": 29,
+        "message_words": 4
+      },
+      {
+        "index": 45,
+        "message": "Log rotation completed successfully",
+        "true_label": "system_notification",
+        "predicted_label": "unclassified",
+        "message_length": 35,
+        "message_words": 4
+      },
+      {
+        "index": 49,
+        "message": "Scheduled job completed without errors",
+        "true_label": "system_notification",
+        "predicted_label": "unclassified",
+        "message_length": 38,
+        "message_words": 5
+      },
+      {
+        "index": 50,
+        "message": "System performance metrics collected",
+        "true_label": "system_notification",
+        "predicted_label": "security_alert",
+        "message_length": 36,
+        "message_words": 4
+      },
+      {
+        "index": 51,
+        "message": "Backup verification completed successfully",
+        "true_label": "system_notification",
+        "predicted_label": "unclassified",
+        "message_length": 42,
+        "message_words": 4
+      },
+      {
+        "index": 52,
+        "message": "Network connectivity restored",
+        "true_label": "system_notification",
+        "predicted_label": "security_alert",
+        "message_length": 29,
+        "message_words": 3
+      },
+      {
+        "index": 53,
+        "message": "Resource allocation optimized",
+        "true_label": "system_notification",
+        "predicted_label": "security_alert",
+        "message_length": 29,
+        "message_words": 3
+      },
+      {
+        "index": 57,
+        "message": "API request failed with 500 internal error",
+        "true_label": "workflow_error",
+        "predicted_label": "security_alert",
+        "message_length": 42,
+        "message_words": 7
+      },
+      {
+        "index": 61,
+        "message": "Report generation timed out",
+        "true_label": "workflow_error",
+        "predicted_label": "security_alert",
+        "message_length": 27,
+        "message_words": 4
+      },
+      {
+        "index": 63,
+        "message": "Export process interrupted by system error",
+        "true_label": "workflow_error",
+        "predicted_label": "security_alert",
+        "message_length": 42,
+        "message_words": 6
+      },
+      {
+        "index": 66,
+        "message": "Integration service unavailable",
+        "true_label": "workflow_error",
+        "predicted_label": "security_alert",
+        "message_length": 31,
+        "message_words": 3
+      },
+      {
+        "index": 73,
+        "message": "WARNING: TLS 1.0 support will be disabled",
+        "true_label": "deprecation_warning",
+        "predicted_label": "security_alert",
+        "message_length": 41,
+        "message_words": 7
+      },
+      {
+        "index": 76,
+        "message": "WARNING: Outdated browser version detected",
+        "true_label": "deprecation_warning",
+        "predicted_label": "security_alert",
+        "message_length": 42,
+        "message_words": 5
+      },
+      {
+        "index": 78,
+        "message": "NOTICE: Old API endpoint scheduled for removal",
+        "true_label": "deprecation_warning",
+        "predicted_label": "system_notification",
+        "message_length": 46,
+        "message_words": 7
+      },
+      {
+        "index": 79,
+        "message": "WARNING: Unsupported software version in use",
+        "true_label": "deprecation_warning",
+        "predicted_label": "security_alert",
+        "message_length": 44,
+        "message_words": 6
+      }
+    ]
+  },
+  "timestamp": "2025-09-14 18:30:22",
+  "test_summary": {
+    "total_samples": 80,
+    "categories": 5,
+    "robustness_score": 0.5238095238095238,
+    "total_errors": 19
+  }
+}

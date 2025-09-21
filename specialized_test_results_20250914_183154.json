@@ -1,0 +1,200 @@
+{
+  "test_7_cross_validation": {
+    "3_fold": {
+      "scores": [
+        NaN,
+        NaN,
+        0.2
+      ],
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN
+    }
+  },
+  "test_8_stress_testing": {
+    "100": {
+      "total_time": 0.0048906803131103516,
+      "throughput": 20447.053088285476,
+      "avg_time_per_message": 4.8906803131103515e-05,
+      "success": true
+    },
+    "500": {
+      "total_time": 0.012961149215698242,
+      "throughput": 38576.826150138884,
+      "avg_time_per_message": 2.5922298431396484e-05,
+      "success": true
+    },
+    "1000": {
+      "total_time": 0.021718740463256836,
+      "throughput": 46043.18568527362,
+      "avg_time_per_message": 2.1718740463256836e-05,
+      "success": true
+    },
+    "5000": {
+      "total_time": 0.09831047058105469,
+      "throughput": 50859.28254079118,
+      "avg_time_per_message": 1.9662094116210938e-05,
+      "success": true
+    }
+  },
+  "test_9_bias_detection": {
+    "Length Bias Test": {
+      "short_distribution": {
+        "security_alert": 2,
+        "workflow_error": 1,
+        "system_notification": 1,
+        "deprecation_warning": 1
+      },
+      "long_distribution": {
+        "unclassified": 2,
+        "security_alert": 1,
+        "workflow_error": 1,
+        "deprecation_warning": 1
+      },
+      "bias_detected": false
+    },
+    "Time Pattern Bias Test": {
+      "distribution": {
+        "user_action": 2,
+        "security_alert": 2,
+        "system_notification": 2
+      }
+    },
+    "Keyword Sensitivity Test": {
+      "distribution": {
+        "user_action": 3,
+        "security_alert": 3
+      }
+    }
+  },
+  "test_10_concept_drift": {
+    "baseline": {
+      "accuracy": 1.0,
+      "f1_score": 1.0,
+      "predictions": [
+        "user_action",
+        "security_alert",
+        "system_notification",
+        "workflow_error",
+        "deprecation_warning"
+      ],
+      "true_labels": [
+        "user_action",
+        "security_alert",
+        "system_notification",
+        "workflow_error",
+        "deprecation_warning"
+      ]
+    },
+    "period_1": {
+      "accuracy": 0.8,
+      "f1_score": 0.7333333333333333,
+      "predictions": [
+        "user_action",
+        "security_alert",
+        "security_alert",
+        "workflow_error",
+        "deprecation_warning"
+      ],
+      "true_labels": [
+        "user_action",
+        "security_alert",
+        "system_notification",
+        "workflow_error",
+        "deprecation_warning"
+      ]
+    },
+    "period_2": {
+      "accuracy": 1.0,
+      "f1_score": 1.0,
+      "predictions": [
+        "user_action",
+        "security_alert",
+        "system_notification",
+        "workflow_error",
+        "deprecation_warning"
+      ],
+      "true_labels": [
+        "user_action",
+        "security_alert",
+        "system_notification",
+        "workflow_error",
+        "deprecation_warning"
+      ]
+    }
+  },
+  "test_11_confidence_analysis": {
+    "message_0": {
+      "message": "User logged in successfully",
+      "prediction": "user_action",
+      "max_probability": 0.968925099546284,
+      "confidence_level": "High",
+      "all_probabilities": [
+        0.0012953924670490403,
+        0.004741088699541428,
+        0.019526678718070827,
+        0.0039633412381254295,
+        0.968925099546284,
+        0.0015483993309294334
+      ]
+    },
+    "message_1": {
+      "message": "Failed login attempt detected",
+      "prediction": "security_alert",
+      "max_probability": 0.9998071896920998,
+      "confidence_level": "High",
+      "all_probabilities": [
+        3.37984163165537e-08,
+        0.9998071896920998,
+        2.7463993161115886e-05,
+        3.372534511769668e-05,
+        1.2754364356399832e-05,
+        0.00011883280684872846
+      ]
+    },
+    "message_2": {
+      "message": "User security system notification",
+      "prediction": "security_alert",
+      "max_probability": 0.703037798040097,
+      "confidence_level": "Medium",
+      "all_probabilities": [
+        0.004304321911682121,
+        0.703037798040097,
+        0.010265245816147014,
+        0.0039008033134123304,
+        0.2728459050877103,
+        0.005645925830951179
+      ]
+    },
+    "message_3": {
+      "message": "Error failed user",
+      "prediction": "user_action",
+      "max_probability": 0.9001381857494422,
+      "confidence_level": "High",
+      "all_probabilities": [
+        9.580476962671809e-05,
+        0.004138673341038691,
+        0.00011013321428339016,
+        9.066390564950429e-05,
+        0.9001381857494422,
+        0.09542653901995984
+      ]
+    },
+    "message_4": {
+      "message": "System user security failed login backup",
+      "prediction": "security_alert",
+      "max_probability": 0.8511667202075602,
+      "confidence_level": "High",
+      "all_probabilities": [
+        0.002180840997510536,
+        0.8511667202075602,
+        0.01074369984720427,
+        0.001529380483866898,
+        0.11313643278407644,
+        0.02124292567978152
+      ]
+    }
+  },
+  "timestamp": "2025-09-14 18:31:54"
+}

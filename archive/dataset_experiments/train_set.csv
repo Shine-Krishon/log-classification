@@ -1,0 +1,1631 @@
+log_message,target_label,complexity,message_length
+"Function calculateVAT() deprecated since 2.0, use TaxCalculationService instead",deprecation_warning,llm,79
+"API endpoint /v2/orders is obsolete, migrate to /v2/users by Q2 2025",deprecation_warning,llm,68
+Database connection pool initialized with 50 connections,system_notification,llm,56
+File upload completed: config.yaml (1024MB) by client alice.smith,user_action,regex,65
+File upload completed: quarterly.xlsx (45MB) by client manager.ops,user_action,regex,66
+"Cache cleared: 2500 entries removed, 100MB freed",system_notification,llm,48
+User alice.smith created new project 'Q4-Analytics',user_action,llm,51
+File upload unsuccessful: quarterly.xlsx exceeds 45MB limit,workflow_error,regex,59
+File upload completed: data.csv (100MB) by user admin,user_action,llm,53
+"API endpoint /auth/login is deprecated, migrate to /v3/auth by Jan 2025",deprecation_warning,bert,71
+Load balancer health check passed - 50 nodes healthy,system_notification,llm,52
+Profile updated: user 12345 changed email to user@invalid-domain,user_action,llm,64
+Profile updated: user 67890 changed email to user@invalid-domain,user_action,regex,64
+Old file storage API deprecated: migrate to cloud storage,deprecation_warning,regex,57
+File upload completed: backup.zip (512MB) by user manager.ops,user_action,bert,61
+User admin logged in from IP 203.0.113.55,user_action,bert,41
+File upload completed: config.yaml (512MB) by client admin,user_action,regex,58
+Document validation failed: missing required field address,workflow_error,llm,58
+Database connection timeout after 15 seconds,workflow_error,regex,44
+Account locked: 5 failed login attempts for temp.user,user_action,llm,53
+"SSL protocol TLSv1.2 is deprecated, upgrade to TLSv1.3 by Q2 2025",deprecation_warning,regex,65
+"Report format XML will be discontinued, migrate to Parquet by Jan 2025",deprecation_warning,bert,70
+Memory usage: 45% of heap (7.1GB/8GB),system_notification,llm,37
+Document shared: report.pdf shared with team-leads@company.com,user_action,llm,62
+User session expired after 15 minutes for user john.doe,user_action,bert,55
+File upload failed: backup.zip exceeds 45MB limit,workflow_error,regex,49
+Status: OK,unclassified,bert,10
+Profile updated: user 12345 changed email to test@unknown.com,user_action,llm,61
+API rate limit exceeded for client xyz-corp (50 requests/minute),workflow_error,llm,64
+Client session expired after 5 minutes for client admin,user_action,regex,55
+Account locked: 5 was unsuccessful login attempts for alice.smith,user_action,llm,65
+Profile updated: user 67890 changed email to user@invalid-domain,user_action,bert,64
+File upload completed: quarterly.xlsx (1024MB) by user alice.smith,user_action,bert,66
+"Cache cleared: 5 entries removed, 45MB freed",system_notification,bert,44
+Profile updated: client 67890 changed email to test@unknown.com,user_action,regex,63
+"Cache cleared: 50 entries removed, 512MB freed",system_notification,llm,46
+Account locked: 5 failed login attempts for alice.smith,user_action,regex,55
+"Legacy email template system deprecated, use new template engine",deprecation_warning,bert,64
+Configuration file report.pdf reloaded successfully,system_notification,bert,51
+User manager.ops logged in from IP 203.0.113.55,user_action,llm,47
+File upload completed: report.pdf (1024MB) by client john.doe,user_action,regex,61
+User session expired after 15 minutes for user admin,user_action,regex,52
+Client manager.ops logged in from IP 192.168.1.100,user_action,regex,50
+Account locked: 10 unsuccessful login attempts for admin,user_action,regex,56
+File upload completed: backup.zip (250MB) by client manager.ops,user_action,regex,63
+"Method calculateTax() deprecated since 3.0, use VATService instead",deprecation_warning,bert,66
+Load balancer health check passed - 5 nodes healthy,system_notification,regex,51
+User temp.user logged in from IP 10.0.0.45,user_action,regex,42
+"Support ending for Safari 12 by Q2 2025, update requirements",deprecation_warning,regex,60
+Account locked: 2500 failed login attempts for admin,user_action,bert,52
+API endpoint /v2/orders responding normally (250ms),system_notification,bert,51
+Memory usage: 45% of heap (6.2GB/16GB),system_notification,bert,38
+File upload failed: config.yaml exceeds 512MB limit,workflow_error,bert,51
+"Cache cleared: 2500 entries removed, 1024MB freed",system_notification,llm,49
+File upload completed: report.pdf (45MB) by client alice.smith,user_action,regex,62
+File upload failed: quarterly.xlsx exceeds 250MB limit,workflow_error,bert,54
+"Report format CSV will be discontinued, migrate to JSON by Dec 2024",deprecation_warning,regex,67
+Account locked: 1500 failed login attempts for admin,user_action,bert,52
+Document shared: report.pdf shared with finance-team@company.com,user_action,bert,64
+Profile updated: user 12345 changed email to user@invalid-domain,user_action,bert,64
+"Cache cleared: 50 entries removed, 100MB freed",system_notification,llm,46
+"API endpoint /auth/login is deprecated, migrate to /v2/users by Jan 2025",deprecation_warning,bert,72
+User preferences updated: email-only,user_action,bert,36
+Python 3.8 support dropped: upgrade to 3.9+ required,deprecation_warning,llm,52
+Load balancer health check passed - 2500 nodes healthy,system_notification,llm,54
+Account locked: 5 failed login attempts for temp.user,user_action,bert,53
+Memory usage: 60% of heap (7.1GB/16GB),system_notification,bert,38
+"Method calculateTax() obsolete since 3.0, use TaxCalculationService instead",deprecation_warning,llm,75
+Account locked: 2500 failed login attempts for admin,user_action,bert,52
+Kubernetes pod eviction: node pressure memory threshold exceeded,workflow_error,llm,64
+Memory usage: 60% of heap (6.2GB/16GB),system_notification,llm,38
+File upload completed: config.yaml (250MB) by user temp.user,user_action,bert,60
+File upload unsuccessful: report.pdf exceeds 100MB limit,workflow_error,regex,56
+"Cache cleared: 20 entries removed, 250MB freed",system_notification,regex,46
+"Report format CSV will be discontinued, migrate to Parquet by Q2 2025",deprecation_warning,bert,69
+"Report format CSV will be discontinued, migrate to Parquet by Jan 2025",deprecation_warning,llm,70
+Account locked: 100 failed login attempts for alice.smith,user_action,regex,57
+Account locked: 1500 failed login attempts for temp.user,user_action,regex,56
+"API endpoint /v1/users is deprecated, migrate to /v3/auth by Dec 2024",deprecation_warning,llm,69
+File upload completed: config.yaml (45MB) by user john.doe,user_action,bert,58
+File upload failed: backup.zip exceeds 1024MB limit,workflow_error,bert,51
+File upload failed: quarterly.xlsx exceeds 45MB limit,workflow_error,llm,53
+Account locked: 1250 unsuccessful login attempts for manager.ops,user_action,regex,64
+Account locked: 20 unsuccessful login attempts for temp.user,user_action,regex,60
+"Report format XML will be discontinued, migrate to JSON by Jan 2025",deprecation_warning,bert,67
+User session expired after 30 minutes for user temp.user,user_action,bert,56
+User session expired after {minutes} minutes for user manager.ops,user_action,regex,65
+"Database driver postgres-9.x is deprecated, upgrade to 2.0",deprecation_warning,bert,58
+Document shared: config.yaml shared with team-leads@company.com,user_action,llm,63
+Configuration file data.csv reloaded successfully,system_notification,bert,49
+Account locked: 10 was unsuccessful login attempts for manager.ops,user_action,llm,66
+"Cache cleared: 10 entries removed, 1024MB freed",system_notification,regex,47
+"Support ending for Safari 12 by Dec 2024, update requirements",deprecation_warning,bert,61
+"Cache cleared: 50 entries removed, 250MB freed",system_notification,bert,46
+File upload completed: quarterly.xlsx (250MB) by client manager.ops,user_action,regex,67
+Account locked: 50 unsuccessful login attempts for admin,user_action,regex,56
+Update available,unclassified,llm,16
+"API endpoint /metrics is obsolete, migrate to /v2/users by Dec 2024",deprecation_warning,llm,67
+File upload failed: data.csv exceeds 100MB limit,workflow_error,regex,48
+ETL pipeline completed: 100 records processed in {minutes} minutes,system_notification,bert,66
+File upload completed: config.yaml (1024MB) by client manager.ops,user_action,regex,65
+"Cache cleared: 50 entries removed, 100MB freed",system_notification,llm,46
+Document shared: report.pdf shared with finance-team@company.com,user_action,regex,64
+File upload completed: report.pdf (45MB) by user alice.smith,user_action,bert,60
+Memory usage: 75% of heap (7.1GB/8GB),system_notification,regex,37
+File upload unsuccessful: quarterly.xlsx exceeds 45MB limit,workflow_error,regex,59
+Account locked: 20 unsuccessful login attempts for alice.smith,user_action,regex,62
+Client session expired after {minutes} minutes for client temp.client,user_action,regex,69
+File upload failed: data.csv exceeds 512MB limit,workflow_error,llm,48
+API rate limit exceeded for client beta-ltd (1500 requests/minute),workflow_error,regex,66
+Task done,unclassified,bert,9
+API endpoint /v2/orders responding normally (120ms),system_notification,regex,51
+Memory usage: 60% of heap (7.1GB/16GB),system_notification,bert,38
+File upload completed: quarterly.xlsx (250MB) by user alice.smith,user_action,regex,65
+"Cache cleared: 1250 entries removed, 250MB freed",system_notification,llm,48
+Account locked: 5 failed login attempts for admin,user_action,regex,49
+File upload failed: backup.zip exceeds 250MB limit,workflow_error,llm,50
+"Report format XML will be discontinued, migrate to JSON by Dec 2024",deprecation_warning,regex,67
+Two-factor authentication enabled for user manager.ops,user_action,llm,54
+API rate limit exceeded for client beta-ltd (100 requests/minute),workflow_error,regex,65
+ETL pipeline completed: 100 records processed in 60 minutes,system_notification,bert,59
+User preferences updated: push-notifications,user_action,bert,44
+File upload failed: quarterly.xlsx exceeds 1024MB limit,workflow_error,llm,55
+File upload unsuccessful: quarterly.xlsx exceeds 250MB limit,workflow_error,regex,60
+Client session expired after 45 minutes for client manager.ops,user_action,regex,62
+User temp.user logged in from IP 192.168.1.100,user_action,regex,46
+"API endpoint /v1/users is deprecated, migrate to /v2/users by Jan 2025",deprecation_warning,regex,70
+"API endpoint /auth/login is deprecated, migrate to /v2/users by Q2 2025",deprecation_warning,regex,71
+Document validation failed: missing required field email,workflow_error,regex,56
+Account locked: 20 unsuccessful login attempts for temp.user,user_action,regex,60
+Data import was unsuccessful: duplicate record at line 9001,workflow_error,llm,59
+"Method calculateVAT() deprecated since 2.0, use TaxCalculationService instead",deprecation_warning,llm,77
+Document shared: quarterly.xlsx shared with finance-team@company.com,user_action,llm,68
+"Cache cleared: 2500 entries removed, 100MB freed",system_notification,bert,48
+Configuration file config.yaml reloaded completed,system_notification,regex,49
+API endpoint /metrics responding normally (250ms),system_notification,regex,49
+User session expired after 60 minutes for user alice.smith,user_action,regex,58
+Account locked: 5 failed login attempts for temp.user,user_action,llm,53
+"API endpoint /v1/users is deprecated, migrate to /v2/users by Jan 2025",deprecation_warning,llm,70
+File upload completed: backup.zip (45MB) by user admin,user_action,regex,54
+File upload completed: quarterly.xlsx (45MB) by user temp.user,user_action,regex,62
+"Database driver postgres-9.x is obsolete, upgrade to 2.0",deprecation_warning,llm,56
+"Report format CSV will be discontinued, migrate to Parquet by Q2 2025",deprecation_warning,llm,69
+Account locked: 1250 unsuccessful login attempts for admin,user_action,regex,58
+"Database driver postgres-9.x is deprecated, upgrade to 2.0",deprecation_warning,llm,58
+File upload completed: backup.zip (45MB) by user admin,user_action,regex,54
+"SSL protocol TLSv1.1 is deprecated, upgrade to TLSv1.3 by Jan 2025",deprecation_warning,bert,66
+Profile updated: user 67890 changed email to test@unknown.com,user_action,regex,61
+"Cache cleared: 20 entries removed, 45MB freed",system_notification,bert,45
+File upload completed: backup.zip (512MB) by client manager.ops,user_action,regex,63
+File upload completed: config.yaml (100MB) by user temp.user,user_action,regex,60
+User session expired after 15 minutes for user admin,user_action,bert,52
+"Cache cleared: 50 entries removed, 512MB freed",system_notification,bert,46
+File upload was unsuccessful: backup.zip exceeds 1024MB limit,workflow_error,llm,61
+"Cache cleared: 100 entries removed, 45MB freed",system_notification,bert,46
+App started successfully on port 3000,system_notification,bert,37
+Config option 'legacy_mode=true' will be removed in version 3.0,deprecation_warning,bert,63
+Credit card authorization declined: limit exceeded,workflow_error,llm,50
+File upload completed: backup.zip (250MB) by client john.doe,user_action,regex,60
+Configuration file config.yaml reloaded completed successfullyly,system_notification,llm,64
+File upload completed: quarterly.xlsx (45MB) by user john.doe,user_action,regex,61
+File upload completed: report.pdf (45MB) by user john.doe,user_action,bert,57
+File upload completed: report.pdf (512MB) by user temp.user,user_action,regex,59
+Document validation was unsuccessful: missing required field email,workflow_error,llm,66
+ETL pipeline completed: 50 records processed in 15 minutes,system_notification,bert,58
+File upload completed: quarterly.xlsx (512MB) by user manager.ops,user_action,bert,65
+Data import failed: duplicate record at line 5892,workflow_error,bert,49
+"Db driver postgres-9.x is deprecated, upgrade to 3.0",deprecation_warning,bert,52
+Data import failed: duplicate record at line 1247,workflow_error,regex,49
+Data import unsuccessful: duplicate record at line 1247,workflow_error,regex,55
+Queue processing unsuccessful: card expired,workflow_error,regex,43
+"Database driver mysql-connector-5.x is deprecated, upgrade to 4.0",deprecation_warning,llm,65
+Service timeout: payment unreachable,workflow_error,regex,36
+Account locked: 100 failed login attempts for manager.ops,user_action,llm,57
+File upload completed: config.yaml (250MB) by user alice.smith,user_action,bert,62
+"Cache cleared: 1500 entries removed, 512MB freed",system_notification,bert,48
+API rate limit exceeded for client xyz-corp (1250 requests/minute),workflow_error,regex,66
+"Cache cleared: 50 entries removed, 512MB freed",system_notification,llm,46
+API rate limit exceeded for client alpha-inc (1250 requests/minute),workflow_error,regex,67
+User session expired after {minutes} minutes for user manager.ops,user_action,regex,65
+"Cache cleared: 2500 entries removed, 250MB freed",system_notification,bert,48
+File upload completed: backup.zip (250MB) by user temp.user,user_action,bert,59
+File upload failed: quarterly.xlsx exceeds 250MB limit,workflow_error,llm,54
+"Report format CSV will be discontinued, migrate to JSON by Q2 2025",deprecation_warning,bert,66
+Memory usage: 82% of heap (4.2GB/8GB),system_notification,llm,37
+"Legacy email template system deprecated, use cloud storage",deprecation_warning,llm,58
+API rate limit exceeded for client beta-ltd (100 requests/minute),workflow_error,regex,65
+API rate limit exceeded for client xyz-corp (10 requests/minute),workflow_error,llm,64
+Document shared: report.pdf shared with team-leads@company.com,user_action,bert,62
+File upload completed: report.pdf (512MB) by user temp.user,user_action,regex,59
+Data import failed: duplicate record at line 9001,workflow_error,regex,49
+Db connection pool initialized with 100 connections,system_notification,bert,51
+ETL pipeline completed: 2500 records processed in {minutes} minutes,system_notification,llm,67
+ETL pipeline completed: 100 records processed in 60 minutes,system_notification,bert,59
+ETL pipeline completed: 50 records processed in 15 minutes,system_notification,regex,58
+Account locked: 2500 failed login attempts for manager.ops,user_action,llm,58
+ETL pipeline completed: 1500 records processed in 60 minutes,system_notification,regex,60
+ETL pipeline completed: 2500 records processed in 60 minutes,system_notification,regex,60
+Credit card authorization declined: limit exceeded,workflow_error,regex,50
+API rate limit exceeded for client alpha-inc (10 requests/minute),workflow_error,llm,65
+File upload unsuccessful: data.csv exceeds 250MB limit,workflow_error,regex,54
+API rate limit exceeded for client alpha-inc (20 requests/minute),workflow_error,bert,65
+Configuration option 'legacy_mode=true' will be removed in version 3.0,deprecation_warning,bert,70
+API rate limit exceeded for client alpha-inc (20 requests/minute),workflow_error,bert,65
+File upload completed: quarterly.xlsx (100MB) by user manager.ops,user_action,regex,65
+Memory usage: 60% of heap (7.1GB/8GB),system_notification,llm,37
+ETL pipeline completed: 5 records processed in {minutes} minutes,system_notification,bert,64
+File upload completed: backup.zip (1024MB) by client admin,user_action,regex,58
+Service ready,unclassified,llm,13
+File upload completed: quarterly.xlsx (100MB) by user alice.smith,user_action,bert,65
+Password changed completed successfullyly for user ID 78934,user_action,llm,59
+"SSL protocol TLSv1.2 is deprecated, upgrade to TLSv1.3 by Jan 2025",deprecation_warning,bert,66
+File upload unsuccessful: report.pdf exceeds 100MB limit,workflow_error,regex,56
+User temp.user created new project 'Q1-Financials',user_action,regex,50
+"API endpoint /metrics is obsolete, migrate to /v2/users by Jan 2025",deprecation_warning,llm,67
+Account locked: 2500 was unsuccessful login attempts for temp.user,user_action,llm,66
+"Cache cleared: 2500 entries removed, 100MB freed",system_notification,bert,48
+File upload completed: quarterly.xlsx (45MB) by user manager.ops,user_action,regex,64
+File upload completed: data.csv (250MB) by client alice.smith,user_action,regex,61
+Password changed completed successfullyly for user ID 12847,user_action,llm,59
+API endpoint /v2/orders responding normally (250ms),system_notification,regex,51
+Account locked: 2500 failed login attempts for manager.ops,user_action,regex,58
+"Database driver mysql-connector-5.x is obsolete, upgrade to 4.0",deprecation_warning,llm,63
+File upload completed: report.pdf (1024MB) by user alice.smith,user_action,regex,62
+API rate limit exceeded for client beta-ltd (100 requests/minute),workflow_error,regex,65
+File upload completed: backup.zip (1024MB) by user alice.smith,user_action,regex,62
+Database connection pool initialized with 100 connections,system_notification,regex,57
+Maintenance window scheduled,unclassified,llm,28
+Two-factor authentication enabled for user admin,user_action,bert,48
+"Report format CSV will be discontinued, migrate to JSON by Jan 2025",deprecation_warning,bert,67
+"API endpoint /metrics is deprecated, migrate to /v3/auth by Jan 2025",deprecation_warning,bert,68
+"SSL protocol TLSv1.2 is deprecated, upgrade to TLSv1.3 by Jan 2025",deprecation_warning,bert,66
+File upload completed: quarterly.xlsx (100MB) by user temp.user,user_action,bert,63
+User admin created new project 'Q4-Analytics',user_action,bert,45
+Configuration file quarterly.xlsx reloaded completed successfullyly,system_notification,llm,67
+Service timeout: authentication unreachable,workflow_error,llm,43
+Account locked: 5 failed login attempts for alice.smith,user_action,regex,55
+Configuration option 'legacy_mode=true' will be removed in version 2.0,deprecation_warning,llm,70
+"Cache cleared: 1250 entries removed, 250MB freed",system_notification,regex,48
+"Cache cleared: 50 entries removed, 512MB freed",system_notification,llm,46
+Memory usage: 95% of heap (7.1GB/16GB),system_notification,llm,38
+Client session expired after 45 minutes for client alice.smith,user_action,regex,62
+Account locked: 100 failed login attempts for manager.ops,user_action,bert,57
+Account locked: 20 unsuccessful login attempts for temp.user,user_action,regex,60
+User alice.smith created new project 'Q1-Financials',user_action,regex,52
+Application started successfully on port 8080,system_notification,bert,45
+Two-factor auth enabled for user alice.smith,user_action,bert,44
+"SSL protocol TLSv1.1 is deprecated, upgrade to TLSv1.3 by Dec 2024",deprecation_warning,llm,66
+SSL certificate renewed for domain payments.org,system_notification,regex,47
+API endpoint /metrics responding normally (200ms),system_notification,bert,49
+Application started successfully on port 8080,system_notification,llm,45
+File upload failed: report.pdf exceeds 100MB limit,workflow_error,regex,50
+API rate limit exceeded for client alpha-inc (10 requests/minute),workflow_error,bert,65
+API endpoint /auth/login responding normally (145ms),system_notification,bert,52
+Email delivery failed: invalid recipient address user@invalid-domain,workflow_error,bert,68
+"Method calculateVAT() obsolete since 2.0, use TaxCalculationService instead",deprecation_warning,llm,75
+Application started successfully on port 443,system_notification,regex,44
+"Support ending for Safari 12 by Jan 2025, update requirements",deprecation_warning,regex,61
+User preferences updated: push-notifications,user_action,llm,44
+Account locked: 100 was unsuccessful login attempts for manager.ops,user_action,llm,67
+File upload completed: report.pdf (250MB) by client temp.client,user_action,regex,63
+"Method calculateTax() obsolete since 3.0, use VATService instead",deprecation_warning,llm,64
+File upload completed: data.csv (45MB) by user alice.smith,user_action,bert,58
+File upload completed: data.csv (1024MB) by user admin,user_action,regex,54
+Action completed successfully,unclassified,regex,29
+Account locked: 1500 was unsuccessful login attempts for manager.ops,user_action,llm,68
+Profile updated: user 12847 changed email to user@invalid-domain,user_action,llm,64
+ETL pipeline completed: 1250 records processed in 45 minutes,system_notification,llm,60
+Action completed successfully,unclassified,llm,29
+Config option 'debug=true' will be removed in version 2.0,deprecation_warning,bert,57
+"API endpoint /v1/users is deprecated, migrate to /v2/users by Dec 2024",deprecation_warning,bert,70
+Config option 'legacy_mode=true' will be removed in version 4.0,deprecation_warning,bert,63
+File upload unsuccessful: data.csv exceeds 45MB limit,workflow_error,regex,53
+Document shared: config.yaml shared with finance-team@company.com,user_action,bert,65
+User admin logged in from IP 10.0.0.45,user_action,llm,38
+File upload failed: report.pdf exceeds 45MB limit,workflow_error,bert,49
+"Cache cleared: 1250 entries removed, 512MB freed",system_notification,bert,48
+Memory usage: 95% of heap (6.2GB/16GB),system_notification,bert,38
+File upload completed: report.pdf (45MB) by user temp.user,user_action,regex,58
+Database conn timeout after 30 seconds,workflow_error,bert,38
+Client preferences updated: SMS-only,user_action,regex,36
+Legacy authentication module will be sunset in Q3 2025,deprecation_warning,llm,54
+File upload completed: report.pdf (512MB) by user admin,user_action,regex,55
+"API endpoint /metrics is deprecated, migrate to /v3/auth by Dec 2024",deprecation_warning,bert,68
+File upload completed: quarterly.xlsx (100MB) by user alice.smith,user_action,regex,65
+Client manager.ops logged in from IP 203.0.113.55,user_action,regex,49
+File upload completed: quarterly.xlsx (1024MB) by user admin,user_action,regex,60
+File upload failed: backup.zip exceeds 45MB limit,workflow_error,bert,49
+Load balancer health check passed - 10 nodes healthy,system_notification,bert,52
+"SSL protocol TLSv1.2 is deprecated, upgrade to TLSv1.3 by Jan 2025",deprecation_warning,llm,66
+Db connection timeout after 15 seconds,workflow_error,bert,38
+User session expired after 30 minutes for user temp.user,user_action,regex,56
+Application initiated completed on port 8080,system_notification,regex,44
+"Cache cleared: 10 entries removed, 100MB freed",system_notification,regex,46
+SSL certificate renewed for domain service.domain.net,system_notification,bert,53
+"Method calculateTax() deprecated since 2.0, use VATService instead",deprecation_warning,llm,66
+File upload completed: report.pdf (100MB) by user temp.user,user_action,regex,59
+File upload was unsuccessful: data.csv exceeds 250MB limit,workflow_error,llm,58
+Configuration option 'legacy_mode=true' will be removed in version 3.0,deprecation_warning,llm,70
+File upload completed: config.yaml (45MB) by user admin,user_action,bert,55
+File upload completed: report.pdf (250MB) by client alice.smith,user_action,regex,63
+Client admin created new project 'HR-Dashboard',user_action,regex,47
+Load balancer health check passed - 5 nodes healthy,system_notification,regex,51
+API endpoint /v1/users responding normally (145ms),system_notification,bert,50
+"Method calculateTax() deprecated since 3.0, use VATService instead",deprecation_warning,bert,66
+Legacy authentication module will be sunset in Q4 2024,deprecation_warning,regex,54
+File upload completed: report.pdf (45MB) by user manager.ops,user_action,regex,60
+"API endpoint /v1/users is deprecated, migrate to /v2/users by Dec 2024",deprecation_warning,regex,70
+File upload completed: report.pdf (512MB) by user alice.smith,user_action,llm,61
+Application initiated completed on port 8080,system_notification,regex,44
+"Cache cleared: 5 entries removed, 100MB freed",system_notification,llm,45
+Database conn timeout after 30 seconds,workflow_error,bert,38
+Database conn pool initialized with 2500 conns,system_notification,bert,46
+User session expired after {minutes} minutes for user admin,user_action,llm,59
+API endpoint /v2/orders responding normally (145ms),system_notification,llm,51
+Payment processing failed: insufficient funds for order #12345,workflow_error,bert,62
+Database connection pool initialized with 100 connections,system_notification,regex,57
+File upload completed: backup.zip (512MB) by client admin,user_action,regex,57
+ETL pipeline completed: 2500 records processed in 30 minutes,system_notification,regex,60
+File upload completed: backup.zip (250MB) by client admin,user_action,regex,57
+Account locked: 50 unsuccessful login attempts for alice.smith,user_action,regex,62
+Two-factor authentication enabled for user temp.user,user_action,bert,52
+User alice.smith created new project 'Q1-Financials',user_action,regex,52
+File upload completed: quarterly.xlsx (1024MB) by user manager.ops,user_action,bert,66
+Account locked: 10 failed login attempts for alice.smith,user_action,regex,56
+"API endpoint /auth/login is deprecated, migrate to /v3/auth by Q2 2025",deprecation_warning,llm,70
+Config option 'debug=true' will be removed in version 3.0,deprecation_warning,bert,57
+Service timeout: authentication unreachable,workflow_error,bert,43
+Application started successfully on port 9090,system_notification,regex,45
+Legacy auth module will be sunset in Q1 2024,deprecation_warning,bert,44
+Account locked: 1500 failed login attempts for temp.client,user_action,regex,58
+"API endpoint /auth/login is deprecated, migrate to /v3/auth by Dec 2024",deprecation_warning,bert,71
+Configuration option 'legacy_mode=true' will be removed in version 3.0,deprecation_warning,bert,70
+File upload completed: config.yaml (250MB) by user temp.user,user_action,regex,60
+Database connection timeout after 60 seconds,workflow_error,llm,44
+File upload failed: config.yaml exceeds 512MB limit,workflow_error,llm,51
+SSL certificate renewed for domain payments.org,system_notification,bert,47
+"Cache cleared: 50 entries removed, 512MB freed",system_notification,llm,46
+"Cache cleared: 50 entries removed, 250MB freed",system_notification,bert,46
+File upload completed: quarterly.xlsx (512MB) by user admin,user_action,bert,59
+Client session expired after 5 minutes for client admin,user_action,regex,55
+Account locked: 20 unsuccessful login attempts for alice.smith,user_action,regex,62
+User admin logged in from IP 203.0.113.55,user_action,bert,41
+Account locked: 1500 failed login attempts for alice.smith,user_action,regex,58
+File upload failed: config.yaml exceeds 45MB limit,workflow_error,bert,50
+"API endpoint /v2/orders is obsolete, migrate to /v3/auth by Dec 2024",deprecation_warning,llm,68
+Account locked: 1500 failed login attempts for manager.ops,user_action,llm,58
+Memory usage: 75% of heap (7.1GB/16GB),system_notification,bert,38
+"Cache cleared: 20 entries removed, 100MB freed",system_notification,bert,46
+"Report format CSV will be discontinued, migrate to JSON by Jan 2025",deprecation_warning,bert,67
+Client session expired after 15 minutes for client temp.client,user_action,regex,62
+"API endpoint /v1/users is deprecated, migrate to /v2/users by Q2 2025",deprecation_warning,llm,69
+SSL certificate renewed for domain api.company.com,system_notification,regex,50
+Config option 'debug=true' will be removed in version 2.0,deprecation_warning,bert,57
+"Support ending for Safari 12 by Jan 2025, update requirements",deprecation_warning,bert,61
+File upload completed: data.csv (512MB) by user alice.smith,user_action,regex,59
+"Report format XML will be discontinued, migrate to JSON by Q2 2025",deprecation_warning,llm,66
+"API endpoint /v1/clients is deprecated, migrate to /v3/auth by Dec 2024",deprecation_warning,regex,71
+User preferences updated: SMS-only,user_action,regex,34
+Account locked: 50 failed login attempts for temp.user,user_action,regex,54
+File upload completed: config.yaml (100MB) by user temp.user,user_action,llm,60
+Document shared: quarterly.xlsx shared with finance-team@company.com,user_action,llm,68
+Load balancer health check passed - 5 nodes healthy,system_notification,bert,51
+Configuration file backup.zip reloaded successfully,system_notification,regex,51
+File upload failed: report.pdf exceeds 250MB limit,workflow_error,llm,50
+"API endpoint /metrics is deprecated, migrate to /v2/users by Dec 2024",deprecation_warning,llm,69
+Memory usage: 75% of heap (7.1GB/8GB),system_notification,llm,37
+Account locked: 20 unsuccessful login attempts for manager.ops,user_action,regex,62
+"SSL protocol TLSv1.1 is obsolete, upgrade to TLSv1.3 by Q2 2025",deprecation_warning,llm,63
+Client temp.client logged in from IP 192.168.1.100,user_action,regex,50
+User alice.smith created new project 'Q1-Financials',user_action,bert,52
+Account locked: 2500 was unsuccessful login attempts for temp.user,user_action,llm,66
+"API endpoint /auth/login is obsolete, migrate to /v3/auth by Dec 2024",deprecation_warning,llm,69
+API rate limit exceeded for client alpha-inc (1250 requests/minute),workflow_error,regex,67
+"Database driver postgres-9.x is deprecated, upgrade to 4.0",deprecation_warning,bert,58
+"Method calculateTax() deprecated since 4.0, use VATService instead",deprecation_warning,bert,66
+Database connection pool initialized with 5 connections,system_notification,regex,55
+File upload completed: report.pdf (100MB) by user alice.smith,user_action,bert,61
+Profile updated: client 12345 changed email to client@invalid-domain,user_action,regex,68
+Document shared: data.csv shared with finance-team@company.com,user_action,llm,62
+"Support ending for Internet Explorer by Q2 2025, update requirements",deprecation_warning,bert,68
+Database connection pool initialized with 1250 connections,system_notification,bert,58
+Memory usage: 45% of heap (6.2GB/8GB),system_notification,llm,37
+Memory usage: 95% of heap (6.2GB/8GB),system_notification,bert,37
+Account locked: 20 was unsuccessful login attempts for alice.smith,user_action,llm,66
+API rate limit exceeded for client xyz-corp (100 requests/minute),workflow_error,regex,65
+User session expired after 5 minutes for user alice.smith,user_action,regex,57
+Two-factor auth enabled for user admin,user_action,bert,38
+Request processed,unclassified,llm,17
+Account locked: 1250 failed login attempts for admin,user_action,regex,52
+Profile updated: user 67890 changed email to user@invalid-domain,user_action,bert,64
+File upload completed: quarterly.xlsx (250MB) by user john.doe,user_action,bert,62
+Account locked: 5 failed login attempts for manager.ops,user_action,bert,55
+Memory usage: 45% of heap (7.1GB/8GB),system_notification,llm,37
+"Method calculateTax() deprecated since 3.0, use VATService instead",deprecation_warning,regex,66
+API endpoint /v2/orders responding normally (120ms),system_notification,regex,51
+User temp.user logged in from IP {ip},user_action,bert,37
+File upload failed: config.yaml exceeds 512MB limit,workflow_error,regex,51
+File upload unsuccessful: quarterly.xlsx exceeds 100MB limit,workflow_error,regex,60
+API endpoint /v1/users responding normally (200ms),system_notification,bert,50
+Account locked: 1500 failed login attempts for manager.ops,user_action,llm,58
+User alice.smith logged in from IP {ip},user_action,llm,39
+"Method calculateTax() deprecated since 4.0, use TaxCalculationService instead",deprecation_warning,llm,77
+Action completed successfully,unclassified,regex,29
+"Cache cleared: 20 entries removed, 100MB freed",system_notification,llm,46
+Account locked: 1500 failed login attempts for admin,user_action,bert,52
+"API endpoint /v1/users is deprecated, migrate to /v2/users by Jan 2025",deprecation_warning,bert,70
+"API endpoint /v2/orders is deprecated, migrate to /v3/auth by Dec 2024",deprecation_warning,bert,70
+"Database driver mysql-connector-5.x is deprecated, upgrade to 3.0",deprecation_warning,regex,65
+User session expired after 5 minutes for user john.doe,user_action,llm,54
+"Db driver postgres-9.x is deprecated, upgrade to 3.0",deprecation_warning,bert,52
+"API endpoint /v1/users is deprecated, migrate to /v2/users by Q2 2025",deprecation_warning,llm,69
+Account locked: 5 failed login attempts for manager.ops,user_action,llm,55
+File upload completed: config.yaml (250MB) by user temp.user,user_action,bert,60
+User alice.smith created new project 'Q4-Analytics',user_action,bert,51
+"API endpoint /v1/clients is deprecated, migrate to /v2/clients by Jan 2025",deprecation_warning,regex,74
+"API endpoint /v2/orders is deprecated, migrate to /v2/users by Dec 2024",deprecation_warning,regex,71
+Queue processing failed: invalid CVV,workflow_error,bert,36
+Anomalous network traffic detected: investigating pattern,unclassified,llm,57
+Memory usage: 45% of heap (6.2GB/16GB),system_notification,llm,38
+"API endpoint /metrics is deprecated, migrate to /v2/users by Q2 2025",deprecation_warning,regex,68
+Credit card authorization declined: card expired,workflow_error,bert,48
+"API endpoint /metrics is deprecated, migrate to /v3/auth by Jan 2025",deprecation_warning,bert,68
+File upload completed: backup.zip (100MB) by user temp.user,user_action,llm,59
+Load balancer health check passed - 20 nodes healthy,system_notification,llm,52
+Configuration file quarterly.xlsx reloaded successfully,system_notification,llm,55
+"SSL protocol TLSv1.2 is deprecated, upgrade to TLSv1.3 by Jan 2025",deprecation_warning,llm,66
+File upload failed: config.yaml exceeds 100MB limit,workflow_error,bert,51
+Document shared: data.csv shared with finance-team@company.com,user_action,bert,62
+Memory usage: 75% of heap (4.2GB/8GB),system_notification,llm,37
+Account locked: 50 failed login attempts for admin,user_action,bert,50
+Account locked: 2500 was unsuccessful login attempts for temp.user,user_action,llm,66
+User admin created new project 'HR-Dashboard',user_action,bert,45
+"Support ending for Internet Explorer by Dec 2024, update requirements",deprecation_warning,regex,69
+"Cache cleared: 2500 entries removed, 250MB freed",system_notification,bert,48
+"Method calculateTax() deprecated since 2.0, use VATService instead",deprecation_warning,bert,66
+File upload unsuccessful: backup.zip exceeds 1024MB limit,workflow_error,regex,57
+Legacy authentication module will be sunset in Q4 2024,deprecation_warning,llm,54
+User session expired after 45 minutes for user temp.user,user_action,regex,56
+"Cache cleared: 100 entries removed, 1024MB freed",system_notification,bert,48
+User john.doe logged in from IP 203.0.113.55,user_action,regex,44
+"SSL protocol TLSv1.2 is obsolete, upgrade to TLSv1.3 by Dec 2024",deprecation_warning,llm,64
+Configuration option 'debug=true' will be removed in version 3.0,deprecation_warning,llm,64
+Email delivery failed: invalid recipient address client@invalid-domain,workflow_error,regex,70
+"Method calculateVAT() deprecated since 2.0, use VATService alternatively",deprecation_warning,llm,72
+API endpoint /metrics responding normally (200ms),system_notification,regex,49
+"API endpoint /v1/users is deprecated, migrate to /v3/auth by Dec 2024",deprecation_warning,bert,69
+Load balancer health check passed - 2500 nodes healthy,system_notification,llm,54
+Memory usage: 60% of heap (7.1GB/8GB),system_notification,llm,37
+Load balancer health check passed - 1500 nodes healthy,system_notification,bert,54
+File upload was unsuccessful: report.pdf exceeds 45MB limit,workflow_error,llm,59
+Document shared: quarterly.xlsx shared with team-leads@company.com,user_action,bert,66
+User preferences updated: email-only,user_action,regex,36
+Memory usage: 75% of heap (7.1GB/8GB),system_notification,regex,37
+Configuration file report.pdf reloaded completed successfullyly,system_notification,llm,63
+"Method calculateVAT() deprecated since 2.0, use VATService instead",deprecation_warning,llm,66
+User session expired after 5 minutes for user manager.ops,user_action,bert,57
+Db connection pool initialized with 10 connections,system_notification,bert,50
+"Cache cleared: 1500 entries removed, 100MB freed",system_notification,bert,48
+Account locked: 1250 failed login attempts for manager.ops,user_action,bert,58
+"Method calculateVAT() obsolete since 3.0, use TaxCalculationService instead",deprecation_warning,llm,75
+"Cache cleared: 5 entries removed, 1024MB freed",system_notification,bert,46
+Database conn timeout after 15 seconds,workflow_error,bert,38
+"Report format XML will be discontinued, migrate to Parquet by Jan 2025",deprecation_warning,bert,70
+Document shared: config.yaml shared with team-leads@company.com,user_action,regex,63
+File upload completed: quarterly.xlsx (45MB) by client john.doe,user_action,regex,63
+File upload completed: quarterly.xlsx (512MB) by user temp.user,user_action,regex,63
+Client temp.client logged in from IP 203.0.113.55,user_action,regex,49
+"API endpoint /v1/clients is deprecated, migrate to /v3/auth by Q2 2025",deprecation_warning,regex,70
+"Method calculateVAT() obsolete since 3.0, use TaxCalculationService instead",deprecation_warning,llm,75
+Memory usage: 60% of heap (7.1GB/8GB),system_notification,llm,37
+Payment processing failed: insufficient funds for order #12345,workflow_error,llm,62
+Config option 'debug=true' will be removed in version 4.0,deprecation_warning,bert,57
+File upload completed: config.yaml (45MB) by user john.doe,user_action,bert,58
+"Cache cleared: 100 entries removed, 1024MB freed",system_notification,bert,48
+File upload completed: report.pdf (1024MB) by user temp.user,user_action,bert,60
+File upload completed: config.yaml (45MB) by user john.doe,user_action,bert,58
+File upload was unsuccessful: quarterly.xlsx exceeds 512MB limit,workflow_error,llm,64
+Payment processing failed: insufficient funds for order #54321,workflow_error,llm,62
+"Method calculateVAT() deprecated since 3.0, use TaxCalculationService instead",deprecation_warning,regex,77
+API rate limit exceeded for client beta-ltd (5 requests/minute),workflow_error,llm,63
+User alice.smith created new project 'HR-Dashboard',user_action,bert,51
+ETL pipeline completed: 2500 records processed in {minutes} minutes,system_notification,bert,67
+Password changed successfully for user ID 12847,user_action,regex,47
+File upload completed: quarterly.xlsx (250MB) by user temp.user,user_action,bert,63
+Legacy authentication module will be sunset in Q2 2024,deprecation_warning,llm,54
+Database connection pool initialized with 1250 connections,system_notification,bert,58
+Profile updated: user 78934 changed email to test@unknown.com,user_action,llm,61
+File upload failed: backup.zip exceeds 45MB limit,workflow_error,bert,49
+Account locked: 1500 failed login attempts for admin,user_action,llm,52
+Legacy authentication module will be sunset in Q3 2025,deprecation_warning,llm,54
+Memory usage: 45% of heap (7.1GB/8GB),system_notification,regex,37
+Service ready,unclassified,llm,13
+Two-factor authentication enabled for user temp.user,user_action,llm,52
+Memory usage: 60% of heap (7.1GB/16GB),system_notification,bert,38
+API rate limit exceeded for client beta-ltd (1250 requests/minute),workflow_error,llm,66
+Account locked: 100 failed login attempts for temp.client,user_action,regex,57
+Password changed completed for user ID 78934,user_action,regex,44
+Account locked: 10 failed login attempts for alice.smith,user_action,bert,56
+User session expired after 45 minutes for user temp.user,user_action,regex,56
+"API endpoint /v1/users is obsolete, migrate to /v3/auth by Jan 2025",deprecation_warning,llm,67
+File upload completed: backup.zip (100MB) by user manager.ops,user_action,regex,61
+API rate limit exceeded for client alpha-inc (50 requests/minute),workflow_error,llm,65
+"Report format XML will be discontinued, migrate to JSON by Dec 2024",deprecation_warning,bert,67
+Document validation unsuccessful: missing required field customer_id,workflow_error,regex,68
+Legacy authentication module will be sunset in Q2 2025,deprecation_warning,bert,54
+Client session expired after {minutes} minutes for client john.doe,user_action,regex,66
+"Support ending for Internet Explorer by Dec 2024, update requirements",deprecation_warning,bert,69
+"API endpoint /v2/orders is deprecated, migrate to /v2/users by Jan 2025",deprecation_warning,llm,71
+User manager.ops created new project 'Q1-Financials',user_action,bert,52
+Legacy authentication module will be sunset in Q2 2025,deprecation_warning,bert,54
+Password changed completed successfullyly for user ID 12847,user_action,llm,59
+API endpoint /v1/users responding normally (120ms),system_notification,llm,50
+ETL pipeline completed: 20 records processed in {minutes} minutes,system_notification,llm,65
+Document validation was unsuccessful: missing required field address,workflow_error,llm,68
+"Support ending for Internet Explorer by Dec 2024, update requirements",deprecation_warning,llm,69
+"API endpoint /v2/orders is deprecated, migrate to /v2/users by Q2 2025",deprecation_warning,regex,70
+"API endpoint /auth/login is deprecated, migrate to /v3/auth by Q2 2025",deprecation_warning,llm,70
+Legacy authentication module will be sunset in Q2 2025,deprecation_warning,bert,54
+"Support ending for Internet Explorer by Q2 2025, update requirements",deprecation_warning,bert,68
+File upload completed: quarterly.xlsx (45MB) by user manager.ops,user_action,llm,64
+"Cache cleared: 50 entries removed, 45MB freed",system_notification,llm,45
+Document shared: config.yaml shared with finance-team@company.com,user_action,bert,65
+Account locked: 20 failed login attempts for alice.smith,user_action,llm,56
+File upload completed: quarterly.xlsx (45MB) by user admin,user_action,bert,58
+File upload completed: report.pdf (100MB) by user admin,user_action,llm,55
+"Method calculateVAT() deprecated since 3.0, use TaxCalculationService instead",deprecation_warning,llm,77
+"SSL protocol TLSv1.1 is deprecated, upgrade to TLSv1.3 by Q2 2025",deprecation_warning,llm,65
+User admin created new project 'Q4-Analytics',user_action,regex,45
+Application started successfully on port 443,system_notification,llm,44
+File upload was unsuccessful: data.csv exceeds 250MB limit,workflow_error,llm,58
+Memory usage: 95% of heap (4.2GB/8GB),system_notification,llm,37
+"Support ending for Internet Explorer by Q2 2025, update requirements",deprecation_warning,llm,68
+API rate limit exceeded for client beta-ltd (50 requests/minute),workflow_error,regex,64
+"API endpoint /auth/login is deprecated, migrate to /v3/auth by Dec 2024",deprecation_warning,regex,71
+API rate limit exceeded: 1000 requests per minute,system_notification,bert,49
+API rate limit exceeded for client xyz-corp (20 requests/minute),workflow_error,bert,64
+"Cache cleared: 5 entries removed, 250MB freed",system_notification,bert,45
+Configuration option 'legacy_mode=true' will be removed in version 3.0,deprecation_warning,llm,70
+"SSL protocol TLSv1.1 is deprecated, upgrade to TLSv1.3 by Q2 2025",deprecation_warning,regex,65
+Queue processing failed: invalid CVV,workflow_error,llm,36
+Email delivery unsuccessful: invalid recipient address test@unknown.com,workflow_error,regex,71
+File upload completed: quarterly.xlsx (512MB) by user admin,user_action,bert,59
+File upload completed: data.csv (250MB) by client manager.ops,user_action,regex,61
+File upload completed: quarterly.xlsx (45MB) by client alice.smith,user_action,regex,66
+"Cache cleared: 100 entries removed, 512MB freed",system_notification,bert,47
+User session expired after 45 minutes for user temp.user,user_action,bert,56
+File upload completed: backup.zip (100MB) by user john.doe,user_action,bert,58
+Two-factor authentication enabled for user john.doe,user_action,llm,51
+"Cache cleared: 1250 entries removed, 250MB freed",system_notification,bert,48
+File upload completed: report.pdf (250MB) by client manager.ops,user_action,regex,63
+ETL pipeline completed: 100 records processed in {minutes} minutes,system_notification,llm,66
+File upload completed: report.pdf (45MB) by user temp.user,user_action,regex,58
+Legacy auth module will be sunset in Q1 2024,deprecation_warning,bert,44
+File upload failed: backup.zip exceeds 512MB limit,workflow_error,regex,50
+User alice.smith logged in from IP 192.168.1.100,user_action,regex,48
+Profile updated: user 12847 changed email to test@unknown.com,user_action,bert,61
+File upload failed: data.csv exceeds 45MB limit,workflow_error,bert,47
+API endpoint /metrics responding normally (250ms),system_notification,regex,49
+"Support ending for Internet Explorer by Dec 2024, update requirements",deprecation_warning,bert,69
+"Db driver mysql-connector-5.x is deprecated, upgrade to 4.0",deprecation_warning,bert,59
+Database connection pool initialized with 1250 connections,system_notification,bert,58
+File upload completed: quarterly.xlsx (512MB) by user alice.smith,user_action,bert,65
+User session expired after 15 minutes for user alice.smith,user_action,bert,58
+API rate limit exceeded for client alpha-inc (10 requests/minute),workflow_error,regex,65
+Two-factor authentication enabled for user manager.ops,user_action,llm,54
+"Method calculateVAT() deprecated since 3.0, use VATService alternatively",deprecation_warning,llm,72
+File upload completed: backup.zip (1024MB) by user manager.ops,user_action,bert,62
+File upload completed: data.csv (512MB) by client temp.client,user_action,regex,61
+File upload completed: quarterly.xlsx (45MB) by client john.doe,user_action,regex,63
+Credit card authorization declined: limit exceeded,workflow_error,llm,50
+API rate limit exceeded for client xyz-corp (2500 requests/minute),workflow_error,llm,66
+"API endpoint /auth/login is deprecated, migrate to /v3/auth by Dec 2024",deprecation_warning,regex,71
+Configuration option 'debug=true' will be removed in version 4.0,deprecation_warning,llm,64
+User manager.ops logged in from IP 203.0.113.55,user_action,bert,47
+Document shared: config.yaml shared with team-leads@company.com,user_action,llm,63
+User session expired after {minutes} minutes for user manager.ops,user_action,regex,65
+App started successfully on port 3000,system_notification,bert,37
+File upload completed: report.pdf (250MB) by user john.doe,user_action,bert,58
+API endpoint /auth/login responding normally (200ms),system_notification,bert,52
+Document validation failed: missing required field customer_id,workflow_error,llm,62
+File upload completed: report.pdf (250MB) by user temp.user,user_action,llm,59
+User manager.ops logged in from IP 203.0.113.55,user_action,bert,47
+File upload completed: data.csv (45MB) by user temp.user,user_action,bert,56
+File upload failed: backup.zip exceeds 1024MB limit,workflow_error,bert,51
+Document validation failed: missing required field customer_id,workflow_error,bert,62
+Document shared: backup.zip shared with finance-team@company.com,user_action,bert,64
+Account locked: 1500 was unsuccessful login attempts for admin,user_action,llm,62
+ETL pipeline completed: 50 records processed in {minutes} minutes,system_notification,bert,65
+"Report format XML will be discontinued, migrate to JSON by Jan 2025",deprecation_warning,bert,67
+File upload unsuccessful: quarterly.xlsx exceeds 1024MB limit,workflow_error,regex,61
+"Method calculateVAT() deprecated since 4.0, use VATService alternatively",deprecation_warning,llm,72
+API endpoint /v2/orders responding normally (250ms),system_notification,regex,51
+"Cache cleared: 100 entries removed, 250MB freed",system_notification,bert,47
+File upload completed: quarterly.xlsx (45MB) by user alice.smith,user_action,regex,64
+File upload completed: data.csv (45MB) by user john.doe,user_action,regex,55
+User temp.user created new project 'Q1-Financials',user_action,llm,50
+Legacy authentication module will be sunset in Q1 2025,deprecation_warning,llm,54
+Memory usage: 45% of heap (6.2GB/16GB),system_notification,bert,38
+ETL pipeline completed: 5 records processed in {minutes} minutes,system_notification,llm,64
+API endpoint /v2/orders responding normally (120ms),system_notification,bert,51
+File upload failed: data.csv exceeds 250MB limit,workflow_error,llm,48
+ETL pipeline completed: 100 records processed in 45 minutes,system_notification,bert,59
+Account locked: 20 was unsuccessful login attempts for john.doe,user_action,llm,63
+Database conn timeout after 15 seconds,workflow_error,bert,38
+Account locked: 1500 failed login attempts for manager.ops,user_action,bert,58
+"SSL protocol TLSv1.2 is deprecated, upgrade to TLSv1.3 by Jan 2025",deprecation_warning,llm,66
+"Cache cleared: 5 entries removed, 1024MB freed",system_notification,llm,46
+File upload completed: report.pdf (45MB) by user temp.user,user_action,regex,58
+Profile updated: user 67890 changed email to user@invalid-domain,user_action,llm,64
+Configuration option 'debug=true' will be removed in version 2.0,deprecation_warning,bert,64
+Memory usage: 82% of heap (7.1GB/16GB),system_notification,bert,38
+Legacy authentication module will be sunset in Q1 2024,deprecation_warning,regex,54
+User alice.smith created new project 'Q4-Analytics',user_action,bert,51
+File upload completed: data.csv (250MB) by user temp.user,user_action,bert,57
+Email delivery failed: invalid recipient address user@invalid-domain,workflow_error,bert,68
+Memory usage: 75% of heap (7.1GB/8GB),system_notification,llm,37
+User manager.ops created new project 'HR-Dashboard',user_action,regex,51
+API rate limit exceeded for client xyz-corp (1500 requests/minute),workflow_error,bert,66
+User session expired after 60 minutes for user admin,user_action,regex,52
+Password changed completed successfullyly for user ID 67890,user_action,llm,59
+Client session expired after 60 minutes for client manager.ops,user_action,regex,62
+"Function calculateVAT() deprecated since 2.0, use VATService instead",deprecation_warning,llm,68
+Two-factor authentication enabled for user john.doe,user_action,regex,51
+"Report format XML will be discontinued, migrate to JSON by Q2 2025",deprecation_warning,llm,66
+API endpoint /v2/orders responding normally (250ms),system_notification,bert,51
+File upload completed: report.pdf (512MB) by client john.doe,user_action,regex,60
+Account locked: 1250 failed login attempts for admin,user_action,regex,52
+Configuration option 'debug=true' will be removed in version 4.0,deprecation_warning,bert,64
+File upload completed: backup.zip (512MB) by user john.doe,user_action,bert,58
+Account locked: 50 failed login attempts for manager.ops,user_action,bert,56
+Db connection pool initialized with 5 connections,system_notification,bert,49
+File upload completed: quarterly.xlsx (250MB) by user admin,user_action,regex,59
+ETL pipeline completed: 1250 records processed in 45 minutes,system_notification,regex,60
+"SSL protocol TLSv1.1 is obsolete, upgrade to TLSv1.3 by Jan 2025",deprecation_warning,llm,64
+File upload completed: quarterly.xlsx (100MB) by user admin,user_action,bert,59
+User manager.ops logged in from IP 10.0.0.45,user_action,llm,44
+"Method calculateVAT() deprecated since 2.0, use TaxCalculationService instead",deprecation_warning,regex,77
+Account locked: 2500 failed login attempts for manager.ops,user_action,bert,58
+Queue processing failed: limit exceeded,workflow_error,bert,39
+Account locked: 1500 was unsuccessful login attempts for admin,user_action,llm,62
+"Function calculateVAT() deprecated since 2.0, use TaxCalculationService instead",deprecation_warning,llm,79
+Maintenance window scheduled,unclassified,llm,28
+Account locked: 100 failed login attempts for manager.ops,user_action,bert,57
+Configuration file data.csv reloaded completed successfullyly,system_notification,llm,61
+Password changed successfully for user ID 67890,user_action,llm,47
+"Cache cleared: 10 entries removed, 250MB freed",system_notification,bert,46
+ETL pipeline completed: 10 records processed in {minutes} minutes,system_notification,bert,65
+Account locked: 2500 failed login attempts for temp.user,user_action,regex,56
+ETL pipeline completed: 5 records processed in 45 minutes,system_notification,bert,57
+File upload was unsuccessful: backup.zip exceeds 512MB limit,workflow_error,llm,60
+"API endpoint /v1/users is deprecated, migrate to /v3/auth by Q2 2025",deprecation_warning,bert,68
+"API endpoint /auth/login is deprecated, migrate to /v2/clients by Jan 2025",deprecation_warning,regex,74
+"Report format CSV will be discontinued, migrate to JSON by Dec 2024",deprecation_warning,regex,67
+API rate limit exceeded for client xyz-corp (50 requests/minute),workflow_error,bert,64
+Account locked: 10 failed login attempts for temp.user,user_action,llm,54
+Account locked: 20 failed login attempts for temp.user,user_action,bert,54
+Client manager.ops created new project 'HR-Dashboard',user_action,regex,53
+File upload completed: data.csv (512MB) by user manager.ops,user_action,bert,59
+Password changed completed successfullyly for user ID 12847,user_action,llm,59
+API endpoint /v2/orders responding normally (145ms),system_notification,regex,51
+API rate limit exceeded for client xyz-corp (20 requests/minute),workflow_error,bert,64
+Operation finished,unclassified,llm,18
+User admin logged in from IP 10.0.0.45,user_action,llm,38
+"Database driver postgres-9.x is obsolete, upgrade to 2.0",deprecation_warning,llm,56
+Document shared: quarterly.xlsx shared with team-leads@company.com,user_action,regex,66
+Client john.doe created new project 'Q1-Financials',user_action,regex,51
+File upload unsuccessful: backup.zip exceeds 100MB limit,workflow_error,regex,56
+File upload completed: config.yaml (512MB) by user alice.smith,user_action,llm,62
+File upload completed: backup.zip (100MB) by user temp.user,user_action,regex,59
+File upload failed: backup.zip exceeds 45MB limit,workflow_error,llm,49
+User manager.ops logged in from IP 192.168.1.100,user_action,bert,48
+Load balancer health check passed - 2500 nodes healthy,system_notification,regex,54
+API rate limit exceeded for client xyz-corp (100 requests/minute),workflow_error,bert,65
+Queue processing failed: card expired,workflow_error,bert,37
+Profile picture updated: 2.1MB JPEG uploaded,user_action,regex,44
+"Method calculateVAT() deprecated since 3.0, use VATService instead",deprecation_warning,bert,66
+Application started successfully on port 443,system_notification,bert,44
+User john.doe logged in from IP 203.0.113.55,user_action,bert,44
+File upload completed: data.csv (1024MB) by user john.doe,user_action,llm,57
+Document validation unsuccessful: missing required field email,workflow_error,regex,62
+API rate limit exceeded for client alpha-inc (1500 requests/minute),workflow_error,llm,67
+Password changed successfully for client ID 67890,user_action,regex,49
+File upload completed: report.pdf (250MB) by user temp.user,user_action,llm,59
+Profile updated: user 12345 changed email to user@invalid-domain,user_action,bert,64
+Memory usage: 82% of heap (6.2GB/16GB),system_notification,regex,38
+Document shared: backup.zip shared with finance-team@company.com,user_action,bert,64
+File upload completed: backup.zip (45MB) by user admin,user_action,bert,54
+Profile updated: user 78934 changed email to test@unknown.com,user_action,llm,61
+API rate limit exceeded for client beta-ltd (20 requests/minute),workflow_error,llm,64
+"Method calculateTax() deprecated since 2.0, use VATService instead",deprecation_warning,llm,66
+File upload failed: backup.zip exceeds 100MB limit,workflow_error,bert,50
+"Cache cleared: 20 entries removed, 1024MB freed",system_notification,bert,47
+File upload failed: quarterly.xlsx exceeds 45MB limit,workflow_error,llm,53
+"Report format CSV will be discontinued, migrate to JSON by Dec 2024",deprecation_warning,llm,67
+Account locked: 20 failed login attempts for manager.ops,user_action,bert,56
+User session expired after {minutes} minutes for user manager.ops,user_action,bert,65
+Old file storage API deprecated: migrate to new template engine,deprecation_warning,regex,63
+File upload completed: data.csv (1024MB) by user john.doe,user_action,bert,57
+Document shared: backup.zip shared with finance-team@company.com,user_action,bert,64
+"Database driver postgres-9.x is deprecated, upgrade to 4.0",deprecation_warning,llm,58
+API endpoint /v1/users responding normally (200ms),system_notification,bert,50
+Account locked: 50 failed login attempts for alice.smith,user_action,regex,56
+Client session expired after 15 minutes for client john.doe,user_action,regex,59
+User manager.ops logged in from IP 192.168.1.100,user_action,regex,48
+Account locked: 1500 failed login attempts for manager.ops,user_action,llm,58
+"Database driver postgres-9.x is obsolete, upgrade to 2.0",deprecation_warning,llm,56
+Account locked: 50 unsuccessful login attempts for manager.ops,user_action,regex,62
+Configuration file report.pdf reloaded completed successfullyly,system_notification,llm,63
+User session expired after 60 minutes for user alice.smith,user_action,regex,58
+File upload completed: data.csv (45MB) by user temp.user,user_action,bert,56
+ETL pipeline completed: 1250 records processed in {minutes} minutes,system_notification,bert,67
+User temp.user logged in from IP {ip},user_action,bert,37
+User john.doe created new project 'Q1-Financials',user_action,llm,49
+User session expired after 15 minutes for user alice.smith,user_action,bert,58
+Payment processing was unsuccessful: insufficient funds for order #12345,workflow_error,llm,72
+Document shared: data.csv shared with team-leads@company.com,user_action,bert,60
+File upload completed: report.pdf (250MB) by user alice.smith,user_action,bert,61
+Account locked: 100 unsuccessful login attempts for manager.ops,user_action,regex,63
+User admin logged in from IP 10.0.0.45,user_action,llm,38
+User session expired after 45 minutes for user john.doe,user_action,regex,55
+API endpoint /auth/login responding normally (145ms),system_notification,llm,52
+Memory usage: 60% of heap (7.1GB/8GB),system_notification,llm,37
+Account locked: 1500 failed login attempts for temp.client,user_action,regex,58
+"API endpoint /v1/users is deprecated, migrate to /v3/auth by Dec 2024",deprecation_warning,llm,69
+User alice.smith created new project 'Q4-Analytics',user_action,llm,51
+Memory usage: 60% of heap (4.2GB/16GB),system_notification,bert,38
+Account locked: 100 failed login attempts for manager.ops,user_action,regex,57
+Database connection pool initialized with 2500 connections,system_notification,bert,58
+Client session expired after {minutes} minutes for client alice.smith,user_action,regex,69
+"Cache cleared: 100 entries removed, 250MB freed",system_notification,bert,47
+File upload completed: backup.zip (100MB) by user manager.ops,user_action,regex,61
+Database conn pool initialized with 20 conns,system_notification,bert,44
+"Cache cleared: 5 entries removed, 512MB freed",system_notification,llm,45
+Client alice.smith created new project 'Q4-Analytics',user_action,regex,53
+Profile updated: user 12345 changed email to test@unknown.com,user_action,llm,61
+Account locked: 2500 failed login attempts for manager.ops,user_action,bert,58
+User admin logged in from IP {ip},user_action,regex,33
+Account locked: 10 failed login attempts for john.doe,user_action,llm,53
+Memory usage: 82% of heap (7.1GB/16GB),system_notification,regex,38
+Application started successfully on port 8080,system_notification,regex,45
+User temp.user logged in from IP 10.0.0.45,user_action,bert,42
+"Method calculateTax() deprecated since 2.0, use VATService instead",deprecation_warning,regex,66
+Profile updated: user 12847 changed email to user@invalid-domain,user_action,bert,64
+Profile updated: user 67890 changed email to user@invalid-domain,user_action,llm,64
+"Cache cleared: 2500 entries removed, 45MB freed",system_notification,regex,47
+"API endpoint /v2/orders is deprecated, migrate to /v3/auth by Dec 2024",deprecation_warning,bert,70
+Configuration file report.pdf reloaded successfully,system_notification,bert,51
+User session expired after 15 minutes for user admin,user_action,regex,52
+Password changed completed for user ID 12345,user_action,regex,44
+"Cache cleared: 1250 entries removed, 1024MB freed",system_notification,bert,49
+File upload failed: report.pdf exceeds 250MB limit,workflow_error,bert,50
+ETL pipeline completed: 1250 records processed in 15 minutes,system_notification,regex,60
+File upload failed: report.pdf exceeds 100MB limit,workflow_error,llm,50
+User session expired after 15 minutes for user temp.user,user_action,bert,56
+User admin created new project 'Q1-Financials',user_action,bert,46
+API rate limit exceeded for client beta-ltd (1500 requests/minute),workflow_error,llm,66
+Status: OK,unclassified,regex,10
+API endpoint /v2/orders responding normally (250ms),system_notification,regex,51
+File upload completed: backup.zip (512MB) by user john.doe,user_action,regex,58
+API rate limit exceeded for client xyz-corp (100 requests/minute),workflow_error,regex,65
+Database conn timeout after 15 seconds,workflow_error,bert,38
+Memory usage: 60% of heap (6.2GB/16GB),system_notification,llm,38
+Config file data.csv reloaded successfully,system_notification,bert,42
+API endpoint /metrics responding normally (200ms),system_notification,bert,49
+Profile updated: user 12847 changed email to user@invalid-domain,user_action,llm,64
+"Method calculateVAT() obsolete since 3.0, use VATService instead",deprecation_warning,llm,64
+Client temp.client logged in from IP {ip},user_action,regex,41
+User session expired after 45 minutes for user temp.user,user_action,llm,56
+"API endpoint /auth/login is deprecated, migrate to /v2/users by Q2 2025",deprecation_warning,bert,71
+User session expired after {minutes} minutes for user manager.ops,user_action,llm,65
+User session expired after 5 minutes for user temp.user,user_action,bert,55
+API rate limit exceeded for client alpha-inc (10 requests/minute),workflow_error,bert,65
+ETL pipeline completed: 1500 records processed in {minutes} minutes,system_notification,bert,67
+Queue processing failed: limit exceeded,workflow_error,llm,39
+Profile updated: client 67890 changed email to test@unknown.com,user_action,regex,63
+"Method calculateVAT() deprecated since 4.0, use TaxCalculationService instead",deprecation_warning,llm,77
+Memory usage: 95% of heap (6.2GB/8GB),system_notification,regex,37
+Memory usage: 45% of heap (6.2GB/16GB),system_notification,llm,38
+Document shared: backup.zip shared with team-leads@company.com,user_action,bert,62
+User session expired after 5 minutes for user temp.user,user_action,regex,55
+Document validation failed: missing required field email,workflow_error,bert,56
+File upload completed: config.yaml (1024MB) by client manager.ops,user_action,regex,65
+Memory usage: 45% of heap (6.2GB/16GB),system_notification,regex,38
+Function getUserById() marked deprecated: use UserService.findById(),deprecation_warning,bert,68
+File upload completed: config.yaml (45MB) by user temp.user,user_action,regex,59
+"Cache cleared: 1250 entries removed, 1024MB freed",system_notification,llm,49
+Password changed completed successfullyly for user ID 67890,user_action,llm,59
+"Database driver postgres-9.x is obsolete, upgrade to 3.0",deprecation_warning,llm,56
+File upload completed: backup.zip (45MB) by user john.doe,user_action,llm,57
+Configuration file data.csv reloaded successfully,system_notification,bert,49
+Scheduled backup completed at 2025-09-14 02:00:00,system_notification,bert,49
+File upload completed: quarterly.xlsx (45MB) by user manager.ops,user_action,bert,64
+"Cache cleared: 2500 entries removed, 250MB freed",system_notification,bert,48
+ETL pipeline completed: 1250 records processed in {minutes} minutes,system_notification,bert,67
+"Report format CSV will be discontinued, migrate to Parquet by Q2 2025",deprecation_warning,regex,69
+User session expired after {minutes} minutes for user temp.user,user_action,llm,63
+File upload was unsuccessful: config.yaml exceeds 512MB limit,workflow_error,llm,61
+Application started completed successfullyly on port 8080,system_notification,llm,57
+Multi-factor authentication bypass attempted: security alert,user_action,llm,60
+Document validation failed: missing required field customer_id,workflow_error,regex,62
+User alice.smith created new project 'Q1-Financials',user_action,bert,52
+"Cache cleared: 2500 entries removed, 250MB freed",system_notification,bert,48
+File upload completed: report.pdf (1024MB) by client temp.client,user_action,regex,64
+Account locked: 2500 failed login attempts for alice.smith,user_action,llm,58
+Configuration file backup.zip reloaded successfully,system_notification,regex,51
+"API endpoint /v1/clients is deprecated, migrate to /v2/clients by Jan 2025",deprecation_warning,regex,74
+"API endpoint /metrics is deprecated, migrate to /v2/users by Q2 2025",deprecation_warning,regex,68
+"Cache cleared: 10 entries removed, 512MB freed",system_notification,bert,46
+Account locked: 50 failed login attempts for temp.user,user_action,regex,54
+File upload failed: data.csv exceeds 100MB limit,workflow_error,bert,48
+API endpoint /v2/orders responding normally (145ms),system_notification,bert,51
+ETL pipeline completed: 20 records processed in {minutes} minutes,system_notification,llm,65
+SSL certificate renewed for domain service.domain.net,system_notification,llm,53
+Load balancer health check passed - 1500 nodes healthy,system_notification,llm,54
+File upload completed: quarterly.xlsx (45MB) by user manager.ops,user_action,llm,64
+"Report format XML will be discontinued, migrate to Parquet by Dec 2024",deprecation_warning,bert,70
+User alice.smith created new project 'Q4-Analytics',user_action,llm,51
+User admin created new project 'Q1-Financials',user_action,llm,46
+File upload failed: backup.zip exceeds 45MB limit,workflow_error,bert,49
+"API endpoint /v1/users is deprecated, migrate to /v3/auth by Q2 2025",deprecation_warning,bert,68
+File upload completed: report.pdf (100MB) by user admin,user_action,llm,55
+Config option 'debug=true' will be removed in version 4.0,deprecation_warning,bert,57
+"Cache cleared: 1500 entries removed, 1024MB freed",system_notification,regex,49
+"API endpoint /v2/orders is deprecated, migrate to /v3/auth by Dec 2024",deprecation_warning,regex,70
+"Method calculateTax() obsolete since 4.0, use TaxCalculationService instead",deprecation_warning,llm,75
+Account locked: 50 failed login attempts for temp.client,user_action,regex,56
+Client session expired after {minutes} minutes for client alice.smith,user_action,regex,69
+File upload completed: backup.zip (250MB) by user temp.user,user_action,bert,59
+Service timeout: authentication unreachable,workflow_error,regex,43
+SSL certificate expires in 30 days: auto-renewal scheduled,system_notification,llm,58
+Database connection timeout after 30 seconds,workflow_error,bert,44
+Legacy auth module will be sunset in Q3 2024,deprecation_warning,bert,44
+Task done,unclassified,llm,9
+Account locked: 100 was unsuccessful login attempts for manager.ops,user_action,llm,67
+"Method calculateTax() obsolete since 3.0, use VATService instead",deprecation_warning,llm,64
+Database connection pool initialized with 5 connections,system_notification,bert,55
+File upload completed: quarterly.xlsx (1024MB) by user admin,user_action,bert,60
+File upload completed: data.csv (100MB) by user john.doe,user_action,bert,56
+File upload completed: quarterly.xlsx (45MB) by client manager.ops,user_action,regex,66
+Account locked: 5 failed login attempts for temp.user,user_action,bert,53
+Legacy authentication module will be sunset in Q2 2025,deprecation_warning,bert,54
+API rate limit exceeded for client alpha-inc (10 requests/minute),workflow_error,llm,65
+Account locked: 50 failed login attempts for manager.ops,user_action,regex,56
+ETL pipeline completed: 100 records processed in 60 minutes,system_notification,regex,59
+Database conn pool initialized with 100 conns,system_notification,bert,45
+Account locked: 20 failed login attempts for manager.ops,user_action,llm,56
+"Database driver postgres-9.x is deprecated, upgrade to 4.0",deprecation_warning,regex,58
+API rate limit exceeded for client xyz-corp (5 requests/minute),workflow_error,llm,63
+"Cache cleared: 100 entries removed, 100MB freed",system_notification,regex,47
+File upload completed: data.csv (100MB) by user admin,user_action,bert,53
+Memory usage: 95% of heap (6.2GB/16GB),system_notification,bert,38
+"API endpoint /auth/login is obsolete, migrate to /v2/users by Jan 2025",deprecation_warning,llm,70
+Database conn pool initialized with 2500 conns,system_notification,bert,46
+Account locked: 20 failed login attempts for temp.user,user_action,bert,54
+Password changed successfully for user ID 12345,user_action,llm,47
+Configuration file report.pdf reloaded completed,system_notification,regex,48
+"Cache cleared: 50 entries removed, 45MB freed",system_notification,bert,45
+Memory usage: 95% of heap (4.2GB/16GB),system_notification,regex,38
+File upload completed: report.pdf (512MB) by client admin,user_action,regex,57
+API rate limit exceeded for client xyz-corp (2500 requests/minute),workflow_error,regex,66
+"SSL protocol TLSv1.2 is deprecated, upgrade to TLSv1.3 by Jan 2025",deprecation_warning,bert,66
+Maintenance window scheduled,unclassified,llm,28
+Client session expired after 45 minutes for client alice.smith,user_action,regex,62
+Document validation unsuccessful: missing required field customer_id,workflow_error,regex,68
+"Method calculateVAT() deprecated since 2.0, use TaxCalculationService instead",deprecation_warning,regex,77
+Update available,unclassified,llm,16
+"Method calculateTax() deprecated since 2.0, use VATService instead",deprecation_warning,regex,66
+Load balancer health check passed - 100 nodes healthy,system_notification,bert,53
+Memory usage: 75% of heap (6.2GB/8GB),system_notification,regex,37
+File upload failed: data.csv exceeds 45MB limit,workflow_error,llm,47
+Account locked: 10 failed login attempts for alice.smith,user_action,llm,56
+User session expired after 60 minutes for user alice.smith,user_action,bert,58
+Configuration file quarterly.xlsx reloaded completed,system_notification,regex,52
+"API endpoint /metrics is deprecated, migrate to /v2/users by Dec 2024",deprecation_warning,llm,69
+Profile updated: user 12345 changed email to user@invalid-domain,user_action,regex,64
+File upload failed: backup.zip exceeds 512MB limit,workflow_error,bert,50
+"Cache cleared: 2500 entries removed, 250MB freed",system_notification,bert,48
+"API endpoint /v1/users is deprecated, migrate to /v2/users by Jan 2025",deprecation_warning,regex,70
+Account locked: 1250 failed login attempts for temp.client,user_action,regex,58
+Database connection pool initialized with 2500 connections,system_notification,llm,58
+File upload completed: report.pdf (45MB) by client admin,user_action,regex,56
+API rate limit exceeded for client beta-ltd (2500 requests/minute),workflow_error,regex,66
+Scheduled backup completed at 2025-09-14 14:30:00,system_notification,regex,49
+User admin created new project 'Q4-Analytics',user_action,regex,45
+Maintenance window scheduled,unclassified,bert,28
+Two-factor authentication enabled for user john.doe,user_action,bert,51
+"Cache cleared: 100 entries removed, 512MB freed",system_notification,llm,47
+File upload completed: backup.zip (100MB) by user admin,user_action,regex,55
+Profile updated: user 78934 changed email to test@unknown.com,user_action,regex,61
+Configuration file config.yaml reloaded successfully,system_notification,llm,52
+API endpoint /v2/orders responding normally (120ms),system_notification,llm,51
+File upload failed: backup.zip exceeds 1024MB limit,workflow_error,llm,51
+API endpoint /auth/login responding normally (120ms),system_notification,bert,52
+API endpoint /v1/clients responding normally (120ms),system_notification,regex,52
+Application started successfully on port 8080,system_notification,bert,45
+Memory usage: 82% of heap (6.2GB/8GB),system_notification,bert,37
+"Legacy email template system obsolete, use new template engine",deprecation_warning,llm,62
+"Report format XML will be discontinued, migrate to JSON by Q2 2025",deprecation_warning,regex,66
+API rate limit exceeded for client beta-ltd (5 requests/minute),workflow_error,bert,63
+Account locked: 50 failed login attempts for admin,user_action,bert,50
+"Report format XML will be discontinued, migrate to JSON by Dec 2024",deprecation_warning,llm,67
+"API endpoint /auth/login is obsolete, migrate to /v3/auth by Dec 2024",deprecation_warning,llm,69
+"API endpoint /v1/users is deprecated, migrate to /v3/auth by Dec 2024",deprecation_warning,llm,69
+File upload failed: quarterly.xlsx exceeds 45MB limit,workflow_error,bert,53
+File upload failed: report.pdf exceeds 250MB limit,workflow_error,llm,50
+Account locked: 5 failed login attempts for admin,user_action,bert,49
+API rate limit exceeded for client alpha-inc (1250 requests/minute),workflow_error,llm,67
+API endpoint /v1/users responding normally (120ms),system_notification,llm,50
+Password changed completed for user ID 12847,user_action,regex,44
+Database connection pool initialized with 20 connections,system_notification,bert,56
+ETL pipeline completed: 50 records processed in {minutes} minutes,system_notification,regex,65
+Account locked: 1250 unsuccessful login attempts for manager.ops,user_action,regex,64
+File upload completed: data.csv (100MB) by client temp.client,user_action,regex,61
+ETL pipeline completed: 2500 records processed in {minutes} minutes,system_notification,bert,67
+Account locked: 100 failed login attempts for manager.ops,user_action,llm,57
+Client admin logged in from IP 203.0.113.55,user_action,regex,43
+Client session expired after 5 minutes for client manager.ops,user_action,regex,61
+Payment processing unsuccessful: insufficient funds for order #54321,workflow_error,regex,68
+Account locked: 20 failed login attempts for manager.ops,user_action,bert,56
+File upload completed: quarterly.xlsx (512MB) by user temp.user,user_action,bert,63
+File upload failed: report.pdf exceeds 100MB limit,workflow_error,bert,50
+Database connection timeout after 15 seconds,workflow_error,bert,44
+Credit card authorization declined: card expired,workflow_error,llm,48
+"Cache cleared: 5 entries removed, 100MB freed",system_notification,llm,45
+Configuration option 'debug=true' will be removed in version 2.0,deprecation_warning,llm,64
+Account locked: 5 failed login attempts for temp.user,user_action,llm,53
+Account locked: 5 failed login attempts for alice.smith,user_action,bert,55
+API rate limit exceeded for client beta-ltd (50 requests/minute),workflow_error,bert,64
+"Db driver postgres-9.x is deprecated, upgrade to 4.0",deprecation_warning,bert,52
+Account locked: 10 unsuccessful login attempts for manager.ops,user_action,regex,62
+File upload completed: quarterly.xlsx (45MB) by client temp.client,user_action,regex,66
+"SSL protocol TLSv1.1 is obsolete, upgrade to TLSv1.3 by Jan 2025",deprecation_warning,llm,64
+Memory usage: 45% of heap (7.1GB/8GB),system_notification,bert,37
+User session expired after 5 minutes for user admin,user_action,llm,51
+"Db driver mysql-connector-5.x is deprecated, upgrade to 3.0",deprecation_warning,bert,59
+File upload completed: backup.zip (1024MB) by client alice.smith,user_action,regex,64
+"Method calculateTax() deprecated since 4.0, use VATService instead",deprecation_warning,regex,66
+Client session expired after 45 minutes for client manager.ops,user_action,regex,62
+File upload failed: config.yaml exceeds 1024MB limit,workflow_error,llm,52
+File upload completed: backup.zip (250MB) by user alice.smith,user_action,llm,61
+File upload completed: report.pdf (100MB) by user john.doe,user_action,llm,58
+"Method calculateTax() deprecated since 3.0, use TaxCalculationService instead",deprecation_warning,regex,77
+User preferences updated: email-only,user_action,bert,36
+File upload completed: config.yaml (100MB) by user manager.ops,user_action,bert,62
+API rate limit exceeded for client alpha-inc (5 requests/minute),workflow_error,llm,64
+Account locked: 1250 unsuccessful login attempts for manager.ops,user_action,regex,64
+File upload unsuccessful: backup.zip exceeds 512MB limit,workflow_error,regex,56
+File upload completed: quarterly.xlsx (512MB) by client manager.ops,user_action,regex,67
+Document shared: report.pdf shared with team-leads@company.com,user_action,bert,62
+ETL pipeline completed: 1250 records processed in 15 minutes,system_notification,regex,60
+"Cache cleared: 1250 entries removed, 512MB freed",system_notification,regex,48
+Payment processing failed: insufficient funds for order #67890,workflow_error,regex,62
+User temp.user created new project 'Q1-Financials',user_action,regex,50
+Client admin logged in from IP {ip},user_action,regex,35
+Document validation was unsuccessful: missing required field customer_id,workflow_error,llm,72
+Legacy authentication module will be sunset in Q3 2025,deprecation_warning,llm,54
+"API endpoint /auth/login is deprecated, migrate to /v3/auth by Jan 2025",deprecation_warning,regex,71
+Account locked: 50 failed login attempts for temp.user,user_action,llm,54
+Account locked: 2500 failed login attempts for temp.user,user_action,regex,56
+Password changed successfully for client ID 12345,user_action,regex,49
+File upload was unsuccessful: report.pdf exceeds 1024MB limit,workflow_error,llm,61
+User alice.smith logged in from IP 203.0.113.55,user_action,regex,47
+Account locked: 2500 was unsuccessful login attempts for alice.smith,user_action,llm,68
+Config option 'legacy_mode=true' will be removed in version 4.0,deprecation_warning,bert,63
+File upload failed: config.yaml exceeds 512MB limit,workflow_error,llm,51
+API endpoint /metrics responding normally (120ms),system_notification,regex,49
+API endpoint /v2/orders responding normally (250ms),system_notification,regex,51
+Memory usage: 75% of heap (7.1GB/16GB),system_notification,bert,38
+Queue processing failed: limit exceeded,workflow_error,llm,39
+"Report format CSV will be discontinued, migrate to JSON by Jan 2025",deprecation_warning,llm,67
+File upload completed: report.pdf (250MB) by user admin,user_action,bert,55
+"Support ending for Internet Explorer by Jan 2025, update requirements",deprecation_warning,llm,69
+Account locked: 1500 unsuccessful login attempts for temp.user,user_action,regex,62
+User session expired after 5 minutes for user manager.ops,user_action,bert,57
+File upload completed: report.pdf (45MB) by user admin,user_action,regex,54
+File upload completed: backup.zip (250MB) by user john.doe,user_action,regex,58
+User session expired after 5 minutes for user admin,user_action,llm,51
+"Function calculateVAT() deprecated since 3.0, use TaxCalculationService instead",deprecation_warning,llm,79
+Account locked: 20 failed login attempts for alice.smith,user_action,bert,56
+File upload completed: config.yaml (45MB) by user temp.user,user_action,regex,59
+Payment processing failed: insufficient funds for order #67890,workflow_error,regex,62
+Client alice.smith created new project 'Q4-Analytics',user_action,regex,53
+"Cache cleared: 50 entries removed, 45MB freed",system_notification,bert,45
+File upload completed: report.pdf (45MB) by client manager.ops,user_action,regex,62
+"Cache cleared: 2500 entries removed, 100MB freed",system_notification,bert,48
+File upload was unsuccessful: data.csv exceeds 512MB limit,workflow_error,llm,58
+ETL pipeline completed: 1250 records processed in 60 minutes,system_notification,bert,60
+Data validation error: schema mismatch in field user_id,workflow_error,bert,55
+API rate limit exceeded for client alpha-inc (2500 requests/minute),workflow_error,regex,67
+File upload completed: backup.zip (512MB) by user admin,user_action,regex,55
+Memory usage: 95% of heap (4.2GB/16GB),system_notification,regex,38
+Memory usage: 95% of heap (7.1GB/16GB),system_notification,bert,38
+Account locked: 100 failed login attempts for alice.smith,user_action,llm,57
+Database connection pool initialized with 1500 connections,system_notification,bert,58
+"API endpoint /metrics is deprecated, migrate to /v2/clients by Q2 2025",deprecation_warning,regex,70
+Database connection pool initialized with 20 connections,system_notification,llm,56
+File upload completed: backup.zip (250MB) by user alice.smith,user_action,llm,61
+Status: OK,unclassified,bert,10
+Account locked: 2500 was unsuccessful login attempts for temp.user,user_action,llm,66
+Memory usage: 95% of heap (6.2GB/8GB),system_notification,regex,37
+API rate limit exceeded for client beta-ltd (1250 requests/minute),workflow_error,llm,66
+API endpoint /v1/clients responding normally (250ms),system_notification,regex,52
+File upload completed: report.pdf (100MB) by user admin,user_action,llm,55
+File upload completed: backup.zip (1024MB) by user alice.smith,user_action,bert,62
+Credit card authorization declined: card expired,workflow_error,regex,48
+File upload completed: data.csv (100MB) by client john.doe,user_action,regex,58
+"Cache cleared: 1500 entries removed, 1024MB freed",system_notification,bert,49
+"API endpoint /auth/login is deprecated, migrate to /v2/users by Jan 2025",deprecation_warning,llm,72
+API rate limit exceeded for client alpha-inc (5 requests/minute),workflow_error,regex,64
+Account locked: 100 unsuccessful login attempts for admin,user_action,regex,57
+User session expired after 15 minutes for user john.doe,user_action,bert,55
+"Cache cleared: 100 entries removed, 512MB freed",system_notification,regex,47
+"Method calculateTax() deprecated since 3.0, use TaxCalculationService instead",deprecation_warning,regex,77
+File upload completed: config.yaml (100MB) by user admin,user_action,regex,56
+Password changed successfully for user ID 12847,user_action,bert,47
+Memory usage: 75% of heap (7.1GB/16GB),system_notification,llm,38
+"API endpoint /v2/orders is deprecated, migrate to /v2/users by Jan 2025",deprecation_warning,llm,71
+Account locked: 10 failed login attempts for john.doe,user_action,llm,53
+Two-factor authentication enabled for user admin,user_action,llm,48
+User admin created new project 'HR-Dashboard',user_action,regex,45
+"Support ending for Internet Explorer by Q2 2025, update requirements",deprecation_warning,regex,68
+ETL pipeline completed: 5 records processed in {minutes} minutes,system_notification,regex,64
+"Cache cleared: 100 entries removed, 512MB freed",system_notification,llm,47
+File upload completed: backup.zip (250MB) by user alice.smith,user_action,llm,61
+"Cache cleared: 5 entries removed, 512MB freed",system_notification,llm,45
+File upload completed: data.csv (512MB) by user admin,user_action,bert,53
+ETL pipeline completed: 20 records processed in 15 minutes,system_notification,regex,58
+Memory usage: 75% of heap (7.1GB/16GB),system_notification,llm,38
+File upload failed: size exceeds 10MB limit,workflow_error,regex,43
+File upload completed: quarterly.xlsx (100MB) by client alice.smith,user_action,regex,67
+File upload completed: backup.zip (45MB) by user john.doe,user_action,llm,57
+"Support ending for Internet Explorer by Q2 2025, update requirements",deprecation_warning,regex,68
+File upload completed: quarterly.xlsx (1024MB) by user temp.user,user_action,regex,64
+Configuration file quarterly.xlsx reloaded completed,system_notification,regex,52
+File upload completed: quarterly.xlsx (45MB) by user admin,user_action,llm,58
+Memory usage: 60% of heap (7.1GB/16GB),system_notification,regex,38
+Account locked: 1250 was unsuccessful login attempts for alice.smith,user_action,llm,68
+Password changed successfully for user ID 78934,user_action,regex,47
+"Method calculateTax() deprecated since 2.0, use VATService instead",deprecation_warning,llm,66
+File upload completed: config.yaml (100MB) by user alice.smith,user_action,llm,62
+"Cache cleared: 10 entries removed, 1024MB freed",system_notification,llm,47
+"API endpoint /auth/login is deprecated, migrate to /v2/users by Dec 2024",deprecation_warning,bert,72
+File upload completed: report.pdf (45MB) by client manager.ops,user_action,regex,62
+"API endpoint /v1/clients is deprecated, migrate to /v3/auth by Dec 2024",deprecation_warning,regex,71
+File upload completed: data.csv (512MB) by user admin,user_action,bert,53
+Database conn pool initialized with 20 conns,system_notification,bert,44
+File upload completed: quarterly.xlsx (1024MB) by user admin,user_action,bert,60
+Account locked: 5 failed login attempts for john.doe,user_action,bert,52
+Email delivery was unsuccessful: invalid recipient address user@invalid-domain,workflow_error,llm,78
+"Cache cleared: 100 entries removed, 250MB freed",system_notification,bert,47
+File upload completed: report.pdf (45MB) by user alice.smith,user_action,bert,60
+File upload was unsuccessful: data.csv exceeds 1024MB limit,workflow_error,llm,59
+File upload completed: data.csv (512MB) by client admin,user_action,regex,55
+API endpoint /auth/login responding normally (145ms),system_notification,llm,52
+File upload completed: quarterly.xlsx (250MB) by user admin,user_action,bert,59
+ETL pipeline completed: 50 records processed in {minutes} minutes,system_notification,llm,65
+Application started successfully on port 3000,system_notification,llm,45
+API rate limit exceeded for client beta-ltd (1250 requests/minute),workflow_error,llm,66
+Account locked: 1500 failed login attempts for alice.smith,user_action,regex,58
+"Cache cleared: 100 entries removed, 1024MB freed",system_notification,llm,48
+"Report format XML will be discontinued, migrate to JSON by Jan 2025",deprecation_warning,bert,67
+"SSL protocol TLSv1.1 is deprecated, upgrade to TLSv1.3 by Q2 2025",deprecation_warning,regex,65
+Scheduled backup completed at 2025-09-14 14:30:00,system_notification,llm,49
+Account locked: 5 failed login attempts for john.doe,user_action,bert,52
+"Method calculateVAT() deprecated since 2.0, use TaxCalculationService instead",deprecation_warning,regex,77
+Maintenance window scheduled,unclassified,llm,28
+"Cache cleared: 2500 entries removed, 1024MB freed",system_notification,bert,49
+Database connection pool initialized with 2500 connections,system_notification,regex,58
+Memory usage: 75% of heap (7.1GB/8GB),system_notification,regex,37
+User john.doe logged in from IP 192.168.1.100,user_action,bert,45
+Account locked: 50 unsuccessful login attempts for admin,user_action,regex,56
+File upload completed: config.yaml (512MB) by user alice.smith,user_action,llm,62
+Account locked: 20 failed login attempts for admin,user_action,regex,50
+Legacy auth module will be sunset in Q4 2024,deprecation_warning,bert,44
+File upload failed: data.csv exceeds 512MB limit,workflow_error,regex,48
+File upload completed: config.yaml (512MB) by user alice.smith,user_action,bert,62
+File upload completed: report.pdf (250MB) by user temp.user,user_action,llm,59
+"Method calculateVAT() deprecated since 2.0, use VATService instead",deprecation_warning,bert,66
+Configuration file report.pdf reloaded successfully,system_notification,regex,51
+User admin created new project 'Q4-Analytics',user_action,llm,45
+User session expired after {minutes} minutes for user manager.ops,user_action,bert,65
+Memory usage: 45% of heap (6.2GB/16GB),system_notification,regex,38
+ETL pipeline completed: 50 records processed in 15 minutes,system_notification,regex,58
+Credit card authz declined: invalid CVV,workflow_error,bert,39
+File upload completed: config.yaml (512MB) by client alice.smith,user_action,regex,64
+API rate limit exceeded for client beta-ltd (1250 requests/minute),workflow_error,llm,66
+"Cache cleared: 20 entries removed, 45MB freed",system_notification,bert,45
+"API endpoint /auth/login is obsolete, migrate to /v3/auth by Q2 2025",deprecation_warning,llm,68
+File upload completed: config.yaml (250MB) by user manager.ops,user_action,bert,62
+Memory usage: 60% of heap (6.2GB/16GB),system_notification,bert,38
+ETL pipeline completed: 20 records processed in {minutes} minutes,system_notification,llm,65
+Database connection timeout after 60 seconds,workflow_error,bert,44
+Memory usage: 60% of heap (7.1GB/8GB),system_notification,bert,37
+"SSL protocol TLSv1.1 is deprecated, upgrade to TLSv1.3 by Q2 2025",deprecation_warning,bert,65
+Password changed completed successfullyly for user ID 67890,user_action,llm,59
+File upload unsuccessful: data.csv exceeds 250MB limit,workflow_error,regex,54
+"Method calculateVAT() deprecated since 2.0, use VATService instead",deprecation_warning,regex,66
+Memory usage: 60% of heap (6.2GB/8GB),system_notification,regex,37
+Memory usage: 60% of heap (6.2GB/16GB),system_notification,llm,38
+Config file report.pdf reloaded successfully,system_notification,bert,44
+Memory usage: 45% of heap (4.2GB/8GB),system_notification,llm,37
+ETL pipeline completed: 1250 records processed in 5 minutes,system_notification,regex,59
+"Cache cleared: 2500 entries removed, 250MB freed",system_notification,bert,48
+"Report format XML will be discontinued, migrate to Parquet by Jan 2025",deprecation_warning,llm,70
+Client alice.smith created new project 'Q4-Analytics',user_action,regex,53
+Account locked: 1500 unsuccessful login attempts for temp.user,user_action,regex,62
+User session expired after 5 minutes for user temp.user,user_action,regex,55
+"Support ending for Internet Explorer by Dec 2024, update requirements",deprecation_warning,bert,69
+API rate limit exceeded for client alpha-inc (1250 requests/minute),workflow_error,llm,67
+Account locked: 50 failed login attempts for alice.smith,user_action,bert,56
+ETL pipeline completed: 10 records processed in {minutes} minutes,system_notification,regex,65
+File upload completed: backup.zip (512MB) by user admin,user_action,regex,55
+Account locked: 5 was unsuccessful login attempts for temp.user,user_action,llm,63
+ETL pipeline completed: 1250 records processed in 45 minutes,system_notification,llm,60
+"Function calculateVAT() deprecated since 3.0, use TaxCalculationService instead",deprecation_warning,llm,79
+ETL pipeline completed: 20 records processed in 5 minutes,system_notification,bert,57
+File upload failed: quarterly.xlsx exceeds 100MB limit,workflow_error,bert,54
+Account locked: 50 was unsuccessful login attempts for temp.user,user_action,llm,64
+Legacy authentication module will be sunset in Q4 2024,deprecation_warning,bert,54
+"Cache cleared: 5 entries removed, 45MB freed",system_notification,llm,44
+Memory usage: 82% of heap (7.1GB/8GB),system_notification,llm,37
+"API endpoint /auth/login is deprecated, migrate to /v2/users by Dec 2024",deprecation_warning,regex,72
+File upload completed: report.pdf (250MB) by client alice.smith,user_action,regex,63
+File upload completed: data.csv (45MB) by user manager.ops,user_action,regex,58
+Memory usage: 95% of heap (7.1GB/16GB),system_notification,bert,38
+Account locked: 20 was unsuccessful login attempts for alice.smith,user_action,llm,66
+Queue processing failed: card expired,workflow_error,regex,37
+User session expired after 60 minutes for user admin,user_action,bert,52
+API rate limit exceeded for client xyz-corp (100 requests/minute),workflow_error,llm,65
+File upload completed: quarterly.xlsx (45MB) by user alice.smith,user_action,regex,64
+API rate limit exceeded for client beta-ltd (5 requests/minute),workflow_error,llm,63
+"Cache cleared: 5 entries removed, 100MB freed",system_notification,bert,45
+App started successfully on port 9090,system_notification,bert,37
+Password changed successfully for user ID 78934,user_action,bert,47
+Db connection pool initialized with 50 connections,system_notification,bert,50
+"API endpoint /v2/orders is deprecated, migrate to /v2/clients by Q2 2025",deprecation_warning,regex,72
+Account locked: 100 was unsuccessful login attempts for alice.smith,user_action,llm,67
+Client session expired after {minutes} minutes for client alice.smith,user_action,regex,69
+API rate limit exceeded for client alpha-inc (2500 requests/minute),workflow_error,llm,67
+Account locked: 100 failed login attempts for temp.user,user_action,regex,55
+Old file storage API deprecated: migrate to new template engine,deprecation_warning,llm,63
+"Report format XML will be discontinued, migrate to JSON by Q2 2025",deprecation_warning,llm,66
+File upload completed: backup.zip (1024MB) by user manager.ops,user_action,bert,62
+Application started successfully on port 3000,system_notification,llm,45
+"SSL protocol TLSv1.1 is obsolete, upgrade to TLSv1.3 by Q2 2025",deprecation_warning,llm,63
+Account locked: 10 failed login attempts for temp.user,user_action,llm,54
+File upload was unsuccessful: quarterly.xlsx exceeds 512MB limit,workflow_error,llm,64
+SSL certificate renewed for domain payments.org,system_notification,regex,47
+User alice.smith logged in from IP 192.168.1.100,user_action,regex,48
+API rate limit exceeded for client alpha-inc (20 requests/minute),workflow_error,llm,65
+"Database driver postgres-9.x is obsolete, upgrade to 2.0",deprecation_warning,llm,56
+File upload completed: backup.zip (45MB) by user john.doe,user_action,bert,57
+"SSL protocol TLSv1.1 is deprecated, upgrade to TLSv1.3 by Dec 2024",deprecation_warning,regex,66
+Load balancer health check passed - 20 nodes healthy,system_notification,llm,52
+User preferences updated: SMS-only,user_action,bert,34
+API endpoint /metrics responding normally (250ms),system_notification,llm,49
+"API endpoint /v1/users is deprecated, migrate to /v3/auth by Dec 2024",deprecation_warning,llm,69
+Two-factor auth enabled for user alice.smith,user_action,bert,44
+Load balancer health check passed - 20 nodes healthy,system_notification,regex,52
+"API endpoint /v1/users is deprecated, migrate to /v3/auth by Jan 2025",deprecation_warning,regex,69
+"Report format CSV will be discontinued, migrate to Parquet by Q2 2025",deprecation_warning,llm,69
+User session expired after 60 minutes for user admin,user_action,bert,52
+File upload completed: data.csv (1024MB) by client admin,user_action,regex,56
+ETL pipeline completed: 100 records processed in {minutes} minutes,system_notification,regex,66
+User manager.ops created new project 'Q4-Analytics',user_action,bert,51
+File upload completed: backup.zip (100MB) by user temp.user,user_action,llm,59
+File upload completed: quarterly.xlsx (100MB) by user john.doe,user_action,bert,62
+ETL pipeline completed: 5 records processed in 15 minutes,system_notification,llm,57
+File upload completed: backup.zip (1024MB) by user admin,user_action,regex,56
+Account locked: 1250 failed login attempts for john.doe,user_action,regex,55
+Client admin created new project 'Q1-Financials',user_action,regex,48
+File upload completed: config.yaml (512MB) by user alice.smith,user_action,bert,62
+ETL pipeline completed: 2500 records processed in {minutes} minutes,system_notification,regex,67
+User temp.user logged in from IP {ip},user_action,bert,37
+"Cache cleared: 1250 entries removed, 1024MB freed",system_notification,regex,49
+File upload failed: backup.zip exceeds 45MB limit,workflow_error,regex,49
+Profile updated: user 78934 changed email to test@unknown.com,user_action,llm,61
+Account locked: 1250 failed login attempts for admin,user_action,bert,52
+"Cache cleared: 20 entries removed, 1024MB freed",system_notification,regex,47
+"Cache cleared: 50 entries removed, 1024MB freed",system_notification,bert,47
+"SSL protocol TLSv1.1 is deprecated, upgrade to TLSv1.3 by Jan 2025",deprecation_warning,regex,66
+Action completed successfully,unclassified,bert,29
+Account locked: 1250 failed login attempts for manager.ops,user_action,regex,58
+File upload unsuccessful: config.yaml exceeds 100MB limit,workflow_error,regex,57
+Config option 'legacy_mode=true' will be removed in version 3.0,deprecation_warning,bert,63
+Data import failed: duplicate record at line 9001,workflow_error,bert,49
+Account locked: 2500 failed login attempts for alice.smith,user_action,llm,58
+"Cache cleared: 20 entries removed, 512MB freed",system_notification,llm,46
+File upload completed: report.pdf (512MB) by user manager.ops,user_action,bert,61
+File upload failed: quarterly.xlsx exceeds 100MB limit,workflow_error,bert,54
+Update available,unclassified,llm,16
+File upload failed: quarterly.xlsx exceeds 1024MB limit,workflow_error,regex,55
+File upload completed: data.csv (100MB) by user admin,user_action,llm,53
+"API endpoint /auth/login is deprecated, migrate to /v3/auth by Jan 2025",deprecation_warning,bert,71
+Credit card authorization declined: card expired,workflow_error,bert,48
+Password changed successfully for user ID 78934,user_action,regex,47
+User admin logged in from IP 203.0.113.55,user_action,bert,41
+API rate limit exceeded for client alpha-inc (1500 requests/minute),workflow_error,llm,67
+"Report format CSV will be discontinued, migrate to JSON by Jan 2025",deprecation_warning,llm,67
+"Database driver postgres-9.x is deprecated, upgrade to 4.0",deprecation_warning,bert,58
+API rate limit exceeded for client xyz-corp (5 requests/minute),workflow_error,bert,63
+"API endpoint /v1/users is deprecated, migrate to /v2/users by Dec 2024",deprecation_warning,bert,70
+Payment processing failed: insufficient funds for order #67890,workflow_error,bert,62
+Account locked: 1500 failed login attempts for admin,user_action,llm,52
+API endpoint /auth/login responding normally (200ms),system_notification,regex,52
+"API endpoint /metrics is obsolete, migrate to /v2/users by Dec 2024",deprecation_warning,llm,67
+Db connection pool initialized with 10 connections,system_notification,bert,50
+"Support ending for Safari 12 by Dec 2024, update requirements",deprecation_warning,llm,61
+File upload completed: report.pdf (45MB) by client manager.ops,user_action,regex,62
+User john.doe created new project 'Q4-Analytics',user_action,llm,48
+User session expired after 5 minutes for user admin,user_action,llm,51
+User temp.user logged in from IP 10.0.0.45,user_action,regex,42
+Configuration file quarterly.xlsx reloaded successfully,system_notification,llm,55
+Two-factor auth enabled for user alice.smith,user_action,bert,44
+Client temp.client created new project 'Q4-Analytics',user_action,regex,53
+Document shared: quarterly.xlsx shared with finance-team@company.com,user_action,bert,68
+Profile updated: client 12847 changed email to test@unknown.com,user_action,regex,63
+Load balancer health check passed - 10 nodes healthy,system_notification,llm,52
+File upload failed: report.pdf exceeds 45MB limit,workflow_error,llm,49
+Account locked: 2500 unsuccessful login attempts for admin,user_action,regex,58
+Client session expired after 45 minutes for client manager.ops,user_action,regex,62
+User preferences updated: email-only,user_action,bert,36
+ETL pipeline completed: 50 records processed in 45 minutes,system_notification,bert,58
+File upload completed: config.yaml (250MB) by user admin,user_action,regex,56
+File upload completed: report.pdf (512MB) by user manager.ops,user_action,bert,61
+User preferences updated: SMS-only,user_action,llm,34
+File upload failed: data.csv exceeds 1024MB limit,workflow_error,regex,49
+Account locked: 5 failed login attempts for alice.smith,user_action,llm,55
+"Cache cleared: 5 entries removed, 45MB freed",system_notification,llm,44
+File upload completed: quarterly.xlsx (1024MB) by user admin,user_action,regex,60
+Profile updated: client 12847 changed email to test@unknown.com,user_action,regex,63
+Credit card authorization declined: limit exceeded,workflow_error,bert,50
+API rate limit exceeded for client beta-ltd (20 requests/minute),workflow_error,regex,64
+"API endpoint /metrics is obsolete, migrate to /v3/auth by Jan 2025",deprecation_warning,llm,66
+Two-factor authentication enabled for user john.doe,user_action,bert,51
+"Report format XML will be discontinued, migrate to JSON by Q2 2025",deprecation_warning,bert,66
+File upload completed: report.pdf (512MB) by user john.doe,user_action,regex,58
+"Support ending for Safari 12 by Q2 2025, update requirements",deprecation_warning,llm,60
+File upload was unsuccessful: quarterly.xlsx exceeds 250MB limit,workflow_error,llm,64
+"Support ending for Safari 12 by Dec 2024, update requirements",deprecation_warning,llm,61
+Account locked: 100 failed login attempts for john.doe,user_action,regex,54
+User session expired after 5 minutes for user alice.smith,user_action,bert,57
+File upload completed: backup.zip (45MB) by user manager.ops,user_action,bert,60
+User session expired after {minutes} minutes for user manager.ops,user_action,regex,65
+Profile updated: user 12847 changed email to user@invalid-domain,user_action,llm,64
+Document shared: data.csv shared with team-leads@company.com,user_action,regex,60
+File upload unsuccessful: quarterly.xlsx exceeds 45MB limit,workflow_error,regex,59
+Memory usage: 95% of heap (7.1GB/16GB),system_notification,llm,38
+API rate limit exceeded for client beta-ltd (100 requests/minute),workflow_error,llm,65
+"Cache cleared: 10 entries removed, 250MB freed",system_notification,llm,46
+"Cache cleared: 5 entries removed, 100MB freed",system_notification,llm,45
+File upload completed: config.yaml (250MB) by client temp.client,user_action,regex,64
+File upload completed: backup.zip (250MB) by client temp.client,user_action,regex,63
+Account locked: 100 unsuccessful login attempts for john.doe,user_action,regex,60
+User temp.user created new project 'HR-Dashboard',user_action,llm,49
+Account locked: 50 was unsuccessful login attempts for admin,user_action,llm,60
+"Method calculateVAT() deprecated since 4.0, use TaxCalculationService instead",deprecation_warning,llm,77
+Password changed successfully for user ID 12847,user_action,llm,47
+"SSL protocol TLSv1.1 is deprecated, upgrade to TLSv1.3 by Jan 2025",deprecation_warning,bert,66
+"Database driver mysql-connector-5.x is obsolete, upgrade to 4.0",deprecation_warning,llm,63
+File upload failed: quarterly.xlsx exceeds 1024MB limit,workflow_error,llm,55
+User temp.user created new project 'HR-Dashboard',user_action,bert,49
+File upload unsuccessful: report.pdf exceeds 45MB limit,workflow_error,regex,55
+File upload completed: config.yaml (45MB) by user temp.user,user_action,regex,59
+Legacy authentication module will be sunset in Q3 2025,deprecation_warning,llm,54
+User session expired after {minutes} minutes for user temp.user,user_action,llm,63
+Application started successfully on port 8080,system_notification,llm,45
+File upload completed: config.yaml (1024MB) by client manager.ops,user_action,regex,65
+File upload completed: backup.zip (1024MB) by user john.doe,user_action,regex,59
+"API endpoint /auth/login is obsolete, migrate to /v2/users by Jan 2025",deprecation_warning,llm,70
+Unexpected process termination: PID 12345 exit code 139,unclassified,bert,55
+API rate limit exceeded for client alpha-inc (1250 requests/minute),workflow_error,regex,67
+Payment processing failed: insufficient funds for order #12345,workflow_error,bert,62
+File upload completed: quarterly.xlsx (100MB) by client manager.ops,user_action,regex,67
+Account locked: 10 failed login attempts for alice.smith,user_action,llm,56
+API endpoint /v2/orders responding normally (120ms),system_notification,llm,51
+Profile updated: user 67890 changed email to user@invalid-domain,user_action,llm,64
+Account locked: 20 was unsuccessful login attempts for manager.ops,user_action,llm,66
+"Function calculateTax() deprecated since 2.0, use TaxCalculationService instead",deprecation_warning,llm,79
+File upload failed: config.yaml exceeds 512MB limit,workflow_error,regex,51
+Memory usage: 82% of heap (4.2GB/8GB),system_notification,llm,37
+Configuration file quarterly.xlsx reloaded successfully,system_notification,bert,55
+"Cache cleared: 1250 entries removed, 1024MB freed",system_notification,regex,49
+HTTP/1.1 deprecated: HTTP/2 mandatory from next release,deprecation_warning,llm,55
+Account locked: 10 failed login attempts for alice.smith,user_action,regex,56
+Account locked: 50 failed login attempts for manager.ops,user_action,llm,56
+"Cache cleared: 1250 entries removed, 100MB freed",system_notification,llm,48
+File upload was unsuccessful: config.yaml exceeds 250MB limit,workflow_error,llm,61
+"API endpoint /v1/users is obsolete, migrate to /v3/auth by Dec 2024",deprecation_warning,llm,67
+File upload completed: backup.zip (45MB) by user john.doe,user_action,llm,57
+Client session expired after {minutes} minutes for client temp.client,user_action,regex,69
+Password changed completed successfullyly for user ID 12345,user_action,llm,59
+"API endpoint /metrics is deprecated, migrate to /v3/auth by Q2 2025",deprecation_warning,llm,67
+File upload completed: data.csv (100MB) by client temp.client,user_action,regex,61
+Service timeout: payment unreachable,workflow_error,llm,36
+Memory usage: 45% of heap (4.2GB/8GB),system_notification,bert,37
+File upload completed: backup.zip (45MB) by user admin,user_action,bert,54
+Client john.doe logged in from IP 10.0.0.45,user_action,regex,43
+Account locked: 100 failed login attempts for admin,user_action,regex,51
+API rate limit exceeded for client xyz-corp (50 requests/minute),workflow_error,bert,64
+File upload completed: quarterly.xlsx (100MB) by client alice.smith,user_action,regex,67
+File upload failed: data.csv exceeds 512MB limit,workflow_error,bert,48
+File upload was unsuccessful: backup.zip exceeds 45MB limit,workflow_error,llm,59
+User manager.ops logged in from IP {ip},user_action,regex,39
+API endpoint /auth/login responding normally (200ms),system_notification,bert,52
+"Method calculateVAT() deprecated since 4.0, use VATService instead",deprecation_warning,llm,66
+File upload completed: config.yaml (512MB) by user alice.smith,user_action,regex,62
+Password changed completed for user ID 78934,user_action,regex,44
+User admin created new project 'Q4-Analytics',user_action,regex,45
+File upload completed: quarterly.xlsx (250MB) by client john.doe,user_action,regex,64
+"Method calculateTax() deprecated since 3.0, use VATService instead",deprecation_warning,llm,66
+File upload completed: backup.zip (250MB) by user temp.user,user_action,llm,59
+SSL certificate renewed for domain service.domain.net,system_notification,bert,53
+Configuration option 'legacy_mode=true' will be removed in version 3.0,deprecation_warning,bert,70
+"API endpoint /auth/login is deprecated, migrate to /v3/auth by Jan 2025",deprecation_warning,bert,71
+File upload failed: config.yaml exceeds 250MB limit,workflow_error,llm,51
+Database connection pool initialized with 10 connections,system_notification,llm,56
+"Cache cleared: 1250 entries removed, 512MB freed",system_notification,regex,48
+Database conn pool initialized with 10 conns,system_notification,bert,44
+"API endpoint /auth/login is deprecated, migrate to /v2/clients by Jan 2025",deprecation_warning,regex,74
+Memory usage: 60% of heap (4.2GB/8GB),system_notification,bert,37
+Account locked: 100 failed login attempts for alice.smith,user_action,llm,57
+Legacy authentication module will be sunset in Q3 2024,deprecation_warning,bert,54
+"Method calculateVAT() deprecated since 4.0, use TaxCalculationService instead",deprecation_warning,regex,77
+API rate limit exceeded for client xyz-corp (20 requests/minute),workflow_error,bert,64
+Payment gateway timeout: transaction rollback initiated,workflow_error,bert,55
+File upload unsuccessful: backup.zip exceeds 45MB limit,workflow_error,regex,55
+Memory usage: 95% of heap (6.2GB/16GB),system_notification,llm,38
+Email delivery failed: invalid recipient address test@unknown.com,workflow_error,bert,65
+File upload completed: config.yaml (45MB) by user john.doe,user_action,bert,58
+API endpoint /v1/users responding normally (145ms),system_notification,llm,50
+"API endpoint /v1/users is deprecated, migrate to /v3/auth by Jan 2025",deprecation_warning,llm,69
+ETL pipeline completed: 1250 records processed in 5 minutes,system_notification,regex,59
+File upload was unsuccessful: quarterly.xlsx exceeds 1024MB limit,workflow_error,llm,65
+"Report format CSV will be discontinued, migrate to JSON by Jan 2025",deprecation_warning,regex,67
+"Method calculateVAT() deprecated since 2.0, use TaxCalculationService instead",deprecation_warning,llm,77
+Legacy API endpoint /v1/users deprecated: migrate to /v2/users by Q4,deprecation_warning,llm,68
+File upload failed: quarterly.xlsx exceeds 100MB limit,workflow_error,regex,54
+Configuration file backup.zip reloaded completed,system_notification,regex,48
+API rate limit exceeded for client xyz-corp (1500 requests/minute),workflow_error,regex,66
+"API endpoint /v1/clients is deprecated, migrate to /v3/auth by Jan 2025",deprecation_warning,regex,71
+Document validation was unsuccessful: missing required field email,workflow_error,llm,66
+User session expired after 45 minutes for user temp.user,user_action,llm,56
+Service timeout: shipping unreachable,workflow_error,bert,37
+User alice.smith created new project 'Q4-Analytics',user_action,llm,51
+File upload completed: config.yaml (512MB) by user alice.smith,user_action,regex,62
+Two-factor auth enabled for user alice.smith,user_action,bert,44
+API rate limit exceeded for client alpha-inc (10 requests/minute),workflow_error,llm,65
+"Support ending for Internet Explorer by Dec 2024, update requirements",deprecation_warning,bert,69
+Account locked: 50 unsuccessful login attempts for manager.ops,user_action,regex,62
+Old file storage API obsolete: migrate to cloud storage,deprecation_warning,llm,55
+User session expired after {minutes} minutes for user admin,user_action,bert,59
+"API endpoint /metrics is obsolete, migrate to /v2/users by Dec 2024",deprecation_warning,llm,67
+ETL pipeline completed: 100 records processed in 5 minutes,system_notification,regex,58
+File upload completed: config.yaml (100MB) by client alice.smith,user_action,regex,64
+Client temp.client logged in from IP 203.0.113.55,user_action,regex,49
+API endpoint /v2/orders responding normally (250ms),system_notification,bert,51
+User session expired after {minutes} minutes for user manager.ops,user_action,bert,65
+Account locked: 5 failed login attempts for manager.ops,user_action,llm,55
+File upload was unsuccessful: backup.zip exceeds 1024MB limit,workflow_error,llm,61
+API rate limit exceeded for client beta-ltd (50 requests/minute),workflow_error,regex,64
+"Cache cleared: 5 entries removed, 512MB freed",system_notification,llm,45
+Document validation was unsuccessful: missing required field email,workflow_error,llm,66
+User temp.user created new project 'HR-Dashboard',user_action,llm,49
+"Support ending for Safari 12 by Dec 2024, update requirements",deprecation_warning,regex,61
+File upload completed: report.pdf (45MB) by user manager.ops,user_action,bert,60
+Scheduled backup completed at 2025-09-14 14:30:00,system_notification,llm,49
+ETL pipeline completed: 1250 records processed in 45 minutes,system_notification,llm,60
+Account locked: 100 failed login attempts for alice.smith,user_action,regex,57
+User preferences updated: push-notifications,user_action,bert,44
+API rate limit exceeded for client xyz-corp (100 requests/minute),workflow_error,bert,65
+Two-factor authentication enabled for user john.doe,user_action,regex,51
+Database conn pool initialized with 10 conns,system_notification,bert,44
+"SSL protocol TLSv1.1 is obsolete, upgrade to TLSv1.3 by Q2 2025",deprecation_warning,llm,63
+File upload completed: quarterly.xlsx (1024MB) by user alice.smith,user_action,bert,66
+Database conn pool initialized with 2500 conns,system_notification,bert,46
+User session expired after {minutes} minutes for user temp.user,user_action,bert,63
+ETL pipeline completed: 20 records processed in 5 minutes,system_notification,regex,57
+API rate limit exceeded for client beta-ltd (1250 requests/minute),workflow_error,llm,66
+Memory usage: 45% of heap (4.2GB/16GB),system_notification,bert,38
+File upload completed: backup.zip (512MB) by user manager.ops,user_action,bert,61
+File upload failed: config.yaml exceeds 512MB limit,workflow_error,llm,51
+Legacy authentication module will be sunset in Q3 2024,deprecation_warning,llm,54
+Database conn pool initialized with 20 conns,system_notification,bert,44
+"Report format CSV will be discontinued, migrate to JSON by Dec 2024",deprecation_warning,llm,67
+"Legacy email template system deprecated, use new template engine",deprecation_warning,llm,64
+Account locked: 2500 failed login attempts for alice.smith,user_action,bert,58
+User manager.ops logged in from IP 10.0.0.45,user_action,llm,44
+Account locked: 10 was unsuccessful login attempts for temp.user,user_action,llm,64
+Db connection pool initialized with 100 connections,system_notification,bert,51
+Account locked: 50 was unsuccessful login attempts for admin,user_action,llm,60
+Configuration file report.pdf reloaded successfully,system_notification,bert,51
+File upload completed: backup.zip (250MB) by user temp.user,user_action,llm,59
+API endpoint /auth/login responding normally (250ms),system_notification,bert,52
+File upload completed: config.yaml (45MB) by client temp.client,user_action,regex,63
+File upload completed: backup.zip (512MB) by client john.doe,user_action,regex,60
+File upload completed: data.csv (512MB) by user john.doe,user_action,regex,56
+ETL pipeline completed: 10 records processed in 60 minutes,system_notification,bert,58
+File upload completed: data.csv (512MB) by user alice.smith,user_action,llm,59
+"API endpoint /auth/login is obsolete, migrate to /v3/auth by Q2 2025",deprecation_warning,llm,68
+File upload completed: quarterly.xlsx (100MB) by client alice.smith,user_action,regex,67
+API endpoint /auth/login responding normally (250ms),system_notification,llm,52
+API rate limit exceeded for client alpha-inc (1500 requests/minute),workflow_error,bert,67
+Memory usage: 45% of heap (7.1GB/8GB),system_notification,bert,37
+File upload completed: quarterly.xlsx (100MB) by user alice.smith,user_action,bert,65
+File upload completed: config.yaml (45MB) by user temp.user,user_action,regex,59
+"Cache cleared: 50 entries removed, 250MB freed",system_notification,bert,46
+Scheduled backup completed at 2025-09-15 08:45:00,system_notification,llm,49
+API endpoint /metrics responding normally (120ms),system_notification,llm,49
+API endpoint /v1/users responding normally (120ms),system_notification,llm,50
+Client session expired after 45 minutes for client john.doe,user_action,regex,59
+File upload unsuccessful: data.csv exceeds 250MB limit,workflow_error,regex,54
+Memory usage: 82% of heap (4.2GB/8GB),system_notification,bert,37
+File upload completed: report.pdf (100MB) by client admin,user_action,regex,57
+"Cache cleared: 2500 entries removed, 250MB freed",system_notification,bert,48
+File upload failed: backup.zip exceeds 250MB limit,workflow_error,bert,50
+"API endpoint /v1/users is deprecated, migrate to /v3/auth by Dec 2024",deprecation_warning,regex,69
+"Method calculateTax() obsolete since 4.0, use VATService instead",deprecation_warning,llm,64
+File upload completed: quarterly.xlsx (45MB) by user manager.ops,user_action,llm,64
+"Cache cleared: 20 entries removed, 250MB freed",system_notification,regex,46
+Db connection pool initialized with 1250 connections,system_notification,bert,52
+Database conn timeout after 15 seconds,workflow_error,bert,38
+File upload failed: config.yaml exceeds 512MB limit,workflow_error,regex,51
+File upload failed: config.yaml exceeds 250MB limit,workflow_error,bert,51
+Client session expired after 15 minutes for client manager.ops,user_action,regex,62
+Profile updated: user 12345 changed email to test@unknown.com,user_action,bert,61
+User session expired after 60 minutes for user manager.ops,user_action,llm,58
+Circuit breaker opened: downstream service unresponsive,workflow_error,llm,55
+"API endpoint /metrics is deprecated, migrate to /v3/auth by Dec 2024",deprecation_warning,bert,68
+Load balancer health check passed - 2500 nodes healthy,system_notification,bert,54
+Account locked: 2500 was unsuccessful login attempts for alice.smith,user_action,llm,68
+"Cache cleared: 1500 entries removed, 45MB freed",system_notification,llm,47
+Data import unsuccessful: duplicate record at line 5892,workflow_error,regex,55
+Document validation failed: missing required field address,workflow_error,regex,58
+User session expired after 30 minutes for user temp.user,user_action,bert,56
+File upload completed: quarterly.xlsx (100MB) by user manager.ops,user_action,llm,65
+Configuration option 'debug=true' will be removed in version 3.0,deprecation_warning,bert,64
+Two-factor authentication enabled for user manager.ops,user_action,llm,54
+"Method calculateVAT() deprecated since 3.0, use VATService alternatively",deprecation_warning,llm,72
+Account locked: 5 failed login attempts for john.doe,user_action,bert,52
+File upload completed: config.yaml (1024MB) by user alice.smith,user_action,bert,63
+User manager.ops logged in from IP 10.0.0.45,user_action,bert,44
+Profile updated: user 12345 changed email to test@unknown.com,user_action,bert,61
+Request processed,unclassified,llm,17
+Password changed successfully for user ID 12847,user_action,regex,47
+File upload completed: quarterly.xlsx (1024MB) by user temp.user,user_action,bert,64
+"API endpoint /v1/users is obsolete, migrate to /v2/users by Jan 2025",deprecation_warning,llm,68
+File upload unsuccessful: config.yaml exceeds 1024MB limit,workflow_error,regex,58
+Password changed successfully for user ID 12847,user_action,llm,47
+Client alice.smith created new project 'Q4-Analytics',user_action,regex,53
+Legacy auth module will be sunset in Q3 2024,deprecation_warning,bert,44
+Memory usage: 60% of heap (4.2GB/8GB),system_notification,llm,37
+API rate limit exceeded for client beta-ltd (100 requests/minute),workflow_error,regex,65
+"API endpoint /v2/orders is deprecated, migrate to /v2/users by Q2 2025",deprecation_warning,llm,70
+Database conn pool initialized with 10 conns,system_notification,bert,44
+"Cache cleared: 100 entries removed, 100MB freed",system_notification,bert,47
+File upload completed: config.yaml (1024MB) by user alice.smith,user_action,regex,63
+Configuration option 'legacy_mode=true' will be removed in version 3.0,deprecation_warning,bert,70
+"API endpoint /auth/login is obsolete, migrate to /v3/auth by Jan 2025",deprecation_warning,llm,69
+"Report format XML will be discontinued, migrate to JSON by Q2 2025",deprecation_warning,llm,66
+Configuration file config.yaml reloaded completed,system_notification,regex,49
+"Cache cleared: 1500 entries removed, 45MB freed",system_notification,bert,47
+API rate limit exceeded for client alpha-inc (1500 requests/minute),workflow_error,llm,67
+"Support ending for Internet Explorer by Q2 2025, update requirements",deprecation_warning,bert,68
+Service mesh deployment completed: 127 pods scheduled across 3 nodes,system_notification,llm,68
+File upload failed: backup.zip exceeds 45MB limit,workflow_error,bert,49
+Queue processing unsuccessful: limit exceeded,workflow_error,regex,45
+File upload completed: backup.zip (250MB) by user manager.ops,user_action,regex,61
+Document shared: quarterly.xlsx shared with team-leads@company.com,user_action,bert,66
+Credit card authorization declined: limit exceeded,workflow_error,regex,50
+Application initiated completed on port 443,system_notification,regex,43
+"Cache cleared: 5 entries removed, 512MB freed",system_notification,llm,45
+Service timeout: authentication unreachable,workflow_error,llm,43
+ETL pipeline completed: 20 records processed in 5 minutes,system_notification,regex,57
+"SSL protocol TLSv1.1 is deprecated, upgrade to TLSv1.3 by Q2 2025",deprecation_warning,llm,65
+"API endpoint /metrics is deprecated, migrate to /v2/users by Q2 2025",deprecation_warning,regex,68
+Custom event handler triggered: processing queue depth 47,unclassified,bert,57
+ETL pipeline completed: 20 records processed in 45 minutes,system_notification,bert,58
+Request processed,unclassified,bert,17
+Application started completed successfullyly on port 9090,system_notification,llm,57
+Document shared: config.yaml shared with finance-team@company.com,user_action,llm,65
+App started successfully on port 443,system_notification,bert,36
+File upload unsuccessful: data.csv exceeds 250MB limit,workflow_error,regex,54
+File upload failed: quarterly.xlsx exceeds 512MB limit,workflow_error,regex,54
+"API endpoint /auth/login is deprecated, migrate to /v3/auth by Q2 2025",deprecation_warning,llm,70
+API endpoint /v2/orders responding normally (200ms),system_notification,bert,51
+File upload completed: quarterly.xlsx (250MB) by user alice.smith,user_action,regex,65
+"Cache cleared: 5 entries removed, 100MB freed",system_notification,llm,45
+Legacy authentication module will be sunset in Q2 2025,deprecation_warning,regex,54
+"API endpoint /metrics is obsolete, migrate to /v3/auth by Q2 2025",deprecation_warning,llm,65
+Account locked: 100 was unsuccessful login attempts for alice.smith,user_action,llm,67
+Old file storage API deprecated: migrate to new template engine,deprecation_warning,bert,63
+Account locked: 5 failed login attempts for john.doe,user_action,bert,52
+Service timeout: authentication unreachable,workflow_error,bert,43
+Service timeout: payment unreachable,workflow_error,llm,36
+API endpoint /v2/orders responding normally (250ms),system_notification,regex,51
+Memory usage: 95% of heap (7.1GB/16GB),system_notification,regex,38
+File upload completed: backup.zip (512MB) by user manager.ops,user_action,bert,61
+"API endpoint /auth/login is deprecated, migrate to /v2/users by Q2 2025",deprecation_warning,regex,71
+Database connection pool initialized with 5 connections,system_notification,bert,55
+Db connection pool initialized with 1500 connections,system_notification,bert,52
+File upload completed: data.csv (512MB) by client john.doe,user_action,regex,58
+API endpoint /metrics responding normally (200ms),system_notification,llm,49
+ETL pipeline completed: 5 records processed in 5 minutes,system_notification,regex,56
+Application started successfully on port 8080,system_notification,bert,45
+User alice.smith logged in from IP 10.0.0.45,user_action,llm,44
+File upload unsuccessful: quarterly.xlsx exceeds 1024MB limit,workflow_error,regex,61
+"Legacy email template system deprecated, use cloud storage",deprecation_warning,llm,58
+Application started successfully on port 8080,system_notification,llm,45
+Service timeout: shipping unreachable,workflow_error,regex,37
+File upload completed: report.pdf (100MB) by user manager.ops,user_action,bert,61
+API rate limit exceeded for client beta-ltd (10 requests/minute),workflow_error,llm,64
+Account locked: 10 was unsuccessful login attempts for john.doe,user_action,llm,63
+File upload completed: quarterly.xlsx (100MB) by client temp.client,user_action,regex,67
+Memory usage: 75% of heap (6.2GB/16GB),system_notification,bert,38
+"Method calculateTax() deprecated since 2.0, use VATService alternatively",deprecation_warning,llm,72
+API endpoint /metrics responding normally (200ms),system_notification,bert,49
+Payment processing was unsuccessful: insufficient funds for order #12345,workflow_error,llm,72
+File upload completed: backup.zip (1024MB) by user admin,user_action,regex,56
+File upload completed: report.pdf (45MB) by user alice.smith,user_action,bert,60
+API rate limit exceeded for client beta-ltd (20 requests/minute),workflow_error,bert,64
+File upload failed: config.yaml exceeds 1024MB limit,workflow_error,bert,52
+"Method calculateTax() obsolete since 3.0, use VATService instead",deprecation_warning,llm,64
+Password changed successfully for user ID 67890,user_action,bert,47
+Account locked: 100 failed login attempts for temp.user,user_action,regex,55
+Memory usage: 45% of heap (4.2GB/8GB),system_notification,regex,37
+Document shared: quarterly.xlsx shared with finance-team@company.com,user_action,bert,68
+"Cache cleared: 10 entries removed, 512MB freed",system_notification,bert,46
+File upload completed: data.csv (100MB) by user alice.smith,user_action,regex,59
+"SSL protocol TLSv1.2 is deprecated, upgrade to TLSv1.3 by Q2 2025",deprecation_warning,regex,65
+User temp.user logged in from IP 192.168.1.100,user_action,bert,46
+File upload failed: config.yaml exceeds 512MB limit,workflow_error,llm,51
+"API endpoint /v1/users is deprecated, migrate to /v2/users by Jan 2025",deprecation_warning,llm,70
+User preferences updated: SMS-only,user_action,regex,34
+Client admin created new project 'HR-Dashboard',user_action,regex,47
+"Method calculateTax() deprecated since 2.0, use VATService alternatively",deprecation_warning,llm,72
+Client temp.client logged in from IP 203.0.113.55,user_action,regex,49
+"API endpoint /v2/orders is deprecated, migrate to /v3/auth by Dec 2024",deprecation_warning,bert,70
+Account locked: 20 was unsuccessful login attempts for alice.smith,user_action,llm,66
+ETL pipeline completed: 1250 records processed in {minutes} minutes,system_notification,bert,67
+Document validation was unsuccessful: missing required field address,workflow_error,llm,68
+User preferences updated: push-notifications,user_action,llm,44
+Account locked: 1250 failed login attempts for temp.client,user_action,regex,58
+API endpoint /v2/orders responding normally (250ms),system_notification,regex,51
+ETL pipeline completed: 1250 records processed in 60 minutes,system_notification,bert,60
+API endpoint /auth/login responding normally (200ms),system_notification,regex,52
+Database connection pool initialized with 2500 connections,system_notification,bert,58
+Account locked: 50 failed login attempts for admin,user_action,bert,50
+File upload was unsuccessful: quarterly.xlsx exceeds 250MB limit,workflow_error,llm,64
+File upload was unsuccessful: quarterly.xlsx exceeds 512MB limit,workflow_error,llm,64
+User session expired after {minutes} minutes for user admin,user_action,llm,59
+Configuration option 'legacy_mode=true' will be removed in version 4.0,deprecation_warning,regex,70
+Memory usage: 82% of heap (7.1GB/16GB),system_notification,bert,38
+ETL pipeline completed: 5 records processed in 5 minutes,system_notification,regex,56
+User session expired after 45 minutes for user temp.user,user_action,llm,56
+File upload completed: data.csv (512MB) by client alice.smith,user_action,regex,61
+"API endpoint /v2/orders is deprecated, migrate to /v2/users by Q2 2025",deprecation_warning,regex,70
+Legacy authentication module will be sunset in Q3 2025,deprecation_warning,bert,54
+ETL pipeline completed: 50 records processed in 5 minutes,system_notification,regex,57
+API endpoint /auth/login responding normally (250ms),system_notification,bert,52
+Database conn pool initialized with 100 conns,system_notification,bert,45
+Account locked: 5 was unsuccessful login attempts for admin,user_action,llm,59
+File upload failed: report.pdf exceeds 512MB limit,workflow_error,regex,50
+Account locked: 2500 failed login attempts for temp.user,user_action,bert,56
+Memory usage: 60% of heap (4.2GB/8GB),system_notification,llm,37
+"Method calculateTax() deprecated since 2.0, use VATService instead",deprecation_warning,bert,66
+"API endpoint /v1/users is deprecated, migrate to /v3/auth by Jan 2025",deprecation_warning,llm,69
+File upload completed: report.pdf (100MB) by user john.doe,user_action,llm,58
+File upload completed: config.yaml (100MB) by user manager.ops,user_action,regex,62
+File upload completed: report.pdf (100MB) by client alice.smith,user_action,regex,63
+SSL certificate renewed for domain service.domain.net,system_notification,llm,53
+Document shared: backup.zip shared with team-leads@company.com,user_action,llm,62
+Account locked: 50 failed login attempts for alice.smith,user_action,llm,56
+File upload completed: quarterly.xlsx (1024MB) by user manager.ops,user_action,bert,66
+Service timeout: auth unreachable,workflow_error,bert,33
+Configuration file quarterly.xlsx reloaded completed successfullyly,system_notification,llm,67
+Client session expired after 5 minutes for client alice.smith,user_action,regex,61
+Account locked: 20 failed login attempts for manager.ops,user_action,llm,56
+User admin logged in from IP 10.0.0.45,user_action,bert,38
+Load balancer health check passed - 20 nodes healthy,system_notification,llm,52
+File upload completed: data.csv (250MB) by user admin,user_action,bert,53
+File upload failed: config.yaml exceeds 512MB limit,workflow_error,llm,51
+API endpoint /auth/login responding normally (145ms),system_notification,bert,52
+"Method calculateVAT() deprecated since 4.0, use VATService instead",deprecation_warning,llm,66
+File upload unsuccessful: config.yaml exceeds 1024MB limit,workflow_error,regex,58
+Memory usage: 95% of heap (4.2GB/16GB),system_notification,bert,38
+File upload completed: data.csv (512MB) by user alice.smith,user_action,regex,59
+File upload completed: quarterly.xlsx (512MB) by user alice.smith,user_action,bert,65
+"Legacy email template system deprecated, use new template engine",deprecation_warning,bert,64
+"Function calculateVAT() deprecated since 3.0, use TaxCalculationService instead",deprecation_warning,llm,79
+Account locked: 50 failed login attempts for manager.ops,user_action,regex,56
+OAuth2 token refresh: session extended for user sarah.connor,user_action,bert,60
+"Method calculateTax() deprecated since 3.0, use TaxCalculationService instead",deprecation_warning,regex,77
+File upload completed: backup.zip (45MB) by user admin,user_action,bert,54
+Credit card authorization declined: card expired,workflow_error,regex,48
+"Report format CSV will be discontinued, migrate to JSON by Jan 2025",deprecation_warning,regex,67
+File upload completed: data.csv (100MB) by client temp.client,user_action,regex,61
+API rate limit exceeded for client alpha-inc (2500 requests/minute),workflow_error,llm,67
+User admin created new project 'Q1-Financials',user_action,llm,46
+"Method calculateVAT() deprecated since 4.0, use TaxCalculationService instead",deprecation_warning,llm,77
+File upload completed: data.csv (250MB) by user temp.user,user_action,bert,57
+API endpoint /auth/login responding normally (250ms),system_notification,llm,52
+Db connection timeout after 15 seconds,workflow_error,bert,38
+Application started successfully on port 8080,system_notification,bert,45
+"Method calculateTax() deprecated since 4.0, use VATService instead",deprecation_warning,bert,66
+API rate limit exceeded for client xyz-corp (20 requests/minute),workflow_error,regex,64
+User temp.user created new project 'Q4-Analytics',user_action,llm,49
+Two-factor authentication enabled for user admin,user_action,llm,48
+User manager.ops logged in from IP 203.0.113.55,user_action,regex,47
+"Function calculateTax() deprecated since 3.0, use TaxCalculationService instead",deprecation_warning,llm,79
+API rate limit exceeded for client xyz-corp (2500 requests/minute),workflow_error,llm,66
+File upload completed: data.csv (512MB) by client alice.smith,user_action,regex,61
+User admin created new project 'Q1-Financials',user_action,regex,46
+API rate limit exceeded for client xyz-corp (5 requests/minute),workflow_error,llm,63
+"Cache cleared: 1250 entries removed, 1024MB freed",system_notification,llm,49
+ETL pipeline completed: 20 records processed in {minutes} minutes,system_notification,regex,65
+Legacy auth module will be sunset in Q2 2024,deprecation_warning,bert,44
+Memory usage: 82% of heap (7.1GB/16GB),system_notification,llm,38
+File upload completed: report.pdf (45MB) by client admin,user_action,regex,56
+Configuration option 'legacy_mode=true' will be removed in version 4.0,deprecation_warning,bert,70
+ETL pipeline completed: 50 records processed in 30 minutes,system_notification,llm,58
+"SSL protocol TLSv1.1 is deprecated, upgrade to TLSv1.3 by Q2 2025",deprecation_warning,regex,65
+Account locked: 2500 failed login attempts for temp.user,user_action,regex,56
+User session expired after 5 minutes for user temp.user,user_action,regex,55
+API endpoint /metrics responding normally (250ms),system_notification,bert,49
+"Database driver mysql-connector-5.x is obsolete, upgrade to 4.0",deprecation_warning,llm,63
+Memory usage: 60% of heap (6.2GB/16GB),system_notification,bert,38
+File upload failed: config.yaml exceeds 250MB limit,workflow_error,bert,51
+"Database driver postgres-9.x is deprecated, upgrade to 4.0",deprecation_warning,regex,58

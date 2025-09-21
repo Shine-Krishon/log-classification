@@ -1,0 +1,12 @@
+timestamp: 2025-09-14T11:35:16.051594
+model_file: models/advanced_log_classifier_20250914_113515.joblib
+dataset_used: Advanced 5K Dataset
+test_accuracy: 1.0
+cv_accuracy: 0.9996913580246913
+problematic_accuracy: 0.75
+dataset_size: 4056
+dataset_uniqueness: 1.0
+training_time: 0.160569
+model_type: advanced_logistic_regression
+features: Optimized TF-IDF with ngrams
+performance_notes: Trained on advanced synthetic dataset with business-realistic patterns

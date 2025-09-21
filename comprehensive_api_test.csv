@@ -1,0 +1,26 @@
+source,log_message
+test_system,User 12345 logged in
+test_system,User john.doe logged out
+test_system,User accessed dashboard page
+test_system,User uploaded file report.pdf
+test_system,User updated profile information
+test_system,Failed login attempt from IP 192.168.1.100
+test_system,Multiple failed login attempts detected
+test_system,Suspicious activity: brute force attack
+test_system,Unauthorized access attempt blocked
+test_system,SQL injection attempt detected
+test_system,System backup completed successfully
+test_system,Database maintenance scheduled for tonight
+test_system,Server restart required for updates
+test_system,Disk space warning: 85% full
+test_system,Service restart completed
+test_system,Payment processing failed for order #12345
+test_system,Email delivery failed: invalid address
+test_system,File upload failed: size limit exceeded
+test_system,Database connection timeout
+test_system,API request failed: rate limit exceeded
+test_system,DEPRECATED: Function old_auth() will be removed in v2.0
+test_system,WARNING: Legacy API endpoint /v1/users is deprecated
+test_system,NOTICE: Old configuration format no longer supported
+test_system,DEPRECATED: Database driver version 1.x is obsolete
+test_system,WARNING: SSL protocol TLS 1.0 is deprecated

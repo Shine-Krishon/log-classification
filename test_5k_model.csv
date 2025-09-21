@@ -1,0 +1,6 @@
+timestamp,source,log_message
+2024-01-15 09:30:00,ModernHR,Employee EMP2001 submitted time-off request for vacation
+2024-01-15 10:15:00,WorkforceOne,User login attempt failed - invalid credentials
+2024-01-15 11:00:00,PayrollSys,SSL certificate will expire in 30 days - renewal required
+2024-01-15 14:20:00,SecurityGateway,Unauthorized access attempt detected from IP 192.168.1.100
+2024-01-15 15:45:00,DataPipeline,ETL process completed successfully - 1250 records processed

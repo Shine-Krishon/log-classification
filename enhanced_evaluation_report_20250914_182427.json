@@ -1,0 +1,71 @@
+{
+  "overall_metrics": {
+    "accuracy": 0.0,
+    "f1_macro": 0.0,
+    "f1_micro": 0.0,
+    "f1_weighted": 0.0,
+    "precision_macro": 0.0,
+    "precision_micro": 0.0,
+    "precision_weighted": 0.0,
+    "recall_macro": 0.0,
+    "recall_micro": 0.0,
+    "recall_weighted": 0.0
+  },
+  "per_class_metrics": {
+    "deprecation_warning": {
+      "f1_score": 0.0,
+      "support": 0
+    },
+    "deprecation_warnings": {
+      "f1_score": 0.0,
+      "support": 10
+    },
+    "security_alert": {
+      "f1_score": 0.0,
+      "support": 0
+    },
+    "security_alerts": {
+      "f1_score": 0.0,
+      "support": 15
+    },
+    "system_notification": {
+      "f1_score": 0.0,
+      "support": 0
+    },
+    "system_notifications": {
+      "f1_score": 0.0,
+      "support": 10
+    },
+    "unclassified": {
+      "f1_score": 0.0,
+      "support": 0
+    },
+    "user_action": {
+      "f1_score": 0.0,
+      "support": 0
+    },
+    "user_actions": {
+      "f1_score": 0.0,
+      "support": 15
+    },
+    "workflow_error": {
+      "f1_score": 0.0,
+      "support": 0
+    },
+    "workflow_errors": {
+      "f1_score": 0.0,
+      "support": 10
+    }
+  },
+  "category_accuracy": {
+    "user_actions": 0.0,
+    "security_alerts": 0.0,
+    "system_notifications": 0.0,
+    "workflow_errors": 0.0,
+    "deprecation_warnings": 0.0
+  },
+  "total_samples": 60,
+  "categories_tested": 5,
+  "timestamp": "2025-09-14 18:24:27",
+  "model_path": "models/enhanced_log_classifier.joblib"
+}

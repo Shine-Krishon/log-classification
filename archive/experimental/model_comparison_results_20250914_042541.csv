@@ -1,0 +1,5 @@
+model_name,validation_accuracy,test_accuracy,training_time_seconds,is_best
+Enhanced_Logistic_Regression,1.0,0.9995,0.27912092208862305,False
+Optimized_Random_Forest,0.996,0.995,0.49104785919189453,False
+Gradient_Boosting,0.9995,0.9995,49.026389360427856,False
+SVM_Linear,1.0,0.99975,3.362884759902954,True

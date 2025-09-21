@@ -1,0 +1,1820 @@
+log_message,target_label,complexity
+"Cache cleared: 1250 entries removed, 1024MB freed",system_notification,bert
+Application started successfully on port 9090,system_notification,bert
+SSL certificate renewed for domain api.company.com,system_notification,bert
+Application started successfully on port 8080,system_notification,regex
+Application started successfully on port 8080,system_notification,bert
+API endpoint /metrics responding normally (145ms),system_notification,llm
+Configuration file data.csv reloaded successfully,system_notification,regex
+ETL pipeline completed: 5 records processed in {minutes} minutes,system_notification,regex
+Scheduled backup completed at 2025-09-14 02:00:00,system_notification,bert
+ETL pipeline completed: 5 records processed in {minutes} minutes,system_notification,bert
+SSL certificate renewed for domain service.domain.net,system_notification,bert
+Memory usage: 75% of heap (6.2GB/16GB),system_notification,regex
+Configuration file config.yaml reloaded successfully,system_notification,bert
+Application started successfully on port 3000,system_notification,bert
+Memory usage: 82% of heap (4.2GB/8GB),system_notification,regex
+Database connection pool initialized with 1250 connections,system_notification,bert
+ETL pipeline completed: 5 records processed in {minutes} minutes,system_notification,llm
+Memory usage: 60% of heap (7.1GB/8GB),system_notification,regex
+"Cache cleared: 1250 entries removed, 512MB freed",system_notification,bert
+API endpoint /auth/login responding normally (200ms),system_notification,regex
+SSL certificate renewed for domain payments.org,system_notification,bert
+Application started successfully on port 3000,system_notification,regex
+ETL pipeline completed: 100 records processed in {minutes} minutes,system_notification,bert
+Database connection pool initialized with 2500 connections,system_notification,regex
+API endpoint /v2/orders responding normally (145ms),system_notification,bert
+Load balancer health check passed - 1500 nodes healthy,system_notification,regex
+Scheduled backup completed at 2025-09-14 14:30:00,system_notification,regex
+SSL certificate renewed for domain payments.org,system_notification,regex
+Database connection pool initialized with 1500 connections,system_notification,regex
+Memory usage: 45% of heap (4.2GB/16GB),system_notification,llm
+SSL certificate renewed for domain service.domain.net,system_notification,regex
+API endpoint /v2/orders responding normally (200ms),system_notification,bert
+Memory usage: 82% of heap (7.1GB/16GB),system_notification,bert
+ETL pipeline completed: 10 records processed in {minutes} minutes,system_notification,regex
+Configuration file quarterly.xlsx reloaded successfully,system_notification,bert
+Application started successfully on port 443,system_notification,bert
+API endpoint /metrics responding normally (145ms),system_notification,regex
+Configuration file report.pdf reloaded successfully,system_notification,regex
+ETL pipeline completed: 20 records processed in {minutes} minutes,system_notification,regex
+Load balancer health check passed - 1500 nodes healthy,system_notification,bert
+Memory usage: 95% of heap (7.1GB/16GB),system_notification,llm
+API endpoint /v2/orders responding normally (250ms),system_notification,bert
+Memory usage: 60% of heap (4.2GB/8GB),system_notification,bert
+ETL pipeline completed: 100 records processed in {minutes} minutes,system_notification,regex
+"Cache cleared: 100 entries removed, 512MB freed",system_notification,llm
+Scheduled backup completed at 2025-09-14 02:00:00,system_notification,regex
+API endpoint /metrics responding normally (200ms),system_notification,regex
+"Cache cleared: 1250 entries removed, 100MB freed",system_notification,bert
+Memory usage: 45% of heap (4.2GB/16GB),system_notification,regex
+Memory usage: 75% of heap (6.2GB/8GB),system_notification,bert
+Scheduled backup completed at 2025-09-15 08:45:00,system_notification,regex
+Load balancer health check passed - 2500 nodes healthy,system_notification,regex
+"Cache cleared: 100 entries removed, 512MB freed",system_notification,regex
+Database connection pool initialized with 10 connections,system_notification,regex
+Configuration file data.csv reloaded successfully,system_notification,llm
+"Cache cleared: 10 entries removed, 45MB freed",system_notification,bert
+Load balancer health check passed - 100 nodes healthy,system_notification,llm
+API endpoint /v2/orders responding normally (200ms),system_notification,regex
+API endpoint /auth/login responding normally (200ms),system_notification,bert
+"Cache cleared: 1500 entries removed, 250MB freed",system_notification,bert
+Configuration file config.yaml reloaded successfully,system_notification,regex
+Database connection pool initialized with 10 connections,system_notification,bert
+Configuration file report.pdf reloaded successfully,system_notification,bert
+API endpoint /auth/login responding normally (120ms),system_notification,regex
+ETL pipeline completed: 50 records processed in {minutes} minutes,system_notification,bert
+Memory usage: 95% of heap (4.2GB/8GB),system_notification,regex
+Memory usage: 95% of heap (7.1GB/16GB),system_notification,bert
+Configuration file data.csv reloaded successfully,system_notification,bert
+API endpoint /auth/login responding normally (145ms),system_notification,llm
+ETL pipeline completed: 20 records processed in {minutes} minutes,system_notification,bert
+"Cache cleared: 1250 entries removed, 512MB freed",system_notification,regex
+API endpoint /metrics responding normally (250ms),system_notification,regex
+ETL pipeline completed: 50 records processed in {minutes} minutes,system_notification,llm
+"Cache cleared: 10 entries removed, 1024MB freed",system_notification,bert
+API endpoint /v1/users responding normally (145ms),system_notification,bert
+"Cache cleared: 100 entries removed, 250MB freed",system_notification,bert
+Database connection pool initialized with 1500 connections,system_notification,llm
+SSL certificate renewed for domain api.company.com,system_notification,regex
+Memory usage: 60% of heap (6.2GB/16GB),system_notification,bert
+Memory usage: 75% of heap (7.1GB/8GB),system_notification,regex
+Load balancer health check passed - 10 nodes healthy,system_notification,regex
+Configuration file backup.zip reloaded successfully,system_notification,regex
+Configuration file backup.zip reloaded successfully,system_notification,bert
+Load balancer health check passed - 10 nodes healthy,system_notification,llm
+Load balancer health check passed - 50 nodes healthy,system_notification,llm
+API endpoint /metrics responding normally (200ms),system_notification,llm
+"Cache cleared: 5 entries removed, 45MB freed",system_notification,regex
+API endpoint /metrics responding normally (200ms),system_notification,bert
+ETL pipeline completed: 1500 records processed in {minutes} minutes,system_notification,regex
+"Cache cleared: 1250 entries removed, 100MB freed",system_notification,regex
+Scheduled backup completed at 2025-09-15 08:45:00,system_notification,bert
+Application started successfully on port 9090,system_notification,regex
+Application started successfully on port 443,system_notification,regex
+Load balancer health check passed - 1500 nodes healthy,system_notification,llm
+Database connection pool initialized with 2500 connections,system_notification,bert
+Configuration file config.yaml reloaded successfully,system_notification,llm
+Database connection pool initialized with 1500 connections,system_notification,bert
+Load balancer health check passed - 100 nodes healthy,system_notification,bert
+Database connection pool initialized with 1250 connections,system_notification,regex
+API endpoint /metrics responding normally (120ms),system_notification,bert
+Load balancer health check passed - 10 nodes healthy,system_notification,bert
+"Cache cleared: 50 entries removed, 512MB freed",system_notification,bert
+API endpoint /v2/orders responding normally (145ms),system_notification,regex
+Memory usage: 75% of heap (6.2GB/16GB),system_notification,bert
+Application started successfully on port 9090,system_notification,llm
+API endpoint /metrics responding normally (145ms),system_notification,bert
+Database connection pool initialized with 1250 connections,system_notification,llm
+API endpoint /v1/users responding normally (200ms),system_notification,bert
+API endpoint /v1/users responding normally (250ms),system_notification,bert
+Database connection pool initialized with 20 connections,system_notification,regex
+Database connection pool initialized with 100 connections,system_notification,regex
+API endpoint /v2/orders responding normally (120ms),system_notification,bert
+Memory usage: 45% of heap (4.2GB/8GB),system_notification,regex
+Database connection pool initialized with 5 connections,system_notification,bert
+SSL certificate renewed for domain service.domain.net,system_notification,llm
+Load balancer health check passed - 50 nodes healthy,system_notification,bert
+"Cache cleared: 1500 entries removed, 512MB freed",system_notification,regex
+Load balancer health check passed - 100 nodes healthy,system_notification,regex
+Load balancer health check passed - 50 nodes healthy,system_notification,regex
+"Cache cleared: 5 entries removed, 250MB freed",system_notification,bert
+Memory usage: 60% of heap (4.2GB/16GB),system_notification,bert
+"Cache cleared: 1250 entries removed, 1024MB freed",system_notification,regex
+Database connection pool initialized with 20 connections,system_notification,llm
+Memory usage: 60% of heap (7.1GB/8GB),system_notification,bert
+ETL pipeline completed: 2500 records processed in {minutes} minutes,system_notification,bert
+"Cache cleared: 10 entries removed, 45MB freed",system_notification,llm
+Load balancer health check passed - 1250 nodes healthy,system_notification,regex
+API endpoint /v1/users responding normally (145ms),system_notification,regex
+ETL pipeline completed: 50 records processed in {minutes} minutes,system_notification,regex
+ETL pipeline completed: 1500 records processed in {minutes} minutes,system_notification,bert
+Scheduled backup completed at 2025-09-14 14:30:00,system_notification,bert
+API endpoint /metrics responding normally (120ms),system_notification,regex
+ETL pipeline completed: 10 records processed in {minutes} minutes,system_notification,bert
+Load balancer health check passed - 20 nodes healthy,system_notification,bert
+Load balancer health check passed - 5 nodes healthy,system_notification,llm
+API endpoint /metrics responding normally (250ms),system_notification,bert
+Memory usage: 82% of heap (7.1GB/8GB),system_notification,regex
+"Cache cleared: 100 entries removed, 100MB freed",system_notification,regex
+Memory usage: 60% of heap (7.1GB/16GB),system_notification,bert
+Load balancer health check passed - 1250 nodes healthy,system_notification,bert
+"Cache cleared: 1250 entries removed, 45MB freed",system_notification,regex
+API endpoint /v2/orders responding normally (200ms),system_notification,llm
+"Cache cleared: 2500 entries removed, 1024MB freed",system_notification,regex
+ETL pipeline completed: 100 records processed in {minutes} minutes,system_notification,llm
+Scheduled backup completed at 2025-09-14 02:00:00,system_notification,llm
+Memory usage: 82% of heap (4.2GB/16GB),system_notification,regex
+"Cache cleared: 100 entries removed, 45MB freed",system_notification,bert
+Load balancer health check passed - 5 nodes healthy,system_notification,regex
+"Cache cleared: 2500 entries removed, 100MB freed",system_notification,llm
+API endpoint /v1/users responding normally (250ms),system_notification,regex
+API endpoint /v1/users responding normally (200ms),system_notification,regex
+API endpoint /v1/users responding normally (120ms),system_notification,bert
+Memory usage: 60% of heap (4.2GB/8GB),system_notification,regex
+Database connection pool initialized with 5 connections,system_notification,regex
+"Cache cleared: 1500 entries removed, 100MB freed",system_notification,bert
+SSL certificate renewed for domain payments.org,system_notification,llm
+Configuration file backup.zip reloaded successfully,system_notification,llm
+"Cache cleared: 2500 entries removed, 45MB freed",system_notification,llm
+Memory usage: 95% of heap (6.2GB/16GB),system_notification,bert
+"Cache cleared: 1250 entries removed, 250MB freed",system_notification,llm
+Database connection pool initialized with 50 connections,system_notification,bert
+"Cache cleared: 10 entries removed, 1024MB freed",system_notification,regex
+Memory usage: 45% of heap (6.2GB/8GB),system_notification,regex
+"Cache cleared: 50 entries removed, 512MB freed",system_notification,regex
+Memory usage: 75% of heap (4.2GB/16GB),system_notification,regex
+Application started successfully on port 443,system_notification,llm
+Database connection pool initialized with 100 connections,system_notification,bert
+"Cache cleared: 2500 entries removed, 512MB freed",system_notification,bert
+Database connection pool initialized with 2500 connections,system_notification,llm
+"Cache cleared: 1250 entries removed, 100MB freed",system_notification,llm
+Memory usage: 75% of heap (4.2GB/16GB),system_notification,llm
+Memory usage: 95% of heap (6.2GB/8GB),system_notification,bert
+Memory usage: 45% of heap (7.1GB/8GB),system_notification,bert
+Load balancer health check passed - 20 nodes healthy,system_notification,regex
+ETL pipeline completed: 1250 records processed in {minutes} minutes,system_notification,bert
+Memory usage: 45% of heap (6.2GB/8GB),system_notification,bert
+Memory usage: 75% of heap (6.2GB/8GB),system_notification,regex
+"Cache cleared: 100 entries removed, 100MB freed",system_notification,bert
+Memory usage: 75% of heap (7.1GB/16GB),system_notification,llm
+ETL pipeline completed: 1250 records processed in {minutes} minutes,system_notification,regex
+"Cache cleared: 2500 entries removed, 250MB freed",system_notification,bert
+Database connection pool initialized with 5 connections,system_notification,llm
+API endpoint /auth/login responding normally (145ms),system_notification,regex
+API endpoint /auth/login responding normally (250ms),system_notification,bert
+Memory usage: 75% of heap (7.1GB/16GB),system_notification,regex
+"Cache cleared: 20 entries removed, 512MB freed",system_notification,bert
+Memory usage: 75% of heap (4.2GB/8GB),system_notification,bert
+"Cache cleared: 50 entries removed, 45MB freed",system_notification,bert
+Memory usage: 82% of heap (6.2GB/8GB),system_notification,bert
+Load balancer health check passed - 2500 nodes healthy,system_notification,bert
+"Cache cleared: 50 entries removed, 250MB freed",system_notification,bert
+"Cache cleared: 5 entries removed, 512MB freed",system_notification,bert
+Configuration file quarterly.xlsx reloaded successfully,system_notification,regex
+"Cache cleared: 5 entries removed, 100MB freed",system_notification,regex
+Memory usage: 75% of heap (4.2GB/16GB),system_notification,bert
+Scheduled backup completed at 2025-09-14 14:30:00,system_notification,llm
+Memory usage: 82% of heap (7.1GB/16GB),system_notification,regex
+Memory usage: 82% of heap (7.1GB/8GB),system_notification,llm
+"Cache cleared: 5 entries removed, 1024MB freed",system_notification,regex
+Memory usage: 82% of heap (6.2GB/8GB),system_notification,regex
+Memory usage: 95% of heap (4.2GB/8GB),system_notification,llm
+Memory usage: 60% of heap (6.2GB/8GB),system_notification,regex
+Memory usage: 95% of heap (6.2GB/8GB),system_notification,regex
+"Cache cleared: 5 entries removed, 512MB freed",system_notification,regex
+ETL pipeline completed: 2500 records processed in {minutes} minutes,system_notification,regex
+Memory usage: 60% of heap (6.2GB/16GB),system_notification,regex
+Memory usage: 95% of heap (4.2GB/16GB),system_notification,regex
+Memory usage: 75% of heap (7.1GB/16GB),system_notification,bert
+"Cache cleared: 10 entries removed, 100MB freed",system_notification,bert
+SSL certificate renewed for domain api.company.com,system_notification,llm
+ETL pipeline completed: 1500 records processed in {minutes} minutes,system_notification,llm
+API endpoint /metrics responding normally (120ms),system_notification,llm
+"Cache cleared: 20 entries removed, 100MB freed",system_notification,llm
+"Cache cleared: 20 entries removed, 100MB freed",system_notification,bert
+Database connection pool initialized with 20 connections,system_notification,bert
+"Cache cleared: 50 entries removed, 1024MB freed",system_notification,bert
+"Cache cleared: 2500 entries removed, 512MB freed",system_notification,regex
+Database connection pool initialized with 50 connections,system_notification,regex
+Memory usage: 95% of heap (4.2GB/16GB),system_notification,bert
+Load balancer health check passed - 5 nodes healthy,system_notification,bert
+"Cache cleared: 5 entries removed, 45MB freed",system_notification,bert
+"Cache cleared: 50 entries removed, 100MB freed",system_notification,bert
+"Cache cleared: 50 entries removed, 45MB freed",system_notification,llm
+API endpoint /v2/orders responding normally (250ms),system_notification,regex
+Memory usage: 45% of heap (7.1GB/8GB),system_notification,regex
+API endpoint /auth/login responding normally (145ms),system_notification,bert
+Load balancer health check passed - 2500 nodes healthy,system_notification,llm
+Application started successfully on port 8080,system_notification,llm
+"Cache cleared: 2500 entries removed, 45MB freed",system_notification,bert
+API endpoint /metrics responding normally (250ms),system_notification,llm
+"Cache cleared: 10 entries removed, 512MB freed",system_notification,bert
+Configuration file quarterly.xlsx reloaded successfully,system_notification,llm
+Scheduled backup completed at 2025-09-15 08:45:00,system_notification,llm
+Memory usage: 60% of heap (4.2GB/16GB),system_notification,regex
+"Cache cleared: 100 entries removed, 45MB freed",system_notification,regex
+"Cache cleared: 1500 entries removed, 1024MB freed",system_notification,llm
+Load balancer health check passed - 1250 nodes healthy,system_notification,llm
+API endpoint /v2/orders responding normally (120ms),system_notification,regex
+"Cache cleared: 1250 entries removed, 45MB freed",system_notification,bert
+"Cache cleared: 5 entries removed, 100MB freed",system_notification,llm
+API endpoint /auth/login responding normally (120ms),system_notification,bert
+Memory usage: 82% of heap (4.2GB/16GB),system_notification,bert
+Memory usage: 95% of heap (7.1GB/8GB),system_notification,regex
+Memory usage: 45% of heap (6.2GB/16GB),system_notification,bert
+Memory usage: 45% of heap (4.2GB/8GB),system_notification,bert
+Memory usage: 45% of heap (7.1GB/16GB),system_notification,bert
+Memory usage: 45% of heap (7.1GB/16GB),system_notification,regex
+Memory usage: 45% of heap (6.2GB/16GB),system_notification,regex
+Memory usage: 95% of heap (7.1GB/16GB),system_notification,regex
+Memory usage: 95% of heap (7.1GB/8GB),system_notification,bert
+"Cache cleared: 1500 entries removed, 100MB freed",system_notification,regex
+ETL pipeline completed: 2500 records processed in {minutes} minutes,system_notification,llm
+"Cache cleared: 2500 entries removed, 45MB freed",system_notification,regex
+Configuration file report.pdf reloaded successfully,system_notification,llm
+Memory usage: 75% of heap (4.2GB/8GB),system_notification,llm
+"Cache cleared: 10 entries removed, 45MB freed",system_notification,regex
+Memory usage: 95% of heap (4.2GB/8GB),system_notification,bert
+API endpoint /v1/users responding normally (120ms),system_notification,regex
+Employee accessing sensitive data outside work hours,security_alert,regex
+Cross-site scripting attempt detected in request,security_alert,llm
+Cross-site scripting attempt detected in request,security_alert,bert
+Advanced persistent threat indicators detected,security_alert,llm
+Data copying to unauthorized storage detected,security_alert,regex
+Suspicious remote access session,security_alert,regex
+Suspicious outbound connection to 10.0.0.100,security_alert,bert
+Sensitive data access from unauthorized location,security_alert,llm
+LDAP injection attempt blocked,security_alert,regex
+Password policy violation: weak password detected,security_alert,regex
+Account lockout triggered after 5 failed login attempts,security_alert,llm
+Unusual network activity from internal IP 203.0.113.100,security_alert,bert
+Port scan detected from IP 203.0.113.10,security_alert,regex
+XML external entity attack blocked,security_alert,bert
+Account lockout triggered after 5 failed login attempts,security_alert,bert
+Database privilege escalation attempt,security_alert,bert
+Buffer overflow attempt detected,security_alert,regex
+Suspicious USB device activity detected,security_alert,bert
+Ransomware activity detected on system,security_alert,regex
+Bulk user account creation detected,security_alert,regex
+Critical system file tampering detected,security_alert,llm
+System integrity check failed,security_alert,bert
+Keylogger activity detected,security_alert,bert
+Unauthorized system configuration change,security_alert,bert
+Malicious file upload detected: virus signature found,security_alert,regex
+Database privilege escalation attempt,security_alert,llm
+Blocked IP 198.51.100.15 after detecting brute force attack,security_alert,bert
+Sandbox breakout attempt detected,security_alert,llm
+Rootkit activity detected on system,security_alert,llm
+Botnet communication detected,security_alert,bert
+Biometric spoofing attempt detected,security_alert,llm
+Suspicious activity: User privilege escalation attempt detected,security_alert,regex
+Suspicious file access pattern detected,security_alert,llm
+Failed login attempt for user admin from IP 10.0.0.100,security_alert,regex
+Supply chain attack: compromised software detected,security_alert,regex
+Zero-day exploit attempt blocked by IDS,security_alert,regex
+Deepfake content detected in video upload,security_alert,regex
+Suspicious outbound connection to 198.51.100.100,security_alert,llm
+Smart contract exploit attempt on blockchain,security_alert,llm
+Deserialization attack attempt detected,security_alert,bert
+VPN connection from blacklisted IP 10.0.0.5,security_alert,bert
+Phishing attempt detected in email content,security_alert,regex
+Suspicious login pattern detected for user service_account,security_alert,bert
+Data masking policy violation detected,security_alert,regex
+Unauthorized service installation attempt,security_alert,bert
+Cryptocurrency miner detected,security_alert,bert
+Critical system file tampering detected,security_alert,bert
+Off-hours database access from employee account,security_alert,llm
+Sandbox evasion technique detected in attachment,security_alert,bert
+Command injection attempt blocked,security_alert,bert
+Suspicious outbound connection to 198.51.100.100,security_alert,regex
+Port scan detected from IP 192.168.1.200,security_alert,regex
+Data copying to unauthorized storage detected,security_alert,llm
+Suspicious outbound connection to 198.51.100.200,security_alert,regex
+Sensitive data access from unauthorized location,security_alert,bert
+XML external entity attack blocked,security_alert,regex
+Memory corruption attack detected,security_alert,regex
+VPN connection from blacklisted IP 10.10.10.10,security_alert,bert
+Unusual network activity from internal IP 10.0.0.100,security_alert,llm
+Suspicious outbound connection to 10.0.0.100,security_alert,llm
+Machine learning model poisoning attempt,security_alert,bert
+Federated learning model compromise detected,security_alert,llm
+Brute force attack detected against user user1,security_alert,llm
+Bulk user account creation detected,security_alert,bert
+SQL injection attempt detected in user input,security_alert,llm
+Spyware behavior detected on endpoint,security_alert,regex
+Trojan horse detected in uploaded file,security_alert,llm
+Data breach indicator: mass data access,security_alert,bert
+Keylogger activity detected,security_alert,llm
+LDAP injection attempt blocked,security_alert,llm
+Encrypted file decryption attempt failed,security_alert,bert
+Kernel-level attack attempt blocked,security_alert,bert
+Privileged user login from unusual location: Anonymous Proxy,security_alert,llm
+VPN connection from blacklisted IP 192.168.1.200,security_alert,regex
+Zero-day exploit attempt blocked by IDS,security_alert,llm
+Malware sandbox escape attempt,security_alert,bert
+Network intrusion attempt from IP 192.168.1.200,security_alert,llm
+Malicious traffic pattern detected,security_alert,llm
+Smart contract exploit attempt on blockchain,security_alert,regex
+Edge computing security violation detected,security_alert,regex
+Biometric spoofing attempt detected,security_alert,regex
+Suspicious process execution detected,security_alert,regex
+Unauthorized system configuration change,security_alert,llm
+Deepfake content detected in video upload,security_alert,llm
+AI-powered social engineering attempt detected,security_alert,regex
+Network intrusion attempt from IP 203.0.113.100,security_alert,bert
+File inclusion vulnerability exploited,security_alert,bert
+Invalid authentication token detected from IP 10.10.10.10,security_alert,bert
+Supply chain attack: compromised software detected,security_alert,bert
+Deepfake content detected in video upload,security_alert,bert
+CSRF attack attempt detected,security_alert,bert
+VPN connection from blacklisted IP 172.16.0.50,security_alert,llm
+Data masking policy violation detected,security_alert,bert
+Critical system file modification detected,security_alert,regex
+Password policy violation: weak password detected,security_alert,llm
+Suspicious outbound connection to 192.168.0.200,security_alert,llm
+Federated learning model compromise detected,security_alert,bert
+Sensitive table access without authorization,security_alert,regex
+Ransomware activity detected on system,security_alert,bert
+Mass email forwarding to external addresses,security_alert,llm
+Failed login attempt for user admin from IP 192.168.1.100,security_alert,regex
+Keylogger activity detected,security_alert,regex
+AI-powered social engineering attempt detected,security_alert,llm
+SQL injection attempt detected in user input,security_alert,regex
+Voice phishing (vishing) call detected,security_alert,regex
+Off-hours database access from employee account,security_alert,regex
+Sandbox breakout attempt detected,security_alert,regex
+Administrative privilege abuse detected,security_alert,bert
+Malware sandbox escape attempt,security_alert,llm
+Unauthorized access attempt detected from IP 192.168.1.200,security_alert,llm
+Privileged user login from unusual location: Brazil,security_alert,llm
+Unauthorized access attempt detected from IP 10.0.0.5,security_alert,bert
+File inclusion vulnerability exploited,security_alert,llm
+Multiple failed login attempts detected for user root,security_alert,regex
+Federated learning model compromise detected,security_alert,regex
+Data masking policy violation detected,security_alert,llm
+AI-powered social engineering attempt detected,security_alert,bert
+Potential data exfiltration detected: large file download,security_alert,regex
+Voice phishing (vishing) call detected,security_alert,llm
+Rootkit activity detected on system,security_alert,regex
+Unusual network activity from internal IP 172.16.1.1,security_alert,regex
+Firewall blocked suspicious traffic from 192.168.1.200,security_alert,regex
+System integrity check failed,security_alert,regex
+Port scan detected from IP 198.51.100.200,security_alert,regex
+Invalid authentication token detected from IP 172.16.255.1,security_alert,bert
+Critical system file modification detected,security_alert,bert
+CSRF attack attempt detected,security_alert,llm
+Container escape attempt detected,security_alert,llm
+Privileged user login from unusual location: North Korea,security_alert,bert
+Sandbox breakout attempt detected,security_alert,bert
+Network intrusion attempt from IP 192.168.0.200,security_alert,bert
+Critical system file tampering detected,security_alert,regex
+Memory corruption attack detected,security_alert,bert
+Unauthorized software installation attempt,security_alert,bert
+Unauthorized database access attempt,security_alert,llm
+Unusual file deletion pattern detected,security_alert,llm
+Suspicious login pattern detected for user sysadmin,security_alert,llm
+Path traversal attack detected,security_alert,regex
+Data copying to unauthorized storage detected,security_alert,bert
+Phishing attempt detected in email content,security_alert,bert
+Unusual file deletion pattern detected,security_alert,regex
+Off-hours database access from employee account,security_alert,bert
+DDoS attack detected from multiple IPs,security_alert,llm
+Mass email forwarding to external addresses,security_alert,regex
+VPN connection from blacklisted IP 192.168.1.200,security_alert,llm
+SQL injection attempt detected in user input,security_alert,bert
+Session hijacking attempt detected for user service_account,security_alert,llm
+DDoS attack detected from multiple IPs,security_alert,bert
+Blocked IP 203.0.113.42 after detecting brute force attack,security_alert,regex
+Deserialization attack attempt detected,security_alert,regex
+XML external entity attack blocked,security_alert,llm
+Unusual network activity from internal IP 172.16.0.50,security_alert,llm
+Network flooding detected from 203.0.113.42,security_alert,llm
+Potential data exfiltration detected: large file download,security_alert,llm
+IoT device compromise: unusual communication pattern,security_alert,regex
+Edge computing security violation detected,security_alert,llm
+Multiple failed login attempts detected for user guest,security_alert,llm
+Account lockout triggered after 5 failed login attempts,security_alert,regex
+Suspicious process execution detected,security_alert,llm
+Password policy violation: weak password detected,security_alert,bert
+Brute force attack detected against user admin,security_alert,bert
+Unusual data export activity detected,security_alert,llm
+Ransomware activity detected on system,security_alert,llm
+Unauthorized access attempt detected from IP 10.0.0.100,security_alert,llm
+Unauthorized access attempt detected from IP 198.51.100.200,security_alert,bert
+Malicious file upload detected: virus signature found,security_alert,bert
+Rootkit activity detected on system,security_alert,bert
+Machine learning model poisoning attempt,security_alert,regex
+Kernel-level attack attempt blocked,security_alert,regex
+Advanced persistent threat indicators detected,security_alert,regex
+Suspicious remote access session,security_alert,llm
+Malicious traffic pattern detected,security_alert,bert
+Botnet communication detected,security_alert,llm
+Encrypted file decryption attempt failed,security_alert,regex
+Path traversal attack detected,security_alert,llm
+Phishing attempt detected in email content,security_alert,llm
+Sensitive table access without authorization,security_alert,bert
+Port scan detected from IP 192.168.0.200,security_alert,bert
+Biometric spoofing attempt detected,security_alert,bert
+Unauthorized software installation attempt,security_alert,regex
+Unusual data export activity detected,security_alert,regex
+IoT device compromise: unusual communication pattern,security_alert,llm
+Firewall blocked suspicious traffic from 10.0.0.200,security_alert,regex
+Session hijacking attempt detected for user support,security_alert,regex
+Zero-day exploit attempt blocked by IDS,security_alert,bert
+Malicious traffic pattern detected,security_alert,regex
+Network intrusion attempt from IP 203.0.113.10,security_alert,regex
+Suspicious outbound connection to 172.16.255.1,security_alert,llm
+Suspicious outbound connection to 192.168.1.100,security_alert,llm
+Suspicious login pattern detected for user dbadmin,security_alert,llm
+Malware sandbox escape attempt,security_alert,regex
+Data breach indicator: mass data access,security_alert,regex
+Smart contract exploit attempt on blockchain,security_alert,bert
+Unauthorized access attempt detected from IP 172.16.255.1,security_alert,llm
+Privileged user login from unusual location: North Korea,security_alert,llm
+Sensitive data access from unauthorized location,security_alert,regex
+Multiple failed login attempts detected for user admin,security_alert,llm
+Suspicious remote access session,security_alert,bert
+Cross-site scripting attempt detected in request,security_alert,regex
+Potential data exfiltration detected: large file download,security_alert,bert
+Bulk user account creation detected,security_alert,llm
+Firewall blocked suspicious traffic from 192.168.0.200,security_alert,llm
+Unauthorized access attempt detected from IP 198.51.100.100,security_alert,bert
+Container escape attempt detected,security_alert,regex
+System integrity check failed,security_alert,llm
+File inclusion vulnerability exploited,security_alert,regex
+Unusual network activity from internal IP 198.51.100.100,security_alert,llm
+Command injection attempt blocked,security_alert,regex
+Suspicious outbound connection to 192.168.0.200,security_alert,regex
+Port scan detected from IP 172.16.1.1,security_alert,bert
+IoT device compromise: unusual communication pattern,security_alert,bert
+Data breach indicator: mass data access,security_alert,llm
+Suspicious login pattern detected for user dbadmin,security_alert,bert
+Invalid authentication token detected from IP 10.0.0.100,security_alert,regex
+Network flooding detected from 192.168.0.200,security_alert,bert
+Suspicious outbound connection to 198.51.100.100,security_alert,bert
+Unauthorized API access from unknown IP 172.16.0.10,security_alert,regex
+Unauthorized database access attempt,security_alert,bert
+Supply chain attack: compromised software detected,security_alert,llm
+Suspicious login pattern detected for user sysadmin,security_alert,bert
+Blocked IP 198.51.100.50 after detecting brute force attack,security_alert,bert
+Unauthorized service installation attempt,security_alert,llm
+Blocked IP 192.168.1.200 after detecting brute force attack,security_alert,regex
+Session hijacking attempt detected from IP 198.51.100.5,security_alert,regex
+Unusual data export activity detected,security_alert,bert
+Session hijacking attempt detected for user user1,security_alert,bert
+Administrative privilege abuse detected,security_alert,regex
+Brute force attack detected against user root,security_alert,bert
+Port scan detected from IP 203.0.113.50,security_alert,bert
+Container escape attempt detected,security_alert,bert
+Brute force attack detected against user demo,security_alert,bert
+Blocked IP 10.0.0.5 after detecting brute force attack,security_alert,regex
+Database connection timeout after 60 seconds,workflow_error,bert
+Credit card authorization declined: invalid CVV,workflow_error,regex
+Data import failed: duplicate record at line 1247,workflow_error,bert
+Service timeout: shipping unreachable,workflow_error,bert
+API rate limit exceeded for client beta-ltd (1500 requests/minute),workflow_error,bert
+Firewall rule violation: blocked connection to port 22,security_alert,regex
+Document validation failed: missing required field email,workflow_error,regex
+Queue processing failed: limit exceeded,workflow_error,llm
+Email delivery failed: invalid recipient address test@unknown.com,workflow_error,bert
+API rate limit exceeded for client xyz-corp (1500 requests/minute),workflow_error,bert
+Data import failed: duplicate record at line 9001,workflow_error,regex
+API rate limit exceeded for client alpha-inc (20 requests/minute),workflow_error,regex
+Service timeout: payment unreachable,workflow_error,bert
+Document validation failed: missing required field email,workflow_error,bert
+API rate limit exceeded for client xyz-corp (20 requests/minute),workflow_error,bert
+File upload failed: backup.zip exceeds 1024MB limit,workflow_error,bert
+Payment processing failed: insufficient funds for order #12345,workflow_error,regex
+Credit card authorization declined: card expired,workflow_error,regex
+Data import failed: duplicate record at line 1247,workflow_error,regex
+Credit card authorization declined: card expired,workflow_error,bert
+Payment processing failed: insufficient funds for order #67890,workflow_error,regex
+Suspicious file access pattern detected for user db_admin,security_alert,bert
+Payment processing failed: insufficient funds for order #67890,workflow_error,bert
+Credit card authorization declined: limit exceeded,workflow_error,bert
+File upload failed: backup.zip exceeds 45MB limit,workflow_error,regex
+Queue processing failed: invalid CVV,workflow_error,regex
+File upload failed: data.csv exceeds 45MB limit,workflow_error,regex
+API rate limit exceeded for client xyz-corp (2500 requests/minute),workflow_error,bert
+Credit card authorization declined: invalid CVV,workflow_error,bert
+Document validation failed: missing required field customer_id,workflow_error,bert
+Document validation failed: missing required field customer_id,workflow_error,llm
+Document validation failed: missing required field address,workflow_error,regex
+File upload failed: backup.zip exceeds 512MB limit,workflow_error,regex
+Queue processing failed: invalid CVV,workflow_error,bert
+Payment processing failed: insufficient funds for order #54321,workflow_error,bert
+Database connection timeout after 60 seconds,workflow_error,llm
+Document validation failed: missing required field email,workflow_error,llm
+Credit card authorization declined: limit exceeded,workflow_error,regex
+Email delivery failed: invalid recipient address user@invalid-domain,workflow_error,llm
+Data import failed: duplicate record at line 9001,workflow_error,bert
+File upload failed: data.csv exceeds 100MB limit,workflow_error,bert
+Document validation failed: missing required field customer_id,workflow_error,regex
+Payment processing failed: insufficient funds for order #54321,workflow_error,regex
+Database connection timeout after 60 seconds,workflow_error,regex
+Payment processing failed: insufficient funds for order #12345,workflow_error,bert
+Data import failed: duplicate record at line 9001,workflow_error,llm
+Database connection timeout after 30 seconds,workflow_error,llm
+Database connection timeout after 30 seconds,workflow_error,bert
+File upload failed: backup.zip exceeds 45MB limit,workflow_error,bert
+Credit card authorization declined: invalid CVV,workflow_error,llm
+Email delivery failed: invalid recipient address user@invalid-domain,workflow_error,bert
+Data import failed: duplicate record at line 1247,workflow_error,llm
+Data import failed: duplicate record at line 5892,workflow_error,regex
+File upload failed: backup.zip exceeds 250MB limit,workflow_error,bert
+File upload failed: backup.zip exceeds 1024MB limit,workflow_error,regex
+File upload failed: report.pdf exceeds 45MB limit,workflow_error,regex
+Email delivery failed: invalid recipient address test@unknown.com,workflow_error,regex
+Database connection timeout after 15 seconds,workflow_error,llm
+Document validation failed: missing required field address,workflow_error,bert
+Database connection timeout after 30 seconds,workflow_error,regex
+Ransomware activity detected: file encryption attempt,security_alert,bert
+API rate limit exceeded for client beta-ltd (1250 requests/minute),workflow_error,bert
+Database connection timeout after 15 seconds,workflow_error,regex
+Queue processing failed: card expired,workflow_error,bert
+Database connection timeout after 15 seconds,workflow_error,bert
+Queue processing failed: limit exceeded,workflow_error,bert
+Email delivery failed: invalid recipient address user@invalid-domain,workflow_error,regex
+Data import failed: duplicate record at line 5892,workflow_error,bert
+File upload failed: data.csv exceeds 512MB limit,workflow_error,bert
+Service timeout: payment unreachable,workflow_error,regex
+File upload failed: report.pdf exceeds 100MB limit,workflow_error,llm
+API rate limit exceeded for client xyz-corp (50 requests/minute),workflow_error,regex
+API rate limit exceeded for client alpha-inc (100 requests/minute),workflow_error,bert
+API rate limit exceeded for client alpha-inc (1250 requests/minute),workflow_error,bert
+File upload failed: data.csv exceeds 250MB limit,workflow_error,regex
+API rate limit exceeded for client beta-ltd (5 requests/minute),workflow_error,regex
+Queue processing failed: card expired,workflow_error,regex
+File upload failed: config.yaml exceeds 100MB limit,workflow_error,regex
+API rate limit exceeded for client beta-ltd (50 requests/minute),workflow_error,regex
+Payment processing failed: insufficient funds for order #54321,workflow_error,llm
+API rate limit exceeded for client beta-ltd (2500 requests/minute),workflow_error,regex
+Phishing email detected and quarantined,security_alert,regex
+Service timeout: shipping unreachable,workflow_error,regex
+Payment processing failed: insufficient funds for order #67890,workflow_error,llm
+Queue processing failed: limit exceeded,workflow_error,regex
+API rate limit exceeded for client xyz-corp (5 requests/minute),workflow_error,regex
+File upload failed: backup.zip exceeds 100MB limit,workflow_error,bert
+Backdoor communication detected to external server,security_alert,bert
+API rate limit exceeded for client alpha-inc (50 requests/minute),workflow_error,regex
+File upload failed: quarterly.xlsx exceeds 100MB limit,workflow_error,regex
+API rate limit exceeded for client xyz-corp (5 requests/minute),workflow_error,bert
+Credit card authorization declined: limit exceeded,workflow_error,llm
+File upload failed: quarterly.xlsx exceeds 1024MB limit,workflow_error,llm
+File upload failed: config.yaml exceeds 1024MB limit,workflow_error,regex
+File upload failed: config.yaml exceeds 512MB limit,workflow_error,bert
+API rate limit exceeded for client alpha-inc (1500 requests/minute),workflow_error,bert
+API rate limit exceeded for client alpha-inc (2500 requests/minute),workflow_error,bert
+API rate limit exceeded for client alpha-inc (50 requests/minute),workflow_error,bert
+Document validation failed: missing required field address,workflow_error,llm
+File upload failed: report.pdf exceeds 45MB limit,workflow_error,bert
+Keylogger activity detected on workstation WS-001,security_alert,bert
+API rate limit exceeded for client xyz-corp (50 requests/minute),workflow_error,bert
+API rate limit exceeded for client beta-ltd (10 requests/minute),workflow_error,regex
+API rate limit exceeded for client beta-ltd (5 requests/minute),workflow_error,bert
+File upload failed: data.csv exceeds 250MB limit,workflow_error,bert
+File upload failed: quarterly.xlsx exceeds 100MB limit,workflow_error,bert
+API rate limit exceeded for client alpha-inc (50 requests/minute),workflow_error,llm
+File upload failed: report.pdf exceeds 250MB limit,workflow_error,regex
+API rate limit exceeded for client xyz-corp (100 requests/minute),workflow_error,regex
+Authentication bypass through parameter pollution,security_alert,bert
+File upload failed: report.pdf exceeds 100MB limit,workflow_error,bert
+API rate limit exceeded for client alpha-inc (5 requests/minute),workflow_error,bert
+Payment processing failed: insufficient funds for order #12345,workflow_error,llm
+File upload failed: report.pdf exceeds 1024MB limit,workflow_error,llm
+Data import failed: duplicate record at line 5892,workflow_error,llm
+Service timeout: shipping unreachable,workflow_error,llm
+DNS tunneling activity detected,security_alert,regex
+Quantum cryptography breach attempt detected,security_alert,bert
+API rate limit exceeded for client beta-ltd (2500 requests/minute),workflow_error,bert
+Local file inclusion (LFI) attack detected,security_alert,regex
+Queue processing failed: card expired,workflow_error,llm
+API rate limit exceeded for client xyz-corp (1250 requests/minute),workflow_error,bert
+File upload failed: data.csv exceeds 1024MB limit,workflow_error,regex
+File upload failed: backup.zip exceeds 45MB limit,workflow_error,llm
+API rate limit exceeded for client alpha-inc (20 requests/minute),workflow_error,llm
+API rate limit exceeded for client beta-ltd (10 requests/minute),workflow_error,bert
+File upload failed: report.pdf exceeds 250MB limit,workflow_error,bert
+File upload failed: config.yaml exceeds 45MB limit,workflow_error,bert
+API rate limit exceeded for client xyz-corp (100 requests/minute),workflow_error,bert
+API rate limit exceeded for client xyz-corp (1250 requests/minute),workflow_error,regex
+Email delivery failed: invalid recipient address test@unknown.com,workflow_error,llm
+API rate limit exceeded for client beta-ltd (1500 requests/minute),workflow_error,regex
+File upload failed: backup.zip exceeds 512MB limit,workflow_error,bert
+File upload failed: quarterly.xlsx exceeds 45MB limit,workflow_error,regex
+File upload failed: backup.zip exceeds 250MB limit,workflow_error,regex
+Social engineering attack: fake support call logged,security_alert,llm
+Expression language injection detected,security_alert,regex
+File upload failed: backup.zip exceeds 100MB limit,workflow_error,regex
+API rate limit exceeded for client xyz-corp (20 requests/minute),workflow_error,regex
+File upload failed: backup.zip exceeds 1024MB limit,workflow_error,llm
+API rate limit exceeded for client alpha-inc (100 requests/minute),workflow_error,regex
+Two-factor authentication enabled for user admin,user_action,bert
+File upload completed: backup.zip (512MB) by user temp.user,user_action,regex
+Account locked: 2500 failed login attempts for john.doe,user_action,bert
+User preferences updated: push-notifications,user_action,llm
+User preferences updated: push-notifications,user_action,regex
+Document shared: data.csv shared with finance-team@company.com,user_action,regex
+Password changed successfully for user ID 67890,user_action,regex
+Profile updated: user 12847 changed email to test@unknown.com,user_action,regex
+Profile updated: user 67890 changed email to user@invalid-domain,user_action,bert
+Account locked: 100 failed login attempts for manager.ops,user_action,llm
+User session expired after {minutes} minutes for user admin,user_action,bert
+Account locked: 5 failed login attempts for alice.smith,user_action,regex
+User alice.smith created new project 'Q4-Analytics',user_action,regex
+Account locked: 1250 failed login attempts for temp.user,user_action,bert
+Document shared: config.yaml shared with team-leads@company.com,user_action,bert
+User manager.ops logged in from IP {ip},user_action,regex
+File upload completed: config.yaml (250MB) by user john.doe,user_action,bert
+User session expired after {minutes} minutes for user alice.smith,user_action,regex
+Account locked: 50 failed login attempts for admin,user_action,llm
+File upload completed: quarterly.xlsx (45MB) by user manager.ops,user_action,llm
+File upload completed: backup.zip (1024MB) by user alice.smith,user_action,llm
+Profile updated: user 12345 changed email to user@invalid-domain,user_action,regex
+User john.doe logged in from IP {ip},user_action,regex
+User temp.user created new project 'HR-Dashboard',user_action,bert
+Document shared: report.pdf shared with finance-team@company.com,user_action,bert
+Document shared: data.csv shared with team-leads@company.com,user_action,bert
+Password changed successfully for user ID 12847,user_action,regex
+User preferences updated: SMS-only,user_action,regex
+User preferences updated: email-only,user_action,regex
+Two-factor authentication enabled for user john.doe,user_action,bert
+User session expired after {minutes} minutes for user manager.ops,user_action,bert
+User alice.smith logged in from IP {ip},user_action,regex
+File upload completed: report.pdf (100MB) by user manager.ops,user_action,regex
+File upload completed: report.pdf (100MB) by user temp.user,user_action,regex
+User session expired after {minutes} minutes for user temp.user,user_action,bert
+Two-factor authentication enabled for user alice.smith,user_action,bert
+User admin logged in from IP {ip},user_action,regex
+Two-factor authentication enabled for user admin,user_action,regex
+User john.doe created new project 'Q4-Analytics',user_action,bert
+User alice.smith logged in from IP {ip},user_action,bert
+Document shared: quarterly.xlsx shared with team-leads@company.com,user_action,bert
+Password changed successfully for user ID 12345,user_action,bert
+File upload completed: config.yaml (250MB) by user john.doe,user_action,llm
+Two-factor authentication enabled for user john.doe,user_action,regex
+Two-factor authentication enabled for user temp.user,user_action,regex
+Document shared: quarterly.xlsx shared with finance-team@company.com,user_action,regex
+User session expired after {minutes} minutes for user manager.ops,user_action,regex
+User preferences updated: email-only,user_action,bert
+User preferences updated: SMS-only,user_action,bert
+User session expired after {minutes} minutes for user admin,user_action,regex
+User alice.smith created new project 'Q4-Analytics',user_action,bert
+Profile updated: user 12847 changed email to test@unknown.com,user_action,bert
+Account locked: 20 failed login attempts for temp.user,user_action,bert
+User alice.smith logged in from IP {ip},user_action,llm
+Password changed successfully for user ID 78934,user_action,bert
+User session expired after {minutes} minutes for user john.doe,user_action,regex
+Profile updated: user 12345 changed email to test@unknown.com,user_action,bert
+Profile updated: user 78934 changed email to user@invalid-domain,user_action,bert
+File upload completed: report.pdf (512MB) by user admin,user_action,regex
+User temp.user logged in from IP {ip},user_action,bert
+Password changed successfully for user ID 12847,user_action,bert
+File upload completed: quarterly.xlsx (512MB) by user alice.smith,user_action,regex
+File upload completed: config.yaml (100MB) by user alice.smith,user_action,regex
+Document shared: data.csv shared with finance-team@company.com,user_action,bert
+User admin logged in from IP {ip},user_action,bert
+Account locked: 10 failed login attempts for manager.ops,user_action,bert
+User temp.user created new project 'Q4-Analytics',user_action,bert
+Profile updated: user 12345 changed email to user@invalid-domain,user_action,bert
+User session expired after {minutes} minutes for user temp.user,user_action,llm
+Account locked: 50 failed login attempts for alice.smith,user_action,regex
+Account locked: 20 failed login attempts for admin,user_action,bert
+User manager.ops created new project 'Q4-Analytics',user_action,bert
+Document shared: report.pdf shared with team-leads@company.com,user_action,regex
+Account locked: 10 failed login attempts for manager.ops,user_action,llm
+Account locked: 100 failed login attempts for temp.user,user_action,regex
+Password changed successfully for user ID 67890,user_action,bert
+Document shared: report.pdf shared with finance-team@company.com,user_action,regex
+User alice.smith created new project 'Q1-Financials',user_action,bert
+Document shared: data.csv shared with team-leads@company.com,user_action,regex
+Profile updated: user 67890 changed email to user@invalid-domain,user_action,regex
+User manager.ops created new project 'HR-Dashboard',user_action,bert
+User manager.ops logged in from IP {ip},user_action,bert
+Document shared: backup.zip shared with team-leads@company.com,user_action,regex
+Document shared: data.csv shared with team-leads@company.com,user_action,llm
+Profile updated: user 12847 changed email to user@invalid-domain,user_action,regex
+User admin created new project 'Q4-Analytics',user_action,regex
+Profile updated: user 67890 changed email to test@unknown.com,user_action,regex
+Account locked: 100 failed login attempts for temp.user,user_action,bert
+Account locked: 20 failed login attempts for alice.smith,user_action,bert
+Profile updated: user 12847 changed email to test@unknown.com,user_action,llm
+Profile updated: user 78934 changed email to user@invalid-domain,user_action,regex
+User preferences updated: email-only,user_action,llm
+File upload completed: config.yaml (1024MB) by user john.doe,user_action,bert
+User preferences updated: push-notifications,user_action,bert
+User manager.ops created new project 'HR-Dashboard',user_action,regex
+User session expired after {minutes} minutes for user alice.smith,user_action,bert
+Account locked: 1500 failed login attempts for alice.smith,user_action,bert
+User session expired after {minutes} minutes for user temp.user,user_action,regex
+User session expired after {minutes} minutes for user john.doe,user_action,bert
+Document shared: backup.zip shared with finance-team@company.com,user_action,bert
+File upload completed: data.csv (45MB) by user temp.user,user_action,bert
+File upload completed: quarterly.xlsx (250MB) by user manager.ops,user_action,bert
+File upload completed: report.pdf (1024MB) by user alice.smith,user_action,regex
+User temp.user created new project 'Q1-Financials',user_action,regex
+Document shared: quarterly.xlsx shared with finance-team@company.com,user_action,bert
+User temp.user created new project 'HR-Dashboard',user_action,regex
+Profile updated: user 78934 changed email to test@unknown.com,user_action,regex
+Document shared: backup.zip shared with team-leads@company.com,user_action,bert
+File upload completed: backup.zip (512MB) by user manager.ops,user_action,regex
+Account locked: 5 failed login attempts for admin,user_action,bert
+Password changed successfully for user ID 78934,user_action,llm
+Account locked: 5 failed login attempts for manager.ops,user_action,regex
+Account locked: 5 failed login attempts for temp.user,user_action,bert
+Two-factor authentication enabled for user alice.smith,user_action,regex
+Password changed successfully for user ID 12345,user_action,regex
+User admin created new project 'Q1-Financials',user_action,regex
+Document shared: config.yaml shared with finance-team@company.com,user_action,regex
+File upload completed: config.yaml (1024MB) by user admin,user_action,bert
+File upload completed: quarterly.xlsx (512MB) by user admin,user_action,regex
+Document shared: data.csv shared with finance-team@company.com,user_action,llm
+Account locked: 2500 failed login attempts for manager.ops,user_action,regex
+User manager.ops created new project 'Q1-Financials',user_action,regex
+File upload completed: data.csv (512MB) by user admin,user_action,regex
+File upload completed: config.yaml (100MB) by user temp.user,user_action,bert
+User john.doe logged in from IP {ip},user_action,bert
+File upload completed: backup.zip (100MB) by user temp.user,user_action,bert
+File upload completed: data.csv (512MB) by user manager.ops,user_action,regex
+User temp.user logged in from IP {ip},user_action,regex
+Account locked: 1250 failed login attempts for alice.smith,user_action,bert
+Two-factor authentication enabled for user manager.ops,user_action,regex
+File upload completed: quarterly.xlsx (250MB) by user admin,user_action,bert
+Profile updated: user 12345 changed email to test@unknown.com,user_action,regex
+User alice.smith created new project 'Q1-Financials',user_action,regex
+Profile updated: user 78934 changed email to test@unknown.com,user_action,bert
+File upload completed: quarterly.xlsx (45MB) by user temp.user,user_action,regex
+Profile updated: user 67890 changed email to test@unknown.com,user_action,bert
+Two-factor authentication enabled for user manager.ops,user_action,llm
+Document shared: config.yaml shared with finance-team@company.com,user_action,bert
+User session expired after {minutes} minutes for user alice.smith,user_action,llm
+Profile updated: user 12847 changed email to user@invalid-domain,user_action,bert
+Document shared: quarterly.xlsx shared with team-leads@company.com,user_action,regex
+Account locked: 5 failed login attempts for temp.user,user_action,regex
+Account locked: 1250 failed login attempts for admin,user_action,bert
+Account locked: 100 failed login attempts for alice.smith,user_action,regex
+Account locked: 1500 failed login attempts for john.doe,user_action,regex
+File upload completed: report.pdf (1024MB) by user temp.user,user_action,regex
+File upload completed: data.csv (100MB) by user temp.user,user_action,regex
+User temp.user created new project 'Q1-Financials',user_action,bert
+Account locked: 5 failed login attempts for john.doe,user_action,regex
+Account locked: 1500 failed login attempts for manager.ops,user_action,bert
+File upload completed: quarterly.xlsx (1024MB) by user alice.smith,user_action,bert
+Account locked: 2500 failed login attempts for temp.user,user_action,llm
+User alice.smith created new project 'HR-Dashboard',user_action,bert
+Account locked: 1250 failed login attempts for manager.ops,user_action,regex
+Two-factor authentication enabled for user manager.ops,user_action,bert
+Document shared: backup.zip shared with finance-team@company.com,user_action,regex
+Account locked: 20 failed login attempts for temp.user,user_action,regex
+Account locked: 5 failed login attempts for admin,user_action,regex
+File upload completed: quarterly.xlsx (45MB) by user john.doe,user_action,regex
+File upload completed: backup.zip (512MB) by user manager.ops,user_action,bert
+Account locked: 10 failed login attempts for john.doe,user_action,bert
+User manager.ops created new project 'Q1-Financials',user_action,bert
+Profile updated: user 12345 changed email to test@unknown.com,user_action,llm
+File upload completed: data.csv (1024MB) by user manager.ops,user_action,regex
+Account locked: 2500 failed login attempts for admin,user_action,bert
+File upload completed: config.yaml (45MB) by user admin,user_action,bert
+File upload completed: report.pdf (45MB) by user john.doe,user_action,bert
+File upload completed: config.yaml (100MB) by user john.doe,user_action,llm
+Two-factor authentication enabled for user admin,user_action,llm
+Document shared: report.pdf shared with team-leads@company.com,user_action,bert
+Account locked: 10 failed login attempts for admin,user_action,regex
+File upload completed: report.pdf (250MB) by user john.doe,user_action,bert
+File upload completed: data.csv (250MB) by user temp.user,user_action,bert
+File upload completed: config.yaml (512MB) by user manager.ops,user_action,bert
+File upload completed: report.pdf (250MB) by user manager.ops,user_action,bert
+User john.doe created new project 'Q4-Analytics',user_action,regex
+Two-factor authentication enabled for user temp.user,user_action,llm
+File upload completed: report.pdf (100MB) by user admin,user_action,regex
+Password changed successfully for user ID 12847,user_action,llm
+User manager.ops created new project 'HR-Dashboard',user_action,llm
+File upload completed: quarterly.xlsx (100MB) by user admin,user_action,bert
+Document shared: config.yaml shared with finance-team@company.com,user_action,llm
+User admin logged in from IP {ip},user_action,llm
+File upload completed: quarterly.xlsx (512MB) by user admin,user_action,bert
+Document shared: backup.zip shared with finance-team@company.com,user_action,llm
+File upload completed: backup.zip (250MB) by user john.doe,user_action,bert
+Account locked: 5 failed login attempts for manager.ops,user_action,llm
+File upload completed: quarterly.xlsx (100MB) by user temp.user,user_action,regex
+File upload completed: backup.zip (100MB) by user temp.user,user_action,regex
+File upload completed: backup.zip (1024MB) by user john.doe,user_action,bert
+User manager.ops created new project 'Q4-Analytics',user_action,regex
+File upload completed: quarterly.xlsx (45MB) by user alice.smith,user_action,bert
+User temp.user created new project 'Q4-Analytics',user_action,regex
+Account locked: 10 failed login attempts for alice.smith,user_action,regex
+User alice.smith created new project 'Q4-Analytics',user_action,llm
+File upload completed: config.yaml (512MB) by user temp.user,user_action,bert
+User admin created new project 'Q4-Analytics',user_action,bert
+File upload completed: data.csv (100MB) by user manager.ops,user_action,regex
+Profile updated: user 12847 changed email to user@invalid-domain,user_action,llm
+File upload completed: report.pdf (1024MB) by user manager.ops,user_action,bert
+File upload completed: report.pdf (512MB) by user manager.ops,user_action,regex
+File upload completed: backup.zip (512MB) by user john.doe,user_action,bert
+User session expired after {minutes} minutes for user manager.ops,user_action,llm
+User session expired after {minutes} minutes for user admin,user_action,llm
+Account locked: 2500 failed login attempts for alice.smith,user_action,regex
+File upload completed: config.yaml (250MB) by user temp.user,user_action,regex
+File upload completed: backup.zip (45MB) by user alice.smith,user_action,regex
+User admin created new project 'HR-Dashboard',user_action,regex
+Account locked: 2500 failed login attempts for manager.ops,user_action,llm
+Two-factor authentication enabled for user temp.user,user_action,bert
+File upload completed: config.yaml (512MB) by user admin,user_action,bert
+File upload completed: config.yaml (512MB) by user john.doe,user_action,regex
+File upload completed: report.pdf (250MB) by user manager.ops,user_action,regex
+Account locked: 10 failed login attempts for temp.user,user_action,bert
+File upload completed: report.pdf (45MB) by user admin,user_action,llm
+File upload completed: report.pdf (250MB) by user alice.smith,user_action,bert
+File upload completed: data.csv (512MB) by user admin,user_action,bert
+File upload completed: quarterly.xlsx (100MB) by user john.doe,user_action,bert
+Document shared: backup.zip shared with team-leads@company.com,user_action,llm
+User admin created new project 'HR-Dashboard',user_action,llm
+User admin created new project 'HR-Dashboard',user_action,bert
+Password changed successfully for user ID 78934,user_action,regex
+File upload completed: backup.zip (250MB) by user temp.user,user_action,regex
+File upload completed: config.yaml (512MB) by user alice.smith,user_action,bert
+File upload completed: report.pdf (512MB) by user manager.ops,user_action,llm
+Account locked: 2500 failed login attempts for manager.ops,user_action,bert
+File upload completed: config.yaml (45MB) by user manager.ops,user_action,regex
+File upload completed: config.yaml (45MB) by user temp.user,user_action,regex
+User alice.smith created new project 'HR-Dashboard',user_action,regex
+File upload completed: data.csv (1024MB) by user temp.user,user_action,bert
+Account locked: 1500 failed login attempts for temp.user,user_action,regex
+Profile updated: user 67890 changed email to user@invalid-domain,user_action,llm
+File upload completed: backup.zip (100MB) by user john.doe,user_action,bert
+File upload completed: data.csv (250MB) by user admin,user_action,regex
+Account locked: 100 failed login attempts for manager.ops,user_action,regex
+Account locked: 2500 failed login attempts for temp.user,user_action,bert
+Password changed successfully for user ID 67890,user_action,llm
+User temp.user logged in from IP {ip},user_action,llm
+File upload completed: backup.zip (45MB) by user admin,user_action,regex
+User john.doe created new project 'Q1-Financials',user_action,bert
+User john.doe created new project 'HR-Dashboard',user_action,bert
+Account locked: 1500 failed login attempts for manager.ops,user_action,regex
+Account locked: 1250 failed login attempts for admin,user_action,regex
+Document shared: report.pdf shared with team-leads@company.com,user_action,llm
+Account locked: 2500 failed login attempts for admin,user_action,regex
+User admin created new project 'Q1-Financials',user_action,bert
+File upload completed: config.yaml (100MB) by user admin,user_action,bert
+Account locked: 10 failed login attempts for manager.ops,user_action,regex
+Document shared: config.yaml shared with team-leads@company.com,user_action,regex
+User john.doe created new project 'Q1-Financials',user_action,llm
+User john.doe logged in from IP {ip},user_action,llm
+User session expired after {minutes} minutes for user john.doe,user_action,llm
+File upload completed: quarterly.xlsx (100MB) by user manager.ops,user_action,llm
+Account locked: 1250 failed login attempts for manager.ops,user_action,bert
+Account locked: 10 failed login attempts for alice.smith,user_action,bert
+File upload completed: quarterly.xlsx (100MB) by user temp.user,user_action,bert
+Account locked: 50 failed login attempts for admin,user_action,regex
+User john.doe created new project 'Q1-Financials',user_action,regex
+File upload completed: quarterly.xlsx (100MB) by user manager.ops,user_action,bert
+File upload completed: config.yaml (1024MB) by user alice.smith,user_action,bert
+User manager.ops logged in from IP {ip},user_action,llm
+File upload completed: config.yaml (250MB) by user admin,user_action,regex
+User admin created new project 'Q1-Financials',user_action,llm
+Account locked: 50 failed login attempts for temp.user,user_action,regex
+Account locked: 2500 failed login attempts for john.doe,user_action,regex
+Account locked: 50 failed login attempts for temp.user,user_action,bert
+File upload completed: backup.zip (250MB) by user alice.smith,user_action,regex
+Account locked: 20 failed login attempts for john.doe,user_action,bert
+File upload completed: quarterly.xlsx (512MB) by user temp.user,user_action,bert
+File upload completed: config.yaml (100MB) by user manager.ops,user_action,regex
+File upload completed: config.yaml (100MB) by user alice.smith,user_action,bert
+Account locked: 20 failed login attempts for john.doe,user_action,regex
+File upload completed: quarterly.xlsx (45MB) by user john.doe,user_action,llm
+File upload completed: backup.zip (45MB) by user temp.user,user_action,regex
+User manager.ops created new project 'Q4-Analytics',user_action,llm
+File upload completed: config.yaml (250MB) by user john.doe,user_action,regex
+File upload completed: backup.zip (45MB) by user manager.ops,user_action,bert
+File upload completed: data.csv (250MB) by user alice.smith,user_action,bert
+Two-factor authentication enabled for user alice.smith,user_action,llm
+Two-factor authentication enabled for user john.doe,user_action,llm
+File upload completed: data.csv (250MB) by user admin,user_action,bert
+File upload completed: config.yaml (100MB) by user temp.user,user_action,regex
+File upload completed: quarterly.xlsx (45MB) by user admin,user_action,bert
+File upload completed: quarterly.xlsx (250MB) by user john.doe,user_action,bert
+"Method calculateVAT() deprecated since 3.0, use VATService instead",deprecation_warning,regex
+Old file storage API deprecated: migrate to cloud storage,deprecation_warning,bert
+"API endpoint /v1/users is deprecated, migrate to /v3/auth by Jan 2025",deprecation_warning,bert
+"Method calculateTax() deprecated since 4.0, use TaxCalculationService instead",deprecation_warning,regex
+"Database driver postgres-9.x is deprecated, upgrade to 2.0",deprecation_warning,regex
+"API endpoint /auth/login is deprecated, migrate to /v2/users by Dec 2024",deprecation_warning,bert
+"Report format XML will be discontinued, migrate to JSON by Jan 2025",deprecation_warning,regex
+"Report format XML will be discontinued, migrate to JSON by Dec 2024",deprecation_warning,llm
+"API endpoint /v2/orders is deprecated, migrate to /v3/auth by Q2 2025",deprecation_warning,regex
+"SSL protocol TLSv1.1 is deprecated, upgrade to TLSv1.3 by Jan 2025",deprecation_warning,bert
+Old file storage API deprecated: migrate to new template engine,deprecation_warning,regex
+Legacy authentication module will be sunset in Q4 2025,deprecation_warning,regex
+"Legacy email template system deprecated, use cloud storage",deprecation_warning,regex
+Configuration option 'legacy_mode=true' will be removed in version 2.0,deprecation_warning,bert
+"Legacy email template system deprecated, use cloud storage",deprecation_warning,bert
+Configuration option 'debug=true' will be removed in version 3.0,deprecation_warning,bert
+Configuration option 'debug=true' will be removed in version 4.0,deprecation_warning,bert
+"Database driver postgres-9.x is deprecated, upgrade to 4.0",deprecation_warning,bert
+"Method calculateTax() deprecated since 4.0, use VATService instead",deprecation_warning,regex
+Old file storage API deprecated: migrate to new template engine,deprecation_warning,bert
+"Report format XML will be discontinued, migrate to Parquet by Dec 2024",deprecation_warning,bert
+"Database driver mysql-connector-5.x is deprecated, upgrade to 3.0",deprecation_warning,bert
+"API endpoint /metrics is deprecated, migrate to /v2/users by Jan 2025",deprecation_warning,bert
+Legacy authentication module will be sunset in Q2 2024,deprecation_warning,regex
+"Database driver mysql-connector-5.x is deprecated, upgrade to 4.0",deprecation_warning,llm
+"Support ending for Safari 12 by Dec 2024, update requirements",deprecation_warning,regex
+"Support ending for Internet Explorer by Jan 2025, update requirements",deprecation_warning,regex
+Legacy authentication module will be sunset in Q2 2025,deprecation_warning,bert
+Legacy authentication module will be sunset in Q3 2025,deprecation_warning,regex
+Configuration option 'legacy_mode=true' will be removed in version 3.0,deprecation_warning,bert
+"SSL protocol TLSv1.2 is deprecated, upgrade to TLSv1.3 by Jan 2025",deprecation_warning,bert
+"Database driver mysql-connector-5.x is deprecated, upgrade to 2.0",deprecation_warning,bert
+Legacy authentication module will be sunset in Q3 2025,deprecation_warning,bert
+"Method calculateVAT() deprecated since 2.0, use TaxCalculationService instead",deprecation_warning,bert
+"Database driver postgres-9.x is deprecated, upgrade to 2.0",deprecation_warning,bert
+"API endpoint /v2/orders is deprecated, migrate to /v3/auth by Jan 2025",deprecation_warning,bert
+Configuration option 'legacy_mode=true' will be removed in version 3.0,deprecation_warning,llm
+"Method calculateVAT() deprecated since 4.0, use VATService instead",deprecation_warning,regex
+Old file storage API deprecated: migrate to cloud storage,deprecation_warning,regex
+"Support ending for Safari 12 by Jan 2025, update requirements",deprecation_warning,bert
+"Legacy email template system deprecated, use new template engine",deprecation_warning,regex
+Legacy authentication module will be sunset in Q3 2024,deprecation_warning,llm
+"SSL protocol TLSv1.2 is deprecated, upgrade to TLSv1.3 by Dec 2024",deprecation_warning,bert
+"Report format CSV will be discontinued, migrate to JSON by Jan 2025",deprecation_warning,regex
+Configuration option 'legacy_mode=true' will be removed in version 3.0,deprecation_warning,regex
+"Method calculateTax() deprecated since 3.0, use VATService instead",deprecation_warning,regex
+"Report format CSV will be discontinued, migrate to JSON by Q2 2025",deprecation_warning,bert
+"Support ending for Internet Explorer by Jan 2025, update requirements",deprecation_warning,bert
+"SSL protocol TLSv1.1 is deprecated, upgrade to TLSv1.3 by Q2 2025",deprecation_warning,regex
+"Support ending for Internet Explorer by Dec 2024, update requirements",deprecation_warning,regex
+"API endpoint /v2/orders is deprecated, migrate to /v2/users by Jan 2025",deprecation_warning,bert
+"SSL protocol TLSv1.2 is deprecated, upgrade to TLSv1.3 by Jan 2025",deprecation_warning,regex
+"Database driver postgres-9.x is deprecated, upgrade to 3.0",deprecation_warning,bert
+"API endpoint /metrics is deprecated, migrate to /v3/auth by Q2 2025",deprecation_warning,bert
+"API endpoint /v1/users is deprecated, migrate to /v3/auth by Q2 2025",deprecation_warning,bert
+"Database driver postgres-9.x is deprecated, upgrade to 3.0",deprecation_warning,regex
+"SSL protocol TLSv1.1 is deprecated, upgrade to TLSv1.3 by Dec 2024",deprecation_warning,bert
+"Legacy email template system deprecated, use new template engine",deprecation_warning,bert
+"Report format CSV will be discontinued, migrate to JSON by Dec 2024",deprecation_warning,bert
+"Method calculateVAT() deprecated since 4.0, use TaxCalculationService instead",deprecation_warning,bert
+"Support ending for Internet Explorer by Q2 2025, update requirements",deprecation_warning,regex
+"Method calculateVAT() deprecated since 2.0, use TaxCalculationService instead",deprecation_warning,llm
+"API endpoint /metrics is deprecated, migrate to /v3/auth by Dec 2024",deprecation_warning,regex
+Old file storage API deprecated: migrate to new template engine,deprecation_warning,llm
+"Report format CSV will be discontinued, migrate to Parquet by Dec 2024",deprecation_warning,bert
+"API endpoint /auth/login is deprecated, migrate to /v2/users by Q2 2025",deprecation_warning,regex
+"API endpoint /v2/orders is deprecated, migrate to /v3/auth by Dec 2024",deprecation_warning,bert
+"Report format XML will be discontinued, migrate to Parquet by Jan 2025",deprecation_warning,bert
+"Support ending for Safari 12 by Jan 2025, update requirements",deprecation_warning,regex
+"Database driver mysql-connector-5.x is deprecated, upgrade to 2.0",deprecation_warning,regex
+"Report format XML will be discontinued, migrate to Parquet by Dec 2024",deprecation_warning,regex
+"API endpoint /metrics is deprecated, migrate to /v2/users by Q2 2025",deprecation_warning,bert
+"API endpoint /v1/users is deprecated, migrate to /v3/auth by Dec 2024",deprecation_warning,bert
+Configuration option 'debug=true' will be removed in version 2.0,deprecation_warning,llm
+"Database driver mysql-connector-5.x is deprecated, upgrade to 3.0",deprecation_warning,regex
+Configuration option 'debug=true' will be removed in version 2.0,deprecation_warning,regex
+Legacy authentication module will be sunset in Q1 2025,deprecation_warning,bert
+Legacy authentication module will be sunset in Q3 2024,deprecation_warning,regex
+Legacy authentication module will be sunset in Q4 2024,deprecation_warning,bert
+Legacy authentication module will be sunset in Q4 2025,deprecation_warning,bert
+"Report format CSV will be discontinued, migrate to Parquet by Q2 2025",deprecation_warning,llm
+"SSL protocol TLSv1.2 is deprecated, upgrade to TLSv1.3 by Q2 2025",deprecation_warning,bert
+"Legacy email template system deprecated, use cloud storage",deprecation_warning,llm
+"SSL protocol TLSv1.1 is deprecated, upgrade to TLSv1.3 by Jan 2025",deprecation_warning,regex
+"Report format CSV will be discontinued, migrate to JSON by Q2 2025",deprecation_warning,regex
+Old file storage API deprecated: migrate to cloud storage,deprecation_warning,llm
+"Report format XML will be discontinued, migrate to JSON by Dec 2024",deprecation_warning,bert
+Legacy authentication module will be sunset in Q2 2025,deprecation_warning,regex
+"Support ending for Internet Explorer by Q2 2025, update requirements",deprecation_warning,bert
+"Support ending for Internet Explorer by Dec 2024, update requirements",deprecation_warning,bert
+"Method calculateTax() deprecated since 4.0, use VATService instead",deprecation_warning,bert
+Legacy authentication module will be sunset in Q3 2024,deprecation_warning,bert
+"SSL protocol TLSv1.1 is deprecated, upgrade to TLSv1.3 by Q2 2025",deprecation_warning,bert
+"API endpoint /metrics is deprecated, migrate to /v2/users by Dec 2024",deprecation_warning,bert
+"Method calculateVAT() deprecated since 2.0, use TaxCalculationService instead",deprecation_warning,regex
+Configuration option 'debug=true' will be removed in version 2.0,deprecation_warning,bert
+Legacy authentication module will be sunset in Q1 2024,deprecation_warning,bert
+"API endpoint /v1/users is deprecated, migrate to /v2/users by Dec 2024",deprecation_warning,bert
+"API endpoint /v1/users is deprecated, migrate to /v2/users by Jan 2025",deprecation_warning,regex
+"API endpoint /metrics is deprecated, migrate to /v3/auth by Dec 2024",deprecation_warning,bert
+"Legacy email template system deprecated, use new template engine",deprecation_warning,llm
+"Report format XML will be discontinued, migrate to JSON by Dec 2024",deprecation_warning,regex
+Configuration option 'legacy_mode=true' will be removed in version 4.0,deprecation_warning,regex
+"Support ending for Safari 12 by Q2 2025, update requirements",deprecation_warning,llm
+"API endpoint /auth/login is deprecated, migrate to /v3/auth by Jan 2025",deprecation_warning,bert
+"API endpoint /v2/orders is deprecated, migrate to /v3/auth by Jan 2025",deprecation_warning,regex
+"SSL protocol TLSv1.2 is deprecated, upgrade to TLSv1.3 by Dec 2024",deprecation_warning,regex
+Configuration option 'legacy_mode=true' will be removed in version 2.0,deprecation_warning,regex
+"Support ending for Safari 12 by Q2 2025, update requirements",deprecation_warning,bert
+"API endpoint /v2/orders is deprecated, migrate to /v2/users by Dec 2024",deprecation_warning,bert
+"Database driver postgres-9.x is deprecated, upgrade to 4.0",deprecation_warning,llm
+Configuration option 'debug=true' will be removed in version 3.0,deprecation_warning,regex
+"Report format XML will be discontinued, migrate to JSON by Jan 2025",deprecation_warning,bert
+"Report format XML will be discontinued, migrate to Parquet by Q2 2025",deprecation_warning,regex
+Configuration option 'legacy_mode=true' will be removed in version 4.0,deprecation_warning,llm
+Legacy authentication module will be sunset in Q1 2025,deprecation_warning,regex
+"API endpoint /metrics is deprecated, migrate to /v3/auth by Jan 2025",deprecation_warning,regex
+"Database driver mysql-connector-5.x is deprecated, upgrade to 4.0",deprecation_warning,regex
+"API endpoint /v1/users is deprecated, migrate to /v2/users by Q2 2025",deprecation_warning,regex
+"SSL protocol TLSv1.1 is deprecated, upgrade to TLSv1.3 by Dec 2024",deprecation_warning,regex
+"Report format CSV will be discontinued, migrate to Parquet by Jan 2025",deprecation_warning,llm
+"API endpoint /auth/login is deprecated, migrate to /v3/auth by Dec 2024",deprecation_warning,llm
+"API endpoint /v2/orders is deprecated, migrate to /v2/users by Q2 2025",deprecation_warning,regex
+"Database driver mysql-connector-5.x is deprecated, upgrade to 3.0",deprecation_warning,llm
+"API endpoint /v2/orders is deprecated, migrate to /v2/users by Dec 2024",deprecation_warning,regex
+"SSL protocol TLSv1.2 is deprecated, upgrade to TLSv1.3 by Q2 2025",deprecation_warning,regex
+"Report format CSV will be discontinued, migrate to JSON by Jan 2025",deprecation_warning,bert
+"SSL protocol TLSv1.1 is deprecated, upgrade to TLSv1.3 by Dec 2024",deprecation_warning,llm
+"Method calculateTax() deprecated since 2.0, use TaxCalculationService instead",deprecation_warning,regex
+"Support ending for Safari 12 by Jan 2025, update requirements",deprecation_warning,llm
+"API endpoint /v1/users is deprecated, migrate to /v3/auth by Q2 2025",deprecation_warning,regex
+"Database driver postgres-9.x is deprecated, upgrade to 2.0",deprecation_warning,llm
+Configuration option 'legacy_mode=true' will be removed in version 4.0,deprecation_warning,bert
+"Support ending for Internet Explorer by Q2 2025, update requirements",deprecation_warning,llm
+"Report format XML will be discontinued, migrate to JSON by Q2 2025",deprecation_warning,bert
+"API endpoint /v1/users is deprecated, migrate to /v2/users by Q2 2025",deprecation_warning,bert
+Legacy authentication module will be sunset in Q2 2024,deprecation_warning,bert
+Legacy authentication module will be sunset in Q4 2024,deprecation_warning,regex
+Configuration option 'debug=true' will be removed in version 4.0,deprecation_warning,regex
+"Report format CSV will be discontinued, migrate to Parquet by Q2 2025",deprecation_warning,bert
+"Method calculateVAT() deprecated since 3.0, use TaxCalculationService instead",deprecation_warning,bert
+"Report format CSV will be discontinued, migrate to Parquet by Q2 2025",deprecation_warning,regex
+"Support ending for Safari 12 by Dec 2024, update requirements",deprecation_warning,bert
+"API endpoint /auth/login is deprecated, migrate to /v3/auth by Q2 2025",deprecation_warning,regex
+Legacy authentication module will be sunset in Q3 2025,deprecation_warning,llm
+Legacy authentication module will be sunset in Q4 2025,deprecation_warning,llm
+Legacy authentication module will be sunset in Q1 2024,deprecation_warning,regex
+"SSL protocol TLSv1.2 is deprecated, upgrade to TLSv1.3 by Jan 2025",deprecation_warning,llm
+"Method calculateTax() deprecated since 4.0, use TaxCalculationService instead",deprecation_warning,llm
+"Method calculateVAT() deprecated since 4.0, use VATService instead",deprecation_warning,bert
+"Report format CSV will be discontinued, migrate to Parquet by Jan 2025",deprecation_warning,regex
+"Support ending for Safari 12 by Q2 2025, update requirements",deprecation_warning,regex
+"Method calculateVAT() deprecated since 2.0, use VATService instead",deprecation_warning,regex
+"API endpoint /auth/login is deprecated, migrate to /v3/auth by Q2 2025",deprecation_warning,bert
+"Method calculateVAT() deprecated since 3.0, use VATService instead",deprecation_warning,bert
+"Method calculateTax() deprecated since 2.0, use VATService instead",deprecation_warning,regex
+"API endpoint /auth/login is deprecated, migrate to /v2/users by Q2 2025",deprecation_warning,bert
+"API endpoint /auth/login is deprecated, migrate to /v2/users by Jan 2025",deprecation_warning,regex
+"API endpoint /v1/users is deprecated, migrate to /v2/users by Dec 2024",deprecation_warning,regex
+"Support ending for Safari 12 by Dec 2024, update requirements",deprecation_warning,llm
+"Method calculateVAT() deprecated since 4.0, use TaxCalculationService instead",deprecation_warning,regex
+Configuration option 'legacy_mode=true' will be removed in version 2.0,deprecation_warning,llm
+"Method calculateTax() deprecated since 2.0, use TaxCalculationService instead",deprecation_warning,bert
+"Method calculateTax() deprecated since 4.0, use VATService instead",deprecation_warning,llm
+"Method calculateTax() deprecated since 3.0, use TaxCalculationService instead",deprecation_warning,regex
+"Method calculateTax() deprecated since 4.0, use TaxCalculationService instead",deprecation_warning,bert
+Legacy authentication module will be sunset in Q4 2024,deprecation_warning,llm
+"API endpoint /auth/login is deprecated, migrate to /v3/auth by Dec 2024",deprecation_warning,bert
+"Report format CSV will be discontinued, migrate to JSON by Jan 2025",deprecation_warning,llm
+"API endpoint /auth/login is deprecated, migrate to /v2/users by Jan 2025",deprecation_warning,bert
+"Method calculateTax() deprecated since 3.0, use VATService instead",deprecation_warning,bert
+"Report format CSV will be discontinued, migrate to JSON by Dec 2024",deprecation_warning,regex
+"Report format XML will be discontinued, migrate to JSON by Q2 2025",deprecation_warning,regex
+"API endpoint /v2/orders is deprecated, migrate to /v3/auth by Q2 2025",deprecation_warning,bert
+"SSL protocol TLSv1.1 is deprecated, upgrade to TLSv1.3 by Jan 2025",deprecation_warning,llm
+Configuration option 'debug=true' will be removed in version 4.0,deprecation_warning,llm
+"Method calculateTax() deprecated since 2.0, use VATService instead",deprecation_warning,bert
+"API endpoint /v2/orders is deprecated, migrate to /v2/users by Jan 2025",deprecation_warning,regex
+"Database driver postgres-9.x is deprecated, upgrade to 4.0",deprecation_warning,regex
+"API endpoint /v1/users is deprecated, migrate to /v3/auth by Jan 2025",deprecation_warning,regex
+"Method calculateTax() deprecated since 3.0, use TaxCalculationService instead",deprecation_warning,bert
+"API endpoint /v2/orders is deprecated, migrate to /v2/users by Q2 2025",deprecation_warning,bert
+"Method calculateVAT() deprecated since 4.0, use VATService instead",deprecation_warning,llm
+"API endpoint /metrics is deprecated, migrate to /v2/users by Jan 2025",deprecation_warning,llm
+"Report format CSV will be discontinued, migrate to Parquet by Dec 2024",deprecation_warning,regex
+"Method calculateVAT() deprecated since 2.0, use VATService instead",deprecation_warning,llm
+"API endpoint /v1/users is deprecated, migrate to /v2/users by Jan 2025",deprecation_warning,bert
+Legacy authentication module will be sunset in Q2 2025,deprecation_warning,llm
+"API endpoint /auth/login is deprecated, migrate to /v2/users by Dec 2024",deprecation_warning,regex
+"Support ending for Internet Explorer by Dec 2024, update requirements",deprecation_warning,llm
+"Database driver mysql-connector-5.x is deprecated, upgrade to 4.0",deprecation_warning,bert
+"Method calculateTax() deprecated since 2.0, use VATService instead",deprecation_warning,llm
+"Report format CSV will be discontinued, migrate to JSON by Q2 2025",deprecation_warning,llm
+"Method calculateVAT() deprecated since 3.0, use TaxCalculationService instead",deprecation_warning,regex
+"Method calculateVAT() deprecated since 2.0, use VATService instead",deprecation_warning,bert
+"Report format XML will be discontinued, migrate to Parquet by Jan 2025",deprecation_warning,regex
+"Report format XML will be discontinued, migrate to Parquet by Q2 2025",deprecation_warning,llm
+"SSL protocol TLSv1.2 is deprecated, upgrade to TLSv1.3 by Dec 2024",deprecation_warning,llm
+"API endpoint /metrics is deprecated, migrate to /v3/auth by Q2 2025",deprecation_warning,regex
+"SSL protocol TLSv1.1 is deprecated, upgrade to TLSv1.3 by Q2 2025",deprecation_warning,llm
+Event triggered,unclassified,bert
+Action completed successfully,unclassified,regex
+Service ready,unclassified,bert
+Process completed,unclassified,bert
+Maintenance window scheduled,unclassified,regex
+Operation finished,unclassified,regex
+Service ready,unclassified,regex
+Task done,unclassified,regex
+Update available,unclassified,llm
+Maintenance window scheduled,unclassified,bert
+Status: OK,unclassified,regex
+Event triggered,unclassified,regex
+Update available,unclassified,bert
+Operation finished,unclassified,bert
+Action completed successfully,unclassified,llm
+Process completed,unclassified,regex
+Status: OK,unclassified,bert
+Task done,unclassified,llm
+Request processed,unclassified,bert
+Action completed successfully,unclassified,bert
+Update available,unclassified,regex
+Request processed,unclassified,regex
+Request processed,unclassified,llm
+Service ready,unclassified,llm
+Task done,unclassified,bert
+Operation finished,unclassified,llm
+Event triggered,unclassified,llm
+Process completed,unclassified,llm
+Status: OK,unclassified,llm
+Maintenance window scheduled,unclassified,llm
+"Cache cleared: 2500 entries removed, 100MB freed",system_notification,regex
+"Cache cleared: 1500 entries removed, 512MB freed",system_notification,bert
+Memory usage: 95% of heap (6.2GB/16GB),system_notification,regex
+Memory usage: 82% of heap (7.1GB/8GB),system_notification,bert
+"Cache cleared: 2500 entries removed, 1024MB freed",system_notification,llm
+"Cache cleared: 10 entries removed, 100MB freed",system_notification,regex
+"Cache cleared: 1500 entries removed, 45MB freed",system_notification,bert
+"Cache cleared: 1500 entries removed, 45MB freed",system_notification,regex
+"Cache cleared: 1500 entries removed, 1024MB freed",system_notification,bert
+"Cache cleared: 10 entries removed, 250MB freed",system_notification,bert
+Memory usage: 75% of heap (4.2GB/8GB),system_notification,regex
+"Cache cleared: 2500 entries removed, 250MB freed",system_notification,llm
+"Cache cleared: 1500 entries removed, 1024MB freed",system_notification,regex
+ETL pipeline completed: 1250 records processed in {minutes} minutes,system_notification,llm
+Load balancer health check passed - 20 nodes healthy,system_notification,llm
+"Cache cleared: 10 entries removed, 250MB freed",system_notification,llm
+API endpoint /auth/login responding normally (200ms),system_notification,llm
+"Cache cleared: 1250 entries removed, 1024MB freed",system_notification,llm
+Memory usage: 60% of heap (6.2GB/8GB),system_notification,bert
+Memory usage: 45% of heap (4.2GB/8GB),system_notification,llm
+"Cache cleared: 100 entries removed, 512MB freed",system_notification,bert
+"Cache cleared: 20 entries removed, 45MB freed",system_notification,bert
+"Cache cleared: 20 entries removed, 1024MB freed",system_notification,bert
+"Cache cleared: 50 entries removed, 45MB freed",system_notification,regex
+"Cache cleared: 5 entries removed, 1024MB freed",system_notification,llm
+Database connection pool initialized with 50 connections,system_notification,llm
+"Cache cleared: 20 entries removed, 100MB freed",system_notification,regex
+Memory usage: 75% of heap (7.1GB/8GB),system_notification,bert
+Database connection pool initialized with 100 connections,system_notification,llm
+Memory usage: 95% of heap (4.2GB/16GB),system_notification,llm
+"Cache cleared: 5 entries removed, 1024MB freed",system_notification,bert
+Memory usage: 82% of heap (6.2GB/16GB),system_notification,bert
+"Cache cleared: 50 entries removed, 250MB freed",system_notification,regex
+"Cache cleared: 5 entries removed, 45MB freed",system_notification,llm
+"Cache cleared: 2500 entries removed, 1024MB freed",system_notification,bert
+"Cache cleared: 10 entries removed, 1024MB freed",system_notification,llm
+Memory usage: 82% of heap (6.2GB/16GB),system_notification,regex
+"Cache cleared: 5 entries removed, 250MB freed",system_notification,regex
+Memory usage: 45% of heap (6.2GB/8GB),system_notification,llm
+Memory usage: 60% of heap (7.1GB/16GB),system_notification,regex
+"Cache cleared: 20 entries removed, 250MB freed",system_notification,bert
+"Cache cleared: 20 entries removed, 1024MB freed",system_notification,regex
+Memory usage: 60% of heap (7.1GB/8GB),system_notification,llm
+API endpoint /v2/orders responding normally (250ms),system_notification,llm
+"Cache cleared: 1500 entries removed, 250MB freed",system_notification,regex
+"Cache cleared: 20 entries removed, 512MB freed",system_notification,regex
+Application started successfully on port 3000,system_notification,llm
+"Cache cleared: 20 entries removed, 250MB freed",system_notification,regex
+Memory usage: 45% of heap (7.1GB/8GB),system_notification,llm
+"Cache cleared: 2500 entries removed, 250MB freed",system_notification,regex
+"Cache cleared: 100 entries removed, 1024MB freed",system_notification,regex
+API endpoint /auth/login responding normally (250ms),system_notification,regex
+"Cache cleared: 100 entries removed, 1024MB freed",system_notification,bert
+Memory usage: 60% of heap (4.2GB/8GB),system_notification,llm
+API endpoint /v2/orders responding normally (120ms),system_notification,llm
+API endpoint /v1/users responding normally (250ms),system_notification,llm
+"Cache cleared: 10 entries removed, 512MB freed",system_notification,regex
+API rate limit exceeded for client xyz-corp (50 requests/minute),workflow_error,llm
+File upload failed: quarterly.xlsx exceeds 250MB limit,workflow_error,bert
+Credit card authorization declined: card expired,workflow_error,llm
+API rate limit exceeded for client beta-ltd (100 requests/minute),workflow_error,regex
+API rate limit exceeded for client xyz-corp (2500 requests/minute),workflow_error,regex
+API rate limit exceeded for client alpha-inc (1500 requests/minute),workflow_error,regex
+API rate limit exceeded for client beta-ltd (100 requests/minute),workflow_error,bert
+API rate limit exceeded for client alpha-inc (5 requests/minute),workflow_error,regex
+File upload failed: data.csv exceeds 512MB limit,workflow_error,regex
+API rate limit exceeded for client alpha-inc (10 requests/minute),workflow_error,bert
+File upload failed: data.csv exceeds 100MB limit,workflow_error,regex
+API rate limit exceeded for client alpha-inc (1250 requests/minute),workflow_error,regex
+API rate limit exceeded for client alpha-inc (20 requests/minute),workflow_error,bert
+Anomalous network traffic: port scanning detected,security_alert,llm
+File upload failed: config.yaml exceeds 1024MB limit,workflow_error,bert
+Spear phishing attempt detected and blocked,security_alert,llm
+File upload failed: config.yaml exceeds 250MB limit,workflow_error,regex
+API rate limit exceeded for client beta-ltd (50 requests/minute),workflow_error,bert
+File upload failed: report.pdf exceeds 1024MB limit,workflow_error,bert
+API rate limit exceeded for client beta-ltd (5 requests/minute),workflow_error,llm
+File upload failed: quarterly.xlsx exceeds 45MB limit,workflow_error,llm
+API rate limit exceeded for client xyz-corp (1500 requests/minute),workflow_error,llm
+File upload failed: quarterly.xlsx exceeds 45MB limit,workflow_error,bert
+File upload failed: config.yaml exceeds 512MB limit,workflow_error,regex
+File upload failed: quarterly.xlsx exceeds 100MB limit,workflow_error,llm
+File upload failed: config.yaml exceeds 100MB limit,workflow_error,bert
+HTTP header injection attack detected,security_alert,regex
+Service timeout: payment unreachable,workflow_error,llm
+NoSQL injection attempt detected in database query,security_alert,bert
+File upload failed: report.pdf exceeds 45MB limit,workflow_error,llm
+API rate limit exceeded for client beta-ltd (1250 requests/minute),workflow_error,regex
+File upload failed: data.csv exceeds 45MB limit,workflow_error,llm
+API rate limit exceeded for client alpha-inc (10 requests/minute),workflow_error,regex
+API rate limit exceeded for client alpha-inc (2500 requests/minute),workflow_error,regex
+Memory forensics: suspicious process injection,security_alert,bert
+File upload failed: quarterly.xlsx exceeds 1024MB limit,workflow_error,regex
+Cache poisoning attack detected,security_alert,bert
+File upload failed: report.pdf exceeds 512MB limit,workflow_error,bert
+File upload failed: quarterly.xlsx exceeds 250MB limit,workflow_error,regex
+File upload failed: data.csv exceeds 512MB limit,workflow_error,llm
+File upload failed: report.pdf exceeds 100MB limit,workflow_error,regex
+API rate limit exceeded for client xyz-corp (1500 requests/minute),workflow_error,regex
+USB device blocked: unauthorized storage detected,security_alert,regex
+File upload failed: config.yaml exceeds 250MB limit,workflow_error,bert
+File upload failed: config.yaml exceeds 1024MB limit,workflow_error,llm
+Suspicious database query: SQL injection attempt,security_alert,regex
+LDAP injection attempt detected and blocked,security_alert,bert
+API rate limit exceeded for client beta-ltd (20 requests/minute),workflow_error,regex
+File upload failed: config.yaml exceeds 45MB limit,workflow_error,llm
+API rate limit exceeded for client beta-ltd (1250 requests/minute),workflow_error,llm
+Side-channel attack attempt detected,security_alert,bert
+File upload failed: config.yaml exceeds 45MB limit,workflow_error,regex
+Wireless security breach: WPA2 handshake captured,security_alert,bert
+API rate limit exceeded for client xyz-corp (10 requests/minute),workflow_error,regex
+File upload failed: config.yaml exceeds 250MB limit,workflow_error,llm
+Queue processing failed: invalid CVV,workflow_error,llm
+Credential stuffing attack detected,security_alert,regex
+API rate limit exceeded for client beta-ltd (1500 requests/minute),workflow_error,llm
+Rootkit behavior detected in system process,security_alert,regex
+Session token hijacking detected for user session,security_alert,regex
+File upload failed: data.csv exceeds 1024MB limit,workflow_error,bert
+API rate limit exceeded for client xyz-corp (100 requests/minute),workflow_error,llm
+File upload completed: report.pdf (512MB) by user manager.ops,user_action,bert
+User admin created new project 'Q4-Analytics',user_action,llm
+Account locked: 10 failed login attempts for temp.user,user_action,llm
+Account locked: 50 failed login attempts for manager.ops,user_action,bert
+File upload completed: quarterly.xlsx (250MB) by user manager.ops,user_action,regex
+File upload completed: report.pdf (250MB) by user alice.smith,user_action,regex
+File upload completed: backup.zip (250MB) by user manager.ops,user_action,llm
+Account locked: 10 failed login attempts for admin,user_action,bert
+File upload completed: backup.zip (45MB) by user john.doe,user_action,bert
+File upload completed: data.csv (45MB) by user manager.ops,user_action,bert
+File upload completed: quarterly.xlsx (1024MB) by user admin,user_action,regex
+Account locked: 50 failed login attempts for temp.user,user_action,llm
+Account locked: 1250 failed login attempts for temp.user,user_action,regex
+Account locked: 10 failed login attempts for john.doe,user_action,llm
+File upload completed: report.pdf (250MB) by user admin,user_action,bert
+File upload completed: data.csv (250MB) by user alice.smith,user_action,regex
+File upload completed: quarterly.xlsx (1024MB) by user temp.user,user_action,bert
+Account locked: 5 failed login attempts for temp.user,user_action,llm
+File upload completed: backup.zip (512MB) by user john.doe,user_action,regex
+Account locked: 1500 failed login attempts for admin,user_action,regex
+User john.doe created new project 'HR-Dashboard',user_action,regex
+File upload completed: report.pdf (250MB) by user temp.user,user_action,regex
+File upload completed: report.pdf (1024MB) by user alice.smith,user_action,bert
+File upload completed: quarterly.xlsx (250MB) by user admin,user_action,regex
+Password changed successfully for user ID 12345,user_action,llm
+File upload completed: quarterly.xlsx (45MB) by user manager.ops,user_action,bert
+Profile updated: user 78934 changed email to user@invalid-domain,user_action,llm
+File upload completed: backup.zip (250MB) by user temp.user,user_action,bert
+Account locked: 1500 failed login attempts for manager.ops,user_action,llm
+Account locked: 1250 failed login attempts for alice.smith,user_action,regex
+Account locked: 100 failed login attempts for manager.ops,user_action,bert
+File upload completed: data.csv (512MB) by user alice.smith,user_action,bert
+File upload completed: data.csv (512MB) by user alice.smith,user_action,llm
+File upload completed: backup.zip (45MB) by user admin,user_action,bert
+File upload completed: config.yaml (250MB) by user temp.user,user_action,bert
+File upload completed: data.csv (100MB) by user admin,user_action,llm
+File upload completed: data.csv (512MB) by user temp.user,user_action,regex
+Account locked: 5 failed login attempts for manager.ops,user_action,bert
+File upload completed: data.csv (1024MB) by user alice.smith,user_action,regex
+Account locked: 50 failed login attempts for admin,user_action,bert
+File upload completed: quarterly.xlsx (1024MB) by user manager.ops,user_action,bert
+File upload completed: config.yaml (45MB) by user temp.user,user_action,bert
+Account locked: 1500 failed login attempts for admin,user_action,llm
+Account locked: 20 failed login attempts for admin,user_action,regex
+Account locked: 50 failed login attempts for john.doe,user_action,regex
+Profile updated: user 12345 changed email to user@invalid-domain,user_action,llm
+File upload completed: backup.zip (100MB) by user manager.ops,user_action,regex
+Account locked: 1250 failed login attempts for alice.smith,user_action,llm
+File upload completed: config.yaml (1024MB) by user temp.user,user_action,bert
+User preferences updated: SMS-only,user_action,llm
+File upload completed: report.pdf (45MB) by user john.doe,user_action,llm
+File upload completed: backup.zip (512MB) by user admin,user_action,bert
+File upload completed: report.pdf (100MB) by user john.doe,user_action,bert
+File upload completed: report.pdf (1024MB) by user manager.ops,user_action,regex
+User manager.ops created new project 'Q1-Financials',user_action,llm
+Profile updated: user 67890 changed email to test@unknown.com,user_action,llm
+Account locked: 100 failed login attempts for admin,user_action,regex
+Account locked: 100 failed login attempts for admin,user_action,bert
+File upload completed: backup.zip (100MB) by user manager.ops,user_action,bert
+File upload completed: data.csv (100MB) by user admin,user_action,bert
+File upload completed: data.csv (250MB) by user manager.ops,user_action,regex
+Account locked: 50 failed login attempts for manager.ops,user_action,regex
+File upload completed: backup.zip (250MB) by user john.doe,user_action,regex
+File upload completed: quarterly.xlsx (45MB) by user alice.smith,user_action,regex
+User alice.smith created new project 'HR-Dashboard',user_action,llm
+Account locked: 20 failed login attempts for manager.ops,user_action,bert
+Account locked: 10 failed login attempts for john.doe,user_action,regex
+File upload completed: quarterly.xlsx (250MB) by user john.doe,user_action,regex
+File upload completed: data.csv (1024MB) by user manager.ops,user_action,bert
+File upload completed: data.csv (100MB) by user temp.user,user_action,bert
+File upload completed: config.yaml (45MB) by user admin,user_action,regex
+User john.doe created new project 'HR-Dashboard',user_action,llm
+Account locked: 1500 failed login attempts for temp.user,user_action,bert
+Account locked: 20 failed login attempts for alice.smith,user_action,llm
+Account locked: 2500 failed login attempts for alice.smith,user_action,bert
+Account locked: 1500 failed login attempts for alice.smith,user_action,regex
+File upload completed: data.csv (512MB) by user temp.user,user_action,llm
+File upload completed: report.pdf (100MB) by user admin,user_action,llm
+File upload completed: data.csv (512MB) by user john.doe,user_action,bert
+Account locked: 100 failed login attempts for alice.smith,user_action,bert
+File upload completed: data.csv (45MB) by user temp.user,user_action,regex
+Account locked: 5 failed login attempts for alice.smith,user_action,bert
+File upload completed: report.pdf (512MB) by user temp.user,user_action,regex
+File upload completed: data.csv (45MB) by user john.doe,user_action,regex
+Account locked: 20 failed login attempts for alice.smith,user_action,regex
+Account locked: 1500 failed login attempts for admin,user_action,bert
+File upload completed: report.pdf (512MB) by user admin,user_action,bert
+File upload completed: backup.zip (250MB) by user admin,user_action,bert
+File upload completed: backup.zip (250MB) by user alice.smith,user_action,bert
+File upload completed: report.pdf (1024MB) by user temp.user,user_action,bert
+File upload completed: data.csv (250MB) by user john.doe,user_action,bert
+File upload completed: quarterly.xlsx (512MB) by user manager.ops,user_action,bert
+File upload completed: report.pdf (45MB) by user john.doe,user_action,regex
+File upload completed: report.pdf (100MB) by user alice.smith,user_action,bert
+File upload completed: backup.zip (100MB) by user admin,user_action,regex
+Account locked: 2500 failed login attempts for temp.user,user_action,regex
+File upload completed: config.yaml (1024MB) by user manager.ops,user_action,regex
+"API endpoint /metrics is deprecated, migrate to /v2/users by Q2 2025",deprecation_warning,regex
+"Report format XML will be discontinued, migrate to Parquet by Q2 2025",deprecation_warning,bert
+"API endpoint /auth/login is deprecated, migrate to /v3/auth by Dec 2024",deprecation_warning,regex
+"API endpoint /v2/orders is deprecated, migrate to /v3/auth by Dec 2024",deprecation_warning,regex
+"API endpoint /v1/users is deprecated, migrate to /v3/auth by Jan 2025",deprecation_warning,llm
+"Database driver postgres-9.x is deprecated, upgrade to 3.0",deprecation_warning,llm
+"Method calculateVAT() deprecated since 4.0, use TaxCalculationService instead",deprecation_warning,llm
+"Report format CSV will be discontinued, migrate to Parquet by Jan 2025",deprecation_warning,bert
+Configuration option 'debug=true' will be removed in version 3.0,deprecation_warning,llm
+"API endpoint /metrics is deprecated, migrate to /v3/auth by Jan 2025",deprecation_warning,bert
+"API endpoint /v1/users is deprecated, migrate to /v3/auth by Dec 2024",deprecation_warning,llm
+"Method calculateTax() deprecated since 3.0, use TaxCalculationService instead",deprecation_warning,llm
+"Method calculateVAT() deprecated since 3.0, use VATService instead",deprecation_warning,llm
+"API endpoint /v2/orders is deprecated, migrate to /v3/auth by Jan 2025",deprecation_warning,llm
+"API endpoint /auth/login is deprecated, migrate to /v3/auth by Q2 2025",deprecation_warning,llm
+"SSL protocol TLSv1.2 is deprecated, upgrade to TLSv1.3 by Q2 2025",deprecation_warning,llm
+Legacy authentication module will be sunset in Q1 2024,deprecation_warning,llm
+"API endpoint /metrics is deprecated, migrate to /v3/auth by Jan 2025",deprecation_warning,llm
+Legacy authentication module will be sunset in Q2 2024,deprecation_warning,llm
+"API endpoint /v2/orders is deprecated, migrate to /v2/users by Jan 2025",deprecation_warning,llm
+"API endpoint /auth/login is deprecated, migrate to /v3/auth by Jan 2025",deprecation_warning,regex
+"API endpoint /v2/orders is deprecated, migrate to /v2/users by Q2 2025",deprecation_warning,llm
+"API endpoint /metrics is deprecated, migrate to /v2/users by Dec 2024",deprecation_warning,regex
+Legacy authentication module will be sunset in Q1 2025,deprecation_warning,llm
+"API endpoint /metrics is deprecated, migrate to /v3/auth by Q2 2025",deprecation_warning,llm
+"Cache cleared: 100 entries removed, 250MB freed",system_notification,regex
+Database connection pool initialized with 10 connections,system_notification,llm
+"Cache cleared: 20 entries removed, 512MB freed",system_notification,llm
+API endpoint /v2/orders responding normally (145ms),system_notification,llm
+Memory usage: 95% of heap (6.2GB/16GB),system_notification,llm
+Memory usage: 45% of heap (4.2GB/16GB),system_notification,bert
+"Cache cleared: 100 entries removed, 250MB freed",system_notification,llm
+"Cache cleared: 1250 entries removed, 250MB freed",system_notification,regex
+"Cache cleared: 5 entries removed, 100MB freed",system_notification,bert
+"Cache cleared: 1500 entries removed, 45MB freed",system_notification,llm
+API endpoint /v1/users responding normally (120ms),system_notification,llm
+Memory usage: 75% of heap (6.2GB/16GB),system_notification,llm
+"Cache cleared: 10 entries removed, 100MB freed",system_notification,llm
+Memory usage: 82% of heap (4.2GB/16GB),system_notification,llm
+Memory usage: 60% of heap (6.2GB/16GB),system_notification,llm
+ETL pipeline completed: 20 records processed in {minutes} minutes,system_notification,llm
+"Cache cleared: 20 entries removed, 45MB freed",system_notification,regex
+"Cache cleared: 50 entries removed, 512MB freed",system_notification,llm
+Memory usage: 82% of heap (7.1GB/16GB),system_notification,llm
+"Cache cleared: 2500 entries removed, 100MB freed",system_notification,bert
+API endpoint /auth/login responding normally (250ms),system_notification,llm
+Memory usage: 95% of heap (7.1GB/8GB),system_notification,llm
+Unauthorized cryptocurrency wallet access,security_alert,bert
+API rate limit exceeded for client xyz-corp (10 requests/minute),workflow_error,llm
+API rate limit exceeded for client xyz-corp (1250 requests/minute),workflow_error,llm
+Time bomb malware detected and quarantined,security_alert,bert
+Privileged account misuse detected,security_alert,bert
+Advanced persistent threat indicators detected,security_alert,bert
+Command injection attempt in system call,security_alert,llm
+API rate limit exceeded for client beta-ltd (20 requests/minute),workflow_error,bert
+Server-side request forgery (SSRF) attempt blocked,security_alert,regex
+File upload failed: quarterly.xlsx exceeds 512MB limit,workflow_error,bert
+File upload failed: report.pdf exceeds 250MB limit,workflow_error,llm
+API rate limit exceeded for client alpha-inc (2500 requests/minute),workflow_error,llm
+API rate limit exceeded for client alpha-inc (10 requests/minute),workflow_error,llm
+Insecure direct object reference attack detected,security_alert,regex
+File upload failed: quarterly.xlsx exceeds 512MB limit,workflow_error,regex
+API rate limit exceeded for client beta-ltd (100 requests/minute),workflow_error,llm
+API rate limit exceeded for client alpha-inc (1250 requests/minute),workflow_error,llm
+Business logic flaw exploitation detected,security_alert,regex
+Voice phishing (vishing) call detected,security_alert,bert
+Buffer overflow attack attempt detected,security_alert,bert
+Weak random number generation exploitation,security_alert,bert
+Server misconfiguration exploitation attempt,security_alert,llm
+LDAP injection attack blocked,security_alert,llm
+File upload failed: data.csv exceeds 45MB limit,workflow_error,bert
+VPN connection from blacklisted country,security_alert,llm
+Cryptocurrency mining malware detected,security_alert,bert
+Malicious code injection attempt in web form,security_alert,bert
+API abuse detected: excessive data extraction,security_alert,bert
+API rate limit exceeded for client beta-ltd (10 requests/minute),workflow_error,llm
+API rate limit exceeded for client xyz-corp (10 requests/minute),workflow_error,bert
+Host header injection attack blocked,security_alert,llm
+Path traversal attack through file upload,security_alert,regex
+Open redirect vulnerability exploitation detected,security_alert,bert
+API rate limit exceeded for client alpha-inc (5 requests/minute),workflow_error,llm
+Lateral movement detected: unusual login pattern,security_alert,regex
+API rate limit exceeded for client xyz-corp (2500 requests/minute),workflow_error,llm
+File upload failed: backup.zip exceeds 250MB limit,workflow_error,llm
+Timing attack detected on authentication system,security_alert,bert
+File upload completed: quarterly.xlsx (512MB) by user temp.user,user_action,llm
+Account locked: 1250 failed login attempts for john.doe,user_action,regex
+File upload completed: data.csv (45MB) by user admin,user_action,regex
+File upload completed: backup.zip (1024MB) by user admin,user_action,regex
+File upload completed: quarterly.xlsx (100MB) by user alice.smith,user_action,bert
+Account locked: 100 failed login attempts for alice.smith,user_action,llm
+User john.doe created new project 'Q4-Analytics',user_action,llm
+File upload completed: data.csv (512MB) by user john.doe,user_action,regex
+Document shared: config.yaml shared with team-leads@company.com,user_action,llm
+File upload completed: backup.zip (512MB) by user admin,user_action,regex
+File upload completed: report.pdf (100MB) by user manager.ops,user_action,bert
+Document shared: quarterly.xlsx shared with finance-team@company.com,user_action,llm
+File upload completed: quarterly.xlsx (100MB) by user alice.smith,user_action,regex
+File upload completed: report.pdf (45MB) by user alice.smith,user_action,regex
+File upload completed: report.pdf (45MB) by user manager.ops,user_action,regex
+Document shared: quarterly.xlsx shared with team-leads@company.com,user_action,llm
+Account locked: 5 failed login attempts for admin,user_action,llm
+File upload completed: backup.zip (250MB) by user admin,user_action,regex
+File upload completed: data.csv (100MB) by user alice.smith,user_action,bert
+File upload completed: report.pdf (100MB) by user john.doe,user_action,regex
+Account locked: 5 failed login attempts for john.doe,user_action,bert
+File upload completed: data.csv (100MB) by user john.doe,user_action,regex
+File upload completed: config.yaml (250MB) by user alice.smith,user_action,bert
+File upload completed: quarterly.xlsx (1024MB) by user admin,user_action,bert
+File upload completed: report.pdf (1024MB) by user john.doe,user_action,regex
+Account locked: 5 failed login attempts for alice.smith,user_action,llm
+File upload completed: backup.zip (100MB) by user alice.smith,user_action,bert
+File upload completed: backup.zip (512MB) by user temp.user,user_action,bert
+File upload completed: config.yaml (1024MB) by user temp.user,user_action,regex
+File upload completed: backup.zip (100MB) by user temp.user,user_action,llm
+File upload completed: backup.zip (1024MB) by user alice.smith,user_action,regex
+Account locked: 50 failed login attempts for alice.smith,user_action,llm
+File upload completed: config.yaml (100MB) by user temp.user,user_action,llm
+File upload completed: quarterly.xlsx (512MB) by user temp.user,user_action,regex
+File upload completed: report.pdf (45MB) by user manager.ops,user_action,bert
+File upload completed: config.yaml (100MB) by user manager.ops,user_action,bert
+Account locked: 10 failed login attempts for temp.user,user_action,regex
+File upload completed: quarterly.xlsx (512MB) by user alice.smith,user_action,bert
+File upload completed: data.csv (1024MB) by user john.doe,user_action,llm
+File upload completed: report.pdf (45MB) by user temp.user,user_action,regex
+File upload completed: data.csv (512MB) by user alice.smith,user_action,regex
+Account locked: 20 failed login attempts for manager.ops,user_action,regex
+Account locked: 100 failed login attempts for john.doe,user_action,regex
+File upload completed: quarterly.xlsx (512MB) by user manager.ops,user_action,regex
+Account locked: 50 failed login attempts for alice.smith,user_action,bert
+Account locked: 1500 failed login attempts for john.doe,user_action,bert
+File upload completed: config.yaml (512MB) by user alice.smith,user_action,regex
+Account locked: 20 failed login attempts for john.doe,user_action,llm
+File upload completed: data.csv (250MB) by user john.doe,user_action,regex
+File upload completed: quarterly.xlsx (250MB) by user temp.user,user_action,bert
+Profile updated: user 78934 changed email to test@unknown.com,user_action,llm
+File upload completed: backup.zip (1024MB) by user john.doe,user_action,regex
+File upload completed: config.yaml (250MB) by user manager.ops,user_action,bert
+File upload completed: report.pdf (512MB) by user john.doe,user_action,bert
+File upload completed: quarterly.xlsx (250MB) by user alice.smith,user_action,regex
+File upload completed: report.pdf (45MB) by user admin,user_action,regex
+File upload completed: config.yaml (1024MB) by user alice.smith,user_action,regex
+User temp.user created new project 'Q1-Financials',user_action,llm
+File upload completed: config.yaml (100MB) by user admin,user_action,regex
+File upload completed: backup.zip (1024MB) by user alice.smith,user_action,bert
+File upload completed: quarterly.xlsx (1024MB) by user temp.user,user_action,regex
+File upload completed: quarterly.xlsx (1024MB) by user manager.ops,user_action,llm
+Account locked: 10 failed login attempts for alice.smith,user_action,llm
+File upload completed: quarterly.xlsx (1024MB) by user alice.smith,user_action,regex
+File upload completed: config.yaml (45MB) by user john.doe,user_action,bert
+"Support ending for Internet Explorer by Jan 2025, update requirements",deprecation_warning,llm
+"Report format XML will be discontinued, migrate to JSON by Jan 2025",deprecation_warning,llm
+"API endpoint /v1/users is deprecated, migrate to /v2/users by Q2 2025",deprecation_warning,llm
+"API endpoint /v2/orders is deprecated, migrate to /v3/auth by Q2 2025",deprecation_warning,llm
+"Method calculateTax() deprecated since 2.0, use TaxCalculationService instead",deprecation_warning,llm
+"Method calculateTax() deprecated since 3.0, use VATService instead",deprecation_warning,llm
+"Report format XML will be discontinued, migrate to Parquet by Dec 2024",deprecation_warning,llm
+"API endpoint /auth/login is deprecated, migrate to /v3/auth by Jan 2025",deprecation_warning,llm
+"Database driver mysql-connector-5.x is deprecated, upgrade to 2.0",deprecation_warning,llm
+"Report format XML will be discontinued, migrate to Parquet by Jan 2025",deprecation_warning,llm
+"API endpoint /v1/users is deprecated, migrate to /v2/users by Jan 2025",deprecation_warning,llm
+"API endpoint /v1/users is deprecated, migrate to /v3/auth by Dec 2024",deprecation_warning,regex
+"Method calculateVAT() deprecated since 3.0, use TaxCalculationService instead",deprecation_warning,llm
+"Report format CSV will be discontinued, migrate to JSON by Dec 2024",deprecation_warning,llm
+"API endpoint /metrics is deprecated, migrate to /v2/users by Jan 2025",deprecation_warning,regex
+"Cache cleared: 1250 entries removed, 250MB freed",system_notification,bert
+"Cache cleared: 5 entries removed, 512MB freed",system_notification,llm
+ETL pipeline completed: 100 records processed in 60 minutes,system_notification,regex
+ETL pipeline completed: 2500 records processed in 15 minutes,system_notification,bert
+Memory usage: 75% of heap (7.1GB/8GB),system_notification,llm
+ETL pipeline completed: 20 records processed in 60 minutes,system_notification,regex
+ETL pipeline completed: 10 records processed in 5 minutes,system_notification,bert
+ETL pipeline completed: 1500 records processed in 60 minutes,system_notification,bert
+ETL pipeline completed: 10 records processed in 5 minutes,system_notification,regex
+ETL pipeline completed: 50 records processed in 30 minutes,system_notification,llm
+ETL pipeline completed: 2500 records processed in 60 minutes,system_notification,bert
+ETL pipeline completed: 10 records processed in 15 minutes,system_notification,regex
+Memory usage: 82% of heap (4.2GB/8GB),system_notification,bert
+ETL pipeline completed: 10 records processed in 60 minutes,system_notification,llm
+ETL pipeline completed: 10 records processed in 60 minutes,system_notification,bert
+ETL pipeline completed: 2500 records processed in 45 minutes,system_notification,regex
+ETL pipeline completed: 20 records processed in 30 minutes,system_notification,regex
+ETL pipeline completed: 5 records processed in 15 minutes,system_notification,llm
+ETL pipeline completed: 2500 records processed in 45 minutes,system_notification,bert
+ETL pipeline completed: 50 records processed in 30 minutes,system_notification,bert
+ETL pipeline completed: 1250 records processed in 15 minutes,system_notification,regex
+Memory usage: 45% of heap (6.2GB/16GB),system_notification,llm
+ETL pipeline completed: 50 records processed in 45 minutes,system_notification,regex
+ETL pipeline completed: 1500 records processed in 15 minutes,system_notification,bert
+ETL pipeline completed: 50 records processed in 15 minutes,system_notification,llm
+ETL pipeline completed: 5 records processed in 60 minutes,system_notification,bert
+ETL pipeline completed: 50 records processed in 5 minutes,system_notification,bert
+ETL pipeline completed: 20 records processed in 5 minutes,system_notification,bert
+ETL pipeline completed: 100 records processed in 5 minutes,system_notification,bert
+ETL pipeline completed: 100 records processed in 45 minutes,system_notification,bert
+ETL pipeline completed: 100 records processed in 15 minutes,system_notification,regex
+"Cache cleared: 50 entries removed, 1024MB freed",system_notification,regex
+ETL pipeline completed: 1500 records processed in 45 minutes,system_notification,bert
+ETL pipeline completed: 2500 records processed in 5 minutes,system_notification,regex
+ETL pipeline completed: 20 records processed in 15 minutes,system_notification,regex
+"Cache cleared: 50 entries removed, 100MB freed",system_notification,llm
+ETL pipeline completed: 5 records processed in 30 minutes,system_notification,bert
+ETL pipeline completed: 50 records processed in 15 minutes,system_notification,bert
+API endpoint /v1/users responding normally (200ms),system_notification,llm
+ETL pipeline completed: 100 records processed in 5 minutes,system_notification,regex
+ETL pipeline completed: 5 records processed in 5 minutes,system_notification,bert
+ETL pipeline completed: 5 records processed in 5 minutes,system_notification,regex
+ETL pipeline completed: 5 records processed in 45 minutes,system_notification,bert
+ETL pipeline completed: 50 records processed in 5 minutes,system_notification,regex
+ETL pipeline completed: 1250 records processed in 45 minutes,system_notification,regex
+ETL pipeline completed: 2500 records processed in 60 minutes,system_notification,regex
+ETL pipeline completed: 1500 records processed in 15 minutes,system_notification,regex
+ETL pipeline completed: 5 records processed in 30 minutes,system_notification,regex
+ETL pipeline completed: 1500 records processed in 60 minutes,system_notification,regex
+ETL pipeline completed: 2500 records processed in 30 minutes,system_notification,regex
+ETL pipeline completed: 50 records processed in 45 minutes,system_notification,bert
+"Cache cleared: 100 entries removed, 1024MB freed",system_notification,llm
+ETL pipeline completed: 1250 records processed in 60 minutes,system_notification,bert
+ETL pipeline completed: 1250 records processed in 5 minutes,system_notification,regex
+ETL pipeline completed: 50 records processed in 15 minutes,system_notification,regex
+ETL pipeline completed: 10 records processed in 60 minutes,system_notification,regex
+ETL pipeline completed: 20 records processed in 45 minutes,system_notification,bert
+ETL pipeline completed: 1250 records processed in 45 minutes,system_notification,llm
+ETL pipeline completed: 1250 records processed in 45 minutes,system_notification,bert
+ETL pipeline completed: 2500 records processed in 45 minutes,system_notification,llm
+ETL pipeline completed: 10 records processed in 30 minutes,system_notification,bert
+ETL pipeline completed: 100 records processed in 60 minutes,system_notification,bert
+ETL pipeline completed: 10 records processed in 45 minutes,system_notification,regex
+API endpoint /v1/users responding normally (145ms),system_notification,llm
+ETL pipeline completed: 50 records processed in 60 minutes,system_notification,bert
+ETL pipeline completed: 20 records processed in 5 minutes,system_notification,regex
+ETL pipeline completed: 1250 records processed in 60 minutes,system_notification,regex
+ETL pipeline completed: 100 records processed in 45 minutes,system_notification,regex
+ETL pipeline completed: 5 records processed in 45 minutes,system_notification,llm
+Memory usage: 82% of heap (4.2GB/8GB),system_notification,llm
+Certificate validation failed: potential man-in-the-middle,security_alert,llm
+Directory traversal attack attempt detected,security_alert,bert
+API rate limit exceeded for client xyz-corp (5 requests/minute),workflow_error,llm
+File upload failed: report.pdf exceeds 512MB limit,workflow_error,regex
+Shadow IT detection: unauthorized cloud service,security_alert,llm
+Rogue access point detected on network,security_alert,regex
+5G network slice intrusion detected,security_alert,llm
+Cross-site request forgery (CSRF) attack blocked,security_alert,bert
+API rate limit exceeded for client alpha-inc (1500 requests/minute),workflow_error,llm
+Sandbox evasion technique detected in attachment,security_alert,regex
+DDoS attack detected from multiple IP addresses,security_alert,regex
+Template injection attack blocked,security_alert,bert
+Email header injection attempt detected,security_alert,bert
+File upload failed: data.csv exceeds 250MB limit,workflow_error,llm
+Clickjacking attack blocked by security headers,security_alert,bert
+Network intrusion: unauthorized device connected,security_alert,llm
+File upload failed: quarterly.xlsx exceeds 250MB limit,workflow_error,llm
+Suspicious registry modification attempt,security_alert,regex
+File upload failed: report.pdf exceeds 1024MB limit,workflow_error,regex
+File upload failed: backup.zip exceeds 100MB limit,workflow_error,llm
+Insider threat: unusual file access pattern detected,security_alert,regex
+XML external entity (XXE) attack detected,security_alert,llm
+Remote file inclusion (RFI) attack blocked,security_alert,llm
+Race condition attack attempt detected,security_alert,llm
+File integrity violation: unauthorized modification,security_alert,llm
+File upload failed: data.csv exceeds 1024MB limit,workflow_error,llm
+Botnet activity detected: command and control traffic,security_alert,bert
+Steganography detected in image uploads,security_alert,regex
+Password brute force attack from IP 192.168.1.50,security_alert,bert
+Multi-factor authentication bypass attempt detected,security_alert,regex
+API rate limit exceeded for client beta-ltd (20 requests/minute),workflow_error,llm
+Data loss prevention: sensitive data upload blocked,security_alert,llm
+Mobile device compromise detected,security_alert,regex
+Deserialization attack detected in user input,security_alert,bert
+Privilege escalation attempt through API,security_alert,bert
+User session expired after 30 minutes for user alice.smith,user_action,bert
+User manager.ops logged in from IP 10.0.0.45,user_action,llm
+User temp.user logged in from IP 192.168.1.100,user_action,bert
+User admin logged in from IP 192.168.1.100,user_action,regex
+User session expired after 60 minutes for user john.doe,user_action,bert
+User session expired after 15 minutes for user alice.smith,user_action,bert
+User temp.user logged in from IP 192.168.1.100,user_action,regex
+File upload completed: backup.zip (250MB) by user temp.user,user_action,llm
+User session expired after 15 minutes for user temp.user,user_action,bert
+User alice.smith logged in from IP 192.168.1.100,user_action,regex
+User session expired after 30 minutes for user temp.user,user_action,regex
+User john.doe logged in from IP 192.168.1.100,user_action,bert
+User temp.user logged in from IP 203.0.113.55,user_action,bert
+User temp.user logged in from IP 10.0.0.45,user_action,bert
+User session expired after 45 minutes for user alice.smith,user_action,regex
+User session expired after 5 minutes for user temp.user,user_action,bert
+User admin logged in from IP 10.0.0.45,user_action,regex
+File upload completed: quarterly.xlsx (45MB) by user manager.ops,user_action,regex
+User temp.user created new project 'HR-Dashboard',user_action,llm
+File upload completed: backup.zip (45MB) by user john.doe,user_action,llm
+User john.doe logged in from IP 192.168.1.100,user_action,regex
+User session expired after 5 minutes for user alice.smith,user_action,bert
+User session expired after 15 minutes for user temp.user,user_action,regex
+User temp.user logged in from IP 10.0.0.45,user_action,regex
+User session expired after 45 minutes for user temp.user,user_action,regex
+User admin logged in from IP 203.0.113.55,user_action,bert
+File upload completed: data.csv (100MB) by user alice.smith,user_action,regex
+User session expired after 5 minutes for user admin,user_action,llm
+User session expired after 5 minutes for user alice.smith,user_action,regex
+File upload completed: report.pdf (45MB) by user alice.smith,user_action,bert
+File upload completed: backup.zip (1024MB) by user manager.ops,user_action,bert
+Account locked: 2500 failed login attempts for alice.smith,user_action,llm
+File upload completed: report.pdf (100MB) by user john.doe,user_action,llm
+User session expired after 60 minutes for user admin,user_action,bert
+User manager.ops logged in from IP 10.0.0.45,user_action,bert
+User session expired after 60 minutes for user admin,user_action,regex
+User session expired after 60 minutes for user temp.user,user_action,llm
+User session expired after 15 minutes for user john.doe,user_action,regex
+User john.doe logged in from IP 10.0.0.45,user_action,bert
+User admin logged in from IP 10.0.0.45,user_action,bert
+User session expired after 5 minutes for user manager.ops,user_action,bert
+User session expired after 45 minutes for user manager.ops,user_action,regex
+User session expired after 45 minutes for user alice.smith,user_action,llm
+Account locked: 20 failed login attempts for manager.ops,user_action,llm
+User session expired after 45 minutes for user manager.ops,user_action,llm
+User session expired after 45 minutes for user alice.smith,user_action,bert
+File upload completed: config.yaml (512MB) by user admin,user_action,regex
+User session expired after 15 minutes for user admin,user_action,regex
+User john.doe logged in from IP 203.0.113.55,user_action,regex
+User session expired after 15 minutes for user manager.ops,user_action,llm
+File upload completed: quarterly.xlsx (100MB) by user admin,user_action,regex
+File upload completed: quarterly.xlsx (45MB) by user admin,user_action,llm
+User session expired after 15 minutes for user admin,user_action,bert
+User session expired after 5 minutes for user manager.ops,user_action,regex
+User session expired after 45 minutes for user admin,user_action,regex
+User john.doe logged in from IP 10.0.0.45,user_action,regex
+File upload completed: data.csv (45MB) by user alice.smith,user_action,bert
+File upload completed: data.csv (512MB) by user manager.ops,user_action,bert
+File upload completed: quarterly.xlsx (512MB) by user admin,user_action,llm
+File upload completed: report.pdf (512MB) by user john.doe,user_action,regex
+User session expired after 30 minutes for user john.doe,user_action,llm
+File upload completed: report.pdf (512MB) by user alice.smith,user_action,llm
+User alice.smith logged in from IP 10.0.0.45,user_action,llm
+User temp.user created new project 'Q4-Analytics',user_action,llm
+User manager.ops logged in from IP 203.0.113.55,user_action,bert
+User session expired after 60 minutes for user alice.smith,user_action,regex
+User session expired after 30 minutes for user admin,user_action,bert
+User admin logged in from IP 10.0.0.45,user_action,llm
+File upload completed: data.csv (100MB) by user john.doe,user_action,bert
+User admin logged in from IP 203.0.113.55,user_action,regex
+User session expired after 15 minutes for user john.doe,user_action,bert
+User session expired after 5 minutes for user temp.user,user_action,regex
+User session expired after 45 minutes for user john.doe,user_action,regex
+User session expired after 30 minutes for user john.doe,user_action,bert
+User manager.ops logged in from IP 192.168.1.100,user_action,bert
+User john.doe logged in from IP 203.0.113.55,user_action,bert
+User session expired after 15 minutes for user manager.ops,user_action,bert
+User alice.smith logged in from IP 10.0.0.45,user_action,bert
+File upload completed: config.yaml (100MB) by user alice.smith,user_action,llm
+User alice.smith logged in from IP 192.168.1.100,user_action,bert
+User session expired after 5 minutes for user john.doe,user_action,llm
+File upload completed: quarterly.xlsx (45MB) by user temp.user,user_action,bert
+File upload completed: report.pdf (250MB) by user temp.user,user_action,llm
+User session expired after 5 minutes for user admin,user_action,regex
+User temp.user logged in from IP 10.0.0.45,user_action,llm
+User session expired after 60 minutes for user admin,user_action,llm
+User manager.ops logged in from IP 192.168.1.100,user_action,llm
+File upload completed: backup.zip (250MB) by user alice.smith,user_action,llm
+File upload completed: data.csv (45MB) by user john.doe,user_action,bert
+User alice.smith logged in from IP 203.0.113.55,user_action,bert
+User manager.ops logged in from IP 203.0.113.55,user_action,regex
+User manager.ops logged in from IP 192.168.1.100,user_action,regex
+File upload completed: backup.zip (512MB) by user alice.smith,user_action,bert
+User session expired after 45 minutes for user admin,user_action,bert
+User session expired after 5 minutes for user john.doe,user_action,regex
+File upload completed: quarterly.xlsx (512MB) by user john.doe,user_action,bert
+File upload completed: quarterly.xlsx (1024MB) by user john.doe,user_action,llm
+File upload completed: backup.zip (1024MB) by user admin,user_action,bert
+User session expired after 60 minutes for user john.doe,user_action,regex
+User alice.smith logged in from IP 203.0.113.55,user_action,regex
+Account locked: 50 failed login attempts for john.doe,user_action,bert
+User manager.ops logged in from IP 203.0.113.55,user_action,llm
+File upload completed: config.yaml (512MB) by user alice.smith,user_action,llm
+File upload completed: backup.zip (45MB) by user temp.user,user_action,bert
+File upload completed: data.csv (1024MB) by user john.doe,user_action,bert
+User session expired after 45 minutes for user temp.user,user_action,bert
+File upload completed: backup.zip (45MB) by user alice.smith,user_action,bert
+Account locked: 50 failed login attempts for manager.ops,user_action,llm
+User session expired after 45 minutes for user temp.user,user_action,llm
+File upload completed: data.csv (45MB) by user manager.ops,user_action,regex
+User session expired after 45 minutes for user john.doe,user_action,bert
+User session expired after 60 minutes for user alice.smith,user_action,llm
+User temp.user logged in from IP 203.0.113.55,user_action,regex
+File upload completed: quarterly.xlsx (100MB) by user manager.ops,user_action,regex
+User session expired after 60 minutes for user manager.ops,user_action,bert
+File upload completed: report.pdf (100MB) by user alice.smith,user_action,regex
+File upload completed: data.csv (1024MB) by user admin,user_action,regex
+File upload completed: config.yaml (45MB) by user manager.ops,user_action,bert
+User session expired after 60 minutes for user manager.ops,user_action,regex
+User alice.smith logged in from IP 10.0.0.45,user_action,regex
+User session expired after 5 minutes for user admin,user_action,bert
+File upload completed: backup.zip (250MB) by user manager.ops,user_action,regex
+User session expired after 15 minutes for user manager.ops,user_action,regex
+User session expired after 30 minutes for user temp.user,user_action,bert
+User session expired after 60 minutes for user alice.smith,user_action,bert
+User session expired after 60 minutes for user manager.ops,user_action,llm
+"Report format XML will be discontinued, migrate to JSON by Q2 2025",deprecation_warning,llm
+"API endpoint /v2/orders is deprecated, migrate to /v3/auth by Dec 2024",deprecation_warning,llm
+"API endpoint /metrics is deprecated, migrate to /v2/users by Dec 2024",deprecation_warning,llm
+"API endpoint /auth/login is deprecated, migrate to /v2/users by Jan 2025",deprecation_warning,llm
+Employee onboarding workflow initiated,user_action,bert
+Payroll calculation completed for employees,user_action,bert
+Performance review cycle started,user_action,bert
+Leave request approved for employee,user_action,bert
+Benefits enrollment completed,user_action,bert
+Training module assigned to employee,user_action,bert
+Employee profile updated successfully,user_action,bert
+Salary adjustment processed,user_action,bert
+Time tracking data synchronized,user_action,bert
+Employee directory updated,user_action,bert
+Vacation request submitted,user_action,bert
+Performance evaluation completed,user_action,bert
+Employee promotion recorded,user_action,bert
+Training completion tracked,user_action,bert
+Benefits claim processed,user_action,bert
+Daily payroll synchronization completed,system_notification,bert
+Employee data backup finished,system_notification,bert
+HR system maintenance completed,system_notification,bert
+Benefits enrollment reminder sent,system_notification,bert
+Training schedule published,system_notification,bert
+Employee anniversary notifications generated,system_notification,bert
+Performance review deadline reminder,system_notification,bert
+HR database optimization completed,system_notification,bert
+Employee onboarding checklist updated,system_notification,bert
+Payroll calendar updated for next quarter,system_notification,bert
+Employee data synchronization failed,workflow_error,bert
+Payroll calculation error occurred,workflow_error,bert
+Benefits enrollment system timeout,workflow_error,bert
+Training module loading failed,workflow_error,bert
+Employee onboarding workflow error,workflow_error,bert
+Unauthorized access to employee records,security_alert,bert
+Multiple failed login attempts detected,security_alert,bert
+Suspicious access pattern identified,security_alert,bert
+Data privacy compliance alert,security_alert,bert
+Employee data export security alert,security_alert,bert
+Monthly invoice generation completed,user_action,bert
+Payment processing finished successfully,user_action,bert
+Customer billing cycle completed,system_notification,bert
+Payment gateway connection timeout,workflow_error,bert
+Fraudulent transaction detected,security_alert,bert
+Database backup completed successfully,system_notification,bert
+Index optimization finished,system_notification,bert
+Query execution timeout,workflow_error,bert
+File upload completed,user_action,bert
+File backup process finished,system_notification,bert
+Disk space cleanup completed,system_notification,bert
+File corruption detected,workflow_error,bert
+Unauthorized file access detected,security_alert,bert
+Daily report generation started,system_notification,bert
+Data warehouse sync completed,system_notification,bert
+Custom report generated,user_action,bert
+ETL pipeline failed,workflow_error,bert
+Unusual data access pattern,security_alert,bert
+System health check completed,system_notification,bert
+Performance metrics collected,system_notification,bert
+CPU threshold exceeded,security_alert,bert
+Memory usage critical,security_alert,bert
+Monitoring agent disconnected,workflow_error,bert

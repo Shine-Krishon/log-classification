@@ -1,0 +1,4 @@
+test_log,message
+1,"ERROR: Database connection failed"
+2,"INFO: User login successful"
+3,"WARNING: High memory usage"

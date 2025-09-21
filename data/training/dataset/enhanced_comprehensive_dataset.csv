@@ -1,0 +1,1270 @@
+timestamp,source,log_message,target_label,complexity
+2025-11-26 07:02:00,ShippingService,Validation failed for product,workflow_error,bert
+2025-10-30 06:05:00,SystemMonitor,Performance monitoring baseline updated,system_notification,regex
+2025-11-29 07:39:00,AnalyticsAPI,Load balancer configuration updated,system_notification,bert
+2025-05-31 03:41:00,LegacyAPI,Deprecated: Using legacy MD5 encoding. Switch to SHA256,deprecation_warning,bert
+2025-03-17 10:34:00,CRMSystem,Batch processing failed: insufficient funds,workflow_error,bert
+2025-01-10 08:00:00,CRMSystem,Database backup completed successfully,system_notification,bert
+2025-09-02 00:14:00,BackupService,Order validation failed: missing required field 'billing_address',workflow_error,bert
+2025-12-09 18:19:00,ConfigService,Mysterious process termination,unclassified,llm
+2025-08-20 20:02:00,SecurityService,User anna.garcia@company.com logged out of the application,user_action,regex
+2025-08-22 17:32:00,AuthService,Unexpected configuration change detected,unclassified,llm
+2025-03-17 20:16:00,AuthService,Account ID 40025 created by lisa.williams@company.com,user_action,regex
+2025-05-10 16:41:00,NotificationService,Data import started by user emily.smith@company.com,user_action,regex
+2025-11-29 09:15:00,HRSystem,Log rotation completed successfully,system_notification,regex
+2025-06-29 19:09:00,SystemMonitor,System startup completed successfully,system_notification,regex
+2025-06-29 03:08:00,ProcessingService,Service restart completed,system_notification,bert
+2025-01-18 01:31:00,ProcessingService,Daily backup completed at 2025-09-14 00:51:15,system_notification,regex
+2025-04-02 11:44:00,EmailService,Connection refused to EmailService,workflow_error,bert
+2025-09-17 13:23:00,LegacyAPI,Authentication failed: insufficient funds,workflow_error,bert
+2025-06-09 19:10:00,AuthService,Backup initiated by user anna.taylor@company.com,user_action,regex
+2025-04-24 20:57:00,LegacyAPI,Legacy authentication method will be discontinued in 11 months,deprecation_warning,bert
+2025-10-08 04:52:00,FileService,Security scan completed - no threats detected,system_notification,bert
+2025-07-12 20:08:00,LegacyAPI,Configuration option 'old_format' is deprecated and will be removed,deprecation_warning,bert
+2025-12-18 01:07:00,APIGateway,Irregular system behavior noted,unclassified,llm
+2025-03-11 13:18:00,DatabaseService,User john.taylor@company.com bookmarked page_76,user_action,regex
+2025-05-02 23:15:00,AnalyticsAPI,Cache cleared and refreshed,system_notification,regex
+2025-02-01 21:23:00,LegacyAPI,SSL certificate renewed successfully,system_notification,regex
+2025-12-30 11:16:00,FileService,Data validation error: invalid credentials,workflow_error,bert
+2025-12-09 21:23:00,ValidationService,User jane.rodriguez@company.com downloaded data.csv,user_action,regex
+2025-10-08 23:41:00,FinanceSystem,Authentication failed: invalid format,workflow_error,bert
+2025-10-06 13:26:00,NotificationService,User jane.moore@company.com deleted record_452,user_action,regex
+2025-06-08 07:57:00,DevOpsService,System resource optimization completed,system_notification,regex
+2025-01-06 16:42:00,LegacyAPI,Feature 'reporting' is deprecated. Use 'advanced_export' instead,deprecation_warning,bert
+2025-07-11 20:38:00,EmailService,System maintenance window scheduled for tonight,system_notification,regex
+2025-04-09 10:52:00,SystemMonitor,Server health check passed - all systems operational,system_notification,bert
+2025-09-17 15:37:00,ConfigService,Invoice generation failed: rate limit exceeded,workflow_error,bert
+2025-09-07 12:11:00,ShippingService,Payment processing failed: missing required data for order #96618,workflow_error,bert
+2025-02-03 19:19:00,LegacyAPI,Library version 5.0.5 is deprecated. Please upgrade to 4.9.2,deprecation_warning,bert
+2025-10-07 13:07:00,LegacyAPI,Database schema version 1.2.3 support ending December 2027,deprecation_warning,bert
+2025-05-03 01:55:00,BackupService,System updated to version 2.4.0,system_notification,regex
+2025-01-17 17:13:00,LegacyAPI,Classic UI interface will be removed in favor of modern interface,deprecation_warning,bert
+2025-05-05 04:39:00,LegacyAPI,Email service status: operational,system_notification,regex
+2025-12-17 22:01:00,SecurityService,Memory usage: 59% - within normal limits,system_notification,bert
+2025-06-24 01:38:00,MonitoringService,Validation failed for order,workflow_error,bert
+2025-10-05 06:48:00,ProcessingService,Report generation failed: missing required data,workflow_error,bert
+2025-10-26 15:04:00,HRSystem,User jane.brown@company.com deleted record_988,user_action,regex
+2025-02-18 10:15:00,ReportService,Service unavailable: PaymentService,workflow_error,bert
+2025-07-07 10:43:00,CRMSystem,User david.jones@company.com bookmarked page_47,user_action,regex
+2025-10-05 16:47:00,HRSystem,Push notification failed: permission denied,workflow_error,bert
+2025-12-16 17:31:00,ValidationService,Scheduled task execution completed,system_notification,regex
+2025-09-11 01:28:00,HRSystem,Password changed for user david.davis@company.com,user_action,regex
+2025-01-11 14:11:00,OrderSystem,Report report_698 generated by user mike.martinez@company.com,user_action,regex
+2025-06-13 17:52:00,InventoryManagement,User david.brown@company.com updated entry_978,user_action,regex
+2025-03-05 00:31:00,LegacyAPI,Warning: Legacy XML format support ending soon,deprecation_warning,bert
+2025-05-19 14:53:00,APIGateway,Payment processing failed: invalid credentials for order #23991,workflow_error,bert
+2025-04-18 20:12:00,LegacyAPI,Unidentified protocol communication,unclassified,llm
+2025-12-28 06:28:00,NotificationService,Batch processing failed: insufficient permissions,workflow_error,bert
+2025-07-21 21:24:00,FinanceSystem,Permission granted to user kate.smith@company.com,user_action,regex
+2025-05-19 19:15:00,LegacyAPI,Old processing engine will be replaced in 4 months,deprecation_warning,bert
+2025-02-19 04:29:00,BillingService,Permission granted to user mike.williams@company.com,user_action,regex
+2025-01-13 11:58:00,BackupService,Connection refused to PaymentService,workflow_error,bert
+2025-05-29 08:23:00,HRSystem,User mike.brown@company.com shared document_568,user_action,regex
+2025-08-30 16:47:00,DatabaseService,User sarah.jones@company.com created new account for Client533,user_action,regex
+2025-04-18 01:29:00,APIGateway,User david.brown@company.com updated entry_952,user_action,regex
+2025-11-19 08:53:00,IntegrationService,File spreadsheet.xlsx uploaded by user jane.taylor@company.com,user_action,regex
+2025-01-22 12:20:00,LegacyAPI,Function 'calculateTax' will be removed in v3.7.8. Migrate to 'computeTaxAmount',deprecation_warning,bert
+2025-04-20 01:55:00,SecurityService,Email delivery failed: service unavailable,workflow_error,bert
+2025-11-29 02:52:00,LegacyAPI,Feature 'validation' is deprecated. Use 'advanced_export' instead,deprecation_warning,bert
+2025-12-23 05:33:00,APIGateway,Timeout occurred during payment processing,workflow_error,bert
+2025-05-12 23:26:00,LegacyAPI,Settings modified by user john.brown@company.com,user_action,regex
+2025-09-08 18:37:00,CRMSystem,Shipping calculation error: invalid format,workflow_error,bert
+2025-10-21 07:40:00,SystemMonitor,User profile updated by sarah.hernandez@company.com,user_action,regex
+2025-07-08 14:44:00,LegacyAPI,Method 'getOrderInfo' is deprecated. Use 'fetchCustomerProfile' instead,deprecation_warning,bert
+2025-09-12 07:30:00,BillingService,User sarah.rodriguez@company.com logged into the system,user_action,regex
+2025-07-15 07:24:00,LegacyAPI,Configuration option 'compat_flag' is deprecated and will be removed,deprecation_warning,bert
+2025-09-27 02:52:00,LegacyAPI,Endpoint '/api/v3/orders' is deprecated. Use '/api/v4/products' for new integrations,deprecation_warning,bert
+2025-08-25 11:12:00,SecurityService,User profile updated by emily.davis@company.com,user_action,regex
+2025-07-16 03:32:00,LegacyAPI,Old processing engine will be replaced in 10 months,deprecation_warning,bert
+2025-03-16 20:54:00,ProjectManagement,Push notification failed: insufficient funds,workflow_error,bert
+2025-05-22 20:18:00,SecurityService,Data validation error: processing timeout,workflow_error,bert
+2025-10-20 22:54:00,OrderSystem,User david.jones@company.com accessed dashboard,user_action,regex
+2025-02-20 21:15:00,LegacyAPI,Profile picture updated by emily.williams@company.com,user_action,regex
+2025-02-09 17:53:00,FinanceSystem,API rate limit exceeded for client app_v3.5.2,workflow_error,bert
+2025-01-25 09:03:00,ProcessingService,User profile updated by lisa.rodriguez@company.com,user_action,regex
+2025-03-03 00:12:00,LegacyAPI,Library version 1.0.4 is deprecated. Please upgrade to 5.0.1,deprecation_warning,bert
+2025-12-06 05:27:00,ReportService,Anomalous pattern observed: Pattern4,unclassified,llm
+2025-12-20 02:08:00,LegacyAPI,Library version 4.9.5 is deprecated. Please upgrade to 5.2.8,deprecation_warning,bert
+2025-06-05 15:14:00,ReportService,Order validation failed: missing required field 'product_id',workflow_error,bert
+2025-09-25 09:18:00,AnalyticsAPI,Document contract_926.pdf signed by user emily.jones@company.com,user_action,regex
+2025-04-01 23:26:00,FinanceSystem,File document.pdf uploaded by user sarah.davis@company.com,user_action,regex
+2025-03-27 03:28:00,ValidationService,Invoice generation failed: validation error,workflow_error,bert
+2025-07-27 12:05:00,ProcessingService,Database connection timeout during transaction,workflow_error,bert
+2025-06-12 12:34:00,BillingService,Unhandled exception in Component10,unclassified,llm
+2025-07-01 01:03:00,LegacyAPI,Classic dashboard interface will be removed in favor of modern interface,deprecation_warning,bert
+2025-11-11 08:13:00,BillingService,Network connectivity test passed,system_notification,regex
+2025-04-21 21:48:00,PaymentService,File upload failed: insufficient funds,workflow_error,bert
+2025-08-02 23:04:00,EmailService,Push notification failed: validation error,workflow_error,bert
+2025-04-27 14:24:00,DevOpsService,Invoice generation failed: processing timeout,workflow_error,bert
+2025-12-22 13:42:00,ValidationService,Export requested by user david.garcia@company.com,user_action,regex
+2025-08-11 11:50:00,SecurityService,User emily.taylor@company.com updated entry_366,user_action,regex
+2025-04-20 03:21:00,InventoryManagement,User profile updated by david.smith@company.com,user_action,regex
+2025-11-15 12:08:00,LegacyAPI,Library version 4.4.8 is deprecated. Please upgrade to 3.9.2,deprecation_warning,bert
+2025-11-15 03:59:00,ShippingService,User james.thomas@company.com updated entry_359,user_action,regex
+2025-02-02 14:17:00,LegacyAPI,Deprecated: Using legacy MD5 encoding. Switch to JWT,deprecation_warning,bert
+2025-06-11 21:04:00,IntegrationService,Processing error in ProcessingModule,workflow_error,bert
+2025-02-17 02:43:00,DevOpsService,Password changed for user james.martinez@company.com,user_action,regex
+2025-05-10 05:40:00,E-CommerceAPI,User tom.johnson@company.com deleted record_392,user_action,regex
+2025-12-01 19:26:00,ValidationService,Service unavailable: DatabaseService,workflow_error,bert
+2025-04-21 08:13:00,LegacyAPI,Old XML format support will be removed in next major release,deprecation_warning,bert
+2025-08-15 09:44:00,LegacyAPI,Warning: Using deprecated SSL protocol. Upgrade recommended,deprecation_warning,bert
+2025-07-23 13:51:00,ShippingService,System updated to version 4.3.8,system_notification,regex
+2025-05-09 08:42:00,IntegrationService,User sarah.davis@company.com accessed dashboard,user_action,regex
+2025-04-27 10:03:00,LegacyAPI,Report report_228 generated by user emily.brown@company.com,user_action,regex
+2025-06-21 23:10:00,SystemMonitor,User jane.rodriguez@company.com updated entry_921,user_action,regex
+2025-12-07 20:54:00,LegacyAPI,Function 'calculateDiscount' will be removed in v3.8.7. Migrate to 'computeTaxAmount',deprecation_warning,bert
+2025-02-04 04:29:00,ShippingService,System updated to version 4.6.3,system_notification,bert
+2025-12-25 13:08:00,InventoryManagement,Payment processing failed: missing required data for order #12159,workflow_error,bert
+2025-04-19 09:20:00,SecurityService,Report report_841 generated by user john.johnson@company.com,user_action,regex
+2025-12-06 02:20:00,LegacyAPI,Configuration option 'legacy_mode' is deprecated and will be removed,deprecation_warning,bert
+2025-07-25 03:47:00,AnalyticsAPI,User initiated password reset for james.taylor@company.com,user_action,regex
+2025-02-27 14:03:00,UserPortal,Report generation failed: invalid format,workflow_error,bert
+2025-11-24 03:37:00,BillingService,User john.thomas@company.com deleted record_410,user_action,regex
+2025-10-05 05:41:00,IntegrationService,Disk cleanup completed - 5GB freed,system_notification,regex
+2025-07-10 20:12:00,CRMSystem,Database synchronization completed successfully,system_notification,regex
+2025-09-30 18:18:00,LegacyAPI,Warning: Legacy JSON format support ending soon,deprecation_warning,bert
+2025-03-08 18:18:00,DatabaseService,Invoice generation failed: resource not found,workflow_error,bert
+2025-11-24 13:54:00,DatabaseService,Order validation failed: missing required field 'quantity',workflow_error,bert
+2025-06-22 16:53:00,EmailService,User james.jones@company.com bookmarked page_24,user_action,regex
+2025-06-21 19:07:00,LegacyAPI,Old CSV format support will be removed in next major release,deprecation_warning,bert
+2025-07-12 19:05:00,ValidationService,Batch processing failed: connection timeout,workflow_error,bert
+2025-12-08 21:14:00,LegacyAPI,Warning: Legacy CSV format support ending soon,deprecation_warning,bert
+2025-10-11 14:42:00,FinanceSystem,Document contract_585.pdf signed by user robert.johnson@company.com,user_action,regex
+2025-07-11 18:58:00,ShippingService,Export requested by user sarah.jones@company.com,user_action,regex
+2025-07-14 22:40:00,FileService,Unknown event occurred in module Module19,unclassified,llm
+2025-03-05 07:32:00,LegacyAPI,Database schema version 2.9.3 support ending December 2026,deprecation_warning,bert
+2025-03-08 11:48:00,HRSystem,Order validation failed: missing required field 'customer_email',workflow_error,bert
+2025-10-11 11:29:00,LegacyAPI,Warning: Using deprecated HTTP protocol. Upgrade recommended,deprecation_warning,bert
+2025-01-05 14:24:00,IntegrationService,Permission granted to user emily.moore@company.com,user_action,regex
+2025-12-22 15:10:00,UserPortal,User anna.williams@company.com downloaded log.txt,user_action,regex
+2025-09-25 22:16:00,LegacyAPI,Function 'calculateShipping' will be removed in v2.8.6. Migrate to 'computeShippingAmount',deprecation_warning,bert
+2025-05-21 21:11:00,ProcessingService,Disk cleanup completed - 9GB freed,system_notification,regex
+2025-04-17 23:04:00,FinanceSystem,Third-party API call failed: processing timeout,workflow_error,bert
+2025-03-18 20:57:00,NotificationService,User maria.taylor@company.com logged out of the application,user_action,regex
+2025-08-16 13:13:00,DevOpsService,User david.taylor@company.com updated entry_134,user_action,regex
+2025-01-20 06:26:00,AuthService,API rate limit exceeded for client app_v3.8.2,workflow_error,bert
+2025-06-04 09:41:00,OrderSystem,User lisa.brown@company.com deleted record_340,user_action,regex
+2025-03-02 20:45:00,CRMSystem,Anomalous pattern observed: Pattern1,unclassified,llm
+2025-10-04 10:36:00,DatabaseService,User tom.garcia@company.com shared document_112,user_action,regex
+2025-02-28 20:55:00,BackupService,Third-party API call failed: missing required data,workflow_error,bert
+2025-03-17 14:26:00,UserPortal,Validation failed for invoice,workflow_error,bert
+2025-05-01 15:08:00,OrderSystem,Backup initiated by user lisa.smith@company.com,user_action,regex
+2025-01-05 12:32:00,FileService,User anna.johnson@company.com updated entry_792,user_action,regex
+2025-08-02 08:52:00,AuthService,Processing error in ValidationModule,workflow_error,bert
+2025-07-02 10:39:00,MonitoringService,User james.garcia@company.com submitted form form_14,user_action,regex
+2025-01-04 15:37:00,ShippingService,Unhandled exception in Component4,unclassified,llm
+2025-09-27 21:48:00,OrderSystem,System updated to version 4.6.8,system_notification,regex
+2025-03-20 11:24:00,UserPortal,User robert.brown@company.com updated entry_757,user_action,regex
+2025-01-31 01:20:00,PaymentService,System updated to version 4.1.1,system_notification,bert
+2025-07-30 01:42:00,UserPortal,User alex.moore@company.com submitted form form_42,user_action,regex
+2025-06-09 23:51:00,LegacyAPI,Old reporting engine will be replaced in 5 months,deprecation_warning,bert
+2025-02-13 22:01:00,SecurityService,User anna.jones@company.com submitted form form_7,user_action,regex
+2025-01-12 19:30:00,PaymentService,Unusual resource consumption detected,unclassified,llm
+2025-03-24 13:01:00,LegacyAPI,Function 'calculateDiscount' will be removed in v4.2.0. Migrate to 'computeShippingAmount',deprecation_warning,bert
+2025-02-19 02:19:00,ShippingService,User maria.jones@company.com logged into the system,user_action,regex
+2025-10-22 14:12:00,CRMSystem,File upload failed: permission denied,workflow_error,bert
+2025-04-25 08:02:00,ShippingService,Push notification failed: processing timeout,workflow_error,bert
+2025-07-21 18:43:00,ProcessingService,Unknown event occurred in module Module18,unclassified,llm
+2025-10-09 15:20:00,LegacyAPI,Old JSON format support will be removed in next major release,deprecation_warning,bert
+2025-09-24 01:50:00,ReportService,Batch processing failed: resource not found,workflow_error,bert
+2025-08-19 18:59:00,ConfigService,Service unavailable: EmailService,workflow_error,bert
+2025-04-08 16:17:00,E-CommerceAPI,Batch processing failed: processing timeout,workflow_error,bert
+2025-06-11 17:30:00,LegacyAPI,Database schema version 2.5.0 support ending December 2026,deprecation_warning,bert
+2025-01-21 18:53:00,HRSystem,Authentication failed: insufficient permissions,workflow_error,bert
+2025-04-28 22:16:00,LegacyAPI,Legacy reporting method will be discontinued in 11 months,deprecation_warning,bert
+2025-09-05 22:55:00,BillingService,Report generation failed: rate limit exceeded,workflow_error,bert
+2025-10-31 09:15:00,LegacyAPI,Feature 'authentication' is deprecated. Use 'advanced_export' instead,deprecation_warning,bert
+2025-07-10 20:51:00,ReportService,Data import started by user chris.thomas@company.com,user_action,regex
+2025-05-28 21:48:00,PaymentService,Memory usage: 58% - within normal limits,system_notification,regex
+2025-02-17 11:52:00,ReportService,User james.smith@company.com downloaded presentation.pptx,user_action,regex
+2025-03-10 04:10:00,MonitoringService,Third-party API call failed: service unavailable,workflow_error,bert
+2025-03-06 03:09:00,LegacyAPI,Endpoint '/api/v1/users' is deprecated. Use '/api/v4/products' for new integrations,deprecation_warning,bert
+2025-03-03 02:21:00,DevOpsService,Strange network activity from 192.168.211.2,unclassified,llm
+2025-10-18 04:02:00,LegacyAPI,System updated to version 4.0.8,system_notification,bert
+2025-03-19 20:56:00,LegacyAPI,Classic API interface will be removed in favor of modern interface,deprecation_warning,bert
+2025-10-07 12:48:00,OrderSystem,Permission granted to user david.brown@company.com,user_action,regex
+2025-09-30 11:12:00,HRSystem,Email delivery failed: missing required data,workflow_error,bert
+2025-07-12 02:39:00,DevOpsService,System updated to version 4.5.0,system_notification,regex
+2025-10-22 17:16:00,DevOpsService,Payment processing failed: insufficient funds for order #92600,workflow_error,bert
+2025-08-26 22:07:00,DevOpsService,Batch processing failed: service unavailable,workflow_error,bert
+2025-03-30 22:37:00,ValidationService,Password changed for user maria.johnson@company.com,user_action,regex
+2025-11-06 17:45:00,BillingService,Invoice generation failed: service unavailable,workflow_error,bert
+2025-02-09 11:10:00,FinanceSystem,Payment processing failed: invalid format for order #84189,workflow_error,bert
+2025-04-11 03:13:00,ReportService,Profile picture updated by maria.rodriguez@company.com,user_action,regex
+2025-07-01 07:30:00,DatabaseService,Strange network activity from 192.168.189.184,unclassified,llm
+2025-05-14 03:25:00,MonitoringService,Push notification failed: service unavailable,workflow_error,bert
+2025-08-12 12:27:00,DevOpsService,User initiated password reset for jane.garcia@company.com,user_action,regex
+2025-07-04 01:57:00,LegacyAPI,Library version 2.0.7 is deprecated. Please upgrade to 4.6.2,deprecation_warning,bert
+2025-10-18 12:39:00,E-CommerceAPI,Configuration changed by jane.davis@company.com,user_action,regex
+2025-01-19 06:48:00,SystemMonitor,API rate limit exceeded for client app_v5.7.5,workflow_error,bert
+2025-01-03 03:06:00,OrderSystem,Email delivery failed: invalid format,workflow_error,bert
+2025-06-03 06:18:00,NotificationService,Profile picture updated by anna.smith@company.com,user_action,regex
+2025-07-26 19:59:00,BackupService,Permission granted to user sarah.hernandez@company.com,user_action,regex
+2025-12-24 07:55:00,ProcessingService,Anomalous pattern observed: Pattern10,unclassified,llm
+2025-12-16 15:42:00,ShippingService,User initiated password reset for david.johnson@company.com,user_action,regex
+2025-05-27 17:33:00,OrderSystem,File upload failed: insufficient permissions,workflow_error,bert
+2025-02-26 00:59:00,E-CommerceAPI,User maria.rodriguez@company.com submitted form form_40,user_action,regex
+2025-12-26 03:51:00,APIGateway,User lisa.hernandez@company.com sent message to alex.smith@company.com,user_action,regex
+2025-08-24 20:37:00,SystemMonitor,User chris.brown@company.com downloaded document.pdf,user_action,regex
+2025-09-21 20:11:00,CRMSystem,Payment processing failed: invalid credentials for order #96737,workflow_error,bert
+2025-07-04 02:03:00,DatabaseService,User tom.brown@company.com shared document_995,user_action,regex
+2025-12-26 20:25:00,LegacyAPI,Database schema version 3.5.3 support ending December 2025,deprecation_warning,bert
+2025-05-08 15:06:00,LegacyAPI,Deprecated: Using legacy SHA1 encoding. Switch to SHA256,deprecation_warning,bert
+2025-08-03 18:37:00,SecurityService,Memory usage: 63% - within normal limits,system_notification,bert
+2025-04-24 01:06:00,DevOpsService,Payment processing failed: missing required data for order #2134,workflow_error,bert
+2025-01-12 18:01:00,FileService,Strange network activity from 192.168.252.176,unclassified,llm
+2025-01-08 09:05:00,BackupService,System updated to version 5.1.8,system_notification,regex
+2025-12-20 17:21:00,LegacyAPI,Endpoint '/api/v1/users' is deprecated. Use '/api/v4/orders' for new integrations,deprecation_warning,bert
+2025-01-07 10:59:00,LegacyAPI,Database schema version 2.4.2 support ending December 2026,deprecation_warning,bert
+2025-10-30 16:29:00,PaymentService,File upload failed: invalid format,workflow_error,bert
+2025-08-13 02:21:00,DatabaseService,File upload failed: connection timeout,workflow_error,bert
+2025-02-14 04:05:00,ProjectManagement,User maria.brown@company.com accessed dashboard,user_action,regex
+2025-04-04 16:01:00,MonitoringService,File presentation.pptx uploaded by user james.smith@company.com,user_action,regex
+2025-02-13 17:40:00,LegacyAPI,Deprecated: Using legacy base64 encoding. Switch to JWT,deprecation_warning,bert
+2025-11-18 06:18:00,PaymentService,User tom.jones@company.com submitted form form_17,user_action,regex
+2025-04-24 17:53:00,EmailService,Third-party API call failed: permission denied,workflow_error,bert
+2025-04-02 16:16:00,InventoryManagement,User lisa.hernandez@company.com deleted record_505,user_action,regex
+2025-11-17 22:02:00,LegacyAPI,Document contract_504.pdf signed by user david.moore@company.com,user_action,regex
+2025-01-07 04:37:00,FileService,User kate.garcia@company.com logged into the system,user_action,regex
+2025-08-17 22:50:00,LegacyAPI,Disk cleanup completed - 8GB freed,system_notification,bert
+2025-03-11 20:12:00,NotificationService,Timeout occurred during data validation,workflow_error,bert
+2025-12-27 20:48:00,LegacyAPI,Parameter 'legacy_param' is deprecated in favor of 'new_param',deprecation_warning,bert
+2025-08-03 22:19:00,LegacyAPI,Old processing engine will be replaced in 5 months,deprecation_warning,bert
+2025-08-30 02:03:00,ConfigService,Document contract_694.pdf signed by user anna.taylor@company.com,user_action,regex
+2025-01-26 18:14:00,MonitoringService,User initiated password reset for lisa.taylor@company.com,user_action,regex
+2025-04-23 02:03:00,LegacyAPI,Endpoint '/api/v2/users' is deprecated. Use '/api/v4/orders' for new integrations,deprecation_warning,bert
+2025-09-21 12:08:00,SecurityService,File upload failed: missing required data,workflow_error,bert
+2025-07-28 22:14:00,ProcessingService,Configuration changed by james.moore@company.com,user_action,regex
+2025-12-14 10:22:00,OrderSystem,File report.xlsx uploaded by user david.thomas@company.com,user_action,regex
+2025-04-29 06:56:00,IntegrationService,Timeout occurred during file upload,workflow_error,bert
+2025-11-23 19:23:00,APIGateway,Export requested by user lisa.martinez@company.com,user_action,regex
+2025-01-10 04:15:00,SecurityService,Document contract_628.pdf signed by user emily.garcia@company.com,user_action,regex
+2025-01-14 18:15:00,CRMSystem,Authentication failed: processing timeout,workflow_error,bert
+2025-10-25 10:50:00,FileService,User chris.anderson@company.com sent message to james.garcia@company.com,user_action,regex
+2025-06-14 08:04:00,HRSystem,Stock update failed: product SKU-357 not found,workflow_error,bert
+2025-03-08 16:40:00,APIGateway,Backup initiated by user tom.garcia@company.com,user_action,regex
+2025-01-04 05:17:00,LegacyAPI,Method 'getUserInfo' is deprecated. Use 'fetchOrderProfile' instead,deprecation_warning,bert
+2025-10-29 10:26:00,ShippingService,System updated to version 3.3.6,system_notification,regex
+2025-04-07 07:14:00,LegacyAPI,Library version 5.2.9 is deprecated. Please upgrade to 4.1.8,deprecation_warning,bert
+2025-01-25 14:59:00,ProcessingService,User david.miller@company.com logged into the system,user_action,regex
+2025-12-18 16:13:00,OrderSystem,Disk cleanup completed - 2GB freed,system_notification,bert
+2025-05-02 18:14:00,UserPortal,Profile picture updated by lisa.johnson@company.com,user_action,regex
+2025-03-02 23:38:00,LegacyAPI,Function 'calculateShipping' will be removed in v4.7.2. Migrate to 'computeTaxAmount',deprecation_warning,bert
+2025-06-06 08:25:00,InventoryManagement,User profile updated by mike.thomas@company.com,user_action,regex
+2025-12-24 13:04:00,LegacyAPI,Parameter 'legacy_option' is deprecated in favor of 'new_option',deprecation_warning,bert
+2025-09-06 04:54:00,LegacyAPI,Method 'getOrderInfo' is deprecated. Use 'fetchProductProfile' instead,deprecation_warning,bert
+2025-03-17 12:37:00,ShippingService,File document.pdf uploaded by user alex.hernandez@company.com,user_action,regex
+2025-11-24 21:41:00,CRMSystem,User robert.williams@company.com deleted record_703,user_action,regex
+2025-07-26 12:39:00,SystemMonitor,Memory usage: 78% - within normal limits,system_notification,regex
+2025-09-08 09:02:00,E-CommerceAPI,User kate.hernandez@company.com downloaded log.txt,user_action,regex
+2025-08-05 16:51:00,ValidationService,User maria.thomas@company.com downloaded backup.zip,user_action,regex
+2025-06-19 22:11:00,LegacyAPI,User tom.garcia@company.com bookmarked page_6,user_action,regex
+2025-08-06 19:34:00,LegacyAPI,Database schema version 2.5.8 support ending December 2025,deprecation_warning,bert
+2025-05-02 09:29:00,E-CommerceAPI,Permission granted to user david.rodriguez@company.com,user_action,regex
+2025-02-21 04:23:00,NotificationService,Shipping calculation error: insufficient permissions,workflow_error,bert
+2025-05-03 15:53:00,OrderSystem,Email delivery failed: connection timeout,workflow_error,bert
+2025-01-05 15:35:00,LegacyAPI,Library version 1.4.6 is deprecated. Please upgrade to 2.7.5,deprecation_warning,bert
+2025-02-28 07:47:00,ProjectManagement,Data import started by user tom.garcia@company.com,user_action,regex
+2025-04-19 07:24:00,LegacyAPI,Data import started by user john.hernandez@company.com,user_action,regex
+2025-08-11 02:42:00,HRSystem,Unexpected behavior detected in SystemA,unclassified,llm
+2025-03-13 00:27:00,HRSystem,Invoice generation failed: insufficient permissions,workflow_error,bert
+2025-03-19 04:12:00,ShippingService,Payment processing failed: service unavailable for order #71727,workflow_error,bert
+2025-12-30 11:56:00,ProcessingService,Backup initiated by user jane.hernandez@company.com,user_action,regex
+2025-08-16 09:29:00,AuthService,User initiated password reset for james.williams@company.com,user_action,regex
+2025-02-02 08:24:00,AuthService,Unhandled exception in Component7,unclassified,llm
+2025-06-29 02:15:00,EmailService,Authentication failed: missing required data,workflow_error,bert
+2025-03-03 09:41:00,AuthService,Data import started by user sarah.miller@company.com,user_action,regex
+2025-12-31 21:35:00,SystemMonitor,User anna.williams@company.com shared document_792,user_action,regex
+2025-11-30 15:10:00,BillingService,User maria.jones@company.com logged out of the application,user_action,regex
+2025-10-28 15:48:00,LegacyAPI,Function 'calculateTax' will be removed in v5.7.7. Migrate to 'computeShippingAmount',deprecation_warning,bert
+2025-03-13 05:06:00,LegacyAPI,Legacy validation method will be discontinued in 7 months,deprecation_warning,bert
+2025-12-13 13:34:00,FileService,Account ID 42849 created by mike.martinez@company.com,user_action,regex
+2025-02-03 00:31:00,ConfigService,User sarah.moore@company.com submitted form form_5,user_action,regex
+2025-11-04 16:31:00,CRMSystem,Validation failed for customer,workflow_error,bert
+2025-07-26 16:03:00,PaymentService,Unknown event occurred in module Module1,unclassified,llm
+2025-07-29 06:48:00,SystemMonitor,User jane.taylor@company.com submitted form form_5,user_action,regex
+2025-01-29 03:09:00,ShippingService,Password changed for user james.garcia@company.com,user_action,regex
+2025-07-31 04:12:00,UserPortal,User mike.taylor@company.com deleted record_198,user_action,regex
+2025-07-20 23:17:00,FinanceSystem,Connection refused to DatabaseService,workflow_error,bert
+2025-10-21 08:36:00,LegacyAPI,Deprecated: Using legacy base64 encoding. Switch to SHA256,deprecation_warning,bert
+2025-08-11 20:25:00,EmailService,User tom.brown@company.com sent message to anna.davis@company.com,user_action,regex
+2025-03-04 12:10:00,LegacyAPI,Database schema version 3.3.9 support ending December 2027,deprecation_warning,bert
+2025-01-10 19:09:00,LegacyAPI,Method 'getProductInfo' is deprecated. Use 'fetchProductProfile' instead,deprecation_warning,bert
+2025-09-25 02:31:00,ShippingService,Email delivery failed: permission denied,workflow_error,bert
+2025-12-04 01:24:00,ShippingService,Memory usage: 90% - within normal limits,system_notification,bert
+2025-06-11 09:35:00,LegacyAPI,Document contract_217.pdf signed by user emily.miller@company.com,user_action,regex
+2025-01-20 17:08:00,CRMSystem,User kate.williams@company.com shared document_342,user_action,regex
+2025-01-03 11:15:00,LegacyAPI,User lisa.davis@company.com accessed dashboard,user_action,regex
+2025-06-10 13:46:00,AnalyticsAPI,Data import started by user alex.thomas@company.com,user_action,regex
+2025-05-22 16:08:00,LegacyAPI,Parameter 'legacy_flag' is deprecated in favor of 'new_option',deprecation_warning,bert
+2025-02-05 06:32:00,LegacyAPI,User initiated password reset for anna.williams@company.com,user_action,regex
+2025-04-14 10:09:00,LegacyAPI,Old reporting engine will be replaced in 4 months,deprecation_warning,bert
+2025-03-16 06:56:00,LegacyAPI,Method 'getCustomerInfo' is deprecated. Use 'fetchProductProfile' instead,deprecation_warning,bert
+2025-01-02 12:29:00,SystemMonitor,User initiated password reset for alex.miller@company.com,user_action,regex
+2025-12-08 07:44:00,LegacyAPI,Parameter 'legacy_param' is deprecated in favor of 'new_flag',deprecation_warning,bert
+2025-04-12 08:40:00,LegacyAPI,Function 'calculateTax' will be removed in v1.4.1. Migrate to 'computeShippingAmount',deprecation_warning,bert
+2025-08-29 07:41:00,EmailService,System updated to version 5.1.3,system_notification,regex
+2025-04-11 09:59:00,UserPortal,Batch processing failed: validation error,workflow_error,bert
+2025-07-14 16:40:00,LegacyAPI,User profile updated by emily.rodriguez@company.com,user_action,regex
+2025-01-16 22:59:00,LegacyAPI,Function 'calculateTax' will be removed in v5.2.5. Migrate to 'computeTaxAmount',deprecation_warning,bert
+2025-01-29 11:40:00,LegacyAPI,User chris.miller@company.com downloaded spreadsheet.xlsx,user_action,regex
+2025-11-19 12:00:00,LegacyAPI,Database schema version 2.1.0 support ending December 2026,deprecation_warning,bert
+2025-10-19 08:42:00,APIGateway,User anna.davis@company.com logged into the system,user_action,regex
+2025-08-04 00:03:00,PaymentService,Data validation error: connection timeout,workflow_error,bert
+2025-08-30 21:56:00,SecurityService,User profile updated by james.moore@company.com,user_action,regex
+2025-04-03 04:24:00,E-CommerceAPI,Unhandled exception in Component11,unclassified,llm
+2025-08-19 07:52:00,OrderSystem,API rate limit exceeded for client app_v1.3.6,workflow_error,bert
+2025-09-25 03:41:00,AnalyticsAPI,File config.json uploaded by user jane.anderson@company.com,user_action,regex
+2025-10-31 07:39:00,EmailService,Anomalous pattern observed: Pattern7,unclassified,llm
+2025-08-30 18:29:00,IntegrationService,User robert.hernandez@company.com created new account for Client842,user_action,regex
+2025-01-14 06:02:00,ReportService,File backup.zip uploaded by user chris.jones@company.com,user_action,regex
+2025-09-17 00:35:00,LegacyAPI,Library version 1.6.4 is deprecated. Please upgrade to 4.8.1,deprecation_warning,bert
+2025-07-15 21:20:00,LegacyAPI,Legacy reporting method will be discontinued in 9 months,deprecation_warning,bert
+2025-01-14 19:05:00,LegacyAPI,Function 'calculateTax' will be removed in v1.9.0. Migrate to 'computeShippingAmount',deprecation_warning,bert
+2025-03-12 11:04:00,AnalyticsAPI,Permission granted to user jane.moore@company.com,user_action,regex
+2025-09-13 07:17:00,UserPortal,Export requested by user sarah.rodriguez@company.com,user_action,regex
+2025-04-07 15:46:00,AnalyticsAPI,User chris.moore@company.com sent message to alex.taylor@company.com,user_action,regex
+2025-05-23 19:18:00,ProjectManagement,File document.pdf uploaded by user jane.taylor@company.com,user_action,regex
+2025-11-01 12:35:00,ReportService,Payment processing failed: missing required data for order #82441,workflow_error,bert
+2025-05-11 10:35:00,EmailService,Export requested by user kate.moore@company.com,user_action,regex
+2025-04-25 11:33:00,ProcessingService,Configuration changed by alex.hernandez@company.com,user_action,regex
+2025-05-08 23:43:00,ConfigService,Third-party API call failed: rate limit exceeded,workflow_error,bert
+2025-09-06 22:51:00,ProcessingService,User profile updated by anna.thomas@company.com,user_action,regex
+2025-06-12 07:52:00,NotificationService,User kate.smith@company.com shared document_976,user_action,regex
+2025-02-06 21:31:00,NotificationService,Unhandled exception in Component2,unclassified,llm
+2025-12-16 22:26:00,MonitoringService,Unhandled exception in Component1,unclassified,llm
+2025-04-01 12:57:00,ConfigService,Memory usage: 86% - within normal limits,system_notification,bert
+2025-02-17 01:42:00,BackupService,User maria.garcia@company.com bookmarked page_47,user_action,regex
+2025-04-01 15:21:00,ConfigService,User kate.thomas@company.com deleted record_431,user_action,regex
+2025-09-05 18:06:00,LegacyAPI,Parameter 'legacy_option' is deprecated in favor of 'new_flag',deprecation_warning,bert
+2025-06-06 15:44:00,BackupService,Payment processing failed: insufficient funds for order #82937,workflow_error,bert
+2025-09-21 19:11:00,LegacyAPI,Legacy authentication method will be discontinued in 5 months,deprecation_warning,bert
+2025-05-01 02:17:00,E-CommerceAPI,Batch processing failed: rate limit exceeded,workflow_error,bert
+2025-06-26 21:18:00,EmailService,User lisa.williams@company.com accessed dashboard,user_action,regex
+2025-05-04 21:49:00,ConfigService,User david.martinez@company.com shared document_725,user_action,regex
+2025-08-02 17:07:00,LegacyAPI,Old reporting engine will be replaced in 6 months,deprecation_warning,bert
+2025-05-06 23:07:00,LegacyAPI,Method 'getCustomerInfo' is deprecated. Use 'fetchCustomerProfile' instead,deprecation_warning,bert
+2025-09-13 13:49:00,PaymentService,Memory usage: 54% - within normal limits,system_notification,regex
+2025-07-04 09:47:00,LegacyAPI,Function 'calculateDiscount' will be removed in v1.7.4. Migrate to 'computeDiscountAmount',deprecation_warning,bert
+2025-05-10 13:23:00,ProcessingService,Disk cleanup completed - 10GB freed,system_notification,regex
+2025-12-11 06:06:00,PaymentService,Account ID 52497 created by maria.smith@company.com,user_action,regex
+2025-08-23 21:46:00,FinanceSystem,Profile picture updated by chris.moore@company.com,user_action,regex
+2025-04-16 13:50:00,ReportService,System updated to version 4.9.9,system_notification,bert
+2025-11-21 20:05:00,EmailService,Data validation error: invalid format,workflow_error,bert
+2025-08-30 22:05:00,ValidationService,User john.taylor@company.com accessed dashboard,user_action,regex
+2025-11-02 14:31:00,UserPortal,User anna.johnson@company.com deleted record_918,user_action,regex
+2025-01-16 01:29:00,UserPortal,Permission granted to user lisa.smith@company.com,user_action,regex
+2025-03-30 05:11:00,NotificationService,Export requested by user kate.garcia@company.com,user_action,regex
+2025-08-06 06:22:00,SystemMonitor,System updated to version 2.5.9,system_notification,regex
+2025-11-01 19:52:00,ReportService,Report report_845 generated by user sarah.garcia@company.com,user_action,regex
+2025-06-21 13:56:00,OrderSystem,User initiated password reset for maria.johnson@company.com,user_action,regex
+2025-01-31 16:37:00,ReportService,Batch processing failed: invalid credentials,workflow_error,bert
+2025-09-16 05:35:00,ShippingService,Password changed for user robert.garcia@company.com,user_action,regex
+2025-11-16 12:16:00,LegacyAPI,Old validation engine will be replaced in 4 months,deprecation_warning,bert
+2025-04-13 05:18:00,LegacyAPI,Function 'calculateTax' will be removed in v3.0.7. Migrate to 'computeTaxAmount',deprecation_warning,bert
+2025-07-24 09:56:00,DevOpsService,Shipping calculation error: permission denied,workflow_error,bert
+2025-07-14 16:43:00,HRSystem,User tom.smith@company.com downloaded image.jpg,user_action,regex
+2025-10-08 11:12:00,LegacyAPI,Old validation engine will be replaced in 3 months,deprecation_warning,bert
+2025-07-19 07:15:00,AuthService,Invoice generation failed: insufficient funds,workflow_error,bert
+2025-02-01 10:41:00,BackupService,Email delivery failed: processing timeout,workflow_error,bert
+2025-05-08 13:21:00,BillingService,Data import started by user john.anderson@company.com,user_action,regex
+2025-06-26 20:34:00,NotificationService,Report report_363 generated by user kate.thomas@company.com,user_action,regex
+2025-07-14 08:22:00,ConfigService,Settings modified by user tom.anderson@company.com,user_action,regex
+2025-11-26 22:05:00,FinanceSystem,User alex.garcia@company.com downloaded invoice.pdf,user_action,regex
+2025-11-07 07:30:00,LegacyAPI,Endpoint '/api/v2/orders' is deprecated. Use '/api/v4/users' for new integrations,deprecation_warning,bert
+2025-10-15 08:03:00,ValidationService,Backup initiated by user kate.rodriguez@company.com,user_action,regex
+2025-01-03 15:17:00,E-CommerceAPI,User emily.thomas@company.com downloaded data.csv,user_action,regex
+2025-08-30 02:06:00,FileService,Backup initiated by user maria.moore@company.com,user_action,regex
+2025-05-15 05:33:00,SystemMonitor,User mike.davis@company.com sent message to maria.thomas@company.com,user_action,regex
+2025-04-07 23:13:00,FileService,User kate.thomas@company.com accessed dashboard,user_action,regex
+2025-10-05 13:16:00,ConfigService,Document contract_554.pdf signed by user chris.miller@company.com,user_action,regex
+2025-08-10 00:07:00,ReportService,System updated to version 5.5.9,system_notification,bert
+2025-05-05 07:01:00,FinanceSystem,Settings modified by user jane.davis@company.com,user_action,regex
+2025-07-12 10:40:00,LegacyAPI,Feature 'validation' is deprecated. Use 'advanced_validation' instead,deprecation_warning,bert
+2025-05-22 12:11:00,AuthService,User robert.anderson@company.com created new account for Client618,user_action,regex
+2025-11-26 08:44:00,DevOpsService,Payment processing failed: invalid credentials for order #85143,workflow_error,bert
+2025-01-05 20:42:00,ProjectManagement,User anna.hernandez@company.com logged out of the application,user_action,regex
+2025-01-17 21:30:00,UserPortal,Stock update failed: product SKU-691 not found,workflow_error,bert
+2025-11-14 15:47:00,SystemMonitor,Invoice generation failed: permission denied,workflow_error,bert
+2025-02-20 21:56:00,APIGateway,API rate limit exceeded for client app_v3.0.3,workflow_error,bert
+2025-07-06 13:38:00,CRMSystem,API rate limit exceeded for client app_v2.8.7,workflow_error,bert
+2025-07-14 06:40:00,UserPortal,Export requested by user kate.rodriguez@company.com,user_action,regex
+2025-01-17 18:51:00,ReportService,Shipping calculation error: resource not found,workflow_error,bert
+2025-10-12 18:15:00,AnalyticsAPI,User chris.rodriguez@company.com submitted form form_44,user_action,regex
+2025-05-21 21:28:00,LegacyAPI,Function 'calculateTax' will be removed in v2.9.9. Migrate to 'computeDiscountAmount',deprecation_warning,bert
+2025-03-22 02:46:00,InventoryManagement,Permission granted to user sarah.thomas@company.com,user_action,regex
+2025-01-06 16:51:00,BackupService,User lisa.anderson@company.com sent message to james.martinez@company.com,user_action,regex
+2025-12-24 20:29:00,LegacyAPI,Legacy reporting method will be discontinued in 7 months,deprecation_warning,bert
+2025-07-17 20:25:00,ProcessingService,User chris.thomas@company.com shared document_125,user_action,regex
+2025-08-14 17:22:00,DevOpsService,Shipping calculation error: invalid credentials,workflow_error,bert
+2025-07-06 04:58:00,CRMSystem,Settings modified by user tom.johnson@company.com,user_action,regex
+2026-01-01 18:49:00,LegacyAPI,Old processing engine will be replaced in 3 months,deprecation_warning,bert
+2025-08-25 11:43:00,LegacyAPI,Function 'calculateTax' will be removed in v1.4.3. Migrate to 'computeShippingAmount',deprecation_warning,bert
+2025-09-18 14:00:00,NotificationService,Password changed for user anna.davis@company.com,user_action,regex
+2025-09-06 02:58:00,LegacyAPI,Endpoint '/api/v1/products' is deprecated. Use '/api/v4/orders' for new integrations,deprecation_warning,bert
+2025-11-13 12:22:00,AuthService,Authentication failed: rate limit exceeded,workflow_error,bert
+2025-05-12 16:21:00,BillingService,Report generation failed: permission denied,workflow_error,bert
+2025-10-21 12:22:00,UserPortal,User chris.thomas@company.com bookmarked page_4,user_action,regex
+2025-01-13 03:09:00,UserPortal,System updated to version 3.4.2,system_notification,bert
+2025-12-20 23:41:00,ShippingService,Invoice generation failed: invalid credentials,workflow_error,bert
+2025-01-11 10:28:00,EmailService,Profile picture updated by jane.miller@company.com,user_action,regex
+2025-08-03 07:44:00,OrderSystem,Memory usage: 71% - within normal limits,system_notification,bert
+2025-10-28 07:32:00,BillingService,User emily.smith@company.com bookmarked page_45,user_action,regex
+2025-11-03 04:48:00,SecurityService,Export requested by user james.miller@company.com,user_action,regex
+2025-06-22 15:09:00,E-CommerceAPI,Third-party API call failed: resource not found,workflow_error,bert
+2025-03-15 21:51:00,ProjectManagement,Unknown event occurred in module Module13,unclassified,llm
+2025-06-28 03:41:00,BackupService,Settings modified by user kate.jones@company.com,user_action,regex
+2025-02-13 05:18:00,SecurityService,User james.thomas@company.com bookmarked page_3,user_action,regex
+2025-07-01 06:27:00,ProjectManagement,User alex.hernandez@company.com logged out of the application,user_action,regex
+2025-05-24 05:31:00,BackupService,Settings modified by user tom.miller@company.com,user_action,regex
+2025-01-13 05:33:00,SystemMonitor,User sarah.thomas@company.com shared document_554,user_action,regex
+2025-04-25 04:27:00,BillingService,API rate limit exceeded for client app_v3.5.6,workflow_error,bert
+2025-05-14 01:32:00,FinanceSystem,Account ID 53346 created by james.rodriguez@company.com,user_action,regex
+2025-02-16 09:20:00,IntegrationService,Permission granted to user maria.moore@company.com,user_action,regex
+2025-08-15 09:29:00,OrderSystem,User robert.moore@company.com shared document_760,user_action,regex
+2025-06-20 23:15:00,DevOpsService,Password changed for user anna.thomas@company.com,user_action,regex
+2025-07-14 15:40:00,EmailService,Unknown event occurred in module Module17,unclassified,llm
+2025-02-19 22:41:00,ShippingService,Settings modified by user mike.brown@company.com,user_action,regex
+2025-11-29 05:48:00,LegacyAPI,Feature 'validation' is deprecated. Use 'advanced_import' instead,deprecation_warning,bert
+2025-04-16 22:55:00,AnalyticsAPI,Settings modified by user david.hernandez@company.com,user_action,regex
+2025-12-28 03:53:00,LegacyAPI,Endpoint '/api/v3/orders' is deprecated. Use '/api/v2/products' for new integrations,deprecation_warning,bert
+2025-05-29 14:43:00,DatabaseService,Settings modified by user maria.hernandez@company.com,user_action,regex
+2025-08-24 01:40:00,LegacyAPI,Memory usage: 56% - within normal limits,system_notification,regex
+2025-03-03 05:13:00,NotificationService,Data import started by user mike.thomas@company.com,user_action,regex
+2025-09-21 18:26:00,APIGateway,Disk cleanup completed - 6GB freed,system_notification,regex
+2025-04-22 08:34:00,ReportService,User jane.anderson@company.com updated entry_729,user_action,regex
+2025-02-09 05:29:00,UserPortal,User mike.martinez@company.com accessed dashboard,user_action,regex
+2025-11-30 06:22:00,AuthService,Configuration changed by kate.martinez@company.com,user_action,regex
+2025-02-01 14:26:00,APIGateway,User tom.moore@company.com bookmarked page_45,user_action,regex
+2025-12-03 04:26:00,DevOpsService,User tom.thomas@company.com accessed dashboard,user_action,regex
+2025-02-03 03:24:00,E-CommerceAPI,Account ID 23919 created by emily.jones@company.com,user_action,regex
+2025-10-19 17:26:00,ProcessingService,Shipping calculation error: rate limit exceeded,workflow_error,bert
+2025-02-12 16:21:00,LegacyAPI,Warning: Using deprecated TLS 1.0 protocol. Upgrade recommended,deprecation_warning,bert
+2025-10-27 00:39:00,ConfigService,Email delivery failed: resource not found,workflow_error,bert
+2025-08-07 23:39:00,LegacyAPI,Parameter 'legacy_flag' is deprecated in favor of 'new_param',deprecation_warning,bert
+2025-04-23 14:51:00,ProjectManagement,Data import started by user jane.johnson@company.com,user_action,regex
+2025-10-17 12:43:00,AnalyticsAPI,Data validation error: missing required data,workflow_error,bert
+2025-07-01 03:43:00,CRMSystem,Report generation failed: connection timeout,workflow_error,bert
+2025-03-12 00:55:00,LegacyAPI,Library version 3.3.5 is deprecated. Please upgrade to 3.3.2,deprecation_warning,bert
+2025-01-11 11:49:00,IntegrationService,Email delivery failed: insufficient permissions,workflow_error,bert
+2025-09-23 03:57:00,IntegrationService,Configuration changed by mike.williams@company.com,user_action,regex
+2025-08-18 19:53:00,SecurityService,Configuration changed by james.rodriguez@company.com,user_action,regex
+2025-03-02 10:20:00,ProjectManagement,Password changed for user maria.williams@company.com,user_action,regex
+2025-03-18 06:51:00,CRMSystem,Stock update failed: product SKU-481 not found,workflow_error,bert
+2025-02-08 12:17:00,EmailService,Document contract_684.pdf signed by user alex.miller@company.com,user_action,regex
+2025-03-23 17:01:00,InventoryManagement,User alex.martinez@company.com bookmarked page_37,user_action,regex
+2025-01-30 02:17:00,FinanceSystem,User chris.taylor@company.com bookmarked page_26,user_action,regex
+2025-06-21 14:26:00,LegacyAPI,Old reporting engine will be replaced in 11 months,deprecation_warning,bert
+2025-10-08 21:57:00,OrderSystem,User tom.miller@company.com deleted record_593,user_action,regex
+2025-02-16 02:44:00,DatabaseService,Profile picture updated by robert.moore@company.com,user_action,regex
+2025-06-08 20:20:00,CRMSystem,Report generation failed: service unavailable,workflow_error,bert
+2025-12-11 19:32:00,APIGateway,User alex.johnson@company.com bookmarked page_27,user_action,regex
+2025-04-22 08:13:00,AnalyticsAPI,Configuration changed by anna.brown@company.com,user_action,regex
+2025-02-23 05:53:00,HRSystem,Data validation error: resource not found,workflow_error,bert
+2025-07-28 02:07:00,EmailService,User sarah.davis@company.com sent message to alex.hernandez@company.com,user_action,regex
+2025-11-24 08:35:00,PaymentService,Data import started by user tom.jones@company.com,user_action,regex
+2025-11-03 00:38:00,FileService,User james.rodriguez@company.com accessed dashboard,user_action,regex
+2025-01-01 21:44:00,AnalyticsAPI,Push notification failed: insufficient permissions,workflow_error,bert
+2025-09-23 04:00:00,MonitoringService,User initiated password reset for kate.anderson@company.com,user_action,regex
+2025-04-03 13:06:00,IntegrationService,System updated to version 3.0.2,system_notification,regex
+2025-09-30 10:01:00,IntegrationService,Stock update failed: product SKU-847 not found,workflow_error,bert
+2025-08-02 15:09:00,BackupService,Permission granted to user kate.rodriguez@company.com,user_action,regex
+2025-03-21 02:11:00,FinanceSystem,Account ID 42624 created by alex.brown@company.com,user_action,regex
+2025-11-06 00:35:00,ShippingService,Password changed for user john.anderson@company.com,user_action,regex
+2025-06-01 01:30:00,ProcessingService,User tom.garcia@company.com logged into the system,user_action,regex
+2025-06-16 17:33:00,APIGateway,File image.jpg uploaded by user jane.jones@company.com,user_action,regex
+2025-09-22 05:56:00,HRSystem,User initiated password reset for kate.davis@company.com,user_action,regex
+2025-12-05 21:05:00,UserPortal,Stock update failed: product SKU-199 not found,workflow_error,bert
+2025-06-16 20:28:00,AuthService,User profile updated by alex.williams@company.com,user_action,regex
+2025-11-20 16:28:00,FinanceSystem,User chris.thomas@company.com submitted form form_19,user_action,regex
+2025-03-18 06:35:00,DatabaseService,System updated to version 5.1.1,system_notification,regex
+2025-02-10 17:37:00,SystemMonitor,User james.rodriguez@company.com logged out of the application,user_action,regex
+2025-01-22 17:07:00,HRSystem,Backup initiated by user chris.williams@company.com,user_action,regex
+2025-05-21 16:37:00,CRMSystem,User david.williams@company.com logged out of the application,user_action,regex
+2025-09-14 07:04:00,LegacyAPI,Library version 5.9.2 is deprecated. Please upgrade to 1.8.5,deprecation_warning,bert
+2025-03-21 19:36:00,LegacyAPI,Function 'calculateTax' will be removed in v5.0.7. Migrate to 'computeDiscountAmount',deprecation_warning,bert
+2025-12-28 09:01:00,FileService,User maria.rodriguez@company.com updated entry_275,user_action,regex
+2025-02-20 23:43:00,SystemMonitor,User anna.rodriguez@company.com deleted record_539,user_action,regex
+2025-09-06 05:38:00,CRMSystem,User emily.rodriguez@company.com updated entry_320,user_action,regex
+2025-12-09 12:01:00,LegacyAPI,Database schema version 2.0.3 support ending December 2026,deprecation_warning,bert
+2025-02-03 08:42:00,EmailService,Memory usage: 76% - within normal limits,system_notification,regex
+2025-03-22 02:01:00,FileService,Password changed for user mike.brown@company.com,user_action,regex
+2025-08-01 23:18:00,DatabaseService,Account ID 1452 created by maria.jones@company.com,user_action,regex
+2025-01-30 17:20:00,UserPortal,Report generation failed: processing timeout,workflow_error,bert
+2025-07-13 20:21:00,InventoryManagement,User kate.moore@company.com accessed dashboard,user_action,regex
+2025-12-28 15:27:00,ValidationService,User sarah.williams@company.com downloaded data.csv,user_action,regex
+2025-12-15 02:56:00,LegacyAPI,Method 'getUserInfo' is deprecated. Use 'fetchUserProfile' instead,deprecation_warning,bert
+2025-07-04 17:39:00,LegacyAPI,Function 'calculateTax' will be removed in v5.5.6. Migrate to 'computeTaxAmount',deprecation_warning,bert
+2025-01-10 15:44:00,E-CommerceAPI,Data validation error: insufficient funds,workflow_error,bert
+2025-09-28 00:02:00,NotificationService,User initiated password reset for james.hernandez@company.com,user_action,regex
+2025-02-21 22:08:00,ProcessingService,Profile picture updated by sarah.williams@company.com,user_action,regex
+2025-02-18 04:16:00,HRSystem,Memory usage: 61% - within normal limits,system_notification,regex
+2025-02-21 03:43:00,LegacyAPI,User anna.smith@company.com bookmarked page_34,user_action,regex
+2025-05-07 08:48:00,LegacyAPI,Method 'getUserInfo' is deprecated. Use 'fetchProductProfile' instead,deprecation_warning,bert
+2025-04-13 01:57:00,ValidationService,Export requested by user chris.rodriguez@company.com,user_action,regex
+2025-04-02 09:35:00,E-CommerceAPI,Data import started by user james.smith@company.com,user_action,regex
+2025-06-30 21:30:00,FinanceSystem,User sarah.martinez@company.com sent message to jane.miller@company.com,user_action,regex
+2025-12-01 17:30:00,LegacyAPI,Old processing engine will be replaced in 6 months,deprecation_warning,bert
+2025-06-09 03:11:00,LegacyAPI,Endpoint '/api/v1/orders' is deprecated. Use '/api/v2/users' for new integrations,deprecation_warning,bert
+2025-01-27 10:50:00,AuthService,User kate.martinez@company.com updated entry_374,user_action,regex
+2025-10-06 06:03:00,DevOpsService,User lisa.taylor@company.com logged into the system,user_action,regex
+2025-12-12 22:14:00,ShippingService,User lisa.smith@company.com logged into the system,user_action,regex
+2025-06-14 18:10:00,ReportService,Strange network activity from 192.168.226.227,unclassified,llm
+2025-03-05 19:01:00,AnalyticsAPI,User robert.thomas@company.com downloaded log.txt,user_action,regex
+2025-02-11 06:20:00,CRMSystem,User alex.rodriguez@company.com shared document_748,user_action,regex
+2025-05-12 10:57:00,DevOpsService,User profile updated by john.davis@company.com,user_action,regex
+2025-07-24 23:23:00,LegacyAPI,Library version 1.0.4 is deprecated. Please upgrade to 2.2.7,deprecation_warning,bert
+2025-07-23 11:19:00,SystemMonitor,Data validation error: validation error,workflow_error,bert
+2025-05-19 18:07:00,ProjectManagement,Report report_800 generated by user maria.thomas@company.com,user_action,regex
+2025-11-21 04:33:00,DevOpsService,Backup initiated by user john.davis@company.com,user_action,regex
+2025-12-27 06:10:00,APIGateway,User robert.taylor@company.com submitted form form_7,user_action,regex
+2025-12-13 16:46:00,IntegrationService,Strange network activity from 192.168.43.143,unclassified,llm
+2025-01-21 19:48:00,AuthService,User david.hernandez@company.com sent message to robert.taylor@company.com,user_action,regex
+2025-04-24 06:08:00,CRMSystem,Unhandled exception in Component12,unclassified,llm
+2025-05-02 10:43:00,ValidationService,Configuration changed by emily.brown@company.com,user_action,regex
+2025-09-23 01:42:00,ValidationService,User initiated password reset for emily.davis@company.com,user_action,regex
+2025-03-10 11:10:00,FinanceSystem,Permission granted to user kate.brown@company.com,user_action,regex
+2025-12-16 08:40:00,ProcessingService,User tom.davis@company.com bookmarked page_58,user_action,regex
+2025-02-03 07:59:00,LegacyAPI,Library version 4.8.3 is deprecated. Please upgrade to 5.1.3,deprecation_warning,bert
+2025-04-16 00:32:00,LegacyAPI,Profile picture updated by robert.jones@company.com,user_action,regex
+2025-10-14 20:10:00,DevOpsService,Data validation error: permission denied,workflow_error,bert
+2025-09-10 20:45:00,SecurityService,Push notification failed: invalid format,workflow_error,bert
+2025-03-18 04:06:00,ConfigService,User maria.williams@company.com submitted form form_30,user_action,regex
+2025-10-17 07:02:00,LegacyAPI,Function 'calculateTax' will be removed in v5.2.0. Migrate to 'computeShippingAmount',deprecation_warning,bert
+2025-10-20 13:37:00,ValidationService,Push notification failed: rate limit exceeded,workflow_error,bert
+2025-06-02 20:16:00,EmailService,User initiated password reset for john.taylor@company.com,user_action,regex
+2025-02-11 13:45:00,ProjectManagement,File upload failed: processing timeout,workflow_error,bert
+2025-07-22 14:51:00,APIGateway,Shipping calculation error: service unavailable,workflow_error,bert
+2025-09-06 03:13:00,FileService,Processing error in AuthModule,workflow_error,bert
+2025-04-09 17:15:00,ConfigService,File presentation.pptx uploaded by user lisa.martinez@company.com,user_action,regex
+2025-05-23 09:42:00,DevOpsService,User profile updated by sarah.rodriguez@company.com,user_action,regex
+2025-08-14 17:09:00,ConfigService,Account ID 50448 created by lisa.thomas@company.com,user_action,regex
+2025-12-30 23:05:00,LegacyAPI,Deprecated: Using legacy base64 encoding. Switch to bcrypt,deprecation_warning,bert
+2025-10-31 02:40:00,LegacyAPI,Library version 3.9.0 is deprecated. Please upgrade to 1.3.9,deprecation_warning,bert
+2025-08-11 05:11:00,IntegrationService,Report report_452 generated by user alex.anderson@company.com,user_action,regex
+2025-01-22 04:16:00,LegacyAPI,Endpoint '/api/v3/users' is deprecated. Use '/api/v2/orders' for new integrations,deprecation_warning,bert
+2025-08-16 15:52:00,DatabaseService,User kate.hernandez@company.com sent message to lisa.thomas@company.com,user_action,regex
+2025-09-17 16:01:00,BackupService,User robert.martinez@company.com logged into the system,user_action,regex
+2025-10-30 19:13:00,FinanceSystem,User initiated password reset for jane.smith@company.com,user_action,regex
+2025-05-09 04:37:00,LegacyAPI,Document contract_654.pdf signed by user maria.martinez@company.com,user_action,regex
+2025-06-09 20:24:00,LegacyAPI,Deprecated: Using legacy SHA1 encoding. Switch to bcrypt,deprecation_warning,bert
+2025-11-26 11:49:00,MonitoringService,Invoice generation failed: missing required data,workflow_error,bert
+2025-05-09 19:49:00,LegacyAPI,Library version 2.7.9 is deprecated. Please upgrade to 1.1.1,deprecation_warning,bert
+2025-11-18 12:17:00,BackupService,Third-party API call failed: validation error,workflow_error,bert
+2025-10-31 13:05:00,LegacyAPI,Endpoint '/api/v2/users' is deprecated. Use '/api/v2/products' for new integrations,deprecation_warning,bert
+2025-05-30 07:05:00,LegacyAPI,Legacy validation method will be discontinued in 10 months,deprecation_warning,bert
+2025-09-24 05:20:00,IntegrationService,Report report_784 generated by user kate.garcia@company.com,user_action,regex
+2025-12-25 17:47:00,ValidationService,Permission granted to user james.anderson@company.com,user_action,regex
+2025-07-23 10:49:00,EmailService,Payment processing failed: invalid credentials for order #24496,workflow_error,bert
+2025-05-16 22:27:00,LegacyAPI,Endpoint '/api/v3/users' is deprecated. Use '/api/v4/orders' for new integrations,deprecation_warning,bert
+2025-01-28 11:45:00,ShippingService,User profile updated by mike.jones@company.com,user_action,regex
+2025-09-26 02:39:00,SystemMonitor,Backup initiated by user jane.davis@company.com,user_action,regex
+2025-05-30 08:11:00,ReportService,Account ID 60361 created by lisa.jones@company.com,user_action,regex
+2025-08-24 06:40:00,LegacyAPI,Library version 4.5.0 is deprecated. Please upgrade to 4.7.4,deprecation_warning,bert
+2025-01-17 17:04:00,DatabaseService,User maria.taylor@company.com bookmarked page_82,user_action,regex
+2025-02-10 14:06:00,CRMSystem,API rate limit exceeded for client app_v2.0.4,workflow_error,bert
+2025-08-30 15:44:00,FinanceSystem,Settings modified by user sarah.jones@company.com,user_action,regex
+2025-02-17 00:51:00,ReportService,Configuration changed by sarah.hernandez@company.com,user_action,regex
+2025-06-18 11:52:00,E-CommerceAPI,Stock update failed: product SKU-599 not found,workflow_error,bert
+2025-07-07 17:24:00,SystemMonitor,Document contract_997.pdf signed by user maria.johnson@company.com,user_action,regex
+2025-05-24 09:21:00,ConfigService,Payment processing failed: invalid format for order #63206,workflow_error,bert
+2025-07-15 13:32:00,EmailService,Data import started by user kate.moore@company.com,user_action,regex
+2025-09-12 11:15:00,AnalyticsAPI,Data validation error: insufficient permissions,workflow_error,bert
+2025-03-07 12:49:00,LegacyAPI,Function 'calculateDiscount' will be removed in v1.8.0. Migrate to 'computeShippingAmount',deprecation_warning,bert
+2025-11-28 03:13:00,MonitoringService,System updated to version 5.3.7,system_notification,regex
+2025-10-16 23:43:00,PaymentService,Unknown event occurred in module Module4,unclassified,llm
+2025-03-26 23:59:00,E-CommerceAPI,User chris.martinez@company.com shared document_272,user_action,regex
+2025-10-21 18:09:00,LegacyAPI,Database schema version 4.0.0 support ending December 2025,deprecation_warning,bert
+2025-11-13 07:01:00,BackupService,Permission granted to user tom.williams@company.com,user_action,regex
+2025-09-25 01:56:00,AuthService,User robert.moore@company.com updated entry_239,user_action,regex
+2025-11-16 20:20:00,LegacyAPI,Method 'getOrderInfo' is deprecated. Use 'fetchUserProfile' instead,deprecation_warning,bert
+2025-03-21 19:02:00,LegacyAPI,User maria.anderson@company.com bookmarked page_94,user_action,regex
+2025-01-17 16:28:00,ValidationService,System updated to version 5.4.7,system_notification,bert
+2025-08-19 03:23:00,E-CommerceAPI,Permission granted to user tom.brown@company.com,user_action,regex
+2025-10-28 13:16:00,ConfigService,Account ID 39417 created by kate.jones@company.com,user_action,regex
+2025-08-09 22:51:00,LegacyAPI,Parameter 'legacy_param' is deprecated in favor of 'new_option',deprecation_warning,bert
+2025-06-05 07:53:00,BackupService,Data validation error: rate limit exceeded,workflow_error,bert
+2025-05-20 16:05:00,LegacyAPI,Old processing engine will be replaced in 11 months,deprecation_warning,bert
+2025-04-06 18:01:00,ConfigService,User sarah.anderson@company.com logged out of the application,user_action,regex
+2025-05-17 18:52:00,BillingService,Email delivery failed: invalid credentials,workflow_error,bert
+2025-07-23 15:59:00,ProcessingService,System updated to version 3.6.1,system_notification,bert
+2025-12-24 00:18:00,ReportService,User lisa.miller@company.com updated entry_327,user_action,regex
+2025-02-11 16:54:00,SystemMonitor,Password changed for user emily.davis@company.com,user_action,regex
+2025-01-02 05:04:00,ProcessingService,Memory usage: 70% - within normal limits,system_notification,regex
+2025-02-14 12:46:00,BillingService,Payment processing failed: invalid format for order #98892,workflow_error,bert
+2025-12-25 15:53:00,ConfigService,Unexpected behavior detected in SystemC,unclassified,llm
+2025-04-04 06:23:00,LegacyAPI,Method 'getCustomerInfo' is deprecated. Use 'fetchUserProfile' instead,deprecation_warning,bert
+2025-11-26 00:17:00,LegacyAPI,Method 'getOrderInfo' is deprecated. Use 'fetchOrderProfile' instead,deprecation_warning,bert
+2025-06-19 08:15:00,ProjectManagement,User maria.moore@company.com sent message to lisa.martinez@company.com,user_action,regex
+2025-01-09 15:53:00,FinanceSystem,Authentication failed: service unavailable,workflow_error,bert
+2025-10-09 00:29:00,PaymentService,Backup initiated by user anna.garcia@company.com,user_action,regex
+2025-07-01 15:04:00,SystemMonitor,API rate limit exceeded for client app_v2.1.1,workflow_error,bert
+2025-12-08 08:52:00,EmailService,Strange network activity from 192.168.22.121,unclassified,llm
+2025-06-26 19:59:00,ProjectManagement,Memory usage: 89% - within normal limits,system_notification,bert
+2025-04-06 16:35:00,DevOpsService,Unexpected behavior detected in SystemB,unclassified,llm
+2025-05-08 21:40:00,LegacyAPI,Function 'calculateTax' will be removed in v2.0.7. Migrate to 'computeShippingAmount',deprecation_warning,bert
+2025-07-02 08:25:00,PaymentService,Third-party API call failed: insufficient permissions,workflow_error,bert
+2025-03-05 18:31:00,OrderSystem,File upload failed: validation error,workflow_error,bert
+2025-03-22 10:38:00,AuthService,Document contract_545.pdf signed by user david.williams@company.com,user_action,regex
+2025-06-07 00:17:00,ConfigService,User david.hernandez@company.com sent message to david.thomas@company.com,user_action,regex
+2025-02-02 08:32:00,InventoryManagement,Memory usage: 77% - within normal limits,system_notification,regex
+2025-05-06 20:48:00,E-CommerceAPI,Password changed for user lisa.johnson@company.com,user_action,regex
+2025-07-14 04:57:00,MonitoringService,Profile picture updated by robert.smith@company.com,user_action,regex
+2025-11-24 22:15:00,FinanceSystem,Push notification failed: invalid credentials,workflow_error,bert
+2025-07-16 09:54:00,ConfigService,File document.pdf uploaded by user maria.rodriguez@company.com,user_action,regex
+2025-12-09 07:03:00,BackupService,File presentation.pptx uploaded by user mike.hernandez@company.com,user_action,regex
+2025-08-29 03:31:00,UserPortal,User jane.brown@company.com deleted record_376,user_action,regex
+2025-08-20 21:35:00,CRMSystem,Export requested by user alex.davis@company.com,user_action,regex
+2025-11-22 15:59:00,E-CommerceAPI,User jane.jones@company.com submitted form form_28,user_action,regex
+2025-02-02 06:23:00,FinanceSystem,User sarah.garcia@company.com created new account for Client659,user_action,regex
+2025-04-26 08:48:00,ProcessingService,User tom.garcia@company.com submitted form form_6,user_action,regex
+2025-08-04 03:13:00,SystemMonitor,Stock update failed: product SKU-631 not found,workflow_error,bert
+2025-01-14 20:36:00,CRMSystem,Export requested by user robert.taylor@company.com,user_action,regex
+2025-08-12 19:07:00,LegacyAPI,Function 'calculateDiscount' will be removed in v2.7.6. Migrate to 'computeDiscountAmount',deprecation_warning,bert
+2025-02-02 01:55:00,EmailService,Account ID 44414 created by james.taylor@company.com,user_action,regex
+2025-12-08 16:14:00,EmailService,Password changed for user john.brown@company.com,user_action,regex
+2025-01-04 01:44:00,LegacyAPI,Legacy validation method will be discontinued in 9 months,deprecation_warning,bert
+2025-07-08 10:33:00,AuthService,User sarah.williams@company.com logged out of the application,user_action,regex
+2025-02-04 20:38:00,ConfigService,Strange network activity from 192.168.150.22,unclassified,llm
+2025-02-09 13:40:00,FileService,Backup initiated by user emily.martinez@company.com,user_action,regex
+2025-08-09 09:49:00,DevOpsService,Disk cleanup completed - 7GB freed,system_notification,bert
+2025-06-28 23:12:00,LegacyAPI,Parameter 'legacy_option' is deprecated in favor of 'new_param',deprecation_warning,bert
+2025-05-16 18:57:00,LegacyAPI,Old validation engine will be replaced in 8 months,deprecation_warning,bert
+2025-10-26 22:48:00,LegacyAPI,Deprecated: Using legacy MD5 encoding. Switch to bcrypt,deprecation_warning,bert
+2025-08-23 07:23:00,HRSystem,Report report_513 generated by user lisa.jones@company.com,user_action,regex
+2025-02-10 06:12:00,E-CommerceAPI,User robert.brown@company.com logged into the system,user_action,regex
+2025-10-29 14:06:00,AnalyticsAPI,Push notification failed: missing required data,workflow_error,bert
+2025-08-07 07:14:00,SystemMonitor,Backup initiated by user james.brown@company.com,user_action,regex
+2025-02-24 20:05:00,LegacyAPI,Database schema version 5.3.7 support ending December 2027,deprecation_warning,bert
+2025-01-31 04:45:00,NotificationService,Password changed for user david.martinez@company.com,user_action,regex
+2025-01-27 05:39:00,ValidationService,Profile picture updated by maria.davis@company.com,user_action,regex
+2025-04-16 01:12:00,UserPortal,Configuration changed by david.rodriguez@company.com,user_action,regex
+2025-02-23 08:26:00,IntegrationService,Report report_653 generated by user robert.anderson@company.com,user_action,regex
+2025-01-25 07:45:00,LegacyAPI,Endpoint '/api/v2/orders' is deprecated. Use '/api/v2/orders' for new integrations,deprecation_warning,bert
+2025-11-22 05:04:00,SystemMonitor,System updated to version 2.7.4,system_notification,bert
+2025-10-28 22:40:00,LegacyAPI,Database schema version 2.2.0 support ending December 2027,deprecation_warning,bert
+2025-10-08 06:51:00,ProjectManagement,Configuration changed by alex.rodriguez@company.com,user_action,regex
+2025-10-26 09:36:00,LegacyAPI,Database schema version 4.4.9 support ending December 2026,deprecation_warning,bert
+2025-06-28 01:22:00,FileService,Payment processing failed: rate limit exceeded for order #19918,workflow_error,bert
+2025-09-18 20:44:00,SystemMonitor,Permission granted to user lisa.williams@company.com,user_action,regex
+2025-01-26 20:08:00,PaymentService,User alex.johnson@company.com updated entry_837,user_action,regex
+2025-09-24 09:44:00,APIGateway,Report generation failed: insufficient permissions,workflow_error,bert
+2025-06-03 02:52:00,BackupService,User profile updated by john.thomas@company.com,user_action,regex
+2025-03-09 20:26:00,NotificationService,Unknown event occurred in module Module8,unclassified,llm
+2025-10-05 07:34:00,ReportService,User kate.anderson@company.com logged into the system,user_action,regex
+2025-07-29 22:46:00,ReportService,User mike.johnson@company.com bookmarked page_74,user_action,regex
+2025-10-12 17:15:00,FileService,Authentication failed: connection timeout,workflow_error,bert
+2025-11-03 07:11:00,CRMSystem,Document contract_163.pdf signed by user mike.thomas@company.com,user_action,regex
+2025-02-27 12:52:00,ShippingService,System updated to version 5.0.8,system_notification,regex
+2025-06-29 14:14:00,SecurityService,Memory usage: 87% - within normal limits,system_notification,regex
+2025-08-30 14:43:00,NotificationService,System updated to version 3.8.8,system_notification,regex
+2025-05-18 04:39:00,BillingService,Batch processing failed: missing required data,workflow_error,bert
+2025-02-13 19:55:00,DevOpsService,User anna.rodriguez@company.com bookmarked page_62,user_action,regex
+2025-10-21 01:44:00,DatabaseService,Stock update failed: product SKU-267 not found,workflow_error,bert
+2025-04-06 04:30:00,FileService,API rate limit exceeded for client app_v4.1.6,workflow_error,bert
+2025-03-08 09:30:00,CRMSystem,User david.taylor@company.com shared document_660,user_action,regex
+2025-06-22 16:51:00,DevOpsService,Permission granted to user alex.hernandez@company.com,user_action,regex
+2025-03-04 05:35:00,DatabaseService,API rate limit exceeded for client app_v1.5.5,workflow_error,bert
+2025-07-09 19:40:00,CRMSystem,Profile picture updated by jane.brown@company.com,user_action,regex
+2025-11-19 12:21:00,AnalyticsAPI,System updated to version 1.0.8,system_notification,bert
+2025-10-12 21:54:00,ProcessingService,Backup initiated by user mike.davis@company.com,user_action,regex
+2025-04-14 08:38:00,LegacyAPI,Function 'calculateShipping' will be removed in v3.8.9. Migrate to 'computeShippingAmount',deprecation_warning,bert
+2025-12-11 22:29:00,AuthService,User lisa.moore@company.com submitted form form_25,user_action,regex
+2025-09-27 00:01:00,LegacyAPI,Backup initiated by user chris.jones@company.com,user_action,regex
+2025-10-07 04:21:00,SystemMonitor,Report report_498 generated by user chris.williams@company.com,user_action,regex
+2025-05-04 08:46:00,BackupService,User profile updated by chris.smith@company.com,user_action,regex
+2025-08-09 02:02:00,AuthService,Password changed for user david.williams@company.com,user_action,regex
+2025-01-01 17:09:00,E-CommerceAPI,Memory usage: 68% - within normal limits,system_notification,bert
+2025-08-31 15:16:00,LegacyAPI,Database schema version 1.9.2 support ending December 2025,deprecation_warning,bert
+2025-11-16 23:47:00,LegacyAPI,Function 'calculateDiscount' will be removed in v3.2.4. Migrate to 'computeDiscountAmount',deprecation_warning,bert
+2025-12-13 23:19:00,EmailService,User jane.garcia@company.com logged into the system,user_action,regex
+2025-04-26 04:33:00,DevOpsService,Backup initiated by user alex.garcia@company.com,user_action,regex
+2025-11-30 00:36:00,LegacyAPI,Feature 'reporting' is deprecated. Use 'advanced_validation' instead,deprecation_warning,bert
+2025-03-28 14:44:00,LegacyAPI,Parameter 'legacy_flag' is deprecated in favor of 'new_flag',deprecation_warning,bert
+2025-09-10 02:38:00,ShippingService,Email delivery failed: validation error,workflow_error,bert
+2025-02-03 18:38:00,CRMSystem,User sarah.jones@company.com logged out of the application,user_action,regex
+2025-07-30 04:14:00,ProjectManagement,User jane.johnson@company.com shared document_202,user_action,regex
+2025-11-26 22:53:00,InventoryManagement,User profile updated by jane.moore@company.com,user_action,regex
+2025-06-03 09:41:00,MonitoringService,User anna.thomas@company.com bookmarked page_22,user_action,regex
+2025-01-25 22:08:00,MonitoringService,User maria.hernandez@company.com created new account for Client894,user_action,regex
+2025-03-06 10:41:00,HRSystem,Disk cleanup completed - 1GB freed,system_notification,bert
+2025-11-16 04:24:00,EmailService,User tom.rodriguez@company.com bookmarked page_95,user_action,regex
+2025-01-30 11:21:00,InventoryManagement,User sarah.brown@company.com deleted record_129,user_action,regex
+2025-07-02 10:01:00,DevOpsService,User anna.smith@company.com deleted record_219,user_action,regex
+2025-09-10 02:39:00,HRSystem,User alex.brown@company.com logged into the system,user_action,regex
+2025-03-10 16:02:00,CRMSystem,User alex.garcia@company.com logged into the system,user_action,regex
+2025-06-07 18:04:00,NotificationService,Report generation failed: resource not found,workflow_error,bert
+2025-06-15 04:37:00,ConfigService,Report generation failed: validation error,workflow_error,bert
+2025-05-08 10:51:00,LegacyAPI,Feature 'authentication' is deprecated. Use 'advanced_validation' instead,deprecation_warning,bert
+2025-06-20 11:35:00,ShippingService,Invoice generation failed: connection timeout,workflow_error,bert
+2025-10-15 09:42:00,EmailService,Backup initiated by user emily.taylor@company.com,user_action,regex
+2025-06-08 16:18:00,AnalyticsAPI,Data import started by user robert.thomas@company.com,user_action,regex
+2025-07-08 23:25:00,ProjectManagement,Stock update failed: product SKU-733 not found,workflow_error,bert
+2025-03-30 10:27:00,ShippingService,Shipping calculation error: missing required data,workflow_error,bert
+2025-08-17 18:55:00,AnalyticsAPI,Stock update failed: product SKU-171 not found,workflow_error,bert
+2025-02-16 20:10:00,EmailService,Configuration changed by james.anderson@company.com,user_action,regex
+2025-06-16 12:58:00,LegacyAPI,User anna.johnson@company.com accessed dashboard,user_action,regex
+2025-04-10 20:56:00,BackupService,Memory usage: 60% - within normal limits,system_notification,bert
+2025-07-22 09:14:00,BillingService,User profile updated by chris.thomas@company.com,user_action,regex
+2025-09-21 19:56:00,ProjectManagement,User initiated password reset for robert.anderson@company.com,user_action,regex
+2025-11-12 16:15:00,MonitoringService,Account ID 93413 created by james.hernandez@company.com,user_action,regex
+2025-01-14 04:18:00,NotificationService,User chris.davis@company.com logged into the system,user_action,regex
+2025-07-17 12:00:00,LegacyAPI,Old validation engine will be replaced in 11 months,deprecation_warning,bert
+2025-06-04 22:59:00,E-CommerceAPI,Payment processing failed: validation error for order #71240,workflow_error,bert
+2025-07-06 20:28:00,IntegrationService,Document contract_510.pdf signed by user james.rodriguez@company.com,user_action,regex
+2025-02-13 22:31:00,DatabaseService,Export requested by user tom.taylor@company.com,user_action,regex
+2025-10-12 23:58:00,AuthService,File upload failed: invalid credentials,workflow_error,bert
+2025-05-07 10:52:00,NotificationService,User james.moore@company.com accessed dashboard,user_action,regex
+2025-05-27 01:15:00,ConfigService,User kate.miller@company.com shared document_525,user_action,regex
+2025-12-04 12:07:00,BackupService,User chris.johnson@company.com bookmarked page_82,user_action,regex
+2025-01-09 04:24:00,LegacyAPI,File image.jpg uploaded by user john.smith@company.com,user_action,regex
+2025-01-21 21:39:00,E-CommerceAPI,Report report_720 generated by user lisa.garcia@company.com,user_action,regex
+2025-02-19 16:01:00,LegacyAPI,Function 'calculateShipping' will be removed in v3.5.7. Migrate to 'computeShippingAmount',deprecation_warning,bert
+2025-12-12 13:44:00,FileService,Invoice generation failed: invalid format,workflow_error,bert
+2025-08-16 00:55:00,DevOpsService,Profile picture updated by robert.davis@company.com,user_action,regex
+2025-05-11 10:38:00,IntegrationService,Strange network activity from 192.168.194.100,unclassified,llm
+2025-10-29 06:31:00,MonitoringService,User mike.miller@company.com updated entry_256,user_action,regex
+2025-05-29 12:11:00,AuthService,Stock update failed: product SKU-149 not found,workflow_error,bert
+2025-01-17 12:41:00,ValidationService,Account ID 10048 created by jane.taylor@company.com,user_action,regex
+2025-11-09 02:21:00,HRSystem,User kate.jones@company.com logged into the system,user_action,regex
+2025-09-24 02:28:00,ValidationService,Report generation failed: invalid credentials,workflow_error,bert
+2025-12-06 17:30:00,DatabaseService,User emily.thomas@company.com downloaded backup.zip,user_action,regex
+2025-10-15 21:06:00,EmailService,User alex.taylor@company.com submitted form form_44,user_action,regex
+2025-10-12 08:08:00,MonitoringService,Payment processing failed: permission denied for order #34148,workflow_error,bert
+2025-09-16 12:43:00,ProcessingService,Stock update failed: product SKU-950 not found,workflow_error,bert
+2025-09-29 02:20:00,ConfigService,Permission granted to user emily.brown@company.com,user_action,regex
+2025-01-22 03:20:00,PaymentService,User kate.martinez@company.com created new account for Client186,user_action,regex
+2025-06-22 05:44:00,SecurityService,Permission granted to user emily.jones@company.com,user_action,regex
+2025-02-14 02:48:00,NotificationService,Backup initiated by user jane.williams@company.com,user_action,regex
+2025-04-17 20:11:00,LegacyAPI,Feature 'authentication' is deprecated. Use 'advanced_import' instead,deprecation_warning,bert
+2025-10-30 18:08:00,ReportService,Configuration changed by mike.davis@company.com,user_action,regex
+2025-03-29 12:46:00,CRMSystem,Stock update failed: product SKU-901 not found,workflow_error,bert
+2025-11-30 08:25:00,SystemMonitor,User sarah.moore@company.com updated entry_122,user_action,regex
+2025-01-30 01:15:00,PaymentService,Authentication failed: resource not found,workflow_error,bert
+2025-06-07 12:14:00,FinanceSystem,Strange network activity from 192.168.89.52,unclassified,llm
+2025-12-21 06:13:00,SecurityService,File upload failed: resource not found,workflow_error,bert
+2025-10-10 11:31:00,ReportService,Payment processing failed: validation error for order #81746,workflow_error,bert
+2025-09-14 15:55:00,FileService,User david.rodriguez@company.com downloaded config.json,user_action,regex
+2025-08-19 19:10:00,CRMSystem,Export requested by user kate.taylor@company.com,user_action,regex
+2025-09-08 13:57:00,InventoryManagement,System updated to version 1.6.0,system_notification,regex
+2025-02-16 19:15:00,AnalyticsAPI,Backup initiated by user anna.smith@company.com,user_action,regex
+2025-02-28 21:03:00,LegacyAPI,Legacy authentication method will be discontinued in 7 months,deprecation_warning,bert
+2025-05-30 08:42:00,DatabaseService,User emily.rodriguez@company.com shared document_367,user_action,regex
+2025-06-26 20:04:00,LegacyAPI,Library version 3.9.7 is deprecated. Please upgrade to 5.0.4,deprecation_warning,bert
+2025-05-07 16:28:00,MonitoringService,User jane.thomas@company.com bookmarked page_22,user_action,regex
+2025-05-12 06:59:00,SecurityService,User james.moore@company.com logged out of the application,user_action,regex
+2025-05-11 20:57:00,APIGateway,Backup initiated by user tom.williams@company.com,user_action,regex
+2025-11-26 19:00:00,MonitoringService,Settings modified by user jane.johnson@company.com,user_action,regex
+2025-12-03 19:51:00,ProcessingService,Strange network activity from 192.168.144.171,unclassified,llm
+2025-03-10 08:12:00,SystemMonitor,Anomalous pattern observed: Pattern8,unclassified,llm
+2025-06-18 23:26:00,FinanceSystem,User profile updated by david.moore@company.com,user_action,regex
+2025-12-14 00:47:00,ShippingService,User sarah.brown@company.com accessed dashboard,user_action,regex
+2025-05-09 04:15:00,ReportService,User james.jones@company.com bookmarked page_20,user_action,regex
+2025-01-08 10:43:00,BillingService,Export requested by user maria.martinez@company.com,user_action,regex
+2025-09-02 09:24:00,BackupService,Settings modified by user emily.thomas@company.com,user_action,regex
+2025-03-08 05:35:00,ShippingService,User initiated password reset for tom.davis@company.com,user_action,regex
+2025-06-19 16:47:00,AuthService,Settings modified by user anna.johnson@company.com,user_action,regex
+2025-02-28 14:24:00,SecurityService,Strange network activity from 192.168.12.62,unclassified,llm
+2025-04-28 19:26:00,LegacyAPI,Function 'calculateShipping' will be removed in v5.6.7. Migrate to 'computeShippingAmount',deprecation_warning,bert
+2025-07-27 02:12:00,SystemMonitor,Unknown event occurred in module Module10,unclassified,llm
+2025-04-24 04:05:00,EmailService,User robert.garcia@company.com bookmarked page_18,user_action,regex
+2025-05-19 16:42:00,PaymentService,Payment processing failed: permission denied for order #67612,workflow_error,bert
+2025-08-02 11:12:00,ProcessingService,User chris.martinez@company.com bookmarked page_52,user_action,regex
+2025-01-19 22:00:00,FinanceSystem,Export requested by user anna.rodriguez@company.com,user_action,regex
+2025-07-21 20:47:00,NotificationService,User chris.williams@company.com updated entry_389,user_action,regex
+2025-12-27 12:11:00,CRMSystem,Account ID 1659 created by chris.smith@company.com,user_action,regex
+2025-11-23 12:40:00,LegacyAPI,Database schema version 4.9.9 support ending December 2025,deprecation_warning,bert
+2025-07-10 15:58:00,BillingService,Backup initiated by user james.thomas@company.com,user_action,regex
+2025-10-28 17:47:00,DevOpsService,Stock update failed: product SKU-167 not found,workflow_error,bert
+2025-04-27 08:14:00,ShippingService,API rate limit exceeded for client app_v3.9.4,workflow_error,bert
+2025-01-14 01:28:00,LegacyAPI,Library version 1.0.5 is deprecated. Please upgrade to 4.9.2,deprecation_warning,bert
+2025-10-08 14:03:00,LegacyAPI,Legacy authentication method will be discontinued in 8 months,deprecation_warning,bert
+2025-11-21 10:22:00,LegacyAPI,Database schema version 3.2.4 support ending December 2025,deprecation_warning,bert
+2025-06-08 16:41:00,NotificationService,Payment processing failed: permission denied for order #52048,workflow_error,bert
+2025-01-17 03:16:00,CRMSystem,User jane.taylor@company.com submitted form form_6,user_action,regex
+2025-05-22 15:53:00,LegacyAPI,Library version 3.6.9 is deprecated. Please upgrade to 1.6.4,deprecation_warning,bert
+2025-05-20 06:01:00,LegacyAPI,Method 'getCustomerInfo' is deprecated. Use 'fetchOrderProfile' instead,deprecation_warning,bert
+2025-01-10 20:25:00,EmailService,User emily.jones@company.com logged out of the application,user_action,regex
+2025-10-17 04:56:00,APIGateway,User anna.thomas@company.com bookmarked page_7,user_action,regex
+2025-11-16 12:53:00,OrderSystem,Strange network activity from 192.168.231.254,unclassified,llm
+2025-07-17 16:50:00,ReportService,System updated to version 1.1.1,system_notification,bert
+2025-01-28 01:14:00,CRMSystem,Document contract_647.pdf signed by user emily.jones@company.com,user_action,regex
+2025-09-28 12:30:00,AuthService,File data.csv uploaded by user lisa.johnson@company.com,user_action,regex
+2025-09-30 08:39:00,LegacyAPI,Old processing engine will be replaced in 7 months,deprecation_warning,bert
+2025-04-06 18:29:00,FileService,Data import started by user emily.hernandez@company.com,user_action,regex
+2025-10-09 15:37:00,BillingService,Profile picture updated by alex.brown@company.com,user_action,regex
+2025-12-18 16:46:00,SecurityService,User kate.anderson@company.com created new account for Client124,user_action,regex
+2025-09-23 07:22:00,ProjectManagement,Unknown event occurred in module Module5,unclassified,llm
+2025-06-24 18:11:00,DatabaseService,Permission granted to user jane.miller@company.com,user_action,regex
+2025-02-02 21:31:00,ReportService,Unhandled exception in Component14,unclassified,llm
+2025-11-03 09:07:00,InventoryManagement,User robert.williams@company.com downloaded log.txt,user_action,regex
+2025-12-31 00:32:00,BillingService,User john.anderson@company.com deleted record_349,user_action,regex
+2025-08-20 13:00:00,LegacyAPI,Function 'calculateShipping' will be removed in v4.5.3. Migrate to 'computeTaxAmount',deprecation_warning,bert
+2025-11-14 04:33:00,CRMSystem,User anna.taylor@company.com logged out of the application,user_action,regex
+2025-12-08 08:31:00,SystemMonitor,Permission granted to user mike.anderson@company.com,user_action,regex
+2025-04-01 14:42:00,MonitoringService,User david.davis@company.com accessed dashboard,user_action,regex
+2025-01-25 18:41:00,ProcessingService,File config.json uploaded by user anna.taylor@company.com,user_action,regex
+2025-10-13 04:05:00,SystemMonitor,User sarah.taylor@company.com created new account for Client553,user_action,regex
+2025-01-10 08:58:00,E-CommerceAPI,System updated to version 2.5.6,system_notification,regex
+2025-03-04 19:16:00,LegacyAPI,Method 'getProductInfo' is deprecated. Use 'fetchOrderProfile' instead,deprecation_warning,bert
+2025-10-21 11:01:00,PaymentService,User profile updated by david.miller@company.com,user_action,regex
+2025-01-21 03:36:00,LegacyAPI,Library version 3.1.0 is deprecated. Please upgrade to 1.6.3,deprecation_warning,bert
+2025-09-25 22:43:00,LegacyAPI,User james.johnson@company.com sent message to emily.miller@company.com,user_action,regex
+2025-02-02 09:11:00,APIGateway,User sarah.anderson@company.com bookmarked page_39,user_action,regex
+2025-12-08 20:21:00,BackupService,User david.rodriguez@company.com logged out of the application,user_action,regex
+2025-06-17 15:41:00,ShippingService,Permission granted to user alex.jones@company.com,user_action,regex
+2026-01-01 06:01:00,DatabaseService,Settings modified by user maria.smith@company.com,user_action,regex
+2025-04-25 03:57:00,OrderSystem,Password changed for user sarah.anderson@company.com,user_action,regex
+2025-02-24 12:52:00,PaymentService,User initiated password reset for sarah.garcia@company.com,user_action,regex
+2025-04-16 12:25:00,FinanceSystem,User james.brown@company.com logged out of the application,user_action,regex
+2025-12-21 02:40:00,SecurityService,System updated to version 5.3.5,system_notification,bert
+2025-12-19 22:48:00,ShippingService,User sarah.williams@company.com created new account for Client488,user_action,regex
+2025-11-12 20:20:00,UserPortal,Configuration changed by james.thomas@company.com,user_action,regex
+2025-03-07 17:49:00,UserPortal,Authentication failed: validation error,workflow_error,bert
+2025-08-08 20:47:00,LegacyAPI,Legacy reporting method will be discontinued in 12 months,deprecation_warning,bert
+2025-01-13 22:18:00,LegacyAPI,Export requested by user david.johnson@company.com,user_action,regex
+2025-05-04 04:59:00,FinanceSystem,Third-party API call failed: insufficient funds,workflow_error,bert
+2025-02-18 13:58:00,APIGateway,Data validation error: service unavailable,workflow_error,bert
+2025-12-29 20:28:00,InventoryManagement,System updated to version 1.8.1,system_notification,regex
+2025-11-14 14:15:00,PaymentService,User robert.rodriguez@company.com sent message to lisa.jones@company.com,user_action,regex
+2025-07-26 15:20:00,ValidationService,Shipping calculation error: insufficient funds,workflow_error,bert
+2025-05-07 04:57:00,FileService,Account ID 9933 created by maria.moore@company.com,user_action,regex
+2025-04-14 06:53:00,LegacyAPI,Endpoint '/api/v1/products' is deprecated. Use '/api/v4/products' for new integrations,deprecation_warning,bert
+2025-08-25 10:20:00,EmailService,User jane.davis@company.com updated entry_907,user_action,regex
+2025-11-20 15:18:00,PaymentService,Unhandled exception in Component13,unclassified,llm
+2025-10-20 09:02:00,NotificationService,Disk cleanup completed - 3GB freed,system_notification,bert
+2025-09-03 13:30:00,LegacyAPI,Old validation engine will be replaced in 5 months,deprecation_warning,bert
+2025-06-29 19:16:00,DevOpsService,Payment processing failed: resource not found for order #64207,workflow_error,bert
+2025-12-18 02:20:00,UserPortal,User initiated password reset for tom.miller@company.com,user_action,regex
+2025-10-24 12:58:00,LegacyAPI,Feature 'reporting' is deprecated. Use 'advanced_import' instead,deprecation_warning,bert
+2025-05-28 08:24:00,PaymentService,User tom.rodriguez@company.com logged out of the application,user_action,regex
+2025-09-12 14:35:00,DatabaseService,Account ID 24148 created by chris.anderson@company.com,user_action,regex
+2025-01-07 12:10:00,FinanceSystem,User initiated password reset for jane.hernandez@company.com,user_action,regex
+2025-11-07 06:42:00,HRSystem,Report generation failed: insufficient funds,workflow_error,bert
+2025-06-19 09:15:00,FinanceSystem,User initiated password reset for john.johnson@company.com,user_action,regex
+2025-03-12 02:32:00,AnalyticsAPI,User james.hernandez@company.com bookmarked page_18,user_action,regex
+2025-09-24 18:12:00,LegacyAPI,Endpoint '/api/v2/orders' is deprecated. Use '/api/v4/orders' for new integrations,deprecation_warning,bert
+2025-07-08 05:14:00,APIGateway,Strange network activity from 192.168.208.240,unclassified,llm
+2025-11-16 18:11:00,E-CommerceAPI,Report report_243 generated by user emily.anderson@company.com,user_action,regex
+2025-10-01 06:17:00,AuthService,Memory usage: 85% - within normal limits,system_notification,bert
+2025-12-28 14:16:00,EmailService,User mike.taylor@company.com logged out of the application,user_action,regex
+2025-01-18 02:35:00,LegacyAPI,Endpoint '/api/v2/orders' is deprecated. Use '/api/v3/products' for new integrations,deprecation_warning,bert
+2025-04-23 12:38:00,SecurityService,Document contract_802.pdf signed by user mike.hernandez@company.com,user_action,regex
+2025-11-16 19:12:00,HRSystem,Report report_416 generated by user alex.miller@company.com,user_action,regex
+2025-09-03 13:10:00,FileService,Export requested by user robert.williams@company.com,user_action,regex
+2025-11-08 22:52:00,SystemMonitor,User john.miller@company.com deleted record_412,user_action,regex
+2025-12-05 21:22:00,DevOpsService,File log.txt uploaded by user alex.miller@company.com,user_action,regex
+2025-01-04 07:39:00,ValidationService,User maria.martinez@company.com updated entry_957,user_action,regex
+2025-05-29 16:44:00,ReportService,Account ID 27146 created by mike.brown@company.com,user_action,regex
+2025-08-03 15:36:00,HRSystem,User james.hernandez@company.com updated entry_444,user_action,regex
+2025-10-09 09:44:00,APIGateway,Shipping calculation error: validation error,workflow_error,bert
+2025-05-19 19:21:00,BillingService,Document contract_639.pdf signed by user john.smith@company.com,user_action,regex
+2025-09-19 21:05:00,LegacyAPI,Legacy validation method will be discontinued in 11 months,deprecation_warning,bert
+2025-12-27 22:19:00,APIGateway,User anna.williams@company.com logged into the system,user_action,regex
+2025-02-10 12:00:00,APIGateway,File log.txt uploaded by user emily.taylor@company.com,user_action,regex
+2025-10-13 03:05:00,APIGateway,User david.brown@company.com downloaded backup.zip,user_action,regex
+2025-02-09 08:02:00,DevOpsService,User robert.garcia@company.com created new account for Client536,user_action,regex
+2025-12-19 20:53:00,AuthService,Unknown event occurred in module Module16,unclassified,llm
+2025-07-26 22:25:00,LegacyAPI,Endpoint '/api/v1/users' is deprecated. Use '/api/v3/products' for new integrations,deprecation_warning,bert
+2025-11-20 15:39:00,ReportService,Export requested by user chris.smith@company.com,user_action,regex
+2025-12-07 03:47:00,BillingService,User david.jones@company.com logged out of the application,user_action,regex
+2025-06-08 05:40:00,NotificationService,User lisa.williams@company.com updated entry_652,user_action,regex
+2025-03-03 22:44:00,LegacyAPI,Legacy reporting method will be discontinued in 10 months,deprecation_warning,bert
+2025-10-12 12:54:00,LegacyAPI,Deprecated: Using legacy SHA1 encoding. Switch to JWT,deprecation_warning,bert
+2025-03-14 10:13:00,AuthService,User emily.hernandez@company.com sent message to lisa.garcia@company.com,user_action,regex
+2025-08-26 14:22:00,OrderSystem,Stock update failed: product SKU-987 not found,workflow_error,bert
+2025-05-10 18:10:00,PaymentService,Authentication failed: permission denied,workflow_error,bert
+2025-03-15 05:15:00,LegacyAPI,Library version 5.2.6 is deprecated. Please upgrade to 3.4.5,deprecation_warning,bert
+2025-06-05 11:47:00,LegacyAPI,Settings modified by user chris.davis@company.com,user_action,regex
+2025-12-01 09:17:00,LegacyAPI,Legacy reporting method will be discontinued in 4 months,deprecation_warning,bert
+2025-10-27 01:19:00,PaymentService,User alex.thomas@company.com downloaded spreadsheet.xlsx,user_action,regex
+2025-02-21 19:36:00,LegacyAPI,Database schema version 2.1.0 support ending December 2027,deprecation_warning,bert
+2025-11-26 11:44:00,AnalyticsAPI,User initiated password reset for alex.jones@company.com,user_action,regex
+2025-01-30 08:06:00,AuthService,User david.garcia@company.com submitted form form_15,user_action,regex
+2025-04-14 19:05:00,CRMSystem,Stock update failed: product SKU-939 not found,workflow_error,bert
+2025-11-07 17:39:00,FileService,User alex.anderson@company.com shared document_842,user_action,regex
+2025-11-18 07:39:00,UserPortal,User john.johnson@company.com shared document_392,user_action,regex
+2025-01-18 03:58:00,NotificationService,Account ID 85533 created by lisa.miller@company.com,user_action,regex
+2025-10-30 18:21:00,BillingService,Report report_516 generated by user jane.anderson@company.com,user_action,regex
+2025-04-26 07:23:00,MonitoringService,Account ID 15293 created by anna.brown@company.com,user_action,regex
+2025-12-01 06:18:00,OrderSystem,Configuration changed by john.brown@company.com,user_action,regex
+2025-12-02 06:55:00,PaymentService,User jane.taylor@company.com submitted form form_2,user_action,regex
+2025-06-13 12:57:00,LegacyAPI,Old validation engine will be replaced in 10 months,deprecation_warning,bert
+2025-02-15 01:08:00,LegacyAPI,Legacy validation method will be discontinued in 6 months,deprecation_warning,bert
+2025-08-16 23:15:00,ConfigService,Export requested by user mike.williams@company.com,user_action,regex
+2025-12-11 11:43:00,AnalyticsAPI,Backup initiated by user emily.johnson@company.com,user_action,regex
+2025-04-24 21:06:00,ProjectManagement,User anna.garcia@company.com accessed dashboard,user_action,regex
+2025-09-21 04:39:00,FinanceSystem,Report report_231 generated by user mike.johnson@company.com,user_action,regex
+2025-11-18 01:44:00,InventoryManagement,Password changed for user emily.williams@company.com,user_action,regex
+2025-05-29 15:08:00,FinanceSystem,User chris.brown@company.com downloaded backup.zip,user_action,regex
+2025-03-11 05:22:00,E-CommerceAPI,User sarah.martinez@company.com created new account for Client507,user_action,regex
+2025-03-22 22:56:00,ReportService,API rate limit exceeded for client app_v2.1.0,workflow_error,bert
+2025-04-09 12:06:00,ShippingService,User kate.garcia@company.com updated entry_952,user_action,regex
+2025-12-22 10:47:00,InventoryManagement,Strange network activity from 192.168.54.157,unclassified,llm
+2025-11-23 09:33:00,BillingService,Profile picture updated by john.martinez@company.com,user_action,regex
+2025-02-16 06:34:00,ValidationService,Report report_488 generated by user chris.johnson@company.com,user_action,regex
+2025-05-02 11:43:00,UserPortal,User jane.moore@company.com sent message to robert.brown@company.com,user_action,regex
+2025-03-27 00:27:00,OrderSystem,User profile updated by anna.moore@company.com,user_action,regex
+2025-05-08 08:21:00,DevOpsService,Memory usage: 57% - within normal limits,system_notification,bert
+2025-10-03 02:52:00,ShippingService,Payment processing failed: insufficient funds for order #10895,workflow_error,bert
+2025-02-04 04:57:00,AnalyticsAPI,Strange network activity from 192.168.44.150,unclassified,llm
+2025-11-21 21:14:00,LegacyAPI,Library version 4.4.6 is deprecated. Please upgrade to 1.2.5,deprecation_warning,bert
+2025-09-06 17:21:00,IntegrationService,User david.hernandez@company.com sent message to tom.davis@company.com,user_action,regex
+2025-02-06 04:00:00,HRSystem,User anna.rodriguez@company.com deleted record_445,user_action,regex
+2025-08-23 19:58:00,BillingService,User anna.rodriguez@company.com deleted record_405,user_action,regex
+2025-10-10 06:06:00,ReportService,File report.xlsx uploaded by user lisa.martinez@company.com,user_action,regex
+2025-03-07 05:58:00,SystemMonitor,User david.thomas@company.com accessed dashboard,user_action,regex
+2025-01-28 19:43:00,LegacyAPI,Endpoint '/api/v1/users' is deprecated. Use '/api/v3/users' for new integrations,deprecation_warning,bert
+2025-07-12 02:45:00,DatabaseService,User tom.davis@company.com sent message to john.davis@company.com,user_action,regex
+2025-03-09 04:57:00,AnalyticsAPI,Email delivery failed: insufficient funds,workflow_error,bert
+2025-01-19 03:40:00,DatabaseService,User james.jones@company.com logged out of the application,user_action,regex
+2025-06-18 11:16:00,NotificationService,User initiated password reset for emily.anderson@company.com,user_action,regex
+2025-01-25 22:00:00,LegacyAPI,Library version 2.0.2 is deprecated. Please upgrade to 3.8.5,deprecation_warning,bert
+2025-01-16 11:48:00,FinanceSystem,Account ID 93482 created by kate.davis@company.com,user_action,regex
+2025-04-21 15:15:00,InventoryManagement,Account ID 84497 created by lisa.johnson@company.com,user_action,regex
+2025-06-20 09:47:00,LegacyAPI,File config.json uploaded by user robert.anderson@company.com,user_action,regex
+2025-05-06 19:34:00,MonitoringService,Third-party API call failed: invalid credentials,workflow_error,bert
+2025-05-24 06:27:00,ValidationService,Export requested by user jane.taylor@company.com,user_action,regex
+2025-06-05 03:48:00,NotificationService,Profile picture updated by kate.brown@company.com,user_action,regex
+2025-09-28 22:44:00,LegacyAPI,User initiated password reset for james.smith@company.com,user_action,regex
+2025-04-06 01:11:00,BackupService,Account ID 8781 created by james.anderson@company.com,user_action,regex
+2025-09-15 08:50:00,APIGateway,Unhandled exception in Component3,unclassified,llm
+2025-01-30 21:04:00,NotificationService,System updated to version 4.3.0,system_notification,regex
+2025-03-24 09:12:00,E-CommerceAPI,User james.martinez@company.com bookmarked page_68,user_action,regex
+2025-02-16 18:20:00,DevOpsService,User james.jones@company.com shared document_842,user_action,regex
+2025-01-23 04:11:00,APIGateway,User emily.miller@company.com sent message to lisa.jones@company.com,user_action,regex
+2025-04-28 10:39:00,SecurityService,Settings modified by user mike.martinez@company.com,user_action,regex
+2025-02-21 22:45:00,EmailService,User robert.brown@company.com created new account for Client732,user_action,regex
+2025-05-26 02:14:00,LegacyAPI,Library version 4.9.5 is deprecated. Please upgrade to 2.7.9,deprecation_warning,bert
+2025-09-06 18:31:00,AnalyticsAPI,Backup initiated by user robert.hernandez@company.com,user_action,regex
+2025-05-04 23:57:00,FileService,File log.txt uploaded by user john.hernandez@company.com,user_action,regex
+2025-05-08 19:56:00,E-CommerceAPI,Password changed for user alex.moore@company.com,user_action,regex
+2025-03-26 16:48:00,HRSystem,Stock update failed: product SKU-563 not found,workflow_error,bert
+2025-04-20 11:46:00,ProcessingService,Document contract_468.pdf signed by user jane.moore@company.com,user_action,regex
+2025-02-24 10:51:00,LegacyAPI,Database schema version 1.4.1 support ending December 2026,deprecation_warning,bert
+2025-08-22 10:51:00,AuthService,System updated to version 3.6.8,system_notification,regex
+2025-01-09 20:53:00,BackupService,Profile picture updated by lisa.miller@company.com,user_action,regex
+2025-04-28 04:04:00,AuthService,Stock update failed: product SKU-306 not found,workflow_error,bert
+2025-12-14 23:00:00,ProjectManagement,User mike.williams@company.com submitted form form_26,user_action,regex
+2025-10-17 23:46:00,UserPortal,Stock update failed: product SKU-803 not found,workflow_error,bert
+2025-08-18 14:03:00,ReportService,Document contract_307.pdf signed by user kate.hernandez@company.com,user_action,regex
+2025-09-16 10:26:00,DevOpsService,Profile picture updated by anna.taylor@company.com,user_action,regex
+2025-07-07 11:02:00,EmailService,User sarah.hernandez@company.com logged out of the application,user_action,regex
+2025-08-01 08:13:00,LegacyAPI,Library version 1.7.7 is deprecated. Please upgrade to 5.5.1,deprecation_warning,bert
+2025-05-06 04:01:00,IntegrationService,Backup initiated by user john.taylor@company.com,user_action,regex
+2025-09-30 15:03:00,MonitoringService,User sarah.miller@company.com shared document_240,user_action,regex
+2025-01-24 03:39:00,LegacyAPI,Function 'calculateShipping' will be removed in v2.1.4. Migrate to 'computeDiscountAmount',deprecation_warning,bert
+2025-07-22 21:07:00,LegacyAPI,Method 'getProductInfo' is deprecated. Use 'fetchCustomerProfile' instead,deprecation_warning,bert
+2025-05-27 15:04:00,E-CommerceAPI,API rate limit exceeded for client app_v5.4.2,workflow_error,bert
+2025-06-16 05:14:00,IntegrationService,Unhandled exception in Component6,unclassified,llm
+2025-06-30 16:44:00,SystemMonitor,System updated to version 5.9.6,system_notification,regex
+2025-06-25 12:09:00,FileService,Settings modified by user anna.rodriguez@company.com,user_action,regex
+2025-11-08 10:23:00,ValidationService,User initiated password reset for james.anderson@company.com,user_action,regex
+2025-11-16 21:18:00,SecurityService,Permission granted to user john.thomas@company.com,user_action,regex
+2025-06-13 17:09:00,AuthService,System updated to version 4.8.4,system_notification,bert
+2025-02-21 16:11:00,NotificationService,Stock update failed: product SKU-414 not found,workflow_error,bert
+2025-03-07 23:44:00,ProjectManagement,Export requested by user mike.miller@company.com,user_action,regex
+2025-10-28 02:20:00,ProcessingService,User emily.moore@company.com sent message to robert.jones@company.com,user_action,regex
+2025-08-25 14:40:00,ShippingService,Configuration changed by jane.williams@company.com,user_action,regex
+2025-06-10 04:51:00,LegacyAPI,Old validation engine will be replaced in 6 months,deprecation_warning,bert
+2025-09-23 09:56:00,EmailService,Unknown event occurred in module Module9,unclassified,llm
+2025-11-17 09:28:00,ValidationService,User initiated password reset for anna.miller@company.com,user_action,regex
+2025-05-12 23:02:00,LegacyAPI,Endpoint '/api/v1/products' is deprecated. Use '/api/v3/users' for new integrations,deprecation_warning,bert
+2025-11-16 15:27:00,APIGateway,Report report_194 generated by user alex.williams@company.com,user_action,regex
+2025-10-18 11:13:00,ShippingService,User anna.smith@company.com logged out of the application,user_action,regex
+2025-07-11 23:08:00,FinanceSystem,User mike.williams@company.com bookmarked page_60,user_action,regex
+2025-06-16 20:58:00,MonitoringService,User mike.miller@company.com shared document_276,user_action,regex
+2025-04-01 00:52:00,LegacyAPI,Settings modified by user maria.brown@company.com,user_action,regex
+2025-11-10 21:29:00,AnalyticsAPI,User mike.anderson@company.com updated entry_107,user_action,regex
+2025-06-17 14:29:00,DatabaseService,Profile picture updated by jane.rodriguez@company.com,user_action,regex
+2025-11-16 03:10:00,ReportService,User jane.rodriguez@company.com updated entry_557,user_action,regex
+2025-07-02 08:23:00,MonitoringService,User john.anderson@company.com created new account for Client728,user_action,regex
+2025-09-18 16:20:00,AuthService,Unknown event occurred in module Module2,unclassified,llm
+2025-02-06 14:55:00,IntegrationService,Permission granted to user tom.smith@company.com,user_action,regex
+2025-10-06 13:27:00,LegacyAPI,Library version 1.4.7 is deprecated. Please upgrade to 2.1.5,deprecation_warning,bert
+2025-09-18 19:54:00,LegacyAPI,Memory usage: 51% - within normal limits,system_notification,bert
+2025-10-31 10:53:00,DevOpsService,Data import started by user tom.davis@company.com,user_action,regex
+2025-02-11 15:16:00,LegacyAPI,Library version 1.1.2 is deprecated. Please upgrade to 2.0.8,deprecation_warning,bert
+2025-03-30 13:11:00,E-CommerceAPI,Stock update failed: product SKU-233 not found,workflow_error,bert
+2025-08-19 21:06:00,IntegrationService,Export requested by user kate.johnson@company.com,user_action,regex
+2025-02-11 20:38:00,DevOpsService,User david.smith@company.com submitted form form_44,user_action,regex
+2025-03-12 01:46:00,LegacyAPI,System updated to version 1.9.3,system_notification,bert
+2025-02-17 14:43:00,ProjectManagement,Document contract_986.pdf signed by user anna.anderson@company.com,user_action,regex
+2025-01-22 03:57:00,E-CommerceAPI,Unknown event occurred in module Module14,unclassified,llm
+2025-02-28 14:14:00,FinanceSystem,System updated to version 5.4.3,system_notification,bert
+2025-04-08 21:29:00,CRMSystem,Unhandled exception in Component8,unclassified,llm
+2025-11-26 20:15:00,OrderSystem,User emily.taylor@company.com downloaded document.pdf,user_action,regex
+2025-07-07 02:31:00,BackupService,Stock update failed: product SKU-729 not found,workflow_error,bert
+2025-02-21 03:15:00,FinanceSystem,Export requested by user james.smith@company.com,user_action,regex
+2025-07-14 04:44:00,MonitoringService,Anomalous pattern observed: Pattern2,unclassified,llm
+2025-09-01 02:51:00,AnalyticsAPI,Export requested by user john.johnson@company.com,user_action,regex
+2025-06-21 11:46:00,DatabaseService,Password changed for user sarah.garcia@company.com,user_action,regex
+2025-08-28 17:31:00,DatabaseService,User tom.moore@company.com shared document_534,user_action,regex
+2025-01-15 07:42:00,CRMSystem,User james.davis@company.com bookmarked page_65,user_action,regex
+2025-04-25 18:08:00,LegacyAPI,Library version 4.0.8 is deprecated. Please upgrade to 1.7.9,deprecation_warning,bert
+2025-10-03 06:37:00,AnalyticsAPI,User initiated password reset for james.moore@company.com,user_action,regex
+2025-08-13 10:01:00,MonitoringService,Payment processing failed: invalid format for order #38637,workflow_error,bert
+2025-05-07 16:31:00,FinanceSystem,Profile picture updated by john.rodriguez@company.com,user_action,regex
+2025-05-15 13:09:00,LegacyAPI,Library version 1.4.8 is deprecated. Please upgrade to 3.9.3,deprecation_warning,bert
+2025-02-20 14:08:00,LegacyAPI,API rate limit exceeded for client app_v2.7.8,workflow_error,bert
+2025-04-21 10:03:00,E-CommerceAPI,Configuration changed by jane.miller@company.com,user_action,regex
+2025-10-24 15:31:00,AuthService,Email delivery failed: rate limit exceeded,workflow_error,bert
+2025-12-22 00:13:00,HRSystem,User james.jones@company.com bookmarked page_55,user_action,regex
+2025-06-05 17:44:00,FinanceSystem,File backup.zip uploaded by user jane.martinez@company.com,user_action,regex
+2025-04-26 02:37:00,FileService,User tom.rodriguez@company.com bookmarked page_97,user_action,regex
+2025-08-11 10:53:00,EmailService,User robert.brown@company.com submitted form form_43,user_action,regex
+2025-02-04 06:42:00,ProjectManagement,File image.jpg uploaded by user lisa.miller@company.com,user_action,regex
+2025-12-30 20:41:00,AnalyticsAPI,Stock update failed: product SKU-782 not found,workflow_error,bert
+2025-02-16 03:39:00,LegacyAPI,Old processing engine will be replaced in 9 months,deprecation_warning,bert
+2025-03-05 04:01:00,CRMSystem,Configuration changed by anna.williams@company.com,user_action,regex
+2025-07-09 13:09:00,AuthService,User kate.johnson@company.com shared document_839,user_action,regex
+2025-01-17 19:28:00,ConfigService,Configuration changed by james.williams@company.com,user_action,regex
+2025-05-05 12:11:00,DevOpsService,Payment processing failed: permission denied for order #74972,workflow_error,bert
+2025-12-12 06:21:00,AnalyticsAPI,Stock update failed: product SKU-315 not found,workflow_error,bert
+2025-01-30 13:02:00,LegacyAPI,Old validation engine will be replaced in 12 months,deprecation_warning,bert
+2025-11-07 08:51:00,IntegrationService,Data import started by user emily.garcia@company.com,user_action,regex
+2025-09-09 22:09:00,LegacyAPI,User john.davis@company.com accessed dashboard,user_action,regex
+2025-03-18 08:31:00,LegacyAPI,Legacy validation method will be discontinued in 4 months,deprecation_warning,bert
+2025-08-06 01:58:00,IntegrationService,Configuration changed by tom.garcia@company.com,user_action,regex
+2025-11-23 04:06:00,ShippingService,User emily.thomas@company.com deleted record_523,user_action,regex
+2025-11-03 11:16:00,ConfigService,User alex.hernandez@company.com submitted form form_3,user_action,regex
+2025-02-11 14:29:00,E-CommerceAPI,Backup initiated by user tom.thomas@company.com,user_action,regex
+2025-06-26 06:16:00,APIGateway,Permission granted to user chris.martinez@company.com,user_action,regex
+2025-07-04 16:46:00,LegacyAPI,Old validation engine will be replaced in 9 months,deprecation_warning,bert
+2025-02-13 16:27:00,ReportService,User lisa.miller@company.com logged into the system,user_action,regex
+2025-08-20 04:38:00,LegacyAPI,Push notification failed: connection timeout,workflow_error,bert
+2025-06-04 19:56:00,InventoryManagement,User robert.johnson@company.com shared document_885,user_action,regex
+2025-03-25 03:20:00,LegacyAPI,Library version 1.5.2 is deprecated. Please upgrade to 2.9.4,deprecation_warning,bert
+2025-09-13 04:41:00,APIGateway,Strange network activity from 192.168.113.109,unclassified,llm
+2025-04-03 02:10:00,AnalyticsAPI,Export requested by user mike.garcia@company.com,user_action,regex
+2025-08-05 20:55:00,ProcessingService,Report report_266 generated by user jane.anderson@company.com,user_action,regex
+2025-07-29 11:17:00,E-CommerceAPI,Memory usage: 83% - within normal limits,system_notification,regex
+2025-02-03 18:44:00,DevOpsService,Password changed for user jane.moore@company.com,user_action,regex
+2025-08-29 16:22:00,APIGateway,User chris.jones@company.com shared document_292,user_action,regex
+2025-08-04 13:43:00,MonitoringService,Profile picture updated by emily.miller@company.com,user_action,regex
+2025-09-03 13:24:00,APIGateway,Report report_202 generated by user alex.brown@company.com,user_action,regex
+2025-06-02 07:20:00,FinanceSystem,File image.jpg uploaded by user maria.thomas@company.com,user_action,regex
+2025-02-25 23:21:00,BackupService,Configuration changed by anna.garcia@company.com,user_action,regex
+2025-12-01 07:59:00,HRSystem,User chris.williams@company.com sent message to tom.davis@company.com,user_action,regex
+2025-01-07 04:13:00,ValidationService,User sarah.hernandez@company.com created new account for Client152,user_action,regex
+2025-11-17 20:53:00,ReportService,User initiated password reset for tom.moore@company.com,user_action,regex
+2025-01-03 00:56:00,LegacyAPI,Settings modified by user james.garcia@company.com,user_action,regex
+2025-08-16 07:42:00,BillingService,File upload failed: service unavailable,workflow_error,bert
+2025-08-08 13:05:00,ValidationService,Permission granted to user chris.moore@company.com,user_action,regex
+2025-05-12 20:48:00,LegacyAPI,User sarah.johnson@company.com sent message to jane.anderson@company.com,user_action,regex
+2025-07-31 10:05:00,LegacyAPI,Endpoint '/api/v3/orders' is deprecated. Use '/api/v2/users' for new integrations,deprecation_warning,bert
+2025-07-20 19:25:00,EmailService,User robert.williams@company.com bookmarked page_35,user_action,regex
+2025-03-16 23:19:00,DevOpsService,User sarah.hernandez@company.com submitted form form_32,user_action,regex
+2025-05-29 09:06:00,ConfigService,User david.rodriguez@company.com shared document_944,user_action,regex
+2025-02-23 13:04:00,LegacyAPI,Function 'calculateDiscount' will be removed in v1.8.7. Migrate to 'computeDiscountAmount',deprecation_warning,bert
+2025-03-18 21:40:00,OrderSystem,File data.csv uploaded by user kate.davis@company.com,user_action,regex
+2025-01-04 04:56:00,BackupService,User tom.johnson@company.com logged out of the application,user_action,regex
+2025-06-30 15:35:00,ConfigService,File log.txt uploaded by user alex.brown@company.com,user_action,regex
+2025-12-13 05:12:00,EmailService,Data import started by user kate.brown@company.com,user_action,regex
+2025-05-29 04:34:00,SecurityService,Strange network activity from 192.168.243.133,unclassified,llm
+2025-04-13 04:30:00,OrderSystem,System updated to version 2.8.5,system_notification,bert
+2025-09-02 11:22:00,AnalyticsAPI,Configuration changed by emily.davis@company.com,user_action,regex
+2025-01-03 17:58:00,SecurityService,User profile updated by john.martinez@company.com,user_action,regex
+2025-10-03 14:24:00,DatabaseService,Permission granted to user chris.taylor@company.com,user_action,regex
+2025-05-21 19:26:00,LegacyAPI,Library version 2.9.8 is deprecated. Please upgrade to 1.1.6,deprecation_warning,bert
+2025-02-16 15:57:00,MonitoringService,User profile updated by alex.garcia@company.com,user_action,regex
+2025-04-17 06:48:00,LegacyAPI,Method 'getProductInfo' is deprecated. Use 'fetchUserProfile' instead,deprecation_warning,bert
+2025-06-12 18:48:00,DatabaseService,Strange network activity from 192.168.238.131,unclassified,llm
+2025-11-07 09:28:00,ProcessingService,File document.pdf uploaded by user mike.martinez@company.com,user_action,regex
+2025-06-24 19:21:00,LegacyAPI,Old processing engine will be replaced in 12 months,deprecation_warning,bert
+2025-03-14 05:12:00,SecurityService,Report report_164 generated by user sarah.brown@company.com,user_action,regex
+2025-06-15 17:09:00,AuthService,API rate limit exceeded for client app_v2.7.7,workflow_error,bert
+2025-07-14 03:57:00,LegacyAPI,Old reporting engine will be replaced in 3 months,deprecation_warning,bert
+2025-08-26 12:54:00,LegacyAPI,Legacy authentication method will be discontinued in 4 months,deprecation_warning,bert
+2025-12-16 18:47:00,LegacyAPI,Old processing engine will be replaced in 8 months,deprecation_warning,bert
+2025-07-24 17:36:00,FileService,Account ID 84660 created by anna.miller@company.com,user_action,regex
+2025-09-13 12:11:00,AuthService,Data import started by user sarah.williams@company.com,user_action,regex
+2025-10-28 23:38:00,BackupService,Payment processing failed: missing required data for order #52812,workflow_error,bert
+2025-09-14 12:54:00,LegacyAPI,Endpoint '/api/v2/products' is deprecated. Use '/api/v4/products' for new integrations,deprecation_warning,bert
+2025-06-14 08:58:00,ReportService,User profile updated by robert.anderson@company.com,user_action,regex
+2025-10-27 10:24:00,SecurityService,User chris.hernandez@company.com downloaded log.txt,user_action,regex
+2025-09-16 00:39:00,ShippingService,User david.thomas@company.com logged out of the application,user_action,regex
+2025-08-30 17:17:00,EmailService,User james.miller@company.com downloaded backup.zip,user_action,regex
+2025-10-30 04:56:00,UserPortal,User robert.jones@company.com shared document_178,user_action,regex
+2025-11-07 13:13:00,LegacyAPI,Database schema version 1.5.3 support ending December 2027,deprecation_warning,bert
+2025-04-14 01:41:00,FileService,Stock update failed: product SKU-255 not found,workflow_error,bert
+2025-06-06 10:42:00,SecurityService,Third-party API call failed: connection timeout,workflow_error,bert
+2025-04-23 18:18:00,HRSystem,Payment processing failed: insufficient funds for order #34898,workflow_error,bert
+2025-03-03 04:12:00,PaymentService,Disk cleanup completed - 4GB freed,system_notification,bert
+2025-08-03 18:38:00,PaymentService,Report report_608 generated by user lisa.hernandez@company.com,user_action,regex
+2025-03-07 06:19:00,HRSystem,API rate limit exceeded for client app_v3.1.5,workflow_error,bert
+2025-11-24 02:52:00,NotificationService,Unhandled exception in Component5,unclassified,llm
+2025-03-08 20:10:00,CRMSystem,Configuration changed by chris.martinez@company.com,user_action,regex
+2025-12-21 15:42:00,E-CommerceAPI,System updated to version 3.7.7,system_notification,bert
+2025-05-29 15:54:00,NotificationService,Payment processing failed: invalid format for order #68033,workflow_error,bert
+2025-07-22 18:01:00,APIGateway,System updated to version 2.3.7,system_notification,bert
+2025-11-21 21:36:00,FileService,Stock update failed: product SKU-544 not found,workflow_error,bert
+2025-07-28 01:52:00,PaymentService,API rate limit exceeded for client app_v1.5.3,workflow_error,bert
+2025-08-06 00:12:00,LegacyAPI,Authentication failed: invalid credentials,workflow_error,bert
+2025-08-28 00:21:00,LegacyAPI,Database schema version 3.8.2 support ending December 2026,deprecation_warning,bert
+2025-07-20 03:55:00,LegacyAPI,Library version 1.1.9 is deprecated. Please upgrade to 3.6.3,deprecation_warning,bert
+2025-12-13 09:05:00,NotificationService,Memory usage: 53% - within normal limits,system_notification,bert
+2025-04-04 07:12:00,AnalyticsAPI,User john.brown@company.com logged out of the application,user_action,regex
+2025-07-25 19:47:00,LegacyAPI,Endpoint '/api/v3/products' is deprecated. Use '/api/v3/orders' for new integrations,deprecation_warning,bert
+2025-07-06 09:28:00,DevOpsService,User profile updated by david.johnson@company.com,user_action,regex
+2025-07-24 06:55:00,AuthService,Data import started by user lisa.rodriguez@company.com,user_action,regex
+2025-01-12 13:21:00,APIGateway,User robert.smith@company.com downloaded document.pdf,user_action,regex
+2025-06-26 18:16:00,UserPortal,Report report_932 generated by user lisa.smith@company.com,user_action,regex
+2025-01-07 19:35:00,AuthService,User emily.brown@company.com logged out of the application,user_action,regex
+2025-07-15 03:44:00,LegacyAPI,Stock update failed: product SKU-607 not found,workflow_error,bert
+2025-11-05 19:01:00,IntegrationService,Profile picture updated by chris.hernandez@company.com,user_action,regex
+2025-12-05 19:46:00,AuthService,User maria.jones@company.com accessed dashboard,user_action,regex
+2025-05-07 00:00:00,FinanceSystem,User jane.hernandez@company.com shared document_564,user_action,regex
+2025-12-06 08:25:00,ShippingService,User robert.davis@company.com logged into the system,user_action,regex
+2025-10-26 10:40:00,BackupService,User alex.anderson@company.com shared document_698,user_action,regex
+2025-11-04 11:15:00,LegacyAPI,Database schema version 4.9.3 support ending December 2027,deprecation_warning,bert
+2025-03-06 11:47:00,MonitoringService,User robert.thomas@company.com downloaded report.xlsx,user_action,regex
+2025-12-17 23:22:00,LegacyAPI,Database schema version 3.8.1 support ending December 2027,deprecation_warning,bert
+2025-01-19 16:53:00,NotificationService,User emily.miller@company.com downloaded data.csv,user_action,regex
+2025-10-03 05:11:00,ProjectManagement,System updated to version 4.6.1,system_notification,bert
+2025-05-26 17:51:00,LegacyAPI,Library version 2.4.6 is deprecated. Please upgrade to 2.4.7,deprecation_warning,bert
+2025-06-14 10:01:00,ConfigService,Export requested by user chris.thomas@company.com,user_action,regex
+2025-04-02 20:33:00,DevOpsService,User emily.johnson@company.com created new account for Client598,user_action,regex
+2025-02-09 12:47:00,FileService,User lisa.davis@company.com created new account for Client112,user_action,regex
+2025-05-07 01:08:00,DatabaseService,Export requested by user maria.miller@company.com,user_action,regex
+2025-02-14 07:51:00,ReportService,Stock update failed: product SKU-516 not found,workflow_error,bert
+2025-09-04 21:15:00,LegacyAPI,Library version 3.7.9 is deprecated. Please upgrade to 5.8.0,deprecation_warning,bert
+2025-03-09 17:09:00,CRMSystem,User kate.thomas@company.com downloaded report.xlsx,user_action,regex
+2025-07-08 15:55:00,CRMSystem,Batch processing failed: invalid format,workflow_error,bert
+2025-06-24 18:11:00,LegacyAPI,Legacy authentication method will be discontinued in 3 months,deprecation_warning,bert
+2025-02-24 06:48:00,InventoryManagement,API rate limit exceeded for client app_v1.6.9,workflow_error,bert
+2025-01-13 13:09:00,ShippingService,Settings modified by user chris.anderson@company.com,user_action,regex
+2025-12-28 16:43:00,LegacyAPI,Library version 4.6.1 is deprecated. Please upgrade to 2.3.2,deprecation_warning,bert
+2025-03-27 17:54:00,IntegrationService,Permission granted to user james.taylor@company.com,user_action,regex
+2025-06-26 02:54:00,SystemMonitor,Data import started by user chris.williams@company.com,user_action,regex
+2025-08-24 13:33:00,ReportService,User tom.miller@company.com deleted record_365,user_action,regex
+2025-11-13 19:26:00,ConfigService,Permission granted to user robert.jones@company.com,user_action,regex
+2025-04-01 07:48:00,HRSystem,Configuration changed by chris.williams@company.com,user_action,regex
+2025-08-28 13:20:00,SecurityService,Strange network activity from 192.168.182.130,unclassified,llm
+2025-11-29 04:35:00,InventoryManagement,System updated to version 4.4.2,system_notification,regex
+2025-07-06 04:44:00,PaymentService,Stock update failed: product SKU-501 not found,workflow_error,bert
+2025-02-24 23:14:00,ConfigService,Shipping calculation error: processing timeout,workflow_error,bert
+2025-08-28 18:35:00,ShippingService,Account ID 51545 created by alex.taylor@company.com,user_action,regex
+2025-03-05 02:49:00,E-CommerceAPI,Stock update failed: product SKU-730 not found,workflow_error,bert
+2025-02-11 17:23:00,DatabaseService,User initiated password reset for chris.johnson@company.com,user_action,regex
+2025-06-28 07:07:00,E-CommerceAPI,User initiated password reset for james.rodriguez@company.com,user_action,regex
+2025-09-14 12:00:00,HRSystem,Employee onboarding workflow initiated for new hire,user_action,bert
+2025-09-14 12:00:00,HRSystem,Payroll processing completed for 250 employees,user_action,bert
+2025-09-14 12:00:00,HRSystem,Performance review cycle started for Q3,user_action,bert
+2025-09-14 12:00:00,HRSystem,Leave request submitted by employee ID 12345,user_action,bert
+2025-09-14 12:00:00,HRSystem,Benefits enrollment completed for employee,user_action,bert
+2025-09-14 12:00:00,HRSystem,Training module assignment completed,user_action,bert
+2025-09-14 12:00:00,HRSystem,Employee profile updated successfully,user_action,bert
+2025-09-14 12:00:00,HRSystem,Salary adjustment processed for promotion,user_action,bert
+2025-09-14 12:00:00,HRSystem,Time-off request approved by manager,user_action,bert
+2025-09-14 12:00:00,HRSystem,Employee termination workflow initiated,user_action,bert
+2025-09-14 12:00:00,HRSystem,Position posting published to job board,user_action,bert
+2025-09-14 12:00:00,HRSystem,Interview feedback submitted,user_action,bert
+2025-09-14 12:00:00,HRSystem,Employee satisfaction survey completed,user_action,bert
+2025-09-14 12:00:00,HRSystem,Department transfer request processed,user_action,bert
+2025-09-14 12:00:00,HRSystem,Emergency contact information updated,user_action,bert
+2025-09-14 12:00:00,ModernHR,Employee onboarding workflow initiated,user_action,bert
+2025-09-14 12:00:00,ModernHR,Payroll calculation completed successfully,user_action,bert
+2025-09-14 12:00:00,ModernHR,Performance review cycle started,user_action,bert
+2025-09-14 12:00:00,ModernHR,Leave request approved for employee,user_action,bert
+2025-09-14 12:00:00,ModernHR,Benefits enrollment reminder sent,user_action,bert
+2025-09-14 12:00:00,ModernHR,Training completion recorded,user_action,bert
+2025-09-14 12:00:00,ModernHR,Employee profile data updated,user_action,bert
+2025-09-14 12:00:00,ModernHR,Salary adjustment processed,user_action,bert
+2025-09-14 12:00:00,ModernHR,Time tracking data synchronized,user_action,bert
+2025-09-14 12:00:00,ModernHR,Employee directory updated,user_action,bert
+2025-09-14 12:00:00,HRSystem,Automated payroll reminder sent to employees,system_notification,bert
+2025-09-14 12:00:00,HRSystem,HR database backup completed successfully,system_notification,bert
+2025-09-14 12:00:00,HRSystem,Employee anniversary notifications generated,system_notification,bert
+2025-09-14 12:00:00,HRSystem,Benefits enrollment period reminder sent,system_notification,bert
+2025-09-14 12:00:00,HRSystem,Training schedule published for next quarter,system_notification,bert
+2025-09-14 12:00:00,HRSystem,Performance review deadline approaching notification,system_notification,bert
+2025-09-14 12:00:00,ModernHR,Daily synchronization with payroll system completed,system_notification,bert
+2025-09-14 12:00:00,ModernHR,Employee data backup completed,system_notification,bert
+2025-09-14 12:00:00,ModernHR,System maintenance window scheduled,system_notification,bert
+2025-09-14 12:00:00,HRSystem,Payroll calculation failed for employee group,workflow_error,bert
+2025-09-14 12:00:00,HRSystem,Employee onboarding workflow error occurred,workflow_error,bert
+2025-09-14 12:00:00,HRSystem,Benefits enrollment system timeout,workflow_error,bert
+2025-09-14 12:00:00,HRSystem,Training module loading failed,workflow_error,bert
+2025-09-14 12:00:00,HRSystem,Time tracking synchronization failed,workflow_error,bert
+2025-09-14 12:00:00,ModernHR,Employee data synchronization error,workflow_error,bert
+2025-09-14 12:00:00,ModernHR,Payroll integration connection timeout,workflow_error,bert
+2025-09-14 12:00:00,HRSystem,Unauthorized access attempt to employee records,security_alert,bert
+2025-09-14 12:00:00,HRSystem,Multiple failed login attempts detected,security_alert,bert
+2025-09-14 12:00:00,HRSystem,Data privacy policy violation detected,security_alert,bert
+2025-09-14 12:00:00,ModernHR,Suspicious access pattern detected,security_alert,bert
+2025-09-14 12:00:00,ModernHR,Compliance audit flag raised,security_alert,bert
+2025-09-14 12:00:00,BillingSystem,Monthly invoice generated for customer,user_action,bert
+2025-09-14 12:00:00,BillingSystem,Payment processed via credit card,user_action,bert
+2025-09-14 12:00:00,BillingSystem,Refund initiated for transaction,user_action,bert
+2025-09-14 12:00:00,BillingSystem,Subscription renewal processed,user_action,bert
+2025-09-14 12:00:00,BillingSystem,Discount code applied to order,user_action,bert
+2025-09-14 12:00:00,BillingSystem,Tax calculation completed for region,user_action,bert
+2025-09-14 12:00:00,BillingSystem,Customer billing address updated,user_action,bert
+2025-09-14 12:00:00,BillingSystem,Payment method verification completed,user_action,bert
+2025-09-14 12:00:00,BillingSystem,Invoice dispute resolution processed,user_action,bert
+2025-09-14 12:00:00,BillingSystem,Automatic payment setup completed,user_action,bert
+2025-09-14 12:00:00,BillingSystem,Automated billing cycle completed successfully,system_notification,bert
+2025-09-14 12:00:00,BillingSystem,Payment reminder sent to customers,system_notification,bert
+2025-09-14 12:00:00,BillingSystem,Monthly financial report generated,system_notification,bert
+2025-09-14 12:00:00,BillingSystem,Tax rate update applied to system,system_notification,bert
+2025-09-14 12:00:00,BillingSystem,Billing database backup completed,system_notification,bert
+2025-09-14 12:00:00,BillingSystem,Credit card authorization failed,workflow_error,bert
+2025-09-14 12:00:00,BillingSystem,Payment gateway connection timeout,workflow_error,bert
+2025-09-14 12:00:00,BillingSystem,Invoice generation process failed,workflow_error,bert
+2025-09-14 12:00:00,BillingSystem,Tax calculation service unavailable,workflow_error,bert
+2025-09-14 12:00:00,BillingSystem,Fraudulent transaction detected,security_alert,bert
+2025-09-14 12:00:00,BillingSystem,Unusual payment pattern identified,security_alert,bert
+2025-09-14 12:00:00,BillingSystem,Multiple failed payment attempts,security_alert,bert
+2025-09-14 12:00:00,AnalyticsEngine,Daily analytics report generation started,system_notification,bert
+2025-09-14 12:00:00,AnalyticsEngine,Data warehouse ETL process completed,system_notification,bert
+2025-09-14 12:00:00,AnalyticsEngine,Real-time dashboard metrics updated,system_notification,bert
+2025-09-14 12:00:00,AnalyticsEngine,Machine learning model training initiated,system_notification,bert
+2025-09-14 12:00:00,AnalyticsEngine,Data quality validation passed,system_notification,bert
+2025-09-14 12:00:00,AnalyticsEngine,Automated backup process completed,system_notification,bert
+2025-09-14 12:00:00,AnalyticsEngine,Performance optimization routine finished,system_notification,bert
+2025-09-14 12:00:00,AnalyticsEngine,Data archival process completed,system_notification,bert
+2025-09-14 12:00:00,AnalyticsEngine,Query cache refresh completed,system_notification,bert
+2025-09-14 12:00:00,AnalyticsEngine,System health metrics collected,system_notification,bert
+2025-09-14 12:00:00,AnalyticsEngine,Custom report generated by user request,user_action,bert
+2025-09-14 12:00:00,AnalyticsEngine,Dashboard configuration updated,user_action,bert
+2025-09-14 12:00:00,AnalyticsEngine,Data export initiated for analysis,user_action,bert
+2025-09-14 12:00:00,AnalyticsEngine,Query optimization applied,user_action,bert
+2025-09-14 12:00:00,AnalyticsEngine,Data visualization created,user_action,bert
+2025-09-14 12:00:00,AnalyticsEngine,ETL pipeline execution failed,workflow_error,bert
+2025-09-14 12:00:00,AnalyticsEngine,Database query timeout occurred,workflow_error,bert
+2025-09-14 12:00:00,AnalyticsEngine,Report generation process failed,workflow_error,bert
+2025-09-14 12:00:00,AnalyticsEngine,Data synchronization error,workflow_error,bert
+2025-09-14 12:00:00,DatabaseSystem,Automated database backup completed,system_notification,bert
+2025-09-14 12:00:00,DatabaseSystem,Index optimization process finished,system_notification,bert
+2025-09-14 12:00:00,DatabaseSystem,Database maintenance window completed,system_notification,bert
+2025-09-14 12:00:00,DatabaseSystem,Query performance statistics updated,system_notification,bert
+2025-09-14 12:00:00,DatabaseSystem,Database connection pool optimized,system_notification,bert
+2025-09-14 12:00:00,DatabaseSystem,Database schema update applied,user_action,bert
+2025-09-14 12:00:00,DatabaseSystem,Data migration process initiated,user_action,bert
+2025-09-14 12:00:00,DatabaseSystem,Database user permissions updated,user_action,bert
+2025-09-14 12:00:00,DatabaseSystem,Database connection timeout,workflow_error,bert
+2025-09-14 12:00:00,DatabaseSystem,Query execution failed,workflow_error,bert
+2025-09-14 12:00:00,DatabaseSystem,Backup process interrupted,workflow_error,bert
+2025-09-14 12:00:00,DatabaseSystem,Unauthorized database access attempt,security_alert,bert
+2025-09-14 12:00:00,DatabaseSystem,SQL injection attack detected,security_alert,bert
+2025-09-14 12:00:00,FileSystem,File system cleanup completed,system_notification,bert
+2025-09-14 12:00:00,FileSystem,Disk space optimization finished,system_notification,bert
+2025-09-14 12:00:00,FileSystem,File backup process completed,system_notification,bert
+2025-09-14 12:00:00,FileSystem,Archive compression completed,system_notification,bert
+2025-09-14 12:00:00,FileSystem,File upload completed successfully,user_action,bert
+2025-09-14 12:00:00,FileSystem,Document sharing permissions updated,user_action,bert
+2025-09-14 12:00:00,FileSystem,File synchronization initiated,user_action,bert
+2025-09-14 12:00:00,FileSystem,File upload process failed,workflow_error,bert
+2025-09-14 12:00:00,FileSystem,Disk space insufficient error,workflow_error,bert
+2025-09-14 12:00:00,FileSystem,Unauthorized file access detected,security_alert,bert
+2025-09-14 12:00:00,MonitoringSystem,System health check completed,system_notification,bert
+2025-09-14 12:00:00,MonitoringSystem,Performance metrics collected,system_notification,bert
+2025-09-14 12:00:00,MonitoringSystem,Alert threshold configuration updated,system_notification,bert
+2025-09-14 12:00:00,MonitoringSystem,Monitoring data archived,system_notification,bert
+2025-09-14 12:00:00,MonitoringSystem,CPU usage threshold exceeded,security_alert,bert
+2025-09-14 12:00:00,MonitoringSystem,Memory consumption critical alert,security_alert,bert
+2025-09-14 12:00:00,MonitoringSystem,Unusual network traffic detected,security_alert,bert
+2025-09-14 12:00:00,MonitoringSystem,System resource anomaly detected,security_alert,bert
+2025-09-14 12:00:00,MonitoringSystem,Metric collection failed,workflow_error,bert
+2025-09-14 12:00:00,MonitoringSystem,Alert delivery failure,workflow_error,bert

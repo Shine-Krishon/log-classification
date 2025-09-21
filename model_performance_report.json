@@ -1,0 +1,593 @@
+{
+  "timestamp": "2025-09-14 13:37:22",
+  "model_path": "models/enhanced_log_classifier.joblib",
+  "model_type": "SVM Pipeline (TF-IDF + SVC)",
+  "overall_metrics": {
+    "weighted_accuracy": 0.889,
+    "direct_classification_accuracy": 0.85,
+    "api_accuracy": 0.88,
+    "edge_case_robustness": 1.0
+  },
+  "category_breakdown": {
+    "user_actions": {
+      "accuracy": 0.9333333333333333,
+      "correct": 14,
+      "total": 15,
+      "results": [
+        {
+          "message": "User 12345 logged in",
+          "expected": "user_action",
+          "predicted": "user_action",
+          "confidence": 0.0,
+          "correct": true
+        },
+        {
+          "message": "User john.doe logged out",
+          "expected": "user_action",
+          "predicted": "user_action",
+          "confidence": 0.0,
+          "correct": true
+        },
+        {
+          "message": "User accessed dashboard page",
+          "expected": "user_action",
+          "predicted": "user_action",
+          "confidence": 0.0,
+          "correct": true
+        },
+        {
+          "message": "User uploaded file report.pdf",
+          "expected": "user_action",
+          "predicted": "security_alert",
+          "confidence": 0.0,
+          "correct": false
+        },
+        {
+          "message": "User updated profile information",
+          "expected": "user_action",
+          "predicted": "user_action",
+          "confidence": 0.0,
+          "correct": true
+        },
+        {
+          "message": "User searched for 'sales data'",
+          "expected": "user_action",
+          "predicted": "user_action",
+          "confidence": 0.0,
+          "correct": true
+        },
+        {
+          "message": "User created new record ID: 789",
+          "expected": "user_action",
+          "predicted": "user_action",
+          "confidence": 0.0,
+          "correct": true
+        },
+        {
+          "message": "User deleted old backup file",
+          "expected": "user_action",
+          "predicted": "user_action",
+          "confidence": 0.0,
+          "correct": true
+        },
+        {
+          "message": "User generated monthly report",
+          "expected": "user_action",
+          "predicted": "user_action",
+          "confidence": 0.0,
+          "correct": true
+        },
+        {
+          "message": "User changed password successfully",
+          "expected": "user_action",
+          "predicted": "user_action",
+          "confidence": 0.0,
+          "correct": true
+        },
+        {
+          "message": "User downloaded quarterly report",
+          "expected": "user_action",
+          "predicted": "user_action",
+          "confidence": 0.0,
+          "correct": true
+        },
+        {
+          "message": "User modified account settings",
+          "expected": "user_action",
+          "predicted": "user_action",
+          "confidence": 0.0,
+          "correct": true
+        },
+        {
+          "message": "User viewed customer details",
+          "expected": "user_action",
+          "predicted": "user_action",
+          "confidence": 0.0,
+          "correct": true
+        },
+        {
+          "message": "User exported data to CSV",
+          "expected": "user_action",
+          "predicted": "user_action",
+          "confidence": 0.0,
+          "correct": true
+        },
+        {
+          "message": "User sent email notification",
+          "expected": "user_action",
+          "predicted": "user_action",
+          "confidence": 0.0,
+          "correct": true
+        }
+      ]
+    },
+    "security_alerts": {
+      "accuracy": 1.0,
+      "correct": 15,
+      "total": 15,
+      "results": [
+        {
+          "message": "Failed login attempt from IP 192.168.1.100",
+          "expected": "security_alert",
+          "predicted": "security_alert",
+          "confidence": 0.0,
+          "correct": true
+        },
+        {
+          "message": "Multiple failed login attempts detected",
+          "expected": "security_alert",
+          "predicted": "security_alert",
+          "confidence": 0.0,
+          "correct": true
+        },
+        {
+          "message": "Suspicious activity: brute force attack",
+          "expected": "security_alert",
+          "predicted": "security_alert",
+          "confidence": 0.0,
+          "correct": true
+        },
+        {
+          "message": "Unauthorized access attempt blocked",
+          "expected": "security_alert",
+          "predicted": "security_alert",
+          "confidence": 0.0,
+          "correct": true
+        },
+        {
+          "message": "SQL injection attempt detected",
+          "expected": "security_alert",
+          "predicted": "security_alert",
+          "confidence": 0.0,
+          "correct": true
+        },
+        {
+          "message": "Cross-site scripting attack prevented",
+          "expected": "security_alert",
+          "predicted": "security_alert",
+          "confidence": 0.0,
+          "correct": true
+        },
+        {
+          "message": "Malware detected in uploaded file",
+          "expected": "security_alert",
+          "predicted": "security_alert",
+          "confidence": 0.0,
+          "correct": true
+        },
+        {
+          "message": "Privilege escalation attempt blocked",
+          "expected": "security_alert",
+          "predicted": "security_alert",
+          "confidence": 0.0,
+          "correct": true
+        },
+        {
+          "message": "Data exfiltration attempt detected",
+          "expected": "security_alert",
+          "predicted": "security_alert",
+          "confidence": 0.0,
+          "correct": true
+        },
+        {
+          "message": "Session hijacking attempt prevented",
+          "expected": "security_alert",
+          "predicted": "security_alert",
+          "confidence": 0.0,
+          "correct": true
+        },
+        {
+          "message": "DDoS attack detected from multiple IPs",
+          "expected": "security_alert",
+          "predicted": "security_alert",
+          "confidence": 0.0,
+          "correct": true
+        },
+        {
+          "message": "Phishing attempt blocked",
+          "expected": "security_alert",
+          "predicted": "security_alert",
+          "confidence": 0.0,
+          "correct": true
+        },
+        {
+          "message": "Buffer overflow attack detected",
+          "expected": "security_alert",
+          "predicted": "security_alert",
+          "confidence": 0.0,
+          "correct": true
+        },
+        {
+          "message": "Port scanning activity detected",
+          "expected": "security_alert",
+          "predicted": "security_alert",
+          "confidence": 0.0,
+          "correct": true
+        },
+        {
+          "message": "Ransomware signature detected",
+          "expected": "security_alert",
+          "predicted": "security_alert",
+          "confidence": 0.0,
+          "correct": true
+        }
+      ]
+    },
+    "system_notifications": {
+      "accuracy": 0.5,
+      "correct": 5,
+      "total": 10,
+      "results": [
+        {
+          "message": "System backup completed successfully",
+          "expected": "system_notification",
+          "predicted": "system_notification",
+          "confidence": 0.0,
+          "correct": true
+        },
+        {
+          "message": "Database maintenance scheduled for tonight",
+          "expected": "system_notification",
+          "predicted": "unclassified",
+          "confidence": 0.0,
+          "correct": false
+        },
+        {
+          "message": "Server restart required for updates",
+          "expected": "system_notification",
+          "predicted": "security_alert",
+          "confidence": 0.0,
+          "correct": false
+        },
+        {
+          "message": "Disk space warning: 85% full",
+          "expected": "system_notification",
+          "predicted": "security_alert",
+          "confidence": 0.0,
+          "correct": false
+        },
+        {
+          "message": "Service restart completed",
+          "expected": "system_notification",
+          "predicted": "unclassified",
+          "confidence": 0.0,
+          "correct": false
+        },
+        {
+          "message": "Configuration updated successfully",
+          "expected": "system_notification",
+          "predicted": "system_notification",
+          "confidence": 0.0,
+          "correct": true
+        },
+        {
+          "message": "Cache cleared automatically",
+          "expected": "system_notification",
+          "predicted": "system_notification",
+          "confidence": 0.0,
+          "correct": true
+        },
+        {
+          "message": "Log rotation completed",
+          "expected": "system_notification",
+          "predicted": "unclassified",
+          "confidence": 0.0,
+          "correct": false
+        },
+        {
+          "message": "Certificate renewal reminder",
+          "expected": "system_notification",
+          "predicted": "system_notification",
+          "confidence": 0.0,
+          "correct": true
+        },
+        {
+          "message": "System health check passed",
+          "expected": "system_notification",
+          "predicted": "system_notification",
+          "confidence": 0.0,
+          "correct": true
+        }
+      ]
+    },
+    "workflow_errors": {
+      "accuracy": 0.8,
+      "correct": 8,
+      "total": 10,
+      "results": [
+        {
+          "message": "Payment processing failed for order #12345",
+          "expected": "workflow_error",
+          "predicted": "workflow_error",
+          "confidence": 0.0,
+          "correct": true
+        },
+        {
+          "message": "Email delivery failed: invalid address",
+          "expected": "workflow_error",
+          "predicted": "workflow_error",
+          "confidence": 0.0,
+          "correct": true
+        },
+        {
+          "message": "File upload failed: size limit exceeded",
+          "expected": "workflow_error",
+          "predicted": "workflow_error",
+          "confidence": 0.0,
+          "correct": true
+        },
+        {
+          "message": "Database connection timeout",
+          "expected": "workflow_error",
+          "predicted": "workflow_error",
+          "confidence": 0.0,
+          "correct": true
+        },
+        {
+          "message": "API request failed: rate limit exceeded",
+          "expected": "workflow_error",
+          "predicted": "workflow_error",
+          "confidence": 0.0,
+          "correct": true
+        },
+        {
+          "message": "Report generation failed: insufficient data",
+          "expected": "workflow_error",
+          "predicted": "workflow_error",
+          "confidence": 0.0,
+          "correct": true
+        },
+        {
+          "message": "Backup failed: storage unavailable",
+          "expected": "workflow_error",
+          "predicted": "workflow_error",
+          "confidence": 0.0,
+          "correct": true
+        },
+        {
+          "message": "Import process failed: format error",
+          "expected": "workflow_error",
+          "predicted": "workflow_error",
+          "confidence": 0.0,
+          "correct": true
+        },
+        {
+          "message": "Sync operation failed: network error",
+          "expected": "workflow_error",
+          "predicted": "security_alert",
+          "confidence": 0.0,
+          "correct": false
+        },
+        {
+          "message": "Task execution failed: permission denied",
+          "expected": "workflow_error",
+          "predicted": "unclassified",
+          "confidence": 0.0,
+          "correct": false
+        }
+      ]
+    },
+    "deprecation_warnings": {
+      "accuracy": 0.9,
+      "correct": 9,
+      "total": 10,
+      "results": [
+        {
+          "message": "DEPRECATED: Function old_auth() will be removed in v2.0",
+          "expected": "deprecation_warning",
+          "predicted": "deprecation_warning",
+          "confidence": 0.0,
+          "correct": true
+        },
+        {
+          "message": "WARNING: Legacy API endpoint /v1/users is deprecated",
+          "expected": "deprecation_warning",
+          "predicted": "deprecation_warning",
+          "confidence": 0.0,
+          "correct": true
+        },
+        {
+          "message": "NOTICE: Old configuration format no longer supported",
+          "expected": "deprecation_warning",
+          "predicted": "deprecation_warning",
+          "confidence": 0.0,
+          "correct": true
+        },
+        {
+          "message": "DEPRECATED: Database driver version 1.x is obsolete",
+          "expected": "deprecation_warning",
+          "predicted": "deprecation_warning",
+          "confidence": 0.0,
+          "correct": true
+        },
+        {
+          "message": "WARNING: SSL protocol TLS 1.0 is deprecated",
+          "expected": "deprecation_warning",
+          "predicted": "deprecation_warning",
+          "confidence": 0.0,
+          "correct": true
+        },
+        {
+          "message": "NOTICE: PHP version 7.x support ending soon",
+          "expected": "deprecation_warning",
+          "predicted": "deprecation_warning",
+          "confidence": 0.0,
+          "correct": true
+        },
+        {
+          "message": "DEPRECATED: jQuery version 1.x is no longer maintained",
+          "expected": "deprecation_warning",
+          "predicted": "deprecation_warning",
+          "confidence": 0.0,
+          "correct": true
+        },
+        {
+          "message": "WARNING: Python 2.7 support has ended",
+          "expected": "deprecation_warning",
+          "predicted": "security_alert",
+          "confidence": 0.0,
+          "correct": false
+        },
+        {
+          "message": "NOTICE: Old encryption method will be disabled",
+          "expected": "deprecation_warning",
+          "predicted": "deprecation_warning",
+          "confidence": 0.0,
+          "correct": true
+        },
+        {
+          "message": "DEPRECATED: Legacy file format no longer supported",
+          "expected": "deprecation_warning",
+          "predicted": "deprecation_warning",
+          "confidence": 0.0,
+          "correct": true
+        }
+      ]
+    }
+  },
+  "processing_distribution": {
+    "regex_classified": 9,
+    "bert_classified": 15,
+    "llm_classified": 1,
+    "unclassified": 0
+  },
+  "edge_case_results": [
+    {
+      "input": "",
+      "description": "Empty string",
+      "predicted": "unclassified",
+      "confidence": 0.0,
+      "success": true
+    },
+    {
+      "input": "   ",
+      "description": "Whitespace only",
+      "predicted": "security_alert",
+      "confidence": 0.0,
+      "success": true
+    },
+    {
+      "input": "a",
+      "description": "Single character",
+      "predicted": "security_alert",
+      "confidence": 0.0,
+      "success": true
+    },
+    {
+      "input": "UserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUserUser",
+      "description": "Very long repetitive text",
+      "predicted": "security_alert",
+      "confidence": 0.0,
+      "success": true
+    },
+    {
+      "input": "\ud83d\udd25\ud83d\udcbb\ud83d\udea8 User logged in with emojis \ud83c\udf89",
+      "description": "Text with emojis",
+      "predicted": "user_action",
+      "confidence": 0.0,
+      "success": true
+    },
+    {
+      "input": "ADMIN USER LOGGED IN WITH CAPS",
+      "description": "All caps text",
+      "predicted": "user_action",
+      "confidence": 0.0,
+      "success": true
+    },
+    {
+      "input": "user 123 logged in lowercase",
+      "description": "All lowercase",
+      "predicted": "user_action",
+      "confidence": 0.0,
+      "success": true
+    },
+    {
+      "input": "User-123_logged@in#with$special%chars",
+      "description": "Special characters",
+      "predicted": "user_action",
+      "confidence": 0.0,
+      "success": true
+    },
+    {
+      "input": "Benutzer 12345 hat sich angemeldet",
+      "description": "Non-English (German)",
+      "predicted": "security_alert",
+      "confidence": 0.0,
+      "success": true
+    },
+    {
+      "input": "Usuario 12345 inici\u00f3 sesi\u00f3n",
+      "description": "Non-English (Spanish)",
+      "predicted": "security_alert",
+      "confidence": 0.0,
+      "success": true
+    },
+    {
+      "input": "SELECT * FROM users WHERE password=''; DROP TABLE users;--",
+      "description": "SQL injection attempt in log",
+      "predicted": "security_alert",
+      "confidence": 0.0,
+      "success": true
+    },
+    {
+      "input": "<script>alert('xss')</script> User logged in",
+      "description": "XSS attempt in log",
+      "predicted": "user_action",
+      "confidence": 0.0,
+      "success": true
+    },
+    {
+      "input": "User logged in at 2025-01-01 2025-01-01 2025-01-01 2025-01-01 2025-01-01 2025-01-01 2025-01-01 2025-01-01 2025-01-01 2025-01-01 2025-01-01 2025-01-01 2025-01-01 2025-01-01 2025-01-01 2025-01-01 2025-01-01 2025-01-01 2025-01-01 2025-01-01 2025-01-01 2025-01-01 2025-01-01 2025-01-01 2025-01-01 2025-01-01 2025-01-01 2025-01-01 2025-01-01 2025-01-01 2025-01-01 2025-01-01 2025-01-01 2025-01-01 2025-01-01 2025-01-01 2025-01-01 2025-01-01 2025-01-01 2025-01-01 2025-01-01 2025-01-01 2025-01-01 2025-01-01 2025-01-01 2025-01-01 2025-01-01 2025-01-01 2025-01-01 2025-01-01 ",
+      "description": "Very long timestamp",
+      "predicted": "deprecation_warning",
+      "confidence": 0.0,
+      "success": true
+    },
+    {
+      "input": "NULL",
+      "description": "NULL string",
+      "predicted": "security_alert",
+      "confidence": 0.0,
+      "success": true
+    },
+    {
+      "input": "undefined",
+      "description": "Undefined string",
+      "predicted": "security_alert",
+      "confidence": 0.0,
+      "success": true
+    },
+    {
+      "input": "NaN",
+      "description": "NaN string",
+      "predicted": "security_alert",
+      "confidence": 0.0,
+      "success": true
+    }
+  ],
+  "test_coverage": {
+    "total_scenarios": 60,
+    "categories_tested": 5,
+    "edge_cases_tested": 16
+  }
+}

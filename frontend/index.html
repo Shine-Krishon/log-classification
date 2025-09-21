@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log Classification System</title>
+    <link rel="stylesheet" href="static/css/main.css?v=9">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="app">
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-brand">
+                    <i class="fas fa-search-plus"></i>
+                    <span>Log Classifier</span>
+                </div>
+                <div class="nav-menu">
+                    <a href="#home" class="nav-link active" data-tab="home">
+                        <i class="fas fa-home"></i> Home
+                    </a>
+                    <a href="#dashboard" class="nav-link" data-tab="dashboard">
+                        <i class="fas fa-chart-bar"></i> Dashboard
+                    </a>
+                    <a href="#api-test" class="nav-link" data-tab="api-test">
+                        <i class="fas fa-code"></i> API Test
+                    </a>
+                    <a href="#help" class="nav-link" data-tab="help">
+                        <i class="fas fa-question-circle"></i> Help
+                    </a>
+                </div>
+                <div class="nav-status">
+                    <div class="status-indicator" id="apiStatus">
+                        <i class="fas fa-circle"></i>
+                        <span>Checking...</span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Home Tab -->
+            <div id="home-tab" class="tab-content active">
+                <div class="container">
+                    <div class="hero-section">
+                        <h1 class="hero-title">
+                            <i class="fas fa-brain"></i>
+                            Intelligent Log Classification
+                        </h1>
+                        <p class="hero-subtitle">
+                            Upload your log files and get instant AI-powered classification using BERT, Regex, and LLM analysis
+                        </p>
+                    </div>
+
+                    <!-- File Upload Section -->
+                    <div class="upload-section">
+                        <div class="upload-card">
+                            <div class="upload-header">
+                                <h2><i class="fas fa-upload"></i> Upload Log File</h2>
+                                <p>Upload a CSV file with 'source' and 'log_message' columns</p>
+                            </div>
+                            
+                            <div class="upload-area" id="uploadArea">
+                                <div class="upload-content">
+                                    <i class="fas fa-cloud-upload-alt upload-icon"></i>
+                                    <h3>Drag & Drop your file here</h3>
+                                    <p>or <button class="btn-link" onclick="document.getElementById('fileInput').click()">browse files</button></p>
+                                    <small>Supported: CSV files up to 10MB</small>
+                                </div>
+                                <input type="file" id="fileInput" accept=".csv" style="display: none;">
+                            </div>
+
+                            <div class="file-info" id="fileInfo" style="display: none;">
+                                <div class="file-preview">
+                                    <i class="fas fa-file-csv"></i>
+                                    <div class="file-details">
+                                        <div class="file-name" id="fileName"></div>
+                                        <div class="file-size" id="fileSize"></div>
+                                    </div>
+                                    <button class="btn-remove" id="removeFile">
+                                        <i class="fas fa-times"></i>
+                                    </button>
+                                </div>
+                                <div class="validation-status" id="validationStatus"></div>
+                            </div>
+
+                            <div class="classification-options">
+                                <h3><i class="fas fa-cogs"></i> Classification Method</h3>
+                                <div class="method-grid">
+                                    <label class="method-option">
+                                        <input type="radio" name="method" value="auto" checked>
+                                        <div class="method-card">
+                                            <i class="fas fa-magic"></i>
+                                            <h4>Auto (Recommended)</h4>
+                                            <p>Intelligent selection of best method</p>
+                                        </div>
+                                    </label>
+                                    <label class="method-option">
+                                        <input type="radio" name="method" value="regex">
+                                        <div class="method-card">
+                                            <i class="fas fa-search"></i>
+                                            <h4>Regex</h4>
+                                            <p>Fast pattern matching</p>
+                                        </div>
+                                    </label>
+                                    <label class="method-option">
+                                        <input type="radio" name="method" value="bert">
+                                        <div class="method-card">
+                                            <i class="fas fa-brain"></i>
+                                            <h4>BERT</h4>
+                                            <p>ML-based classification</p>
+                                        </div>
+                                    </label>
+                                    <label class="method-option">
+                                        <input type="radio" name="method" value="llm">
+                                        <div class="method-card">
+                                            <i class="fas fa-robot"></i>
+                                            <h4>LLM</h4>
+                                            <p>Advanced AI analysis</p>
+                                        </div>
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="action-buttons">
+                                <button class="btn btn-primary" id="classifyBtn" disabled>
+                                    <i class="fas fa-play"></i>
+                                    Classify Logs
+                                </button>
+                                <button class="btn btn-danger" id="cancelBtn" style="display: none;">
+                                    <i class="fas fa-stop"></i>
+                                    Cancel Classification
+                                </button>
+                                <button class="btn btn-secondary" id="validateBtn" disabled>
+                                    <i class="fas fa-check-circle"></i>
+                                    Validate File
+                                </button>
+                                <a href="/sample.csv" class="btn btn-outline" download>
+                                    <i class="fas fa-download"></i>
+                                    Download Sample
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Progress Section -->
+                    <div class="progress-section" id="progressSection" style="display: none;">
+                        <div class="progress-card">
+                            <div class="progress-header">
+                                <h3 id="progressTitle">Processing...</h3>
+                                <div class="progress-stats">
+                                    <span id="progressPercent">0%</span>
+                                    <span id="progressTime">Estimating...</span>
+                                </div>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" id="progressFill"></div>
+                            </div>
+                            <div class="progress-details" id="progressDetails">
+                                Initializing classification process...
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Results Section -->
+                    <div class="results-section" id="resultsSection" style="display: none;">
+                        <div class="results-card">
+                            <div class="results-header">
+                                <h3><i class="fas fa-chart-pie"></i> Classification Results</h3>
+                                <div class="results-actions">
+                                    <button class="btn btn-success" id="downloadBtn">
+                                        <i class="fas fa-download"></i>
+                                        Download CSV
+                                    </button>
+                                    <button class="btn btn-secondary" id="viewDetailsBtn">
+                                        <i class="fas fa-table"></i>
+                                        View Details
+                                    </button>
+                                </div>
+                            </div>
+                            
+                            <div class="results-summary" id="resultsSummary">
+                                <!-- Dynamic content will be inserted here -->
+                            </div>
+
+                            <!-- Classified Logs Table -->
+                            <div class="classified-logs-section" id="classifiedLogsSection" style="display: none;">
+                                <div class="section-header">
+                                    <h3><i class="fas fa-table"></i> Classified Logs</h3>
+                                    <div class="section-controls">
+                                        <input type="text" id="logSearchInput" placeholder="Search logs..." class="search-input">
+                                        <select id="labelFilter" class="filter-select">
+                                            <option value="">All Categories</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="table-wrapper">
+                                    <table id="classifiedLogsTable" class="logs-table">
+                                        <thead>
+                                            <tr>
+                                                <th>Source</th>
+                                                <th>Log Message</th>
+                                                <th>Classification</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody id="classifiedLogsTableBody">
+                                            <!-- Dynamic content will be inserted here -->
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="table-pagination" id="tablePagination">
+                                    <!-- Pagination controls will be added here -->
+                                </div>
+                            </div>
+
+                            <div class="results-chart">
+                                <canvas id="resultsChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dashboard Tab -->
+            <div id="dashboard-tab" class="tab-content">
+                <div class="container">
+                    <div class="dashboard-header">
+                        <h1><i class="fas fa-chart-bar"></i> System Dashboard</h1>
+                        <button class="btn btn-primary" id="refreshDashboard">
+                            <i class="fas fa-sync-alt"></i> Refresh
+                        </button>
+                    </div>
+
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-file-alt"></i>
+                            </div>
+                            <div class="stat-content">
+                                <h3 id="totalProcessed">0</h3>
+                                <p>Total Logs Processed</p>
+                            </div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="stat-content">
+                                <h3 id="avgProcessingTime">0ms</h3>
+                                <p>Avg Processing Time</p>
+                            </div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-memory"></i>
+                            </div>
+                            <div class="stat-content">
+                                <h3 id="cacheHitRate">0%</h3>
+                                <p>Cache Hit Rate</p>
+                            </div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-server"></i>
+                            </div>
+                            <div class="stat-content">
+                                <h3 id="systemStatus">Healthy</h3>
+                                <p>System Status</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="dashboard-charts">
+                        <div class="chart-card">
+                            <h3><i class="fas fa-chart-line"></i> Current Session Metrics</h3>
+                            <canvas id="performanceChart"></canvas>
+                        </div>
+                        <div class="chart-card">
+                            <h3><i class="fas fa-chart-area"></i> Historical Performance</h3>
+                            <canvas id="historicalChart"></canvas>
+                        </div>
+                        <div class="chart-card">
+                            <h3><i class="fas fa-chart-donut"></i> Classification Distribution</h3>
+                            <canvas id="distributionChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- API Test Tab -->
+            <div id="api-test-tab" class="tab-content">
+                <div class="container">
+                    <div class="api-header">
+                        <h1><i class="fas fa-code"></i> API Testing Interface</h1>
+                        <p>Test all API endpoints without external tools</p>
+                    </div>
+
+                    <div class="api-endpoints">
+                        <div class="endpoint-card">
+                            <div class="endpoint-header">
+                                <span class="method-badge post">POST</span>
+                                <h3>/api/v1/classify/</h3>
+                                <p>Classify logs and get JSON response</p>
+                            </div>
+                            <div class="endpoint-test">
+                                <div class="test-input">
+                                    <label>Upload CSV File:</label>
+                                    <input type="file" id="apiTestFile1" accept=".csv">
+                                </div>
+                                <button class="btn btn-primary test-btn" data-endpoint="classify">
+                                    <i class="fas fa-play"></i> Test
+                                </button>
+                            </div>
+                            <div class="response-area" id="response-classify"></div>
+                        </div>
+
+                        <div class="endpoint-card">
+                            <div class="endpoint-header">
+                                <span class="method-badge get">GET</span>
+                                <h3>/api/v1/health/</h3>
+                                <p>Check system health and status</p>
+                            </div>
+                            <div class="endpoint-test">
+                                <button class="btn btn-primary test-btn" data-endpoint="health">
+                                    <i class="fas fa-play"></i> Test
+                                </button>
+                            </div>
+                            <div class="response-area" id="response-health"></div>
+                        </div>
+
+                        <div class="endpoint-card">
+                            <div class="endpoint-header">
+                                <span class="method-badge post">POST</span>
+                                <h3>/api/v1/validate/</h3>
+                                <p>Validate file format without classification</p>
+                            </div>
+                            <div class="endpoint-test">
+                                <div class="test-input">
+                                    <label>Upload CSV File:</label>
+                                    <input type="file" id="apiTestFile2" accept=".csv">
+                                </div>
+                                <button class="btn btn-primary test-btn" data-endpoint="validate">
+                                    <i class="fas fa-play"></i> Test
+                                </button>
+                            </div>
+                            <div class="response-area" id="response-validate"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Help Tab -->
+            <div id="help-tab" class="tab-content">
+                <div class="container">
+                    <div class="help-header">
+                        <h1><i class="fas fa-question-circle"></i> Help & Documentation</h1>
+                    </div>
+
+                    <div class="help-content">
+                        <div class="help-section">
+                            <h2><i class="fas fa-play-circle"></i> Getting Started</h2>
+                            <div class="help-steps">
+                                <div class="help-step">
+                                    <div class="step-number">1</div>
+                                    <div class="step-content">
+                                        <h3>Prepare Your File</h3>
+                                        <p>Create a CSV file with two columns: 'source' and 'log_message'</p>
+                                    </div>
+                                </div>
+                                <div class="help-step">
+                                    <div class="step-number">2</div>
+                                    <div class="step-content">
+                                        <h3>Upload & Configure</h3>
+                                        <p>Upload your file and select the classification method</p>
+                                    </div>
+                                </div>
+                                <div class="help-step">
+                                    <div class="step-number">3</div>
+                                    <div class="step-content">
+                                        <h3>Download Results</h3>
+                                        <p>Get your classified logs with confidence scores</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="help-section">
+                            <h2><i class="fas fa-file-csv"></i> File Format</h2>
+                            <div class="format-example">
+                                <h3>Required CSV Structure:</h3>
+                                <pre><code>source,log_message
+WebServer,"ERROR: Database connection failed"
+Application,"INFO: User login successful"
+System,"WARNING: High memory usage detected"</code></pre>
+                            </div>
+                        </div>
+
+                        <div class="help-section">
+                            <h2><i class="fas fa-cogs"></i> Classification Methods</h2>
+                            <div class="methods-info">
+                                <div class="method-info">
+                                    <h3><i class="fas fa-search"></i> Regex</h3>
+                                    <p>Fast pattern-based classification using predefined rules. Best for standard log formats.</p>
+                                </div>
+                                <div class="method-info">
+                                    <h3><i class="fas fa-brain"></i> BERT</h3>
+                                    <p>Machine learning classification using BERT embeddings. Balanced speed and accuracy.</p>
+                                </div>
+                                <div class="method-info">
+                                    <h3><i class="fas fa-robot"></i> LLM</h3>
+                                    <p>Advanced AI analysis using Large Language Models. Highest accuracy for complex logs.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="help-section">
+                            <h2><i class="fas fa-tags"></i> Classification Labels</h2>
+                            <div class="labels-info">
+                                <div class="label-item">
+                                    <span class="label-badge error">workflow_error</span>
+                                    <p>System errors, exceptions, and failure conditions</p>
+                                </div>
+                                <div class="label-item">
+                                    <span class="label-badge action">user_action</span>
+                                    <p>User interactions, logins, and activity logs</p>
+                                </div>
+                                <div class="label-item">
+                                    <span class="label-badge security">security_event</span>
+                                    <p>Security-related events and authentication</p>
+                                </div>
+                                <div class="label-item">
+                                    <span class="label-badge system">system_info</span>
+                                    <p>System status, configuration, and monitoring</p>
+                                </div>
+                                <div class="label-item">
+                                    <span class="label-badge other">unclassified</span>
+                                    <p>Logs that don't fit standard categories</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Toast Notifications -->
+    <div id="toastContainer" class="toast-container"></div>
+
+    <!-- Loading Overlay -->
+    <div id="loadingOverlay" class="loading-overlay" style="display: none;">
+        <div class="loading-content">
+            <i class="fas fa-spinner fa-spin"></i>
+            <h3>Processing...</h3>
+            <p>Please wait while we classify your logs</p>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="static/js/main.js?v=30"></script>
+</body>
+</html>

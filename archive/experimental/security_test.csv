@@ -1,0 +1,9 @@
+source,log_message
+Security,Admin access escalation detected for user 9429
+Security,Failed login attempt from IP 10.0.0.1
+Security,IP 192.168.133.114 blocked due to potential attack
+Security,Unauthorized access attempt detected
+App,User 12345 logged in successfully
+App,User profile updated by john_doe
+System,Database connection failed
+API,Feature will be retired in version 4.0

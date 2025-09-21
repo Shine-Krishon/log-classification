@@ -1,0 +1,16 @@
+source,log_message
+database.py,Connection to database failed
+user_auth.py,User authentication successful
+security_monitor.py,Failed login attempt detected
+workflow_engine.py,Workflow task completed
+system_monitor.py,CPU usage at 95%
+error_handler.py,Unhandled exception occurred
+network.py,Network timeout error
+admin_panel.py,Admin user created new account
+backup_service.py,Daily backup completed successfully
+firewall.py,Blocked suspicious IP address
+api_gateway.py,Rate limit exceeded for user
+data_processor.py,Data validation failed
+scheduler.py,Scheduled task executed
+logger.py,Log rotation completed
+cache_manager.py,Cache cleared successfully

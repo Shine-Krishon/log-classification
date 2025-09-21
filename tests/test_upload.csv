@@ -1,0 +1,6 @@
+source,log_message
+WebServer,"ERROR: Database connection failed"
+Application,"INFO: User login successful for user@example.com"
+System,"WARNING: High memory usage detected: 85%"
+Security,"ALERT: Failed login attempt from IP 192.168.1.100"
+Database,"ERROR: Query timeout after 30 seconds"
